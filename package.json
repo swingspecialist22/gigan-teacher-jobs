@@ -1,0 +1,15 @@
+{
+  "name": "gigan-teacher-jobs",
+  "version": "1.0.0",
+  "description": "전국 기간제교사 채용공고 크롤러",
+  "main": "crawlers/index.js",
+  "scripts": {
+    "start": "node crawlers/index.js",
+    "crawl": "node crawlers/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "iconv-lite": "^0.7.2",
+    "node-fetch": "^2.7.0"
+  }
+}
