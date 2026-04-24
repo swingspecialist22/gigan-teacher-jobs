@@ -1,7 +1,85 @@
 {
-  "updated_at": "2026-04-24T13:36:03.309Z",
-  "total": 16,
+  "updated_at": "2026-04-24T13:47:20.517Z",
+  "total": 34,
   "jobs": [
+    {
+      "id": "gyeongnam_1808595",
+      "sido": "경남",
+      "school": "남해초",
+      "subject": "",
+      "level": "초등",
+      "title": "남해초등학교  계약제교원(기간제교사)  채용 공고",
+      "deadline": "2026-04-24",
+      "region": "남해",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808595",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.882Z"
+    },
+    {
+      "id": "gyeongnam_1808526",
+      "sido": "경남",
+      "school": "마산내서여자고",
+      "subject": "",
+      "level": "고등",
+      "title": "2026년 마산내서여자고등학교 기간제교사(생물) 채용 재공고",
+      "deadline": "2026-04-24",
+      "region": "창원",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808526",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:18.912Z"
+    },
+    {
+      "id": "gyeongnam_1808624",
+      "sido": "경남",
+      "school": "진주중",
+      "subject": "",
+      "level": "중등",
+      "title": "진주중학교 기간제교사(진로진학상담) 채용 공고(2차)",
+      "deadline": "2026-04-25",
+      "region": "진주",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808624",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.592Z"
+    },
+    {
+      "id": "gyeongnam_1808590",
+      "sido": "경남",
+      "school": "중곡초",
+      "subject": "",
+      "level": "초등",
+      "title": "중곡초 2026학년도 계약제교원(초등특수 기간제교사) 채용 재공고",
+      "deadline": "2026-04-25",
+      "region": "거제",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808590",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.883Z"
+    },
+    {
+      "id": "gyeongnam_1808623",
+      "sido": "경남",
+      "school": "관동초",
+      "subject": "",
+      "level": "초등",
+      "title": "관동초등학교 기간제교사 채용 공고",
+      "deadline": "2026-04-26",
+      "region": "김해",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808623",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.594Z"
+    },
+    {
+      "id": "gyeongnam_1808612",
+      "sido": "경남",
+      "school": "율하중",
+      "subject": "",
+      "level": "",
+      "title": "2026. 영어 기간제교사 채용 공고",
+      "deadline": "2026-04-26",
+      "region": "김해",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808612",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.598Z"
+    },
     {
       "id": "jeonbuk_1_4",
       "sido": "전북",
@@ -12,7 +90,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040435",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.298Z"
+      "crawled_at": "2026-04-24T13:47:17.691Z"
     },
     {
       "id": "jeonbuk_1_9",
@@ -24,7 +102,72 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040396",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.299Z"
+      "crawled_at": "2026-04-24T13:47:17.693Z"
+    },
+    {
+      "id": "gyeongnam_1808631",
+      "sido": "경남",
+      "school": "통영여자중",
+      "subject": "",
+      "level": "중등",
+      "title": "2026. 통영여자중학교 계약제교원(음악) 채용 공고",
+      "deadline": "2026-04-27",
+      "region": "통영",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808631",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.589Z"
+    },
+    {
+      "id": "gyeongnam_1808621",
+      "sido": "경남",
+      "school": "김해분성여자고",
+      "subject": "",
+      "level": "",
+      "title": "김해분성여고 기간제교사(도덕윤리) 채용 재공고",
+      "deadline": "2026-04-27",
+      "region": "김해",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808621",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.595Z"
+    },
+    {
+      "id": "gyeongnam_1808584",
+      "sido": "경남",
+      "school": "양산인공지능고등학교",
+      "subject": "",
+      "level": "",
+      "title": "양산인공지능고  계약제(기간제-연극영화) 채용 공고",
+      "deadline": "2026-04-27",
+      "region": "양산",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808584",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.883Z"
+    },
+    {
+      "id": "gyeongnam_1808572",
+      "sido": "경남",
+      "school": "명신고",
+      "subject": "",
+      "level": "고등",
+      "title": "명신고등학교 기간제교사(수학) 채용 공고-2차",
+      "deadline": "2026-04-27",
+      "region": "진주",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808572",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.884Z"
+    },
+    {
+      "id": "gyeongnam_1808564",
+      "sido": "경남",
+      "school": "기성초",
+      "subject": "",
+      "level": "초등",
+      "title": "기성초등학교 기간제교사 채용 공고",
+      "deadline": "2026-04-27",
+      "region": "거제",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808564",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:18.397Z"
     },
     {
       "id": "busan_1169556",
@@ -36,7 +179,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169556",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:35:59.779Z"
+      "crawled_at": "2026-04-24T13:47:17.164Z"
     },
     {
       "id": "jeonbuk_1_2",
@@ -48,7 +191,20 @@
       "deadline": "2026-04-28",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040442",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.298Z"
+      "crawled_at": "2026-04-24T13:47:17.691Z"
+    },
+    {
+      "id": "gyeongnam_1808561",
+      "sido": "경남",
+      "school": "유영초",
+      "subject": "",
+      "level": "",
+      "title": "유영초 기간제교사 채용공고",
+      "deadline": "2026-04-28",
+      "region": "통영",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808561",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:18.397Z"
     },
     {
       "id": "busan_1169518",
@@ -60,7 +216,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169518",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:35:59.782Z"
+      "crawled_at": "2026-04-24T13:47:17.167Z"
     },
     {
       "id": "busan_1169517",
@@ -72,7 +228,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169517",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:35:59.782Z"
+      "crawled_at": "2026-04-24T13:47:17.168Z"
     },
     {
       "id": "jeonbuk_1_1",
@@ -84,7 +240,33 @@
       "deadline": "2026-04-29",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040464",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.298Z"
+      "crawled_at": "2026-04-24T13:47:17.691Z"
+    },
+    {
+      "id": "gyeongnam_1808646",
+      "sido": "경남",
+      "school": "샛별중",
+      "subject": "",
+      "level": "중등",
+      "title": "샛별중학교 기간제교사[특수] 채용 3차 공고",
+      "deadline": "2026-04-29",
+      "region": "거창",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808646",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.244Z"
+    },
+    {
+      "id": "gyeongnam_1808630",
+      "sido": "경남",
+      "school": "범어중",
+      "subject": "",
+      "level": "특수",
+      "title": "2026학년도 범어중 기간제교사(특수) 채용 공고",
+      "deadline": "2026-04-29",
+      "region": "양산",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808630",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.591Z"
     },
     {
       "id": "jeonbuk_1_5",
@@ -96,7 +278,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040434",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.298Z"
+      "crawled_at": "2026-04-24T13:47:17.692Z"
     },
     {
       "id": "jeonbuk_1_7",
@@ -108,7 +290,33 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040408",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.299Z"
+      "crawled_at": "2026-04-24T13:47:17.692Z"
+    },
+    {
+      "id": "gyeongnam_1808616",
+      "sido": "경남",
+      "school": "용남고",
+      "subject": "",
+      "level": "고등",
+      "title": "용남고등학교 기간제교사 채용 공고안(생명과학)",
+      "deadline": "2026-04-30",
+      "region": "사천",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808616",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.596Z"
+    },
+    {
+      "id": "gyeongnam_1808585",
+      "sido": "경남",
+      "school": "살레시오성미유치원",
+      "subject": "",
+      "level": "",
+      "title": "방과후 교사 모집",
+      "deadline": "2026-04-30",
+      "region": "창원",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808585",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:17.883Z"
     },
     {
       "id": "busan_1169502",
@@ -120,7 +328,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169502",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:35:59.788Z"
+      "crawled_at": "2026-04-24T13:47:17.170Z"
     },
     {
       "id": "jeonbuk_1_3",
@@ -132,7 +340,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040437",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.298Z"
+      "crawled_at": "2026-04-24T13:47:17.691Z"
     },
     {
       "id": "jeonbuk_1_6",
@@ -144,7 +352,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040410",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.298Z"
+      "crawled_at": "2026-04-24T13:47:17.692Z"
     },
     {
       "id": "jeonbuk_1_8",
@@ -156,7 +364,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040407",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.299Z"
+      "crawled_at": "2026-04-24T13:47:17.693Z"
     },
     {
       "id": "jeonbuk_1_0",
@@ -168,7 +376,20 @@
       "deadline": "2026-05-06",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040466",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:36:03.298Z"
+      "crawled_at": "2026-04-24T13:47:17.691Z"
+    },
+    {
+      "id": "gyeongnam_1808426",
+      "sido": "경남",
+      "school": "밀양여자고",
+      "subject": "",
+      "level": "고등",
+      "title": "(밀양여자고등학교) 2026학년도 계약제 교원(미술 1) 채용공고",
+      "deadline": "2026-05-06",
+      "region": "밀양",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808426",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:19.284Z"
     },
     {
       "id": "busan_1169523",
@@ -180,7 +401,7 @@
       "deadline": "2026-05-17",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169523",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:35:59.781Z"
+      "crawled_at": "2026-04-24T13:47:17.166Z"
     },
     {
       "id": "busan_1169562",
@@ -192,7 +413,20 @@
       "deadline": "2026-05-18",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169562",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:35:59.777Z"
+      "crawled_at": "2026-04-24T13:47:17.163Z"
+    },
+    {
+      "id": "gyeongnam_1807733",
+      "sido": "경남",
+      "school": "창원천광학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026. 계약제 교원(초등 순회) 채용 공고",
+      "deadline": "2026-05-27",
+      "region": "창원",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1807733",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T13:47:19.285Z"
     }
   ]
 }

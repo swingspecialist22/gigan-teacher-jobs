@@ -2,22 +2,27 @@ const fs = require('fs');
 const path = require('path');
 const crawlBusan = require('./busan');
 const crawlJeonbuk = require('./jeonbuk');
+const crawlGyeongnam = require('./gyeongnam');
+const { crawlAllNttSites } = require('./ntt-bbs');
 
 async function main() {
-  console.log('크롤링 시작...');
+  console.log('크롤링 시작...\n');
 
   const results = await Promise.allSettled([
     crawlBusan(),
     crawlJeonbuk(),
+    crawlGyeongnam(),
+    crawlAllNttSites(),
   ]);
 
   const allJobs = [];
+  const labels = ['부산', '전북', '경남', 'NTT공통(인천·전남·경북·충북)'];
   results.forEach((result, i) => {
-    const name = ['부산', '전북'][i];
     if (result.status === 'fulfilled') {
-      allJobs.push(...result.value);
+      const jobs = Array.isArray(result.value) ? result.value : [];
+      allJobs.push(...jobs);
     } else {
-      console.error(`[${name}] 크롤링 실패:`, result.reason.message);
+      console.error(`[${labels[i]}] 크롤링 실패:`, result.reason.message);
     }
   });
 
