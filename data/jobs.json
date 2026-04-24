@@ -1,33 +1,7 @@
 {
-  "updated_at": "2026-04-24T13:47:20.517Z",
-  "total": 34,
+  "updated_at": "2026-04-24T20:07:31.984Z",
+  "total": 33,
   "jobs": [
-    {
-      "id": "gyeongnam_1808595",
-      "sido": "경남",
-      "school": "남해초",
-      "subject": "",
-      "level": "초등",
-      "title": "남해초등학교  계약제교원(기간제교사)  채용 공고",
-      "deadline": "2026-04-24",
-      "region": "남해",
-      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808595",
-      "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.882Z"
-    },
-    {
-      "id": "gyeongnam_1808526",
-      "sido": "경남",
-      "school": "마산내서여자고",
-      "subject": "",
-      "level": "고등",
-      "title": "2026년 마산내서여자고등학교 기간제교사(생물) 채용 재공고",
-      "deadline": "2026-04-24",
-      "region": "창원",
-      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808526",
-      "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:18.912Z"
-    },
     {
       "id": "gyeongnam_1808624",
       "sido": "경남",
@@ -39,7 +13,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808624",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.592Z"
+      "crawled_at": "2026-04-24T20:07:29.036Z"
     },
     {
       "id": "gyeongnam_1808590",
@@ -52,7 +26,7 @@
       "region": "거제",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808590",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.883Z"
+      "crawled_at": "2026-04-24T20:07:29.875Z"
     },
     {
       "id": "gyeongnam_1808623",
@@ -65,7 +39,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808623",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.594Z"
+      "crawled_at": "2026-04-24T20:07:29.037Z"
     },
     {
       "id": "gyeongnam_1808612",
@@ -78,7 +52,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808612",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.598Z"
+      "crawled_at": "2026-04-24T20:07:29.040Z"
     },
     {
       "id": "jeonbuk_1_4",
@@ -90,7 +64,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040435",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.691Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "jeonbuk_1_9",
@@ -102,7 +76,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040396",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.693Z"
+      "crawled_at": "2026-04-24T20:07:29.685Z"
     },
     {
       "id": "gyeongnam_1808631",
@@ -115,7 +89,7 @@
       "region": "통영",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808631",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.589Z"
+      "crawled_at": "2026-04-24T20:07:29.035Z"
     },
     {
       "id": "gyeongnam_1808621",
@@ -128,7 +102,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808621",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.595Z"
+      "crawled_at": "2026-04-24T20:07:29.038Z"
     },
     {
       "id": "gyeongnam_1808584",
@@ -141,7 +115,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808584",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.883Z"
+      "crawled_at": "2026-04-24T20:07:29.876Z"
     },
     {
       "id": "gyeongnam_1808572",
@@ -154,7 +128,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808572",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.884Z"
+      "crawled_at": "2026-04-24T20:07:29.881Z"
     },
     {
       "id": "gyeongnam_1808564",
@@ -167,7 +141,7 @@
       "region": "거제",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808564",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:18.397Z"
+      "crawled_at": "2026-04-24T20:07:30.751Z"
     },
     {
       "id": "busan_1169556",
@@ -179,7 +153,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169556",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.164Z"
+      "crawled_at": "2026-04-24T20:07:27.928Z"
     },
     {
       "id": "jeonbuk_1_2",
@@ -191,7 +165,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040442",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.691Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "gyeongnam_1808561",
@@ -204,7 +178,7 @@
       "region": "통영",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808561",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:18.397Z"
+      "crawled_at": "2026-04-24T20:07:30.751Z"
     },
     {
       "id": "busan_1169518",
@@ -216,7 +190,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169518",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.167Z"
+      "crawled_at": "2026-04-24T20:07:27.931Z"
     },
     {
       "id": "busan_1169517",
@@ -228,7 +202,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169517",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.168Z"
+      "crawled_at": "2026-04-24T20:07:27.937Z"
     },
     {
       "id": "jeonbuk_1_1",
@@ -240,7 +214,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040464",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.691Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "gyeongnam_1808646",
@@ -253,7 +227,7 @@
       "region": "거창",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808646",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.244Z"
+      "crawled_at": "2026-04-24T20:07:28.362Z"
     },
     {
       "id": "gyeongnam_1808630",
@@ -266,7 +240,20 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808630",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.591Z"
+      "crawled_at": "2026-04-24T20:07:29.036Z"
+    },
+    {
+      "id": "gyeongnam_1808618",
+      "sido": "경남",
+      "school": "무지개초",
+      "subject": "",
+      "level": "초등",
+      "title": "무지개초등학교 계약제교원 채용 공고",
+      "deadline": "2026-04-29",
+      "region": "진주",
+      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808618",
+      "source": "gne.go.kr",
+      "crawled_at": "2026-04-24T20:07:29.038Z"
     },
     {
       "id": "jeonbuk_1_5",
@@ -278,7 +265,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040434",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.692Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "jeonbuk_1_7",
@@ -290,7 +277,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040408",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.692Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "gyeongnam_1808616",
@@ -303,7 +290,7 @@
       "region": "사천",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808616",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.596Z"
+      "crawled_at": "2026-04-24T20:07:29.039Z"
     },
     {
       "id": "gyeongnam_1808585",
@@ -316,7 +303,7 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808585",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.883Z"
+      "crawled_at": "2026-04-24T20:07:29.875Z"
     },
     {
       "id": "busan_1169502",
@@ -328,7 +315,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169502",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.170Z"
+      "crawled_at": "2026-04-24T20:07:27.938Z"
     },
     {
       "id": "jeonbuk_1_3",
@@ -340,7 +327,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040437",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.691Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "jeonbuk_1_6",
@@ -352,7 +339,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040410",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.692Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "jeonbuk_1_8",
@@ -364,7 +351,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040407",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.693Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "jeonbuk_1_0",
@@ -376,7 +363,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040466",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.691Z"
+      "crawled_at": "2026-04-24T20:07:29.684Z"
     },
     {
       "id": "gyeongnam_1808426",
@@ -389,7 +376,7 @@
       "region": "밀양",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808426",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:19.284Z"
+      "crawled_at": "2026-04-24T20:07:31.971Z"
     },
     {
       "id": "busan_1169523",
@@ -401,7 +388,7 @@
       "deadline": "2026-05-17",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169523",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.166Z"
+      "crawled_at": "2026-04-24T20:07:27.931Z"
     },
     {
       "id": "busan_1169562",
@@ -413,7 +400,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169562",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:47:17.163Z"
+      "crawled_at": "2026-04-24T20:07:27.927Z"
     },
     {
       "id": "gyeongnam_1807733",
@@ -426,7 +413,7 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1807733",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-24T13:47:19.285Z"
+      "crawled_at": "2026-04-24T20:07:31.972Z"
     }
   ]
 }
