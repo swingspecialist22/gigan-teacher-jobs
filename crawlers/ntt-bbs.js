@@ -58,21 +58,43 @@ async function crawlNttBbs(config) {
       const title = titleEl.text().replace(/\s+/g, ' ').trim();
       if (!title) return;
 
-      // 접수기간 추출
-      const periodTd = $(row).find('td').filter((_, td) =>
-        $(td).find('em.mTit').text().includes('접수기간')
-      );
-      const periodText = periodTd.text().replace('접수기간', '').trim();
-      const dates = periodText.split('~');
-      const deadline = parseDate(dates[1] || '');
+      // 접수기간/마감일 추출 — data-table="write" td의 날짜들 중 마지막 사용
+      let deadline = '';
+      $(row).find('td[data-table="write"]').each((_, td) => {
+        const text = $(td).text().trim();
+        const d = parseDate(text);
+        if (d) deadline = d;
+      });
+      // fallback: em.mTit 방식 (일부 교육청)
+      if (!deadline) {
+        const periodTd = $(row).find('td').filter((_, td) =>
+          $(td).find('em.mTit').text().includes('접수기간')
+        );
+        if (periodTd.length) {
+          const periodText = periodTd.text().replace('접수기간', '').trim();
+          const parts = periodText.split('~');
+          deadline = parseDate(parts[1] || parts[0] || '');
+        }
+      }
 
       if (isExpired(deadline)) return;
 
-      // 작성자(학교명)
-      const writerTd = $(row).find('td').filter((_, td) =>
-        $(td).find('em.mTit').text().includes('작성자')
-      );
-      const school = writerTd.text().replace('작성자', '').trim();
+      // 학교명: data-table="write" td 중 날짜 패턴 없는 첫 번째 텍스트
+      let school = '';
+      $(row).find('td[data-table="write"]').each((_, td) => {
+        if (school) return;
+        const text = $(td).text().replace(/\s+/g, ' ').trim();
+        if (text && !parseDate(text) && text.length > 1 && !text.includes('모집')) {
+          school = text;
+        }
+      });
+      // fallback: em.mTit 방식
+      if (!school) {
+        const writerTd = $(row).find('td').filter((_, td) =>
+          $(td).find('em.mTit').text().includes('작성자')
+        );
+        school = writerTd.text().replace('작성자', '').trim();
+      }
 
       hasNew = true;
       jobs.push({
@@ -133,6 +155,14 @@ const NTT_SITES = [
     mi: '12127',
     bbsId: '1091',
     source: 'cbe.go.kr',
+  },
+  {
+    sido: '세종',
+    baseUrl: 'https://www.sje.go.kr',
+    path: '/sje/na/ntt',
+    mi: '52132',
+    bbsId: '108',
+    source: 'sje.go.kr',
   },
 ];
 

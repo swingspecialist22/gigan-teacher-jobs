@@ -3,6 +3,12 @@ const path = require('path');
 const crawlBusan = require('./busan');
 const crawlJeonbuk = require('./jeonbuk');
 const crawlGyeongnam = require('./gyeongnam');
+const crawlGangwon = require('./gangwon');
+const crawlSeoul = require('./seoul');
+const crawlGyeonggi = require('./gyeonggi');
+const crawlGwangju = require('./gwangju');
+const crawlChungnam = require('./chungnam');
+const crawlDaejeon = require('./daejeon');
 const { crawlAllNttSites } = require('./ntt-bbs');
 
 async function main() {
@@ -12,11 +18,21 @@ async function main() {
     crawlBusan(),
     crawlJeonbuk(),
     crawlGyeongnam(),
+    crawlGangwon(),
+    crawlSeoul(),
+    crawlGyeonggi(),
+    crawlGwangju(),
+    crawlChungnam(),
+    crawlDaejeon(),
     crawlAllNttSites(),
   ]);
 
   const allJobs = [];
-  const labels = ['부산', '전북', '경남', 'NTT공통(인천·전남·경북·충북)'];
+  const labels = [
+    '부산', '전북', '경남', '강원',
+    '서울', '경기', '광주', '충남', '대전',
+    'NTT공통(인천·전남·경북·충북·세종)',
+  ];
   results.forEach((result, i) => {
     if (result.status === 'fulfilled') {
       const jobs = Array.isArray(result.value) ? result.value : [];
