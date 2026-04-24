@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-24T13:33:32.131Z",
+  "updated_at": "2026-04-24T13:36:03.309Z",
   "total": 16,
   "jobs": [
     {
@@ -12,7 +12,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040435",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.121Z"
+      "crawled_at": "2026-04-24T13:36:03.298Z"
     },
     {
       "id": "jeonbuk_1_9",
@@ -24,7 +24,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040396",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.122Z"
+      "crawled_at": "2026-04-24T13:36:03.299Z"
     },
     {
       "id": "busan_1169556",
@@ -36,7 +36,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169556",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:33:30.394Z"
+      "crawled_at": "2026-04-24T13:35:59.779Z"
     },
     {
       "id": "jeonbuk_1_2",
@@ -48,7 +48,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040442",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.121Z"
+      "crawled_at": "2026-04-24T13:36:03.298Z"
     },
     {
       "id": "busan_1169518",
@@ -60,7 +60,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169518",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:33:30.401Z"
+      "crawled_at": "2026-04-24T13:35:59.782Z"
     },
     {
       "id": "busan_1169517",
@@ -72,7 +72,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169517",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:33:30.402Z"
+      "crawled_at": "2026-04-24T13:35:59.782Z"
     },
     {
       "id": "jeonbuk_1_1",
@@ -84,7 +84,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040464",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.121Z"
+      "crawled_at": "2026-04-24T13:36:03.298Z"
     },
     {
       "id": "jeonbuk_1_5",
@@ -96,7 +96,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040434",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.121Z"
+      "crawled_at": "2026-04-24T13:36:03.298Z"
     },
     {
       "id": "jeonbuk_1_7",
@@ -108,7 +108,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040408",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.122Z"
+      "crawled_at": "2026-04-24T13:36:03.299Z"
     },
     {
       "id": "busan_1169502",
@@ -120,7 +120,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169502",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:33:30.403Z"
+      "crawled_at": "2026-04-24T13:35:59.788Z"
     },
     {
       "id": "jeonbuk_1_3",
@@ -132,7 +132,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040437",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.121Z"
+      "crawled_at": "2026-04-24T13:36:03.298Z"
     },
     {
       "id": "jeonbuk_1_6",
@@ -144,7 +144,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040410",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.122Z"
+      "crawled_at": "2026-04-24T13:36:03.298Z"
     },
     {
       "id": "jeonbuk_1_8",
@@ -156,7 +156,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040407",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.122Z"
+      "crawled_at": "2026-04-24T13:36:03.299Z"
     },
     {
       "id": "jeonbuk_1_0",
@@ -168,7 +168,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040466",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:33:32.121Z"
+      "crawled_at": "2026-04-24T13:36:03.298Z"
     },
     {
       "id": "busan_1169523",
@@ -180,7 +180,7 @@
       "deadline": "2026-05-17",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169523",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:33:30.396Z"
+      "crawled_at": "2026-04-24T13:35:59.781Z"
     },
     {
       "id": "busan_1169562",
@@ -192,7 +192,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169562",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:33:30.391Z"
+      "crawled_at": "2026-04-24T13:35:59.777Z"
     }
   ]
 }
