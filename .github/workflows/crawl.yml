@@ -25,9 +25,7 @@ jobs:
         run: npm run crawl
 
       - name: 결과 저장 (자동 커밋)
-        uses: stefanprodan/gh-action-auto-commit@master
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           commit_message: "자동 업데이트: 채용공고 크롤링"
-          branch: main
           file_pattern: data/jobs.json
