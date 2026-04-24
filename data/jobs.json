@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-24T13:17:06.952Z",
-  "total": 20,
+  "updated_at": "2026-04-24T13:33:32.131Z",
+  "total": 16,
   "jobs": [
     {
       "id": "jeonbuk_1_4",
@@ -12,7 +12,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040435",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.929Z"
+      "crawled_at": "2026-04-24T13:33:32.121Z"
     },
     {
       "id": "jeonbuk_1_9",
@@ -24,7 +24,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040396",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.931Z"
+      "crawled_at": "2026-04-24T13:33:32.122Z"
     },
     {
       "id": "busan_1169556",
@@ -36,7 +36,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169556",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.672Z"
+      "crawled_at": "2026-04-24T13:33:30.394Z"
     },
     {
       "id": "jeonbuk_1_2",
@@ -48,7 +48,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040442",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.928Z"
+      "crawled_at": "2026-04-24T13:33:32.121Z"
     },
     {
       "id": "busan_1169518",
@@ -60,7 +60,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169518",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.674Z"
+      "crawled_at": "2026-04-24T13:33:30.401Z"
     },
     {
       "id": "busan_1169517",
@@ -72,7 +72,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169517",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.675Z"
+      "crawled_at": "2026-04-24T13:33:30.402Z"
     },
     {
       "id": "jeonbuk_1_1",
@@ -84,7 +84,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040464",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.928Z"
+      "crawled_at": "2026-04-24T13:33:32.121Z"
     },
     {
       "id": "jeonbuk_1_5",
@@ -96,7 +96,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040434",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.929Z"
+      "crawled_at": "2026-04-24T13:33:32.121Z"
     },
     {
       "id": "jeonbuk_1_7",
@@ -108,7 +108,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040408",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.930Z"
+      "crawled_at": "2026-04-24T13:33:32.122Z"
     },
     {
       "id": "busan_1169502",
@@ -120,7 +120,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169502",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.675Z"
+      "crawled_at": "2026-04-24T13:33:30.403Z"
     },
     {
       "id": "jeonbuk_1_3",
@@ -132,7 +132,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040437",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.928Z"
+      "crawled_at": "2026-04-24T13:33:32.121Z"
     },
     {
       "id": "jeonbuk_1_6",
@@ -144,7 +144,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040410",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.929Z"
+      "crawled_at": "2026-04-24T13:33:32.122Z"
     },
     {
       "id": "jeonbuk_1_8",
@@ -156,7 +156,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040407",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.930Z"
+      "crawled_at": "2026-04-24T13:33:32.122Z"
     },
     {
       "id": "jeonbuk_1_0",
@@ -168,7 +168,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040466",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.927Z"
+      "crawled_at": "2026-04-24T13:33:32.121Z"
     },
     {
       "id": "busan_1169523",
@@ -180,7 +180,7 @@
       "deadline": "2026-05-17",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169523",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.673Z"
+      "crawled_at": "2026-04-24T13:33:30.396Z"
     },
     {
       "id": "busan_1169562",
@@ -192,55 +192,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169562",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.668Z"
-    },
-    {
-      "id": "busan_1169583",
-      "sido": "부산",
-      "school": "구태윤",
-      "subject": "",
-      "level": "고등",
-      "title": "2026학년도 남성여자고등학교 원어민강사 채용 결과 공고 새글",
-      "deadline": null,
-      "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169583",
-      "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.662Z"
-    },
-    {
-      "id": "busan_1169558",
-      "sido": "부산",
-      "school": "김정현",
-      "subject": "밴드부 동아리",
-      "level": "고등",
-      "title": "2026학년도 지산고등학교 시간강사(밴드부 동아리) 채용 공고 새글",
-      "deadline": null,
-      "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169558",
-      "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.670Z"
-    },
-    {
-      "id": "busan_1169546",
-      "sido": "부산",
-      "school": "이나은",
-      "subject": "",
-      "level": "초등",
-      "title": "2026학년도 동상초등학교 창의적 체험활동 합창 동아리 강사 모집 공고 새글",
-      "deadline": null,
-      "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169546",
-      "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.672Z"
-    },
-    {
-      "id": "busan_1169527",
-      "sido": "부산",
-      "school": "임지은",
-      "subject": "",
-      "level": "중등",
-      "title": "2026학년도 동수영중학교 기초학력 지원강사 채용 공고에 따른 최종합격자 공고 새글",
-      "deadline": null,
-      "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169527",
-      "source": "pen.go.kr",
-      "crawled_at": "2026-04-24T13:17:06.673Z"
+      "crawled_at": "2026-04-24T13:33:30.391Z"
     }
   ]
 }
