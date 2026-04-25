@@ -1,33 +1,7 @@
 {
-  "updated_at": "2026-04-25T14:45:01.580Z",
-  "total": 373,
+  "updated_at": "2026-04-25T15:12:28.709Z",
+  "total": 371,
   "jobs": [
-    {
-      "id": "gyeongnam_1808624",
-      "sido": "경남",
-      "school": "진주중",
-      "subject": "",
-      "level": "중등",
-      "title": "진주중학교 기간제교사(진로진학상담) 채용 공고(2차)",
-      "deadline": "2026-04-25",
-      "region": "진주",
-      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808624",
-      "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.730Z"
-    },
-    {
-      "id": "gyeongnam_1808590",
-      "sido": "경남",
-      "school": "중곡초",
-      "subject": "",
-      "level": "초등",
-      "title": "중곡초 2026학년도 계약제교원(초등특수 기간제교사) 채용 재공고",
-      "deadline": "2026-04-25",
-      "region": "거제",
-      "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808590",
-      "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.740Z"
-    },
     {
       "id": "gbe_kr_1603639",
       "sido": "경북",
@@ -38,7 +12,7 @@
       "deadline": "2026-04-25",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603639",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.404Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1603194",
@@ -50,7 +24,7 @@
       "deadline": "2026-04-25",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603194",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "gbe_kr_1602937",
@@ -62,7 +36,7 @@
       "deadline": "2026-04-25",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602937",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:39.719Z"
+      "crawled_at": "2026-04-25T15:11:58.971Z"
     },
     {
       "id": "gbe_kr_1602936",
@@ -74,7 +48,7 @@
       "deadline": "2026-04-25",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602936",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:39.719Z"
+      "crawled_at": "2026-04-25T15:11:58.971Z"
     },
     {
       "id": "gbe_kr_1602753",
@@ -86,7 +60,7 @@
       "deadline": "2026-04-25",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602753",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:39.719Z"
+      "crawled_at": "2026-04-25T15:11:58.971Z"
     },
     {
       "id": "sje_go.kr_3067009",
@@ -98,7 +72,7 @@
       "deadline": "2026-04-25",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067009",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.646Z"
+      "crawled_at": "2026-04-25T15:11:49.185Z"
     },
     {
       "id": "gyeongnam_1808623",
@@ -111,7 +85,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808623",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.731Z"
+      "crawled_at": "2026-04-25T15:11:44.459Z"
     },
     {
       "id": "gyeongnam_1808612",
@@ -124,7 +98,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808612",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.734Z"
+      "crawled_at": "2026-04-25T15:11:44.461Z"
     },
     {
       "id": "seoul_98853",
@@ -136,7 +110,7 @@
       "deadline": "2026-04-26",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=98853",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.077Z"
+      "crawled_at": "2026-04-25T15:11:39.523Z"
     },
     {
       "id": "daejeon_3352550",
@@ -148,7 +122,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352550&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:20.485Z"
+      "crawled_at": "2026-04-25T15:11:47.929Z"
     },
     {
       "id": "gbe_kr_1603973",
@@ -160,7 +134,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603973",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.716Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1603840",
@@ -172,7 +146,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603840",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.716Z"
+      "crawled_at": "2026-04-25T15:11:52.203Z"
     },
     {
       "id": "gbe_kr_1603805",
@@ -184,7 +158,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603805",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.073Z"
     },
     {
       "id": "gbe_kr_1603200",
@@ -196,7 +170,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603200",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "gbe_kr_1603160",
@@ -208,7 +182,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603160",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "gbe_kr_1603141",
@@ -220,7 +194,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603141",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "gbe_kr_1602965",
@@ -232,7 +206,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602965",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "gbe_kr_1602566",
@@ -244,7 +218,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602566",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:42.292Z"
+      "crawled_at": "2026-04-25T15:12:00.390Z"
     },
     {
       "id": "gbe_kr_1602228",
@@ -256,7 +230,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602228",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:44.508Z"
+      "crawled_at": "2026-04-25T15:12:01.833Z"
     },
     {
       "id": "sje_go.kr_3067052",
@@ -268,7 +242,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067052",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.582Z"
+      "crawled_at": "2026-04-25T15:11:47.530Z"
     },
     {
       "id": "jeonbuk_1_4",
@@ -280,7 +254,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040435",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.096Z"
     },
     {
       "id": "jeonbuk_1_9",
@@ -292,7 +266,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040396",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.097Z"
     },
     {
       "id": "gyeongnam_1808678",
@@ -305,7 +279,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808678",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.813Z"
+      "crawled_at": "2026-04-25T15:11:41.809Z"
     },
     {
       "id": "gyeongnam_1808631",
@@ -318,7 +292,7 @@
       "region": "통영",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808631",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.728Z"
+      "crawled_at": "2026-04-25T15:11:44.458Z"
     },
     {
       "id": "gyeongnam_1808621",
@@ -331,7 +305,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808621",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.732Z"
+      "crawled_at": "2026-04-25T15:11:44.460Z"
     },
     {
       "id": "gyeongnam_1808584",
@@ -344,7 +318,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808584",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.741Z"
+      "crawled_at": "2026-04-25T15:11:47.213Z"
     },
     {
       "id": "gyeongnam_1808572",
@@ -357,7 +331,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808572",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.741Z"
+      "crawled_at": "2026-04-25T15:11:47.213Z"
     },
     {
       "id": "gyeongnam_1808564",
@@ -370,7 +344,7 @@
       "region": "거제",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808564",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:18.627Z"
+      "crawled_at": "2026-04-25T15:11:49.091Z"
     },
     {
       "id": "seoul_99215",
@@ -382,7 +356,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99215",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.077Z"
+      "crawled_at": "2026-04-25T15:11:39.521Z"
     },
     {
       "id": "seoul_99208",
@@ -394,7 +368,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99208",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.077Z"
+      "crawled_at": "2026-04-25T15:11:39.522Z"
     },
     {
       "id": "seoul_99214",
@@ -406,7 +380,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99214",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.078Z"
+      "crawled_at": "2026-04-25T15:11:39.524Z"
     },
     {
       "id": "seoul_99029",
@@ -418,7 +392,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99029",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.079Z"
+      "crawled_at": "2026-04-25T15:11:39.524Z"
     },
     {
       "id": "seoul_99212",
@@ -430,7 +404,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99212",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.079Z"
+      "crawled_at": "2026-04-25T15:11:39.525Z"
     },
     {
       "id": "seoul_99203",
@@ -442,7 +416,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99203",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.079Z"
+      "crawled_at": "2026-04-25T15:11:39.526Z"
     },
     {
       "id": "seoul_99201",
@@ -454,7 +428,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99201",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.080Z"
+      "crawled_at": "2026-04-25T15:11:39.526Z"
     },
     {
       "id": "seoul_99198",
@@ -466,7 +440,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99198",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.080Z"
+      "crawled_at": "2026-04-25T15:11:39.526Z"
     },
     {
       "id": "seoul_99199",
@@ -478,7 +452,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99199",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.080Z"
+      "crawled_at": "2026-04-25T15:11:39.526Z"
     },
     {
       "id": "gyeonggi_43926",
@@ -490,7 +464,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43926",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.525Z"
+      "crawled_at": "2026-04-25T15:11:56.596Z"
     },
     {
       "id": "gyeonggi_43917",
@@ -502,7 +476,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43917",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.525Z"
+      "crawled_at": "2026-04-25T15:11:56.596Z"
     },
     {
       "id": "gyeonggi_43909",
@@ -514,7 +488,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43909",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.526Z"
+      "crawled_at": "2026-04-25T15:11:56.596Z"
     },
     {
       "id": "gyeonggi_43882",
@@ -526,7 +500,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43882",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.527Z"
+      "crawled_at": "2026-04-25T15:11:56.597Z"
     },
     {
       "id": "daejeon_3352620",
@@ -538,7 +512,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352620&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.562Z"
+      "crawled_at": "2026-04-25T15:11:47.067Z"
     },
     {
       "id": "daejeon_3352588",
@@ -550,7 +524,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352588&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:20.484Z"
+      "crawled_at": "2026-04-25T15:11:47.928Z"
     },
     {
       "id": "daejeon_3352553",
@@ -562,7 +536,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352553&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:20.484Z"
+      "crawled_at": "2026-04-25T15:11:47.929Z"
     },
     {
       "id": "daejeon_3352510",
@@ -574,7 +548,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352510&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.391Z"
+      "crawled_at": "2026-04-25T15:11:48.777Z"
     },
     {
       "id": "daejeon_3352508",
@@ -586,7 +560,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352508&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.391Z"
+      "crawled_at": "2026-04-25T15:11:48.777Z"
     },
     {
       "id": "daejeon_3352422",
@@ -598,7 +572,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352422&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.392Z"
+      "crawled_at": "2026-04-25T15:11:48.777Z"
     },
     {
       "id": "daejeon_3352409",
@@ -610,7 +584,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352409&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.392Z"
+      "crawled_at": "2026-04-25T15:11:48.777Z"
     },
     {
       "id": "daejeon_3352397",
@@ -622,7 +596,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352397&lev=0&searchType=null&statusYN=W&page=4&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.326Z"
+      "crawled_at": "2026-04-25T15:11:49.631Z"
     },
     {
       "id": "daejeon_3352396",
@@ -634,7 +608,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352396&lev=0&searchType=null&statusYN=W&page=4&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.326Z"
+      "crawled_at": "2026-04-25T15:11:49.632Z"
     },
     {
       "id": "daejeon_3352326",
@@ -646,7 +620,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352326&lev=0&searchType=null&statusYN=W&page=5&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.246Z"
+      "crawled_at": "2026-04-25T15:11:50.934Z"
     },
     {
       "id": "daejeon_3352307",
@@ -658,7 +632,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352307&lev=0&searchType=null&statusYN=W&page=5&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.246Z"
+      "crawled_at": "2026-04-25T15:11:50.934Z"
     },
     {
       "id": "daejeon_3352205",
@@ -670,7 +644,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352205&lev=0&searchType=null&statusYN=W&page=6&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.178Z"
+      "crawled_at": "2026-04-25T15:11:52.453Z"
     },
     {
       "id": "ice_go.kr_3369189",
@@ -682,7 +656,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369189",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.783Z"
+      "crawled_at": "2026-04-25T15:11:58.758Z"
     },
     {
       "id": "ice_go.kr_3368757",
@@ -694,7 +668,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368757",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.244Z"
     },
     {
       "id": "ice_go.kr_3368676",
@@ -706,7 +680,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368676",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.699Z"
     },
     {
       "id": "gbe_kr_1604388",
@@ -718,7 +692,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604388",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.903Z"
+      "crawled_at": "2026-04-25T15:11:46.756Z"
     },
     {
       "id": "gbe_kr_1604359",
@@ -730,7 +704,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604359",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.904Z"
+      "crawled_at": "2026-04-25T15:11:46.756Z"
     },
     {
       "id": "gbe_kr_1604351",
@@ -742,7 +716,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604351",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.904Z"
+      "crawled_at": "2026-04-25T15:11:46.757Z"
     },
     {
       "id": "gbe_kr_1604343",
@@ -754,7 +728,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604343",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.904Z"
+      "crawled_at": "2026-04-25T15:11:46.757Z"
     },
     {
       "id": "gbe_kr_1604304",
@@ -766,7 +740,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604304",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.904Z"
+      "crawled_at": "2026-04-25T15:11:46.757Z"
     },
     {
       "id": "gbe_kr_1604256",
@@ -778,7 +752,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604256",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.044Z"
+      "crawled_at": "2026-04-25T15:11:50.173Z"
     },
     {
       "id": "gbe_kr_1604119",
@@ -790,7 +764,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604119",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.174Z"
     },
     {
       "id": "gbe_kr_1604050",
@@ -802,7 +776,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604050",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.715Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1603994",
@@ -814,7 +788,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603994",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.716Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1603950",
@@ -826,7 +800,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603950",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.716Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1603936",
@@ -838,7 +812,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603936",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.716Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1603910",
@@ -850,7 +824,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603910",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.716Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1603849",
@@ -862,7 +836,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603849",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.716Z"
+      "crawled_at": "2026-04-25T15:11:52.203Z"
     },
     {
       "id": "gbe_kr_1603731",
@@ -874,7 +848,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603731",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "gbe_kr_1603643",
@@ -886,7 +860,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603643",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.404Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1603630",
@@ -898,7 +872,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603630",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.404Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1603567",
@@ -910,7 +884,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603567",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.404Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1603430",
@@ -922,7 +896,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603430",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "gbe_kr_1602931",
@@ -934,7 +908,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602931",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:39.719Z"
+      "crawled_at": "2026-04-25T15:11:58.971Z"
     },
     {
       "id": "gbe_kr_1602461",
@@ -946,7 +920,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602461",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:42.293Z"
+      "crawled_at": "2026-04-25T15:12:00.390Z"
     },
     {
       "id": "sje_go.kr_3067080",
@@ -958,7 +932,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067080",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.580Z"
+      "crawled_at": "2026-04-25T15:11:47.529Z"
     },
     {
       "id": "sje_go.kr_3067079",
@@ -970,7 +944,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067079",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.580Z"
+      "crawled_at": "2026-04-25T15:11:47.529Z"
     },
     {
       "id": "sje_go.kr_3067072",
@@ -982,7 +956,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067072",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.581Z"
+      "crawled_at": "2026-04-25T15:11:47.530Z"
     },
     {
       "id": "sje_go.kr_3067033",
@@ -994,7 +968,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067033",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.646Z"
+      "crawled_at": "2026-04-25T15:11:49.185Z"
     },
     {
       "id": "sje_go.kr_3067014",
@@ -1006,7 +980,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067014",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.646Z"
+      "crawled_at": "2026-04-25T15:11:49.185Z"
     },
     {
       "id": "sje_go.kr_3067007",
@@ -1018,7 +992,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067007",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.647Z"
+      "crawled_at": "2026-04-25T15:11:49.185Z"
     },
     {
       "id": "sje_go.kr_3067005",
@@ -1030,7 +1004,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067005",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.647Z"
+      "crawled_at": "2026-04-25T15:11:49.186Z"
     },
     {
       "id": "sje_go.kr_3066991",
@@ -1042,7 +1016,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066991",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.647Z"
+      "crawled_at": "2026-04-25T15:11:49.186Z"
     },
     {
       "id": "sje_go.kr_3066990",
@@ -1054,7 +1028,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066990",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:25.567Z"
+      "crawled_at": "2026-04-25T15:11:50.785Z"
     },
     {
       "id": "sje_go.kr_3066978",
@@ -1066,7 +1040,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066978",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:25.567Z"
+      "crawled_at": "2026-04-25T15:11:50.785Z"
     },
     {
       "id": "sje_go.kr_3066974",
@@ -1078,7 +1052,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066974",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:25.568Z"
+      "crawled_at": "2026-04-25T15:11:50.785Z"
     },
     {
       "id": "sje_go.kr_3066917",
@@ -1090,7 +1064,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066917",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:25.568Z"
+      "crawled_at": "2026-04-25T15:11:50.785Z"
     },
     {
       "id": "busan_1169556",
@@ -1102,7 +1076,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169556",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.755Z"
+      "crawled_at": "2026-04-25T15:11:38.127Z"
     },
     {
       "id": "jeonbuk_1_2",
@@ -1114,7 +1088,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040442",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.096Z"
     },
     {
       "id": "gyeongnam_1808561",
@@ -1127,7 +1101,7 @@
       "region": "통영",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808561",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:18.628Z"
+      "crawled_at": "2026-04-25T15:11:49.091Z"
     },
     {
       "id": "gangwon_51340",
@@ -1139,7 +1113,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gwe.go.kr/main/bbs/view.do?key=bTIzMDcyMTA1ODU2MzM%3D&sn=51340",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.233Z"
+      "crawled_at": "2026-04-25T15:11:42.807Z"
     },
     {
       "id": "seoul_99209",
@@ -1151,7 +1125,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99209",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.077Z"
+      "crawled_at": "2026-04-25T15:11:39.522Z"
     },
     {
       "id": "seoul_99127",
@@ -1163,7 +1137,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99127",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.077Z"
+      "crawled_at": "2026-04-25T15:11:39.522Z"
     },
     {
       "id": "seoul_99206",
@@ -1175,7 +1149,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99206",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.078Z"
+      "crawled_at": "2026-04-25T15:11:39.523Z"
     },
     {
       "id": "seoul_99204",
@@ -1187,7 +1161,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99204",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.079Z"
+      "crawled_at": "2026-04-25T15:11:39.525Z"
     },
     {
       "id": "seoul_99191",
@@ -1199,7 +1173,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99191",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.080Z"
+      "crawled_at": "2026-04-25T15:11:39.526Z"
     },
     {
       "id": "gyeonggi_43919",
@@ -1211,7 +1185,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43919",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.525Z"
+      "crawled_at": "2026-04-25T15:11:56.596Z"
     },
     {
       "id": "gyeonggi_43898",
@@ -1223,7 +1197,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43898",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.526Z"
+      "crawled_at": "2026-04-25T15:11:56.597Z"
     },
     {
       "id": "gyeonggi_43896",
@@ -1235,7 +1209,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43896",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.526Z"
+      "crawled_at": "2026-04-25T15:11:56.597Z"
     },
     {
       "id": "daejeon_3352613",
@@ -1247,7 +1221,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352613&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.562Z"
+      "crawled_at": "2026-04-25T15:11:47.067Z"
     },
     {
       "id": "daejeon_3352610",
@@ -1259,7 +1233,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352610&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.562Z"
+      "crawled_at": "2026-04-25T15:11:47.067Z"
     },
     {
       "id": "daejeon_3352546",
@@ -1271,7 +1245,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352546&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:20.485Z"
+      "crawled_at": "2026-04-25T15:11:47.929Z"
     },
     {
       "id": "ice_go.kr_3369166",
@@ -1283,7 +1257,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369166",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.218Z"
     },
     {
       "id": "ice_go.kr_3369105",
@@ -1295,7 +1269,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369105",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.143Z"
+      "crawled_at": "2026-04-25T15:12:04.917Z"
     },
     {
       "id": "ice_go.kr_3368917",
@@ -1307,7 +1281,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368917",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.789Z"
     },
     {
       "id": "gbe_kr_1604406",
@@ -1319,7 +1293,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604406",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.903Z"
+      "crawled_at": "2026-04-25T15:11:46.755Z"
     },
     {
       "id": "gbe_kr_1604405",
@@ -1331,7 +1305,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604405",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.903Z"
+      "crawled_at": "2026-04-25T15:11:46.756Z"
     },
     {
       "id": "gbe_kr_1604171",
@@ -1343,7 +1317,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604171",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.173Z"
     },
     {
       "id": "gbe_kr_1604151",
@@ -1355,7 +1329,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604151",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.174Z"
     },
     {
       "id": "gbe_kr_1604150",
@@ -1367,7 +1341,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604150",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.174Z"
     },
     {
       "id": "gbe_kr_1604123",
@@ -1379,7 +1353,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604123",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.174Z"
     },
     {
       "id": "gbe_kr_1603798",
@@ -1391,7 +1365,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603798",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "gbe_kr_1603736",
@@ -1403,7 +1377,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603736",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "gbe_kr_1603708",
@@ -1415,7 +1389,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603708",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "gbe_kr_1603675",
@@ -1427,7 +1401,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603675",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "gbe_kr_1603542",
@@ -1439,7 +1413,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603542",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.405Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1603536",
@@ -1451,7 +1425,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603536",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.405Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1603214",
@@ -1463,7 +1437,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603214",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "gbe_kr_1603091",
@@ -1475,7 +1449,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603091",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:36.435Z"
+      "crawled_at": "2026-04-25T15:11:57.381Z"
     },
     {
       "id": "sje_go.kr_3067078",
@@ -1487,7 +1461,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067078",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.581Z"
+      "crawled_at": "2026-04-25T15:11:47.529Z"
     },
     {
       "id": "sje_go.kr_3067067",
@@ -1499,7 +1473,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067067",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.582Z"
+      "crawled_at": "2026-04-25T15:11:47.530Z"
     },
     {
       "id": "sje_go.kr_3067066",
@@ -1511,7 +1485,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067066",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.582Z"
+      "crawled_at": "2026-04-25T15:11:47.530Z"
     },
     {
       "id": "sje_go.kr_3066998",
@@ -1523,7 +1497,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066998",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.647Z"
+      "crawled_at": "2026-04-25T15:11:49.186Z"
     },
     {
       "id": "sje_go.kr_3066997",
@@ -1535,7 +1509,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066997",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.647Z"
+      "crawled_at": "2026-04-25T15:11:49.186Z"
     },
     {
       "id": "sje_go.kr_3066992",
@@ -1547,7 +1521,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066992",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:23.647Z"
+      "crawled_at": "2026-04-25T15:11:49.186Z"
     },
     {
       "id": "busan_1169518",
@@ -1559,7 +1533,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169518",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.760Z"
+      "crawled_at": "2026-04-25T15:11:38.129Z"
     },
     {
       "id": "busan_1169517",
@@ -1571,7 +1545,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169517",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.761Z"
+      "crawled_at": "2026-04-25T15:11:38.133Z"
     },
     {
       "id": "jeonbuk_1_1",
@@ -1583,7 +1557,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040464",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.096Z"
     },
     {
       "id": "gyeongnam_1808646",
@@ -1596,7 +1570,7 @@
       "region": "거창",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808646",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.815Z"
+      "crawled_at": "2026-04-25T15:11:41.811Z"
     },
     {
       "id": "gyeongnam_1808630",
@@ -1609,7 +1583,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808630",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.729Z"
+      "crawled_at": "2026-04-25T15:11:44.458Z"
     },
     {
       "id": "gyeongnam_1808618",
@@ -1622,7 +1596,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808618",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.733Z"
+      "crawled_at": "2026-04-25T15:11:44.460Z"
     },
     {
       "id": "gangwon_51398",
@@ -1634,7 +1608,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gwe.go.kr/main/bbs/view.do?key=bTIzMDcyMTA1ODU2MzM%3D&sn=51398",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.232Z"
+      "crawled_at": "2026-04-25T15:11:42.807Z"
     },
     {
       "id": "seoul_99210",
@@ -1646,7 +1620,7 @@
       "deadline": "2026-04-29",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99210",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.076Z"
+      "crawled_at": "2026-04-25T15:11:39.521Z"
     },
     {
       "id": "gyeonggi_43897",
@@ -1658,7 +1632,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43897",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.526Z"
+      "crawled_at": "2026-04-25T15:11:56.597Z"
     },
     {
       "id": "daejeon_3352612",
@@ -1670,7 +1644,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352612&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.562Z"
+      "crawled_at": "2026-04-25T15:11:47.067Z"
     },
     {
       "id": "daejeon_3352590",
@@ -1682,7 +1656,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352590&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.563Z"
+      "crawled_at": "2026-04-25T15:11:47.067Z"
     },
     {
       "id": "daejeon_3352583",
@@ -1694,7 +1668,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352583&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:20.484Z"
+      "crawled_at": "2026-04-25T15:11:47.928Z"
     },
     {
       "id": "ice_go.kr_3369348",
@@ -1706,7 +1680,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369348",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.299Z"
     },
     {
       "id": "ice_go.kr_3368857",
@@ -1718,7 +1692,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368857",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.749Z"
+      "crawled_at": "2026-04-25T15:12:17.134Z"
     },
     {
       "id": "gbe_kr_1604251",
@@ -1730,7 +1704,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604251",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.044Z"
+      "crawled_at": "2026-04-25T15:11:50.173Z"
     },
     {
       "id": "gbe_kr_1604177",
@@ -1742,7 +1716,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604177",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.173Z"
     },
     {
       "id": "gbe_kr_1604107",
@@ -1754,7 +1728,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604107",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.715Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1604070",
@@ -1766,7 +1740,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604070",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:25.715Z"
+      "crawled_at": "2026-04-25T15:11:52.202Z"
     },
     {
       "id": "gbe_kr_1603717",
@@ -1778,7 +1752,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603717",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "gbe_kr_1603566",
@@ -1790,7 +1764,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603566",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.404Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1603544",
@@ -1802,7 +1776,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603544",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:32.405Z"
+      "crawled_at": "2026-04-25T15:11:55.783Z"
     },
     {
       "id": "gbe_kr_1602945",
@@ -1814,7 +1788,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602945",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:39.719Z"
+      "crawled_at": "2026-04-25T15:11:58.971Z"
     },
     {
       "id": "sje_go.kr_3067075",
@@ -1826,7 +1800,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067075",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.581Z"
+      "crawled_at": "2026-04-25T15:11:47.530Z"
     },
     {
       "id": "sje_go.kr_3067073",
@@ -1838,7 +1812,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067073",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.581Z"
+      "crawled_at": "2026-04-25T15:11:47.530Z"
     },
     {
       "id": "jeonbuk_1_5",
@@ -1850,7 +1824,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040434",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.097Z"
     },
     {
       "id": "jeonbuk_1_7",
@@ -1862,7 +1836,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040408",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.097Z"
     },
     {
       "id": "gyeongnam_1808616",
@@ -1875,7 +1849,7 @@
       "region": "사천",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808616",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.734Z"
+      "crawled_at": "2026-04-25T15:11:44.461Z"
     },
     {
       "id": "gyeongnam_1808585",
@@ -1888,7 +1862,7 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808585",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.741Z"
+      "crawled_at": "2026-04-25T15:11:47.212Z"
     },
     {
       "id": "seoul_99165",
@@ -1900,7 +1874,7 @@
       "deadline": "2026-04-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99165",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.078Z"
+      "crawled_at": "2026-04-25T15:11:39.523Z"
     },
     {
       "id": "seoul_99202",
@@ -1912,7 +1886,7 @@
       "deadline": "2026-04-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99202",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.079Z"
+      "crawled_at": "2026-04-25T15:11:39.526Z"
     },
     {
       "id": "gyeonggi_43905",
@@ -1924,7 +1898,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43905",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.526Z"
+      "crawled_at": "2026-04-25T15:11:56.596Z"
     },
     {
       "id": "gyeonggi_43892",
@@ -1936,7 +1910,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43892",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T14:44:16.526Z"
+      "crawled_at": "2026-04-25T15:11:56.597Z"
     },
     {
       "id": "ice_go.kr_3369264",
@@ -1948,7 +1922,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369264",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.036Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "gbe_kr_1604374",
@@ -1960,7 +1934,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604374",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.904Z"
+      "crawled_at": "2026-04-25T15:11:46.756Z"
     },
     {
       "id": "gbe_kr_1604362",
@@ -1972,7 +1946,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604362",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.904Z"
+      "crawled_at": "2026-04-25T15:11:46.756Z"
     },
     {
       "id": "gbe_kr_1604353",
@@ -1984,7 +1958,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604353",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:20.904Z"
+      "crawled_at": "2026-04-25T15:11:46.756Z"
     },
     {
       "id": "gbe_kr_1604158",
@@ -1996,7 +1970,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604158",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.174Z"
     },
     {
       "id": "gbe_kr_1603787",
@@ -2008,7 +1982,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603787",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "busan_1169502",
@@ -2020,7 +1994,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169502",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.762Z"
+      "crawled_at": "2026-04-25T15:11:38.134Z"
     },
     {
       "id": "jeonbuk_1_3",
@@ -2032,7 +2006,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040437",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.096Z"
     },
     {
       "id": "ice_go.kr_3369133",
@@ -2044,7 +2018,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369133",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.219Z"
     },
     {
       "id": "ice_go.kr_3369053",
@@ -2056,7 +2030,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369053",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.852Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3368704",
@@ -2068,7 +2042,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368704",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.697Z"
     },
     {
       "id": "jeonbuk_1_6",
@@ -2080,7 +2054,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040410",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.097Z"
     },
     {
       "id": "jeonbuk_1_8",
@@ -2092,7 +2066,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040407",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.097Z"
     },
     {
       "id": "gangwon_51366",
@@ -2104,7 +2078,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.gwe.go.kr/main/bbs/view.do?key=bTIzMDcyMTA1ODU2MzM%3D&sn=51366",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.232Z"
+      "crawled_at": "2026-04-25T15:11:42.807Z"
     },
     {
       "id": "daejeon_3352624",
@@ -2116,7 +2090,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352624&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.562Z"
+      "crawled_at": "2026-04-25T15:11:47.067Z"
     },
     {
       "id": "ice_go.kr_3369298",
@@ -2128,7 +2102,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369298",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.125Z"
+      "crawled_at": "2026-04-25T15:11:53.090Z"
     },
     {
       "id": "ice_go.kr_3369151",
@@ -2140,7 +2114,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369151",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.218Z"
     },
     {
       "id": "ice_go.kr_3369009",
@@ -2152,7 +2126,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369009",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.642Z"
+      "crawled_at": "2026-04-25T15:12:09.307Z"
     },
     {
       "id": "gbe_kr_1603723",
@@ -2164,7 +2138,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603723",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "gbe_kr_1602185",
@@ -2176,7 +2150,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602185",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:44.508Z"
+      "crawled_at": "2026-04-25T15:12:01.834Z"
     },
     {
       "id": "jeonbuk_1_0",
@@ -2188,7 +2162,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040466",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.451Z"
+      "crawled_at": "2026-04-25T15:12:06.096Z"
     },
     {
       "id": "gyeongnam_1808426",
@@ -2201,7 +2175,7 @@
       "region": "밀양",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808426",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.707Z"
+      "crawled_at": "2026-04-25T15:11:51.435Z"
     },
     {
       "id": "ice_go.kr_3369338",
@@ -2213,7 +2187,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369338",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.299Z"
     },
     {
       "id": "ice_go.kr_3369287",
@@ -2225,7 +2199,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369287",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.126Z"
+      "crawled_at": "2026-04-25T15:11:53.091Z"
     },
     {
       "id": "ice_go.kr_3369203",
@@ -2237,7 +2211,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369203",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.575Z"
+      "crawled_at": "2026-04-25T15:12:00.472Z"
     },
     {
       "id": "ice_go.kr_3369084",
@@ -2249,7 +2223,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369084",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.144Z"
+      "crawled_at": "2026-04-25T15:12:04.918Z"
     },
     {
       "id": "ice_go.kr_3369007",
@@ -2261,7 +2235,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369007",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.642Z"
+      "crawled_at": "2026-04-25T15:12:09.308Z"
     },
     {
       "id": "ice_go.kr_3368906",
@@ -2273,7 +2247,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368906",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.913Z"
+      "crawled_at": "2026-04-25T15:12:14.422Z"
     },
     {
       "id": "ice_go.kr_3368796",
@@ -2285,7 +2259,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368796",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.302Z"
+      "crawled_at": "2026-04-25T15:12:21.533Z"
     },
     {
       "id": "ice_go.kr_3368761",
@@ -2297,7 +2271,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368761",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.244Z"
     },
     {
       "id": "ice_go.kr_3368751",
@@ -2309,7 +2283,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368751",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.245Z"
     },
     {
       "id": "ice_go.kr_3369146",
@@ -2321,7 +2295,7 @@
       "deadline": "2026-05-07",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369146",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.218Z"
     },
     {
       "id": "ice_go.kr_3368875",
@@ -2333,7 +2307,7 @@
       "deadline": "2026-05-07",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368875",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.914Z"
+      "crawled_at": "2026-04-25T15:12:14.423Z"
     },
     {
       "id": "ice_go.kr_3368850",
@@ -2345,7 +2319,7 @@
       "deadline": "2026-05-07",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368850",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.810Z"
     },
     {
       "id": "ice_go.kr_3368789",
@@ -2357,7 +2331,7 @@
       "deadline": "2026-05-07",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368789",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.244Z"
     },
     {
       "id": "seoul_99205",
@@ -2369,7 +2343,7 @@
       "deadline": "2026-05-08",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99205",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.078Z"
+      "crawled_at": "2026-04-25T15:11:39.524Z"
     },
     {
       "id": "gbe_kr_1604165",
@@ -2381,7 +2355,7 @@
       "deadline": "2026-05-08",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604165",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:23.045Z"
+      "crawled_at": "2026-04-25T15:11:50.173Z"
     },
     {
       "id": "sje_go.kr_3067050",
@@ -2393,7 +2367,7 @@
       "deadline": "2026-05-08",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067050",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T14:44:21.582Z"
+      "crawled_at": "2026-04-25T15:11:47.531Z"
     },
     {
       "id": "gbe_kr_1602553",
@@ -2405,7 +2379,7 @@
       "deadline": "2026-05-09",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602553",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:42.292Z"
+      "crawled_at": "2026-04-25T15:12:00.390Z"
     },
     {
       "id": "ice_go.kr_3369303",
@@ -2417,7 +2391,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369303",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.126Z"
+      "crawled_at": "2026-04-25T15:11:53.091Z"
     },
     {
       "id": "ice_go.kr_3369179",
@@ -2429,7 +2403,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369179",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.576Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     },
     {
       "id": "ice_go.kr_3369031",
@@ -2441,7 +2415,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369031",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.853Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3369014",
@@ -2453,7 +2427,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369014",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.853Z"
+      "crawled_at": "2026-04-25T15:12:06.618Z"
     },
     {
       "id": "ice_go.kr_3368948",
@@ -2465,7 +2439,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368948",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.140Z"
+      "crawled_at": "2026-04-25T15:12:12.788Z"
     },
     {
       "id": "ice_go.kr_3368947",
@@ -2477,7 +2451,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368947",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.140Z"
+      "crawled_at": "2026-04-25T15:12:12.788Z"
     },
     {
       "id": "ice_go.kr_3368943",
@@ -2489,7 +2463,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368943",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.788Z"
     },
     {
       "id": "ice_go.kr_3368921",
@@ -2501,7 +2475,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368921",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.789Z"
     },
     {
       "id": "ice_go.kr_3368877",
@@ -2513,7 +2487,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368877",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.913Z"
+      "crawled_at": "2026-04-25T15:12:14.422Z"
     },
     {
       "id": "ice_go.kr_3368821",
@@ -2525,7 +2499,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368821",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.302Z"
+      "crawled_at": "2026-04-25T15:12:21.533Z"
     },
     {
       "id": "ice_go.kr_3368709",
@@ -2537,7 +2511,7 @@
       "deadline": "2026-05-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368709",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.806Z"
+      "crawled_at": "2026-04-25T15:12:26.965Z"
     },
     {
       "id": "ice_go.kr_3369304",
@@ -2549,7 +2523,7 @@
       "deadline": "2026-05-12",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369304",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.126Z"
+      "crawled_at": "2026-04-25T15:11:53.091Z"
     },
     {
       "id": "ice_go.kr_3369239",
@@ -2561,7 +2535,7 @@
       "deadline": "2026-05-12",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369239",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.036Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3368854",
@@ -2573,7 +2547,7 @@
       "deadline": "2026-05-14",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368854",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.810Z"
     },
     {
       "id": "ice_go.kr_3368954",
@@ -2585,7 +2559,7 @@
       "deadline": "2026-05-15",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368954",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.404Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "busan_1169523",
@@ -2597,7 +2571,7 @@
       "deadline": "2026-05-17",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169523",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.757Z"
+      "crawled_at": "2026-04-25T15:11:38.129Z"
     },
     {
       "id": "busan_1169562",
@@ -2609,7 +2583,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169562",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T14:44:15.753Z"
+      "crawled_at": "2026-04-25T15:11:38.125Z"
     },
     {
       "id": "ice_go.kr_3369410",
@@ -2621,7 +2595,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369410",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.284Z"
+      "crawled_at": "2026-04-25T15:11:46.644Z"
     },
     {
       "id": "ice_go.kr_3369237",
@@ -2633,7 +2607,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369237",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.036Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3368962",
@@ -2645,7 +2619,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368962",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.403Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368844",
@@ -2657,7 +2631,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368844",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.811Z"
     },
     {
       "id": "ice_go.kr_3368687",
@@ -2669,7 +2643,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368687",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.698Z"
     },
     {
       "id": "ice_go.kr_3369329",
@@ -2681,7 +2655,7 @@
       "deadline": "2026-05-21",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369329",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.125Z"
+      "crawled_at": "2026-04-25T15:11:53.090Z"
     },
     {
       "id": "ice_go.kr_3368797",
@@ -2693,7 +2667,7 @@
       "deadline": "2026-05-21",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368797",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.302Z"
+      "crawled_at": "2026-04-25T15:12:21.533Z"
     },
     {
       "id": "ice_go.kr_3368716",
@@ -2705,7 +2679,7 @@
       "deadline": "2026-05-21",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368716",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.805Z"
+      "crawled_at": "2026-04-25T15:12:26.964Z"
     },
     {
       "id": "ice_go.kr_3369305",
@@ -2717,7 +2691,7 @@
       "deadline": "2026-05-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369305",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.126Z"
+      "crawled_at": "2026-04-25T15:11:53.090Z"
     },
     {
       "id": "ice_go.kr_3368883",
@@ -2729,7 +2703,7 @@
       "deadline": "2026-05-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368883",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.748Z"
+      "crawled_at": "2026-04-25T15:12:17.133Z"
     },
     {
       "id": "ice_go.kr_3368681",
@@ -2741,7 +2715,7 @@
       "deadline": "2026-05-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368681",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.698Z"
     },
     {
       "id": "ice_go.kr_3368713",
@@ -2753,7 +2727,7 @@
       "deadline": "2026-05-26",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368713",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.805Z"
+      "crawled_at": "2026-04-25T15:12:26.964Z"
     },
     {
       "id": "gyeongnam_1807733",
@@ -2766,7 +2740,7 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1807733",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.707Z"
+      "crawled_at": "2026-04-25T15:11:51.435Z"
     },
     {
       "id": "ice_go.kr_3368804",
@@ -2778,7 +2752,7 @@
       "deadline": "2026-05-27",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368804",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.301Z"
+      "crawled_at": "2026-04-25T15:12:21.533Z"
     },
     {
       "id": "gbe_kr_1603797",
@@ -2790,7 +2764,7 @@
       "deadline": "2026-05-28",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603797",
       "source": "gbe.kr",
-      "crawled_at": "2026-04-25T14:44:29.170Z"
+      "crawled_at": "2026-04-25T15:11:54.074Z"
     },
     {
       "id": "ice_go.kr_3368819",
@@ -2802,7 +2776,7 @@
       "deadline": "2026-05-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368819",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.750Z"
+      "crawled_at": "2026-04-25T15:12:17.134Z"
     },
     {
       "id": "ice_go.kr_3369227",
@@ -2814,7 +2788,7 @@
       "deadline": "2026-06-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369227",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.036Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3369153",
@@ -2826,7 +2800,7 @@
       "deadline": "2026-06-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369153",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.576Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     },
     {
       "id": "ice_go.kr_3369175",
@@ -2838,7 +2812,7 @@
       "deadline": "2026-06-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369175",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.576Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     },
     {
       "id": "ice_go.kr_3368871",
@@ -2850,7 +2824,7 @@
       "deadline": "2026-06-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368871",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.914Z"
+      "crawled_at": "2026-04-25T15:12:14.423Z"
     },
     {
       "id": "ice_go.kr_3369073",
@@ -2862,7 +2836,7 @@
       "deadline": "2026-06-04",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369073",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.144Z"
+      "crawled_at": "2026-04-25T15:12:04.918Z"
     },
     {
       "id": "ice_go.kr_3369248",
@@ -2874,7 +2848,7 @@
       "deadline": "2026-06-05",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369248",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.782Z"
+      "crawled_at": "2026-04-25T15:11:58.757Z"
     },
     {
       "id": "ice_go.kr_3368658",
@@ -2886,7 +2860,7 @@
       "deadline": "2026-06-05",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368658",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.698Z"
     },
     {
       "id": "ice_go.kr_3368858",
@@ -2898,7 +2872,7 @@
       "deadline": "2026-06-10",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368858",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.749Z"
+      "crawled_at": "2026-04-25T15:12:17.134Z"
     },
     {
       "id": "ice_go.kr_3369083",
@@ -2910,7 +2884,7 @@
       "deadline": "2026-06-12",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369083",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.852Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3368870",
@@ -2922,7 +2896,7 @@
       "deadline": "2026-06-17",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368870",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.748Z"
+      "crawled_at": "2026-04-25T15:12:17.133Z"
     },
     {
       "id": "ice_go.kr_3369322",
@@ -2934,7 +2908,7 @@
       "deadline": "2026-06-23",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369322",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.125Z"
+      "crawled_at": "2026-04-25T15:11:53.090Z"
     },
     {
       "id": "ice_go.kr_3368807",
@@ -2946,7 +2920,7 @@
       "deadline": "2026-06-23",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368807",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.544Z"
+      "crawled_at": "2026-04-25T15:12:19.811Z"
     },
     {
       "id": "ice_go.kr_3368800",
@@ -2958,7 +2932,7 @@
       "deadline": "2026-06-23",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368800",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.302Z"
+      "crawled_at": "2026-04-25T15:12:21.533Z"
     },
     {
       "id": "ice_go.kr_3369176",
@@ -2970,7 +2944,7 @@
       "deadline": "2026-06-24",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369176",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.576Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     },
     {
       "id": "ice_go.kr_3369022",
@@ -2982,7 +2956,7 @@
       "deadline": "2026-06-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369022",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.642Z"
+      "crawled_at": "2026-04-25T15:12:09.308Z"
     },
     {
       "id": "ice_go.kr_3368887",
@@ -2994,7 +2968,7 @@
       "deadline": "2026-06-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368887",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.913Z"
+      "crawled_at": "2026-04-25T15:12:14.423Z"
     },
     {
       "id": "ice_go.kr_3369380",
@@ -3006,7 +2980,7 @@
       "deadline": "2026-07-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369380",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.299Z"
     },
     {
       "id": "seoul_98430",
@@ -3018,7 +2992,7 @@
       "deadline": "2026-07-02",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=98430",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T14:44:17.079Z"
+      "crawled_at": "2026-04-25T15:11:39.525Z"
     },
     {
       "id": "ice_go.kr_3369147",
@@ -3030,7 +3004,7 @@
       "deadline": "2026-07-04",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369147",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.218Z"
     },
     {
       "id": "ice_go.kr_3369100",
@@ -3042,7 +3016,7 @@
       "deadline": "2026-07-07",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369100",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.143Z"
+      "crawled_at": "2026-04-25T15:12:04.917Z"
     },
     {
       "id": "ice_go.kr_3369218",
@@ -3054,7 +3028,7 @@
       "deadline": "2026-07-09",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369218",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.782Z"
+      "crawled_at": "2026-04-25T15:11:58.758Z"
     },
     {
       "id": "ice_go.kr_3369392",
@@ -3066,7 +3040,7 @@
       "deadline": "2026-07-10",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369392",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.213Z"
+      "crawled_at": "2026-04-25T15:11:48.475Z"
     },
     {
       "id": "ice_go.kr_3369396",
@@ -3078,7 +3052,7 @@
       "deadline": "2026-07-14",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369396",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.213Z"
+      "crawled_at": "2026-04-25T15:11:48.475Z"
     },
     {
       "id": "ice_go.kr_3369319",
@@ -3090,7 +3064,7 @@
       "deadline": "2026-07-14",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369319",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.299Z"
     },
     {
       "id": "ice_go.kr_3369425",
@@ -3102,7 +3076,7 @@
       "deadline": "2026-07-16",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369425",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.283Z"
+      "crawled_at": "2026-04-25T15:11:46.644Z"
     },
     {
       "id": "ice_go.kr_3369333",
@@ -3114,7 +3088,7 @@
       "deadline": "2026-07-16",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369333",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.299Z"
     },
     {
       "id": "ice_go.kr_3368978",
@@ -3126,7 +3100,7 @@
       "deadline": "2026-07-16",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368978",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.643Z"
+      "crawled_at": "2026-04-25T15:12:09.308Z"
     },
     {
       "id": "ice_go.kr_3368960",
@@ -3138,7 +3112,7 @@
       "deadline": "2026-07-16",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368960",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.403Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368930",
@@ -3150,7 +3124,7 @@
       "deadline": "2026-07-16",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368930",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.788Z"
     },
     {
       "id": "ice_go.kr_3369440",
@@ -3162,7 +3136,7 @@
       "deadline": "2026-07-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369440",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.283Z"
+      "crawled_at": "2026-04-25T15:11:46.643Z"
     },
     {
       "id": "ice_go.kr_3369047",
@@ -3174,7 +3148,7 @@
       "deadline": "2026-07-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369047",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.852Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3368725",
@@ -3186,7 +3160,7 @@
       "deadline": "2026-07-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368725",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.805Z"
+      "crawled_at": "2026-04-25T15:12:26.964Z"
     },
     {
       "id": "ice_go.kr_3368869",
@@ -3198,7 +3172,7 @@
       "deadline": "2026-07-24",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368869",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.749Z"
+      "crawled_at": "2026-04-25T15:12:17.133Z"
     },
     {
       "id": "ice_go.kr_3368733",
@@ -3210,7 +3184,7 @@
       "deadline": "2026-07-25",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368733",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.805Z"
+      "crawled_at": "2026-04-25T15:12:26.964Z"
     },
     {
       "id": "ice_go.kr_3369407",
@@ -3222,7 +3196,7 @@
       "deadline": "2026-07-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369407",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.213Z"
+      "crawled_at": "2026-04-25T15:11:48.475Z"
     },
     {
       "id": "ice_go.kr_3369404",
@@ -3234,7 +3208,7 @@
       "deadline": "2026-07-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369404",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.213Z"
+      "crawled_at": "2026-04-25T15:11:48.475Z"
     },
     {
       "id": "ice_go.kr_3369300",
@@ -3246,7 +3220,7 @@
       "deadline": "2026-07-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369300",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.127Z"
+      "crawled_at": "2026-04-25T15:11:53.091Z"
     },
     {
       "id": "ice_go.kr_3369254",
@@ -3258,7 +3232,7 @@
       "deadline": "2026-07-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369254",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.037Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3369412",
@@ -3270,7 +3244,7 @@
       "deadline": "2026-08-03",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369412",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.284Z"
+      "crawled_at": "2026-04-25T15:11:46.644Z"
     },
     {
       "id": "ice_go.kr_3368977",
@@ -3282,7 +3256,7 @@
       "deadline": "2026-08-08",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368977",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.402Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368987",
@@ -3294,7 +3268,7 @@
       "deadline": "2026-08-10",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368987",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.402Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368746",
@@ -3306,7 +3280,7 @@
       "deadline": "2026-08-14",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368746",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.245Z"
     },
     {
       "id": "ice_go.kr_3369443",
@@ -3318,7 +3292,7 @@
       "deadline": "2026-08-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369443",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.283Z"
+      "crawled_at": "2026-04-25T15:11:46.643Z"
     },
     {
       "id": "ice_go.kr_3369462",
@@ -3330,7 +3304,7 @@
       "deadline": "2026-08-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369462",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.282Z"
+      "crawled_at": "2026-04-25T15:11:46.643Z"
     },
     {
       "id": "ice_go.kr_3369411",
@@ -3342,7 +3316,7 @@
       "deadline": "2026-08-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369411",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.284Z"
+      "crawled_at": "2026-04-25T15:11:46.644Z"
     },
     {
       "id": "ice_go.kr_3369061",
@@ -3354,7 +3328,7 @@
       "deadline": "2026-08-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369061",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.852Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3368708",
@@ -3366,7 +3340,7 @@
       "deadline": "2026-08-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368708",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.806Z"
+      "crawled_at": "2026-04-25T15:12:26.965Z"
     },
     {
       "id": "ice_go.kr_3369171",
@@ -3378,7 +3352,7 @@
       "deadline": "2026-09-23",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369171",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.576Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     },
     {
       "id": "ice_go.kr_3369347",
@@ -3390,7 +3364,7 @@
       "deadline": "2026-09-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369347",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.299Z"
     },
     {
       "id": "ice_go.kr_3369452",
@@ -3402,7 +3376,7 @@
       "deadline": "2026-09-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369452",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.282Z"
+      "crawled_at": "2026-04-25T15:11:46.643Z"
     },
     {
       "id": "ice_go.kr_3368968",
@@ -3414,7 +3388,7 @@
       "deadline": "2026-09-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368968",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.403Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368723",
@@ -3426,7 +3400,7 @@
       "deadline": "2026-11-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368723",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.806Z"
+      "crawled_at": "2026-04-25T15:12:26.965Z"
     },
     {
       "id": "ice_go.kr_3368707",
@@ -3438,7 +3412,7 @@
       "deadline": "2026-11-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368707",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.571Z"
+      "crawled_at": "2026-04-25T15:12:28.697Z"
     },
     {
       "id": "ice_go.kr_3368710",
@@ -3450,7 +3424,7 @@
       "deadline": "2026-12-11",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368710",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.806Z"
+      "crawled_at": "2026-04-25T15:12:26.965Z"
     },
     {
       "id": "ice_go.kr_3368865",
@@ -3462,7 +3436,7 @@
       "deadline": "2026-12-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368865",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.750Z"
+      "crawled_at": "2026-04-25T15:12:17.134Z"
     },
     {
       "id": "ice_go.kr_3368859",
@@ -3474,7 +3448,7 @@
       "deadline": "2026-12-24",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368859",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.749Z"
+      "crawled_at": "2026-04-25T15:12:17.133Z"
     },
     {
       "id": "ice_go.kr_3369243",
@@ -3486,7 +3460,7 @@
       "deadline": "2026-12-25",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369243",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.782Z"
+      "crawled_at": "2026-04-25T15:11:58.758Z"
     },
     {
       "id": "ice_go.kr_3369293",
@@ -3498,7 +3472,7 @@
       "deadline": "2026-12-29",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369293",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.126Z"
+      "crawled_at": "2026-04-25T15:11:53.090Z"
     },
     {
       "id": "ice_go.kr_3369078",
@@ -3510,7 +3484,7 @@
       "deadline": "2026-12-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369078",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.144Z"
+      "crawled_at": "2026-04-25T15:12:04.917Z"
     },
     {
       "id": "ice_go.kr_3369023",
@@ -3522,7 +3496,7 @@
       "deadline": "2026-12-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369023",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.642Z"
+      "crawled_at": "2026-04-25T15:12:09.307Z"
     },
     {
       "id": "ice_go.kr_3368899",
@@ -3534,7 +3508,7 @@
       "deadline": "2026-12-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368899",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.789Z"
     },
     {
       "id": "ice_go.kr_3368815",
@@ -3546,7 +3520,7 @@
       "deadline": "2026-12-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368815",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.811Z"
     },
     {
       "id": "ice_go.kr_3369403",
@@ -3558,7 +3532,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369403",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.214Z"
+      "crawled_at": "2026-04-25T15:11:48.476Z"
     },
     {
       "id": "ice_go.kr_3369388",
@@ -3570,7 +3544,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369388",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.214Z"
+      "crawled_at": "2026-04-25T15:11:48.476Z"
     },
     {
       "id": "ice_go.kr_3369272",
@@ -3582,7 +3556,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369272",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.036Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3369253",
@@ -3594,7 +3568,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369253",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.037Z"
+      "crawled_at": "2026-04-25T15:11:55.909Z"
     },
     {
       "id": "ice_go.kr_3369249",
@@ -3606,7 +3580,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369249",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.782Z"
+      "crawled_at": "2026-04-25T15:11:58.757Z"
     },
     {
       "id": "ice_go.kr_3369202",
@@ -3618,7 +3592,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369202",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.575Z"
+      "crawled_at": "2026-04-25T15:12:00.472Z"
     },
     {
       "id": "ice_go.kr_3369139",
@@ -3630,7 +3604,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369139",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.219Z"
     },
     {
       "id": "ice_go.kr_3369093",
@@ -3642,7 +3616,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369093",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.143Z"
+      "crawled_at": "2026-04-25T15:12:04.917Z"
     },
     {
       "id": "ice_go.kr_3369051",
@@ -3654,7 +3628,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369051",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.852Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3369025",
@@ -3666,7 +3640,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369025",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.642Z"
+      "crawled_at": "2026-04-25T15:12:09.307Z"
     },
     {
       "id": "ice_go.kr_3368886",
@@ -3678,7 +3652,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368886",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.914Z"
+      "crawled_at": "2026-04-25T15:12:14.423Z"
     },
     {
       "id": "ice_go.kr_3368806",
@@ -3690,7 +3664,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368806",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.544Z"
+      "crawled_at": "2026-04-25T15:12:19.811Z"
     },
     {
       "id": "ice_go.kr_3368779",
@@ -3702,7 +3676,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368779",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.302Z"
+      "crawled_at": "2026-04-25T15:12:21.534Z"
     },
     {
       "id": "ice_go.kr_3368684",
@@ -3714,7 +3688,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368684",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.698Z"
     },
     {
       "id": "ice_go.kr_3368657",
@@ -3726,7 +3700,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368657",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.699Z"
     },
     {
       "id": "ice_go.kr_3368724",
@@ -3738,7 +3712,7 @@
       "deadline": "2027-01-05",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368724",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.805Z"
+      "crawled_at": "2026-04-25T15:12:26.964Z"
     },
     {
       "id": "ice_go.kr_3369167",
@@ -3750,7 +3724,7 @@
       "deadline": "2027-01-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369167",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.218Z"
     },
     {
       "id": "ice_go.kr_3368949",
@@ -3762,7 +3736,7 @@
       "deadline": "2027-01-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368949",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.404Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368786",
@@ -3774,7 +3748,7 @@
       "deadline": "2027-01-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368786",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.244Z"
     },
     {
       "id": "ice_go.kr_3368926",
@@ -3786,7 +3760,7 @@
       "deadline": "2027-01-08",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368926",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.788Z"
     },
     {
       "id": "ice_go.kr_3368818",
@@ -3798,7 +3772,7 @@
       "deadline": "2027-01-08",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368818",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.810Z"
     },
     {
       "id": "ice_go.kr_3368826",
@@ -3810,7 +3784,7 @@
       "deadline": "2027-01-08",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368826",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.301Z"
+      "crawled_at": "2026-04-25T15:12:21.532Z"
     },
     {
       "id": "ice_go.kr_3369002",
@@ -3822,7 +3796,7 @@
       "deadline": "2027-01-12",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369002",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.643Z"
+      "crawled_at": "2026-04-25T15:12:09.308Z"
     },
     {
       "id": "ice_go.kr_3368840",
@@ -3834,7 +3808,7 @@
       "deadline": "2027-01-15",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368840",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.811Z"
     },
     {
       "id": "ice_go.kr_3369233",
@@ -3846,7 +3820,7 @@
       "deadline": "2027-01-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369233",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.036Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3369185",
@@ -3858,7 +3832,7 @@
       "deadline": "2027-02-05",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369185",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.575Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     },
     {
       "id": "ice_go.kr_3368778",
@@ -3870,7 +3844,7 @@
       "deadline": "2027-02-06",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368778",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.244Z"
     },
     {
       "id": "ice_go.kr_3369256",
@@ -3882,7 +3856,7 @@
       "deadline": "2027-02-13",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369256",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.037Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3369236",
@@ -3894,7 +3868,7 @@
       "deadline": "2027-02-19",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369236",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:29.036Z"
+      "crawled_at": "2026-04-25T15:11:55.908Z"
     },
     {
       "id": "ice_go.kr_3369211",
@@ -3906,7 +3880,7 @@
       "deadline": "2027-02-19",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369211",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.782Z"
+      "crawled_at": "2026-04-25T15:11:58.758Z"
     },
     {
       "id": "ice_go.kr_3369116",
@@ -3918,7 +3892,7 @@
       "deadline": "2027-02-19",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369116",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.219Z"
     },
     {
       "id": "ice_go.kr_3368986",
@@ -3930,7 +3904,7 @@
       "deadline": "2027-02-19",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368986",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.403Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368924",
@@ -3942,7 +3916,7 @@
       "deadline": "2027-02-19",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368924",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.788Z"
     },
     {
       "id": "ice_go.kr_3368918",
@@ -3954,7 +3928,7 @@
       "deadline": "2027-02-19",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368918",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:47.141Z"
+      "crawled_at": "2026-04-25T15:12:12.789Z"
     },
     {
       "id": "ice_go.kr_3368705",
@@ -3966,7 +3940,7 @@
       "deadline": "2027-02-19",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368705",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.571Z"
+      "crawled_at": "2026-04-25T15:12:28.697Z"
     },
     {
       "id": "ice_go.kr_3369204",
@@ -3978,7 +3952,7 @@
       "deadline": "2027-02-20",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369204",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.783Z"
+      "crawled_at": "2026-04-25T15:11:58.758Z"
     },
     {
       "id": "ice_go.kr_3369148",
@@ -3990,7 +3964,7 @@
       "deadline": "2027-02-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369148",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.339Z"
+      "crawled_at": "2026-04-25T15:12:02.218Z"
     },
     {
       "id": "ice_go.kr_3369378",
@@ -4002,7 +3976,7 @@
       "deadline": "2027-02-23",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369378",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.198Z"
+      "crawled_at": "2026-04-25T15:11:51.298Z"
     },
     {
       "id": "ice_go.kr_3368852",
@@ -4014,7 +3988,7 @@
       "deadline": "2027-02-23",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368852",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.810Z"
     },
     {
       "id": "ice_go.kr_3369221",
@@ -4026,7 +4000,7 @@
       "deadline": "2027-02-24",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369221",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.782Z"
+      "crawled_at": "2026-04-25T15:11:58.758Z"
     },
     {
       "id": "ice_go.kr_3368805",
@@ -4038,7 +4012,7 @@
       "deadline": "2027-02-26",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368805",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.301Z"
+      "crawled_at": "2026-04-25T15:12:21.533Z"
     },
     {
       "id": "ice_go.kr_3369453",
@@ -4050,7 +4024,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369453",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.282Z"
+      "crawled_at": "2026-04-25T15:11:46.642Z"
     },
     {
       "id": "ice_go.kr_3369437",
@@ -4062,7 +4036,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369437",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:19.283Z"
+      "crawled_at": "2026-04-25T15:11:46.643Z"
     },
     {
       "id": "ice_go.kr_3369405",
@@ -4074,7 +4048,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369405",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.213Z"
+      "crawled_at": "2026-04-25T15:11:48.475Z"
     },
     {
       "id": "ice_go.kr_3369390",
@@ -4086,7 +4060,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369390",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.214Z"
+      "crawled_at": "2026-04-25T15:11:48.476Z"
     },
     {
       "id": "ice_go.kr_3369383",
@@ -4098,7 +4072,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369383",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.214Z"
+      "crawled_at": "2026-04-25T15:11:48.476Z"
     },
     {
       "id": "ice_go.kr_3369379",
@@ -4110,7 +4084,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369379",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:22.214Z"
+      "crawled_at": "2026-04-25T15:11:48.476Z"
     },
     {
       "id": "ice_go.kr_3369374",
@@ -4122,7 +4096,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369374",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.198Z"
+      "crawled_at": "2026-04-25T15:11:51.298Z"
     },
     {
       "id": "ice_go.kr_3369373",
@@ -4134,7 +4108,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369373",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.298Z"
     },
     {
       "id": "ice_go.kr_3369344",
@@ -4146,7 +4120,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369344",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:24.199Z"
+      "crawled_at": "2026-04-25T15:11:51.299Z"
     },
     {
       "id": "ice_go.kr_3369295",
@@ -4158,7 +4132,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369295",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:26.125Z"
+      "crawled_at": "2026-04-25T15:11:53.090Z"
     },
     {
       "id": "ice_go.kr_3369250",
@@ -4170,7 +4144,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369250",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.782Z"
+      "crawled_at": "2026-04-25T15:11:58.757Z"
     },
     {
       "id": "ice_go.kr_3369206",
@@ -4182,7 +4156,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369206",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:31.783Z"
+      "crawled_at": "2026-04-25T15:11:58.758Z"
     },
     {
       "id": "ice_go.kr_3369200",
@@ -4194,7 +4168,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369200",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.575Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     },
     {
       "id": "ice_go.kr_3369169",
@@ -4206,7 +4180,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369169",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:35.338Z"
+      "crawled_at": "2026-04-25T15:12:02.218Z"
     },
     {
       "id": "ice_go.kr_3369128",
@@ -4218,7 +4192,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369128",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.143Z"
+      "crawled_at": "2026-04-25T15:12:04.917Z"
     },
     {
       "id": "ice_go.kr_3369109",
@@ -4230,7 +4204,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369109",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.143Z"
+      "crawled_at": "2026-04-25T15:12:04.917Z"
     },
     {
       "id": "ice_go.kr_3369102",
@@ -4242,7 +4216,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369102",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.143Z"
+      "crawled_at": "2026-04-25T15:12:04.917Z"
     },
     {
       "id": "ice_go.kr_3369085",
@@ -4254,7 +4228,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369085",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:37.144Z"
+      "crawled_at": "2026-04-25T15:12:04.918Z"
     },
     {
       "id": "ice_go.kr_3369055",
@@ -4266,7 +4240,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369055",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.852Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3369052",
@@ -4278,7 +4252,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369052",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.852Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3369038",
@@ -4290,7 +4264,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369038",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:39.853Z"
+      "crawled_at": "2026-04-25T15:12:06.617Z"
     },
     {
       "id": "ice_go.kr_3369021",
@@ -4302,7 +4276,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369021",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.642Z"
+      "crawled_at": "2026-04-25T15:12:09.308Z"
     },
     {
       "id": "ice_go.kr_3369020",
@@ -4314,7 +4288,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369020",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.642Z"
+      "crawled_at": "2026-04-25T15:12:09.308Z"
     },
     {
       "id": "ice_go.kr_3368996",
@@ -4326,7 +4300,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368996",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:42.643Z"
+      "crawled_at": "2026-04-25T15:12:09.308Z"
     },
     {
       "id": "ice_go.kr_3368955",
@@ -4338,7 +4312,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368955",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.404Z"
+      "crawled_at": "2026-04-25T15:12:11.079Z"
     },
     {
       "id": "ice_go.kr_3368931",
@@ -4350,7 +4324,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368931",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:44.404Z"
+      "crawled_at": "2026-04-25T15:12:11.080Z"
     },
     {
       "id": "ice_go.kr_3368902",
@@ -4362,7 +4336,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368902",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.913Z"
+      "crawled_at": "2026-04-25T15:12:14.422Z"
     },
     {
       "id": "ice_go.kr_3368900",
@@ -4374,7 +4348,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368900",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.913Z"
+      "crawled_at": "2026-04-25T15:12:14.422Z"
     },
     {
       "id": "ice_go.kr_3368879",
@@ -4386,7 +4360,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368879",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:48.913Z"
+      "crawled_at": "2026-04-25T15:12:14.422Z"
     },
     {
       "id": "ice_go.kr_3368882",
@@ -4398,7 +4372,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368882",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:50.748Z"
+      "crawled_at": "2026-04-25T15:12:17.133Z"
     },
     {
       "id": "ice_go.kr_3368816",
@@ -4410,7 +4384,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368816",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:52.543Z"
+      "crawled_at": "2026-04-25T15:12:19.811Z"
     },
     {
       "id": "ice_go.kr_3368794",
@@ -4422,7 +4396,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368794",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:55.302Z"
+      "crawled_at": "2026-04-25T15:12:21.534Z"
     },
     {
       "id": "ice_go.kr_3368791",
@@ -4434,7 +4408,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368791",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.056Z"
+      "crawled_at": "2026-04-25T15:12:24.244Z"
     },
     {
       "id": "ice_go.kr_3368753",
@@ -4446,7 +4420,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368753",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.057Z"
+      "crawled_at": "2026-04-25T15:12:24.244Z"
     },
     {
       "id": "ice_go.kr_3368717",
@@ -4458,7 +4432,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368717",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:57.058Z"
+      "crawled_at": "2026-04-25T15:12:24.245Z"
     },
     {
       "id": "ice_go.kr_3368726",
@@ -4470,7 +4444,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368726",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:59.805Z"
+      "crawled_at": "2026-04-25T15:12:26.964Z"
     },
     {
       "id": "ice_go.kr_3368690",
@@ -4482,7 +4456,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368690",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:45:01.572Z"
+      "crawled_at": "2026-04-25T15:12:28.698Z"
     },
     {
       "id": "ice_go.kr_3369158",
@@ -4494,7 +4468,7 @@
       "deadline": "2027-05-03",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369158",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T14:44:33.576Z"
+      "crawled_at": "2026-04-25T15:12:00.473Z"
     }
   ]
 }
