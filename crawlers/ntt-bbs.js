@@ -45,43 +45,54 @@ async function crawlNttBbs(config) {
       const title = titleEl.text().replace(/\s+/g, ' ').trim();
       if (!title) return;
 
-      // 접수기간/마감일 추출 — data-table="write" td의 날짜들 중 마지막 사용
+      const tds = $(row).find('td');
+
+      // 마감일 추출
       let deadline = '';
-      $(row).find('td[data-table="write"]').each((_, td) => {
-        const text = $(td).text().trim();
-        const d = parseDate(text);
-        if (d) deadline = d;
-      });
-      // fallback: em.mTit 방식 (일부 교육청)
-      if (!deadline) {
-        const periodTd = $(row).find('td').filter((_, td) =>
-          $(td).find('em.mTit').text().includes('접수기간')
-        );
-        if (periodTd.length) {
-          const periodText = periodTd.text().replace('접수기간', '').trim();
-          const parts = periodText.split('~');
-          deadline = parseDate(parts[1] || parts[0] || '');
+      if (config.colDeadline !== undefined) {
+        deadline = parseDate(tds.eq(config.colDeadline).text().trim()) || '';
+      } else {
+        $(row).find('td[data-table="write"]').each((_, td) => {
+          const d = parseDate($(td).text().trim());
+          if (d) deadline = d;
+        });
+        if (!deadline) {
+          const periodTd = $(row).find('td').filter((_, td) =>
+            $(td).find('em.mTit').text().includes('접수기간')
+          );
+          if (periodTd.length) {
+            const parts = periodTd.text().replace('접수기간', '').trim().split('~');
+            deadline = parseDate(parts[1] || parts[0] || '') || '';
+          }
         }
       }
 
       if (isExpired(deadline)) return;
 
-      // 학교명: data-table="write" td 중 날짜 패턴 없는 첫 번째 텍스트
+      // 학교명 추출
       let school = '';
-      $(row).find('td[data-table="write"]').each((_, td) => {
-        if (school) return;
-        const text = $(td).text().replace(/\s+/g, ' ').trim();
-        if (text && !parseDate(text) && text.length > 1 && !text.includes('모집')) {
-          school = text;
+      if (config.colSchool !== undefined) {
+        school = tds.eq(config.colSchool).text().replace(/\s+/g, ' ').trim();
+      } else {
+        $(row).find('td[data-table="write"]').each((_, td) => {
+          if (school) return;
+          const text = $(td).text().replace(/\s+/g, ' ').trim();
+          if (text && !parseDate(text) && text.length > 1 && !text.includes('모집')) {
+            school = text;
+          }
+        });
+        if (!school) {
+          const writerTd = $(row).find('td').filter((_, td) =>
+            $(td).find('em.mTit').text().includes('작성자')
+          );
+          school = writerTd.text().replace('작성자', '').trim();
         }
-      });
-      // fallback: em.mTit 방식
-      if (!school) {
-        const writerTd = $(row).find('td').filter((_, td) =>
-          $(td).find('em.mTit').text().includes('작성자')
-        );
-        school = writerTd.text().replace('작성자', '').trim();
       }
+
+      // 학교급 직접 지정 컬럼이 있으면 우선 사용
+      const levelFromCol = config.colLevel !== undefined
+        ? tds.eq(config.colLevel).text().trim()
+        : '';
 
       hasNew = true;
       jobs.push({
@@ -89,7 +100,7 @@ async function crawlNttBbs(config) {
         sido,
         school,
         subject: extractSubject(title),
-        level: extractLevel(title),
+        level: levelFromCol || extractLevel(title),
         title,
         deadline,
         url: `${baseUrl}${path}/selectNttInfo.do?mi=${mi}&bbsId=${bbsId}&nttSn=${dataId}`,
@@ -134,6 +145,9 @@ const NTT_SITES = [
     mi: '3626',
     bbsId: '1887',
     source: 'gbe.kr',
+    colSchool: 4,
+    colDeadline: 6,
+    colLevel: 3,
   },
   {
     sido: '충북',
