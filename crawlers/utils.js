@@ -15,9 +15,12 @@ async function fetchHtml(url, encoding = 'utf-8') {
 
 function parseDate(str) {
   if (!str) return null;
-  const match = str.match(/(\d{4})[.\-\/](\d{1,2})[.\-\/](\d{1,2})/);
+  const match = str.match(/(\d{4})[\s.\-\/]+(\d{1,2})[\s.\-\/]+(\d{1,2})/);
   if (!match) return null;
-  return `${match[1]}-${match[2].padStart(2, '0')}-${match[3].padStart(2, '0')}`;
+  const m = parseInt(match[2], 10);
+  const d = parseInt(match[3], 10);
+  if (m < 1 || m > 12 || d < 1 || d > 31) return null;
+  return `${match[1]}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`;
 }
 
 function isExpired(deadlineStr) {

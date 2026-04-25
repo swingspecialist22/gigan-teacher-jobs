@@ -1,7 +1,7 @@
 {
-  "name": "쌤나우",
-  "short_name": "쌤나우",
-  "description": "전국 기간제교사 채용공고 모음 — 쌤나우",
+  "name": "830",
+  "short_name": "830",
+  "description": "전국 기간제교사 채용공고 모음 — 830",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
