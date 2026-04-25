@@ -5,6 +5,10 @@ on:
     - cron: '0 1,6,13 * * *'  # 하루 3회 (UTC 1/6/13시 = KST 10/15/22시)
   workflow_dispatch:              # 수동 실행도 가능
 
+concurrency:
+  group: crawl
+  cancel-in-progress: true
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
