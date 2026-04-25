@@ -21,7 +21,7 @@ async function crawlNttBbs(config) {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const url = `${listUrl}&currPage=${page}`;
     let html;
     try {
