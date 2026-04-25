@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>기간제교사 채용공고</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue: #2563eb;
+      --blue-light: #eff6ff;
+      --red: #dc2626;
+      --red-light: #fef2f2;
+      --orange: #ea580c;
+      --orange-light: #fff7ed;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-400: #9ca3af;
+      --gray-600: #4b5563;
+      --gray-800: #1f2937;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif;
+      background: var(--gray-50);
+      color: var(--gray-800);
+      min-height: 100vh;
+    }
+
+    /* Header */
+    header {
+      background: var(--blue);
+      color: #fff;
+      padding: 16px 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 8px rgba(0,0,0,.15);
+    }
+
+    .header-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+
+    header h1 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .icon-btn {
+      background: rgba(255,255,255,.15);
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 18px;
+      padding: 6px 10px;
+      transition: background .15s;
+    }
+
+    .icon-btn:hover { background: rgba(255,255,255,.25); }
+    .icon-btn.active { background: rgba(255,255,255,.35); }
+
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 4px;
+    }
+
+    .tab {
+      background: none;
+      border: none;
+      border-bottom: 3px solid transparent;
+      color: rgba(255,255,255,.7);
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 12px;
+      transition: all .15s;
+    }
+
+    .tab.active {
+      border-bottom-color: #fff;
+      color: #fff;
+    }
+
+    /* Filters */
+    #filter-section {
+      background: #fff;
+      border-bottom: 1px solid var(--gray-200);
+      padding: 12px 16px;
+    }
+
+    .search-bar {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .search-bar input {
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      flex: 1;
+      font-size: 14px;
+      padding: 8px 12px;
+      outline: none;
+    }
+
+    .search-bar input:focus { border-color: var(--blue); }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 6px;
+    }
+
+    .filter-row:last-child { margin-bottom: 0; }
+
+    .filter-label {
+      color: var(--gray-600);
+      font-size: 12px;
+      font-weight: 600;
+      padding-top: 4px;
+      white-space: nowrap;
+    }
+
+    .chip {
+      background: var(--gray-100);
+      border: 1px solid var(--gray-200);
+      border-radius: 20px;
+      color: var(--gray-600);
+      cursor: pointer;
+      font-size: 12px;
+      padding: 4px 10px;
+      transition: all .15s;
+      white-space: nowrap;
+    }
+
+    .chip.on {
+      background: var(--blue);
+      border-color: var(--blue);
+      color: #fff;
+    }
+
+    /* Status bar */
+    #status-bar {
+      align-items: center;
+      background: #fff;
+      border-bottom: 1px solid var(--gray-200);
+      color: var(--gray-600);
+      display: flex;
+      font-size: 12px;
+      justify-content: space-between;
+      padding: 6px 16px;
+    }
+
+    /* Job list */
+    #job-list {
+      padding: 12px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .job-card {
+      background: #fff;
+      border: 1px solid var(--gray-200);
+      border-radius: 12px;
+      padding: 14px;
+      cursor: pointer;
+      transition: box-shadow .15s, border-color .15s;
+      position: relative;
+    }
+
+    .job-card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,.08);
+      border-color: var(--blue);
+    }
+
+    .job-card.urgent { border-left: 4px solid var(--red); }
+    .job-card.warning { border-left: 4px solid var(--orange); }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.4;
+      flex: 1;
+      color: var(--gray-800);
+    }
+
+    .bookmark-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      padding: 0 2px;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .badge {
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 7px;
+    }
+
+    .badge-sido { background: var(--blue-light); color: var(--blue); }
+    .badge-level { background: var(--gray-100); color: var(--gray-600); }
+    .badge-subject { background: #f0fdf4; color: #16a34a; }
+
+    .dday {
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 7px;
+      margin-left: auto;
+    }
+
+    .dday-urgent { background: var(--red-light); color: var(--red); }
+    .dday-warning { background: var(--orange-light); color: var(--orange); }
+    .dday-normal { background: var(--gray-100); color: var(--gray-600); }
+
+    .card-school {
+      color: var(--gray-600);
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .school-link {
+      background: none;
+      border: 1px solid var(--gray-200);
+      border-radius: 4px;
+      color: var(--blue);
+      cursor: pointer;
+      font-size: 11px;
+      padding: 1px 5px;
+    }
+
+    .card-deadline {
+      color: var(--gray-400);
+      font-size: 11px;
+      margin-top: 4px;
+    }
+
+    .card-deadline.urgent { color: var(--red); font-weight: 600; }
+    .card-deadline.warning { color: var(--orange); font-weight: 600; }
+
+    /* Empty / loading */
+    .empty {
+      text-align: center;
+      color: var(--gray-400);
+      padding: 48px 16px;
+      font-size: 14px;
+    }
+
+    /* Notification settings modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.4);
+      z-index: 200;
+      align-items: flex-end;
+      justify-content: center;
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: #fff;
+      border-radius: 20px 20px 0 0;
+      padding: 24px 20px 32px;
+      width: 100%;
+      max-width: 500px;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+
+    .modal h2 {
+      font-size: 17px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .modal-section { margin-bottom: 18px; }
+
+    .modal-section h3 {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gray-600);
+      margin-bottom: 8px;
+    }
+
+    .modal-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 8px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 12px 0;
+      flex: 1;
+    }
+
+    .btn-primary { background: var(--blue); color: #fff; }
+    .btn-secondary { background: var(--gray-100); color: var(--gray-600); }
+
+    .notif-toggle {
+      align-items: center;
+      background: var(--blue-light);
+      border-radius: 10px;
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      padding: 12px;
+    }
+
+    .notif-toggle span { flex: 1; font-size: 13px; color: var(--gray-800); }
+
+    .toggle {
+      appearance: none;
+      background: var(--gray-200);
+      border-radius: 12px;
+      cursor: pointer;
+      height: 24px;
+      position: relative;
+      width: 44px;
+      transition: background .2s;
+      flex-shrink: 0;
+    }
+
+    .toggle::after {
+      background: #fff;
+      border-radius: 50%;
+      content: '';
+      height: 18px;
+      left: 3px;
+      position: absolute;
+      top: 3px;
+      transition: left .2s;
+      width: 18px;
+    }
+
+    .toggle:checked { background: var(--blue); }
+    .toggle:checked::after { left: 23px; }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-thumb { background: var(--gray-200); border-radius: 2px; }
+
+    @media (min-width: 700px) {
+      #job-list { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-top">
+    <h1>📋 기간제교사 채용공고</h1>
+    <div class="header-actions">
+      <button class="icon-btn" id="notif-btn" title="알림 설정">🔔</button>
+    </div>
+  </div>
+  <div class="tabs">
+    <button class="tab active" data-tab="all">전체</button>
+    <button class="tab" data-tab="bookmarks">북마크 ⭐</button>
+  </div>
+</header>
+
+<div id="filter-section">
+  <div class="search-bar">
+    <input type="search" id="search-input" placeholder="학교명, 과목, 지역 검색..." autocomplete="off">
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">시도</span>
+    <button class="chip on" data-filter="sido" data-val="">전체</button>
+    <button class="chip" data-filter="sido" data-val="서울">서울</button>
+    <button class="chip" data-filter="sido" data-val="경기">경기</button>
+    <button class="chip" data-filter="sido" data-val="인천">인천</button>
+    <button class="chip" data-filter="sido" data-val="부산">부산</button>
+    <button class="chip" data-filter="sido" data-val="경남">경남</button>
+    <button class="chip" data-filter="sido" data-val="경북">경북</button>
+    <button class="chip" data-filter="sido" data-val="강원">강원</button>
+    <button class="chip" data-filter="sido" data-val="충남">충남</button>
+    <button class="chip" data-filter="sido" data-val="충북">충북</button>
+    <button class="chip" data-filter="sido" data-val="전북">전북</button>
+    <button class="chip" data-filter="sido" data-val="전남">전남</button>
+    <button class="chip" data-filter="sido" data-val="광주">광주</button>
+    <button class="chip" data-filter="sido" data-val="대전">대전</button>
+    <button class="chip" data-filter="sido" data-val="세종">세종</button>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">학교급</span>
+    <button class="chip on" data-filter="level" data-val="">전체</button>
+    <button class="chip" data-filter="level" data-val="초등">초등</button>
+    <button class="chip" data-filter="level" data-val="중등">중등</button>
+    <button class="chip" data-filter="level" data-val="고등">고등</button>
+    <button class="chip" data-filter="level" data-val="유치">유치</button>
+    <button class="chip" data-filter="level" data-val="특수">특수</button>
+  </div>
+</div>
+
+<div id="status-bar">
+  <span id="status-text">불러오는 중...</span>
+  <span id="updated-at"></span>
+</div>
+
+<div id="job-list"><div class="empty">불러오는 중...</div></div>
+
+<!-- 알림 설정 모달 -->
+<div class="modal-overlay" id="notif-modal">
+  <div class="modal">
+    <h2>🔔 맞춤 알림 설정</h2>
+
+    <div class="notif-toggle">
+      <span>새 공고 알림 받기<br><small style="color:var(--gray-400)">앱 방문 시 내 조건에 맞는 새 공고를 알려드려요</small></span>
+      <input type="checkbox" class="toggle" id="notif-toggle">
+    </div>
+
+    <div class="modal-section">
+      <h3>관심 지역 (복수 선택)</h3>
+      <div class="modal-chips" id="pref-sidos">
+        <button class="chip on" data-pref="sido" data-val="">전체</button>
+        <button class="chip" data-pref="sido" data-val="서울">서울</button>
+        <button class="chip" data-pref="sido" data-val="경기">경기</button>
+        <button class="chip" data-pref="sido" data-val="인천">인천</button>
+        <button class="chip" data-pref="sido" data-val="부산">부산</button>
+        <button class="chip" data-pref="sido" data-val="경남">경남</button>
+        <button class="chip" data-pref="sido" data-val="경북">경북</button>
+        <button class="chip" data-pref="sido" data-val="강원">강원</button>
+        <button class="chip" data-pref="sido" data-val="충남">충남</button>
+        <button class="chip" data-pref="sido" data-val="충북">충북</button>
+        <button class="chip" data-pref="sido" data-val="전북">전북</button>
+        <button class="chip" data-pref="sido" data-val="전남">전남</button>
+        <button class="chip" data-pref="sido" data-val="광주">광주</button>
+        <button class="chip" data-pref="sido" data-val="대전">대전</button>
+        <button class="chip" data-pref="sido" data-val="세종">세종</button>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <h3>관심 학교급 (복수 선택)</h3>
+      <div class="modal-chips" id="pref-levels">
+        <button class="chip on" data-pref="level" data-val="">전체</button>
+        <button class="chip" data-pref="level" data-val="초등">초등</button>
+        <button class="chip" data-pref="level" data-val="중등">중등</button>
+        <button class="chip" data-pref="level" data-val="고등">고등</button>
+        <button class="chip" data-pref="level" data-val="유치">유치</button>
+        <button class="chip" data-pref="level" data-val="특수">특수</button>
+      </div>
+    </div>
+
+    <div class="modal-section">
+      <h3>관심 과목 (쉼표로 구분)</h3>
+      <input type="text" id="pref-subjects" placeholder="예: 수학, 영어, 체육"
+        style="border:1px solid var(--gray-200);border-radius:8px;padding:8px 12px;font-size:13px;width:100%;outline:none;">
+    </div>
+
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="modal-cancel">취소</button>
+      <button class="btn btn-primary" id="modal-save">저장</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ────────────────────────────────────────────────────────────────────
+let allJobs = [];
+let currentTab = 'all';
+let filter = { sido: '', level: '' };
+let searchQ = '';
+let bookmarks = new Set(JSON.parse(localStorage.getItem('bookmarks') || '[]'));
+let seenIds = new Set(JSON.parse(localStorage.getItem('seenIds') || '[]'));
+
+const prefs = JSON.parse(localStorage.getItem('prefs') || '{"sidos":[],"levels":[],"subjects":[]}');
+const notifEnabled = localStorage.getItem('notifEnabled') === 'true';
+
+// ── Service Worker ────────────────────────────────────────────────────────────
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js').then(reg => {
+    // 새 공고 체크 요청
+    navigator.serviceWorker.ready.then(r => {
+      if (r.active) {
+        r.active.postMessage({
+          type: 'CHECK_NEW_JOBS',
+          prefs,
+          seen: [...seenIds],
+        });
+      }
+    });
+  });
+
+  navigator.serviceWorker.addEventListener('message', e => {
+    if (e.data?.type === 'NEW_JOB_IDS') {
+      e.data.ids.forEach(id => seenIds.add(id));
+      localStorage.setItem('seenIds', JSON.stringify([...seenIds]));
+    }
+  });
+}
+
+// ── Data loading ──────────────────────────────────────────────────────────────
+async function loadJobs() {
+  try {
+    const res = await fetch('./data/jobs.json?t=' + Date.now());
+    const data = await res.json();
+    allJobs = data.jobs || [];
+
+    const ua = document.getElementById('updated-at');
+    if (data.updated_at) {
+      const d = new Date(data.updated_at);
+      ua.textContent = '업데이트: ' + d.toLocaleString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+    }
+
+    // 새 공고 seenIds 확보
+    allJobs.forEach(j => seenIds.add(j.id));
+    localStorage.setItem('seenIds', JSON.stringify([...seenIds]));
+
+    render();
+  } catch {
+    document.getElementById('job-list').innerHTML = '<div class="empty">데이터를 불러오지 못했습니다.<br>잠시 후 다시 시도해주세요.</div>';
+  }
+}
+
+// ── D-day ─────────────────────────────────────────────────────────────────────
+function dday(deadline) {
+  if (!deadline) return null;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const due = new Date(deadline);
+  const diff = Math.round((due - today) / 86400000);
+  return diff;
+}
+
+function ddayLabel(diff) {
+  if (diff === null) return '';
+  if (diff < 0) return '마감';
+  if (diff === 0) return 'D-day';
+  return `D-${diff}`;
+}
+
+function ddayClass(diff) {
+  if (diff === null || diff < 0) return '';
+  if (diff <= 3) return 'dday-urgent';
+  if (diff <= 7) return 'dday-warning';
+  return 'dday-normal';
+}
+
+function cardClass(diff) {
+  if (diff === null || diff < 0) return '';
+  if (diff <= 3) return 'urgent';
+  if (diff <= 7) return 'warning';
+  return '';
+}
+
+// ── Filter/Search ─────────────────────────────────────────────────────────────
+function filteredJobs() {
+  const q = searchQ.toLowerCase();
+  return allJobs.filter(j => {
+    if (currentTab === 'bookmarks' && !bookmarks.has(j.id)) return false;
+    if (filter.sido && j.sido !== filter.sido) return false;
+    if (filter.level && j.level && j.level !== filter.level) return false;
+    if (filter.level && !j.level) return false;
+    if (q && !j.title.toLowerCase().includes(q) && !j.school.toLowerCase().includes(q) && !j.sido.includes(q)) return false;
+    return true;
+  });
+}
+
+// ── School info link (학교알리미) ─────────────────────────────────────────────
+function schoolInfoUrl(name) {
+  return `https://www.schoolinfo.go.kr/ei/ss/Pneiss_b02_s0.do?schulNm=${encodeURIComponent(name)}`;
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
+function render() {
+  const jobs = filteredJobs();
+  const list = document.getElementById('job-list');
+  const status = document.getElementById('status-text');
+
+  if (currentTab === 'bookmarks') {
+    status.textContent = `북마크 ${bookmarks.size}개 중 ${jobs.length}건 표시`;
+  } else {
+    status.textContent = `${jobs.length}건`;
+  }
+
+  if (jobs.length === 0) {
+    list.innerHTML = currentTab === 'bookmarks'
+      ? '<div class="empty">북마크한 공고가 없습니다.<br>공고 카드의 ☆를 눌러 저장하세요.</div>'
+      : '<div class="empty">조건에 맞는 공고가 없습니다.</div>';
+    return;
+  }
+
+  list.innerHTML = jobs.map(job => {
+    const diff = dday(job.deadline);
+    const isBookmarked = bookmarks.has(job.id);
+    const dc = ddayClass(diff);
+    const dl = ddayLabel(diff);
+    const cc = cardClass(diff);
+    const deadlineClass = diff !== null && diff <= 3 ? 'urgent' : diff !== null && diff <= 7 ? 'warning' : '';
+
+    return `
+    <div class="job-card ${cc}" data-id="${job.id}">
+      <div class="card-top">
+        <div class="card-title">${escHtml(job.title)}</div>
+        <button class="bookmark-btn" data-id="${job.id}" title="북마크">${isBookmarked ? '⭐' : '☆'}</button>
+      </div>
+      <div class="card-meta">
+        <span class="badge badge-sido">${escHtml(job.sido)}</span>
+        ${job.level ? `<span class="badge badge-level">${escHtml(job.level)}</span>` : ''}
+        ${job.subject ? `<span class="badge badge-subject">${escHtml(job.subject)}</span>` : ''}
+        ${dl ? `<span class="dday ${dc}">${dl}</span>` : ''}
+      </div>
+      <div class="card-school">
+        ${job.school ? `<span>${escHtml(job.school)}</span>
+        <button class="school-link" data-school="${escHtml(job.school)}">학교알리미 →</button>` : ''}
+      </div>
+      ${job.deadline ? `<div class="card-deadline ${deadlineClass}">마감 ${job.deadline}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  // Card click → open posting
+  list.querySelectorAll('.job-card').forEach(card => {
+    card.addEventListener('click', e => {
+      if (e.target.classList.contains('bookmark-btn') || e.target.classList.contains('school-link')) return;
+      const id = card.dataset.id;
+      const job = allJobs.find(j => j.id === id);
+      if (job?.url) window.open(job.url, '_blank');
+    });
+  });
+
+  // Bookmark
+  list.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const id = btn.dataset.id;
+      if (bookmarks.has(id)) {
+        bookmarks.delete(id);
+        btn.textContent = '☆';
+      } else {
+        bookmarks.add(id);
+        btn.textContent = '⭐';
+      }
+      localStorage.setItem('bookmarks', JSON.stringify([...bookmarks]));
+      if (currentTab === 'bookmarks') render();
+    });
+  });
+
+  // 학교알리미
+  list.querySelectorAll('.school-link').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      window.open(schoolInfoUrl(btn.dataset.school), '_blank');
+    });
+  });
+}
+
+function escHtml(s) {
+  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Tabs ──────────────────────────────────────────────────────────────────────
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentTab = tab.dataset.tab;
+    render();
+  });
+});
+
+// ── Chips (filter) ────────────────────────────────────────────────────────────
+document.querySelectorAll('.chip[data-filter]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const type = chip.dataset.filter;
+    document.querySelectorAll(`.chip[data-filter="${type}"]`).forEach(c => c.classList.remove('on'));
+    chip.classList.add('on');
+    filter[type] = chip.dataset.val;
+    render();
+  });
+});
+
+// ── Search ────────────────────────────────────────────────────────────────────
+document.getElementById('search-input').addEventListener('input', e => {
+  searchQ = e.target.value.trim();
+  render();
+});
+
+// ── Notification modal ────────────────────────────────────────────────────────
+const modal = document.getElementById('notif-modal');
+const notifToggle = document.getElementById('notif-toggle');
+
+document.getElementById('notif-btn').addEventListener('click', () => {
+  modal.classList.add('open');
+
+  // Load saved prefs into modal
+  notifToggle.checked = localStorage.getItem('notifEnabled') === 'true';
+
+  // Restore sido chips
+  document.querySelectorAll('#pref-sidos .chip').forEach(c => {
+    const saved = prefs.sidos || [];
+    if (saved.length === 0) {
+      c.classList.toggle('on', c.dataset.val === '');
+    } else {
+      c.classList.toggle('on', saved.includes(c.dataset.val));
+    }
+  });
+
+  // Restore level chips
+  document.querySelectorAll('#pref-levels .chip').forEach(c => {
+    const saved = prefs.levels || [];
+    if (saved.length === 0) {
+      c.classList.toggle('on', c.dataset.val === '');
+    } else {
+      c.classList.toggle('on', saved.includes(c.dataset.val));
+    }
+  });
+
+  // Restore subjects
+  document.getElementById('pref-subjects').value = (prefs.subjects || []).join(', ');
+});
+
+modal.addEventListener('click', e => {
+  if (e.target === modal) modal.classList.remove('open');
+});
+
+document.getElementById('modal-cancel').addEventListener('click', () => {
+  modal.classList.remove('open');
+});
+
+// Pref chips (multi-select in modal)
+document.querySelectorAll('.chip[data-pref]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const group = chip.dataset.pref;
+    const val = chip.dataset.val;
+
+    if (val === '') {
+      // 전체 선택 → others off
+      document.querySelectorAll(`#pref-${group}s .chip`).forEach(c => c.classList.remove('on'));
+      chip.classList.add('on');
+    } else {
+      // 특정 값 toggle
+      const allChip = document.querySelector(`#pref-${group}s .chip[data-val=""]`);
+      allChip?.classList.remove('on');
+      chip.classList.toggle('on');
+      // 아무것도 선택 안 됐으면 전체로
+      const anyOn = [...document.querySelectorAll(`#pref-${group}s .chip[data-val]:not([data-val=""])`)].some(c => c.classList.contains('on'));
+      if (!anyOn) allChip?.classList.add('on');
+    }
+  });
+});
+
+document.getElementById('modal-save').addEventListener('click', async () => {
+  const wantsNotif = notifToggle.checked;
+
+  if (wantsNotif) {
+    const perm = await Notification.requestPermission();
+    if (perm !== 'granted') {
+      alert('알림 권한이 거부되었습니다. 브라우저 설정에서 알림을 허용해주세요.');
+      return;
+    }
+  }
+
+  // Collect selected sidos
+  const selSidos = [...document.querySelectorAll('#pref-sidos .chip.on')]
+    .map(c => c.dataset.val).filter(v => v !== '');
+  const selLevels = [...document.querySelectorAll('#pref-levels .chip.on')]
+    .map(c => c.dataset.val).filter(v => v !== '');
+  const selSubjects = document.getElementById('pref-subjects').value
+    .split(',').map(s => s.trim()).filter(Boolean);
+
+  const newPrefs = { sidos: selSidos, levels: selLevels, subjects: selSubjects };
+  localStorage.setItem('prefs', JSON.stringify(newPrefs));
+  localStorage.setItem('notifEnabled', wantsNotif ? 'true' : 'false');
+
+  modal.classList.remove('open');
+});
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+loadJobs();
+</script>
+</body>
+</html>
