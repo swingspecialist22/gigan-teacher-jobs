@@ -319,7 +319,7 @@
     .card-school {
       color: var(--gray-600);
       flex: 1;
-      font-size: 11px;
+      font-size: 13px;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -339,7 +339,7 @@
 
     .card-deadline {
       color: var(--gray-400);
-      font-size: 10px;
+      font-size: 12px;
       margin-top: 5px;
     }
 
@@ -469,6 +469,19 @@
     }
 
     .subject-input:focus { border-color: var(--blue); }
+
+    /* ── Sort ── */
+    .sort-select {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      color: var(--gray-600);
+      cursor: pointer;
+      flex-shrink: 0;
+      font-size: 12px;
+      outline: none;
+      padding: 6px 8px;
+    }
   </style>
 </head>
 <body>
@@ -488,7 +501,6 @@
 
   <!-- ── 사이드바 ── -->
   <nav class="sidebar">
-    <div class="sidebar-section-label">시도</div>
     <button class="sidebar-btn on" data-filter="sido" data-val="">전체</button>
     <button class="sidebar-btn" data-filter="sido" data-val="서울">서울</button>
     <button class="sidebar-btn" data-filter="sido" data-val="경기">경기</button>
@@ -508,15 +520,21 @@
 
   <!-- ── 오른쪽 패널 ── -->
   <div class="right-panel">
-    <div class="search-wrap">
-      <input type="search" id="search-input" placeholder="학교명, 과목 검색..." autocomplete="off">
+    <div class="search-wrap" style="display:flex;gap:8px;align-items:center;">
+      <input type="search" id="search-input" placeholder="학교명, 과목 검색..." autocomplete="off" style="flex:1;">
+      <select id="sort-select" class="sort-select">
+        <option value="dday">마감임박순</option>
+        <option value="deadline-desc">마감여유순</option>
+        <option value="recent">최근등록순</option>
+        <option value="school">학교명순</option>
+      </select>
     </div>
     <div class="level-bar">
       <button class="level-chip on" data-filter="level" data-val="">전체</button>
       <button class="level-chip" data-filter="level" data-val="초등">초등</button>
       <button class="level-chip" data-filter="level" data-val="중등">중등</button>
       <button class="level-chip" data-filter="level" data-val="고등">고등</button>
-      <button class="level-chip" data-filter="level" data-val="유치">유치</button>
+      <button class="level-chip" data-filter="level" data-val="유치">유치원</button>
       <button class="level-chip" data-filter="level" data-val="특수">특수</button>
     </div>
     <div class="status-bar">
@@ -566,7 +584,7 @@
         <button class="chip" data-pref="level" data-val="초등">초등</button>
         <button class="chip" data-pref="level" data-val="중등">중등</button>
         <button class="chip" data-pref="level" data-val="고등">고등</button>
-        <button class="chip" data-pref="level" data-val="유치">유치</button>
+        <button class="chip" data-pref="level" data-val="유치">유치원</button>
         <button class="chip" data-pref="level" data-val="특수">특수</button>
       </div>
     </div>
@@ -589,9 +607,11 @@ let allJobs = [];
 let currentTab = 'all';
 let filter = { sido: '', level: '' };
 let searchQ = '';
+let sortBy = 'dday';
 let bookmarks = new Set(JSON.parse(localStorage.getItem('bookmarks') || '[]'));
 let seenIds = new Set(JSON.parse(localStorage.getItem('seenIds') || '[]'));
-const prefs = JSON.parse(localStorage.getItem('prefs') || '{"sidos":[],"levels":[],"subjects":[]}');
+
+const LEVEL_LABEL = { '유치': '유치원' };
 
 // ── Service Worker ─────────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
@@ -618,8 +638,11 @@ async function loadJobs() {
 
     if (data.updated_at) {
       const d = new Date(data.updated_at);
-      document.getElementById('updated-at').textContent =
-        d.toLocaleString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      const mm = d.getMonth() + 1;
+      const dd = d.getDate();
+      const hh = String(d.getHours()).padStart(2, '0');
+      const mi = String(d.getMinutes()).padStart(2, '0');
+      document.getElementById('updated-at').textContent = `${mm}.${dd}. ${hh}:${mi} 기준`;
     }
 
     allJobs.forEach(j => seenIds.add(j.id));
@@ -659,10 +682,10 @@ function cardClass(d) {
   return '';
 }
 
-// ── Filter ─────────────────────────────────────────────────────────────────────
+// ── Filter + Sort ──────────────────────────────────────────────────────────────
 function filteredJobs() {
   const q = searchQ.toLowerCase();
-  return allJobs.filter(j => {
+  const filtered = allJobs.filter(j => {
     if (currentTab === 'bookmarks' && !bookmarks.has(j.id)) return false;
     if (filter.sido && j.sido !== filter.sido) return false;
     if (filter.level && j.level !== filter.level) return false;
@@ -670,6 +693,14 @@ function filteredJobs() {
         !(j.school||'').toLowerCase().includes(q) &&
         !j.sido.includes(q)) return false;
     return true;
+  });
+
+  return filtered.sort((a, b) => {
+    if (sortBy === 'dday')         return (a.deadline||'9').localeCompare(b.deadline||'9');
+    if (sortBy === 'deadline-desc') return (b.deadline||'').localeCompare(a.deadline||'');
+    if (sortBy === 'recent')       return (b.crawled_at||'').localeCompare(a.crawled_at||'');
+    if (sortBy === 'school')       return (a.school||'').localeCompare(b.school||'');
+    return 0;
   });
 }
 
@@ -713,7 +744,7 @@ function render() {
       </div>
       <div class="card-meta">
         <span class="badge badge-sido">${escHtml(job.sido)}</span>
-        ${job.level ? `<span class="badge badge-level">${escHtml(job.level)}</span>` : ''}
+        ${job.level ? `<span class="badge badge-level">${escHtml(LEVEL_LABEL[job.level] || job.level)}</span>` : ''}
         ${job.subject ? `<span class="badge badge-subject">${escHtml(job.subject)}</span>` : ''}
         ${dl ? `<span class="dday ${ddayClass(d)}">${dl}</span>` : ''}
       </div>
@@ -796,23 +827,30 @@ document.getElementById('search-input').addEventListener('input', e => {
   render();
 });
 
+// ── Sort ───────────────────────────────────────────────────────────────────────
+document.getElementById('sort-select').addEventListener('change', e => {
+  sortBy = e.target.value;
+  render();
+});
+
 // ── Notification modal ─────────────────────────────────────────────────────────
 const modal = document.getElementById('notif-modal');
 const notifToggle = document.getElementById('notif-toggle');
 
 function openNotifModal() {
   modal.classList.add('open');
+  const p = JSON.parse(localStorage.getItem('prefs') || '{"sidos":[],"levels":[],"subjects":[]}');
   notifToggle.checked = localStorage.getItem('notifEnabled') === 'true';
 
   document.querySelectorAll('#pref-sidos .chip').forEach(c => {
-    const saved = prefs.sidos || [];
+    const saved = p.sidos || [];
     c.classList.toggle('on', saved.length === 0 ? c.dataset.val === '' : saved.includes(c.dataset.val));
   });
   document.querySelectorAll('#pref-levels .chip').forEach(c => {
-    const saved = prefs.levels || [];
+    const saved = p.levels || [];
     c.classList.toggle('on', saved.length === 0 ? c.dataset.val === '' : saved.includes(c.dataset.val));
   });
-  document.getElementById('pref-subjects').value = (prefs.subjects || []).join(', ');
+  document.getElementById('pref-subjects').value = (p.subjects || []).join(', ');
 }
 
 modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('open'); });
