@@ -1,5 +1,5 @@
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired } = require('./utils');
+const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = require('./utils');
 
 const BASE_URL = 'https://www.gne.go.kr';
 const LIST_URL = `${BASE_URL}/works/user/recruitment/BD_recruitmentList.do`;
@@ -88,13 +88,5 @@ async function crawlGyeongnam() {
   return jobs;
 }
 
-function extractLevel(title) {
-  if (title.includes('초등') || title.includes('초교')) return '초등';
-  if (title.includes('중학') || title.includes('중교')) return '중등';
-  if (title.includes('고등') || title.includes('고교')) return '고등';
-  if (title.includes('유치')) return '유치';
-  if (title.includes('특수')) return '특수';
-  return '';
-}
 
 module.exports = crawlGyeongnam;

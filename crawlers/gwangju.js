@@ -1,18 +1,9 @@
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired } = require('./utils');
+const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = require('./utils');
 
 const BASE_URL = 'https://www.gen.go.kr';
 // sCat=11: 기간제교사구인(유·초등), sCat=12: 특수학교강사구인
 const LIST_URL = `${BASE_URL}/xboard/board.php`;
-
-function extractLevel(title) {
-  if (title.includes('초등') || title.includes('초교')) return '초등';
-  if (title.includes('중학') || title.includes('중교')) return '중등';
-  if (title.includes('고등') || title.includes('고교')) return '고등';
-  if (title.includes('유치')) return '유치';
-  if (title.includes('특수')) return '특수';
-  return '';
-}
 
 async function crawlGwangju() {
   const jobs = [];
