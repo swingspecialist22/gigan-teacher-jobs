@@ -36,10 +36,12 @@ async function crawlNttBbs(config) {
     if (rows.length === 0) break;
 
     let hasNew = false;
+    let hasRows = false;
     rows.each((_, row) => {
       const titleEl = $(row).find('a.nttInfoBtn');
       const dataId = titleEl.attr('data-id');
       if (!dataId) return;
+      hasRows = true;
 
       titleEl.find('img, span').remove();
       const title = titleEl.text().replace(/\s+/g, ' ').trim();
@@ -109,10 +111,7 @@ async function crawlNttBbs(config) {
       });
     });
 
-    if (!hasNew) break;
-
-    const nextPage = $(`a[href*="currPage=${page + 1}"]`);
-    if (nextPage.length === 0) break;
+    if (!hasRows || !hasNew) break;
     page++;
   }
 
