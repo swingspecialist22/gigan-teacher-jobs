@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-25T13:46:36.968Z",
-  "total": 107,
+  "updated_at": "2026-04-25T14:25:23.488Z",
+  "total": 373,
   "jobs": [
     {
       "id": "gyeongnam_1808624",
@@ -13,7 +13,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808624",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.749Z"
+      "crawled_at": "2026-04-25T14:24:28.323Z"
     },
     {
       "id": "gyeongnam_1808590",
@@ -26,7 +26,79 @@
       "region": "거제",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808590",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.783Z"
+      "crawled_at": "2026-04-25T14:24:29.168Z"
+    },
+    {
+      "id": "gbe_kr_1603639",
+      "sido": "경북",
+      "school": "운곡초",
+      "subject": "기간제교원, 전일제강사",
+      "level": "초등",
+      "title": "김천 운곡초등학교 계약제교원(기간제교원, 전일제강사) 채용 공고",
+      "deadline": "2026-04-25",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603639",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1603194",
+      "sido": "경북",
+      "school": "문충초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 문충초등학교 계약제교원[기간제 교사 1명] 채용 공고-1차",
+      "deadline": "2026-04-25",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603194",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
+    },
+    {
+      "id": "gbe_kr_1602937",
+      "sido": "경북",
+      "school": "방기용",
+      "subject": "4학년 담임",
+      "level": "초등",
+      "title": "구미봉곡초 계약제교원(4학년 담임) 채용 공고(1차)",
+      "deadline": "2026-04-25",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602937",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:44.303Z"
+    },
+    {
+      "id": "gbe_kr_1602936",
+      "sido": "경북",
+      "school": "방기용",
+      "subject": "4학년 담임",
+      "level": "초등",
+      "title": "구미봉곡초 계약제교원(4학년 담임) 채용 공고(1차)",
+      "deadline": "2026-04-25",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602936",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:44.303Z"
+    },
+    {
+      "id": "gbe_kr_1602753",
+      "sido": "경북",
+      "school": "기계초등학교",
+      "subject": "전일제강사, 교과전담",
+      "level": "초등",
+      "title": "[기계초]2026학년도 계약제교원(전일제강사, 교과전담) 채용공고(1차)",
+      "deadline": "2026-04-25",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602753",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:44.304Z"
+    },
+    {
+      "id": "sje_go.kr_3067009",
+      "sido": "세종",
+      "school": "글벗초",
+      "subject": "기간제",
+      "level": "",
+      "title": "2026학년도 계약제(기간제)교원 채용 공고(6학년 과학 전담)",
+      "deadline": "2026-04-25",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067009",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
     },
     {
       "id": "gyeongnam_1808623",
@@ -39,7 +111,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808623",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.750Z"
+      "crawled_at": "2026-04-25T14:24:28.323Z"
     },
     {
       "id": "gyeongnam_1808612",
@@ -52,7 +124,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808612",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.752Z"
+      "crawled_at": "2026-04-25T14:24:28.325Z"
     },
     {
       "id": "seoul_98853",
@@ -64,7 +136,7 @@
       "deadline": "2026-04-26",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=98853",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.398Z"
+      "crawled_at": "2026-04-25T14:24:28.876Z"
     },
     {
       "id": "daejeon_3352550",
@@ -76,7 +148,115 @@
       "deadline": "2026-04-26",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352550&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:32.354Z"
+      "crawled_at": "2026-04-25T14:24:39.096Z"
+    },
+    {
+      "id": "gbe_kr_1603973",
+      "sido": "경북",
+      "school": "호서남초등학교",
+      "subject": "전일제강사-전문상담교사",
+      "level": "초등",
+      "title": "2026학년도 호서남초등학교 계약제교원(전일제강사-전문상담교사)채용 공고",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603973",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603840",
+      "sido": "경북",
+      "school": "장성초등학교",
+      "subject": "시간강사",
+      "level": "초등",
+      "title": "2026학년도 장성초등학교 특수교육지원강사(시간강사) 채용 공고",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603840",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603805",
+      "sido": "경북",
+      "school": "성동초등학교",
+      "subject": "2차",
+      "level": "초등",
+      "title": "성동초등학교 계약제 교원 채용 공고(2차)",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603805",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.500Z"
+    },
+    {
+      "id": "gbe_kr_1603200",
+      "sido": "경북",
+      "school": "임고초등학교",
+      "subject": "전일제강사_보건교사",
+      "level": "초등",
+      "title": "임고초등학교 계약제교원(전일제강사_보건교사) 채용 공고(1차)",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603200",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
+    },
+    {
+      "id": "gbe_kr_1603160",
+      "sido": "경북",
+      "school": "구미교육지원청 학교지원센터",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "[구미교육지원청 학교지원센터]비산초등학교 계약제교원(전일제강사) 채용 공고(1차)",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603160",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
+    },
+    {
+      "id": "gbe_kr_1603141",
+      "sido": "경북",
+      "school": "왜관초등학교",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "2026학년도 왜관초등학교 계약제교원(전일제강사) 채용 공고(1차)",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603141",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
+    },
+    {
+      "id": "gbe_kr_1602965",
+      "sido": "경북",
+      "school": "신흥중학교",
+      "subject": "기간제 강사",
+      "level": "중등",
+      "title": "2026학년도 계약제 교원(기간제 강사) 임용 공고 (진로, 수학)",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602965",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
+    },
+    {
+      "id": "gbe_kr_1602566",
+      "sido": "경북",
+      "school": "영주여자고등학교",
+      "subject": "전문상담, 1차 공고",
+      "level": "중등",
+      "title": "2026학년도 영주여자고등학교 기간제교사 채용 공고(전문상담, 1차 공고)",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602566",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:45.234Z"
+    },
+    {
+      "id": "gbe_kr_1602228",
+      "sido": "경북",
+      "school": "구미교육지원청 학교지원센터",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "[구미교육지원청 학교지원센터]광평초등학교 계약제교원(전일제강사) 채용 공고(2차)",
+      "deadline": "2026-04-26",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602228",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:46.184Z"
     },
     {
       "id": "sje_go.kr_3067052",
@@ -88,7 +268,7 @@
       "deadline": "2026-04-26",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067052",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.213Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
     },
     {
       "id": "jeonbuk_1_4",
@@ -100,7 +280,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040435",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "jeonbuk_1_9",
@@ -112,7 +292,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040396",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "gyeongnam_1808678",
@@ -125,7 +305,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808678",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.720Z"
+      "crawled_at": "2026-04-25T14:24:27.473Z"
     },
     {
       "id": "gyeongnam_1808631",
@@ -138,7 +318,7 @@
       "region": "통영",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808631",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.748Z"
+      "crawled_at": "2026-04-25T14:24:28.322Z"
     },
     {
       "id": "gyeongnam_1808621",
@@ -151,7 +331,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808621",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.751Z"
+      "crawled_at": "2026-04-25T14:24:28.323Z"
     },
     {
       "id": "gyeongnam_1808584",
@@ -164,7 +344,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808584",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.784Z"
+      "crawled_at": "2026-04-25T14:24:29.169Z"
     },
     {
       "id": "gyeongnam_1808572",
@@ -177,7 +357,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808572",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.785Z"
+      "crawled_at": "2026-04-25T14:24:29.170Z"
     },
     {
       "id": "gyeongnam_1808564",
@@ -190,7 +370,7 @@
       "region": "거제",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808564",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:28.854Z"
+      "crawled_at": "2026-04-25T14:24:30.130Z"
     },
     {
       "id": "seoul_99215",
@@ -202,7 +382,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99215",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.397Z"
+      "crawled_at": "2026-04-25T14:24:28.875Z"
     },
     {
       "id": "seoul_99208",
@@ -214,7 +394,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99208",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.398Z"
+      "crawled_at": "2026-04-25T14:24:28.875Z"
     },
     {
       "id": "seoul_99214",
@@ -226,7 +406,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99214",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.399Z"
+      "crawled_at": "2026-04-25T14:24:28.876Z"
     },
     {
       "id": "seoul_99029",
@@ -238,7 +418,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99029",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.399Z"
+      "crawled_at": "2026-04-25T14:24:28.877Z"
     },
     {
       "id": "seoul_99212",
@@ -250,7 +430,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99212",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.400Z"
+      "crawled_at": "2026-04-25T14:24:28.877Z"
     },
     {
       "id": "seoul_99203",
@@ -262,7 +442,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99203",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.400Z"
+      "crawled_at": "2026-04-25T14:24:28.878Z"
     },
     {
       "id": "seoul_99201",
@@ -274,7 +454,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99201",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.401Z"
+      "crawled_at": "2026-04-25T14:24:28.878Z"
     },
     {
       "id": "seoul_99198",
@@ -286,7 +466,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99198",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.401Z"
+      "crawled_at": "2026-04-25T14:24:28.878Z"
     },
     {
       "id": "seoul_99199",
@@ -298,7 +478,7 @@
       "deadline": "2026-04-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99199",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.401Z"
+      "crawled_at": "2026-04-25T14:24:28.878Z"
     },
     {
       "id": "gyeonggi_43926",
@@ -310,7 +490,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43926",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.129Z"
+      "crawled_at": "2026-04-25T14:24:37.782Z"
     },
     {
       "id": "gyeonggi_43917",
@@ -322,7 +502,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43917",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.129Z"
+      "crawled_at": "2026-04-25T14:24:37.782Z"
     },
     {
       "id": "gyeonggi_43909",
@@ -334,7 +514,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43909",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.129Z"
+      "crawled_at": "2026-04-25T14:24:37.782Z"
     },
     {
       "id": "gyeonggi_43882",
@@ -346,7 +526,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43882",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.130Z"
+      "crawled_at": "2026-04-25T14:24:37.783Z"
     },
     {
       "id": "daejeon_3352620",
@@ -358,7 +538,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352620&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.424Z"
+      "crawled_at": "2026-04-25T14:24:38.216Z"
     },
     {
       "id": "daejeon_3352588",
@@ -370,7 +550,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352588&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:32.353Z"
+      "crawled_at": "2026-04-25T14:24:39.096Z"
     },
     {
       "id": "daejeon_3352553",
@@ -382,7 +562,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352553&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:32.354Z"
+      "crawled_at": "2026-04-25T14:24:39.096Z"
     },
     {
       "id": "daejeon_3352510",
@@ -394,7 +574,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352510&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.289Z"
+      "crawled_at": "2026-04-25T14:24:39.957Z"
     },
     {
       "id": "daejeon_3352508",
@@ -406,7 +586,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352508&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.289Z"
+      "crawled_at": "2026-04-25T14:24:39.957Z"
     },
     {
       "id": "daejeon_3352422",
@@ -418,7 +598,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352422&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.289Z"
+      "crawled_at": "2026-04-25T14:24:39.957Z"
     },
     {
       "id": "daejeon_3352409",
@@ -430,7 +610,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352409&lev=0&searchType=null&statusYN=W&page=3&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.289Z"
+      "crawled_at": "2026-04-25T14:24:39.957Z"
     },
     {
       "id": "daejeon_3352397",
@@ -442,7 +622,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352397&lev=0&searchType=null&statusYN=W&page=4&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:34.211Z"
+      "crawled_at": "2026-04-25T14:24:40.849Z"
     },
     {
       "id": "daejeon_3352396",
@@ -454,7 +634,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352396&lev=0&searchType=null&statusYN=W&page=4&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:34.211Z"
+      "crawled_at": "2026-04-25T14:24:40.850Z"
     },
     {
       "id": "daejeon_3352326",
@@ -466,7 +646,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352326&lev=0&searchType=null&statusYN=W&page=5&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:35.140Z"
+      "crawled_at": "2026-04-25T14:24:41.697Z"
     },
     {
       "id": "daejeon_3352307",
@@ -478,7 +658,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352307&lev=0&searchType=null&statusYN=W&page=5&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:35.140Z"
+      "crawled_at": "2026-04-25T14:24:41.697Z"
     },
     {
       "id": "daejeon_3352205",
@@ -490,7 +670,283 @@
       "deadline": "2026-04-27",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352205&lev=0&searchType=null&statusYN=W&page=6&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:36.039Z"
+      "crawled_at": "2026-04-25T14:24:42.557Z"
+    },
+    {
+      "id": "ice_go.kr_3369189",
+      "sido": "인천",
+      "school": "인천동춘초등학교",
+      "subject": "유급자원봉사자",
+      "level": "",
+      "title": "이음기동대(유급자원봉사자) 위촉 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369189",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3368757",
+      "sido": "인천",
+      "school": "인천서희학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 인천서희학교 자유학기제 강사 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368757",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.043Z"
+    },
+    {
+      "id": "ice_go.kr_3368676",
+      "sido": "인천",
+      "school": "인천동암초등학교",
+      "subject": "2차",
+      "level": "",
+      "title": "2026 인천동암초 AI·디지털 리터러시 교육 강사 채용 공고(2차)",
+      "deadline": "2026-04-27",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368676",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.479Z"
+    },
+    {
+      "id": "gbe_kr_1604388",
+      "sido": "경북",
+      "school": "경산유치원",
+      "subject": "기간제교사",
+      "level": "유치원",
+      "title": "경산유치원 기간제교원(기간제교사) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604388",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604359",
+      "sido": "경북",
+      "school": "계림중학교",
+      "subject": "기간제 교사",
+      "level": "중등",
+      "title": "[경주 계림중학교] 2026학년도 계약제교원(기간제 교사) 채용 공고 2차 - 지구과학(유사과목 포함)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604359",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604351",
+      "sido": "경북",
+      "school": "와촌초등학교",
+      "subject": "전일제 강사",
+      "level": "초등",
+      "title": "와촌초등학교 계약제교원(전일제 강사) 채용 공고(2차)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604351",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604343",
+      "sido": "경북",
+      "school": "청도초등학교",
+      "subject": "전일제강사-과학전담",
+      "level": "초등",
+      "title": "청도초등학교 계약제교원(전일제강사-과학전담) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604343",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604304",
+      "sido": "경북",
+      "school": "원남초등학교",
+      "subject": "기간제교원",
+      "level": "초등",
+      "title": "원남초등학교 계약제교원(기간제교원) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604304",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604256",
+      "sido": "경북",
+      "school": "자천초등학교",
+      "subject": "기간제 전담 교원",
+      "level": "초등",
+      "title": "자천초등학교 계약직교원(기간제 전담 교원) 채용 공고(영천시)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604256",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1604119",
+      "sido": "경북",
+      "school": "경상북도영양교육지원청",
+      "subject": "영양",
+      "level": "초등",
+      "title": "2026학년도 영양초등학교 계약제교원(영양) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604119",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1604050",
+      "sido": "경북",
+      "school": "율빛유치원",
+      "subject": "시간강사",
+      "level": "유치원",
+      "title": "율빛유치원 특수학급 특수교육지원강사(시간강사) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604050",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603994",
+      "sido": "경북",
+      "school": "의성교육지원청 학교지원센터",
+      "subject": "가정",
+      "level": "중등",
+      "title": "2026학년도 경북중부중학교 전일제 강사(가정) 채용 공고(2차)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603994",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603950",
+      "sido": "경북",
+      "school": "예천교육지원청 학교지원센터",
+      "subject": "특수",
+      "level": "초등",
+      "title": "2026학년도 예천동부초등학교 계약제교원(특수) 채용 공고(3차)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603950",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603936",
+      "sido": "경북",
+      "school": "신흥중학교",
+      "subject": "",
+      "level": "중등",
+      "title": "신흥중학교 특수교육 시간강사 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603936",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603910",
+      "sido": "경북",
+      "school": "압량중학교",
+      "subject": "기간제교원",
+      "level": "중등",
+      "title": "2026학년도 압량중학교 계약제교원(기간제교원) 채용 공고(영양)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603910",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603849",
+      "sido": "경북",
+      "school": "운남중학교",
+      "subject": "전일제강사",
+      "level": "중등",
+      "title": "운남중학교 계약제교원(전일제강사) 채용 공고(체육)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603849",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603731",
+      "sido": "경북",
+      "school": "경주여자고등학교",
+      "subject": "영양",
+      "level": "초·중등",
+      "title": "경주여자고등학교 계약제교원 채용 공고(영양)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603731",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.500Z"
+    },
+    {
+      "id": "gbe_kr_1603643",
+      "sido": "경북",
+      "school": "영천중앙초등학교",
+      "subject": "전일제 강사",
+      "level": "초등",
+      "title": "2026학년도 영천중앙초등학교 계약제교원(전일제 강사) 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603643",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1603630",
+      "sido": "경북",
+      "school": "성주교육지원청학교지원센터",
+      "subject": "강사",
+      "level": "초등",
+      "title": "2026학년도 수륜초등학교 계약제교원(강사) 채용 공고(3차)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603630",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1603567",
+      "sido": "경북",
+      "school": "벽진중학교",
+      "subject": "전일제강사",
+      "level": "중등",
+      "title": "[벽진중학교]계약제교원(전일제강사)(수학, 5. 18.~ 5. 21.(4일)) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603567",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1603430",
+      "sido": "경북",
+      "school": "화천초등학교",
+      "subject": "1차",
+      "level": "초등",
+      "title": "[화천초] 전일제 강사 채용 공고(1차)",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603430",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
+    },
+    {
+      "id": "gbe_kr_1602931",
+      "sido": "경북",
+      "school": "옥계초등학교",
+      "subject": "전일제 강사",
+      "level": "초등",
+      "title": "옥계초등학교 계약제교원(전일제 강사) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602931",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:44.304Z"
+    },
+    {
+      "id": "gbe_kr_1602461",
+      "sido": "경북",
+      "school": "새벗유치원",
+      "subject": "기간제교사",
+      "level": "유치원",
+      "title": "2026년 게약제교원(기간제교사)채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602461",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:45.234Z"
     },
     {
       "id": "sje_go.kr_3067080",
@@ -502,7 +958,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067080",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.212Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
     },
     {
       "id": "sje_go.kr_3067079",
@@ -514,7 +970,7 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067079",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.212Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
     },
     {
       "id": "sje_go.kr_3067072",
@@ -526,7 +982,115 @@
       "deadline": "2026-04-27",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067072",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.213Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
+    },
+    {
+      "id": "sje_go.kr_3067033",
+      "sido": "세종",
+      "school": "아름초등학교",
+      "subject": "영어전담",
+      "level": "초등",
+      "title": "아름초등학교 기간제교사(영어전담) 채용 공고(3,6학년 영어교과전담)",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067033",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.655Z"
+    },
+    {
+      "id": "sje_go.kr_3067014",
+      "sido": "세종",
+      "school": "세종이음학교",
+      "subject": "관련",
+      "level": "",
+      "title": "2026학년도 제3차 교원 업무부담 경감 학교자율장학 담당(관련) 교사 시간 강사 채용",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067014",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
+    },
+    {
+      "id": "sje_go.kr_3067007",
+      "sido": "세종",
+      "school": "새뜸유치원",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 1학기 특성화 프로그램 외부강사 위탁 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067007",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
+    },
+    {
+      "id": "sje_go.kr_3067005",
+      "sido": "세종",
+      "school": "세종캠퍼스고등학교",
+      "subject": "국어",
+      "level": "",
+      "title": "2026학년도 기간제교원(국어) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067005",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
+    },
+    {
+      "id": "sje_go.kr_3066991",
+      "sido": "세종",
+      "school": "연양초등학교",
+      "subject": "담임교사 및 교과전담",
+      "level": "초등",
+      "title": "2026학년도 연양초등학교 학교자율장학지원 시간강사(담임교사 및 교과전담) 채용 계획",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066991",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
+    },
+    {
+      "id": "sje_go.kr_3066990",
+      "sido": "세종",
+      "school": "연양초등학교",
+      "subject": "영어",
+      "level": "초등",
+      "title": "2026학년도 연양초등학교 학교자율장학지원 시간강사(영어) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066990",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.596Z"
+    },
+    {
+      "id": "sje_go.kr_3066978",
+      "sido": "세종",
+      "school": "다정초등학교",
+      "subject": "5학년 담임",
+      "level": "",
+      "title": "계약제교원(5학년 담임) 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066978",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.596Z"
+    },
+    {
+      "id": "sje_go.kr_3066974",
+      "sido": "세종",
+      "school": "양지초등학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 학교폭력 업무 경감 시간강사 채용 계획",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066974",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.596Z"
+    },
+    {
+      "id": "sje_go.kr_3066917",
+      "sido": "세종",
+      "school": "새뜸초등학교",
+      "subject": "무용 부분",
+      "level": "",
+      "title": "5학년 체육(무용 부분) 협력시간제 강사 채용 공고",
+      "deadline": "2026-04-27",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066917",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.596Z"
     },
     {
       "id": "busan_1169556",
@@ -538,7 +1102,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169556",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.212Z"
+      "crawled_at": "2026-04-25T14:24:26.906Z"
     },
     {
       "id": "jeonbuk_1_2",
@@ -550,7 +1114,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040442",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "gyeongnam_1808561",
@@ -563,7 +1127,7 @@
       "region": "통영",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808561",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:28.854Z"
+      "crawled_at": "2026-04-25T14:24:30.131Z"
     },
     {
       "id": "gangwon_51340",
@@ -575,7 +1139,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.gwe.go.kr/main/bbs/view.do?key=bTIzMDcyMTA1ODU2MzM%3D&sn=51340",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.316Z"
+      "crawled_at": "2026-04-25T14:24:32.874Z"
     },
     {
       "id": "seoul_99209",
@@ -587,7 +1151,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99209",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.398Z"
+      "crawled_at": "2026-04-25T14:24:28.875Z"
     },
     {
       "id": "seoul_99127",
@@ -599,7 +1163,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99127",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.398Z"
+      "crawled_at": "2026-04-25T14:24:28.875Z"
     },
     {
       "id": "seoul_99206",
@@ -611,7 +1175,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99206",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.399Z"
+      "crawled_at": "2026-04-25T14:24:28.876Z"
     },
     {
       "id": "seoul_99204",
@@ -623,7 +1187,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99204",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.400Z"
+      "crawled_at": "2026-04-25T14:24:28.877Z"
     },
     {
       "id": "seoul_99191",
@@ -635,7 +1199,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99191",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.401Z"
+      "crawled_at": "2026-04-25T14:24:28.878Z"
     },
     {
       "id": "seoul_99197",
@@ -647,7 +1211,7 @@
       "deadline": "2026-04-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99197",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.401Z"
+      "crawled_at": "2026-04-25T14:24:28.878Z"
     },
     {
       "id": "gyeonggi_43919",
@@ -659,7 +1223,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43919",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.129Z"
+      "crawled_at": "2026-04-25T14:24:37.782Z"
     },
     {
       "id": "gyeonggi_43898",
@@ -671,7 +1235,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43898",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.130Z"
+      "crawled_at": "2026-04-25T14:24:37.783Z"
     },
     {
       "id": "gyeonggi_43896",
@@ -683,7 +1247,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43896",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.130Z"
+      "crawled_at": "2026-04-25T14:24:37.783Z"
     },
     {
       "id": "daejeon_3352613",
@@ -695,7 +1259,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352613&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.424Z"
+      "crawled_at": "2026-04-25T14:24:38.216Z"
     },
     {
       "id": "daejeon_3352610",
@@ -707,7 +1271,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352610&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.424Z"
+      "crawled_at": "2026-04-25T14:24:38.216Z"
     },
     {
       "id": "daejeon_3352546",
@@ -719,7 +1283,211 @@
       "deadline": "2026-04-28",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352546&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:32.354Z"
+      "crawled_at": "2026-04-25T14:24:39.096Z"
+    },
+    {
+      "id": "ice_go.kr_3369166",
+      "sido": "인천",
+      "school": "인천하정초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "인천하정초등학교 특수교육대상학생 보조인력(자원봉사자) 모집 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369166",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3369105",
+      "sido": "인천",
+      "school": "용현여자중학교",
+      "subject": "특수",
+      "level": "중등",
+      "title": "용현여자중학교 특수학급 전일제 협력강사(특수) 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369105",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3368917",
+      "sido": "인천",
+      "school": "선화여자중학교",
+      "subject": "",
+      "level": "",
+      "title": "2026 선화여중 디지털 튜터 강사 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368917",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "gbe_kr_1604406",
+      "sido": "경북",
+      "school": "성동초등학교",
+      "subject": "전일제 강사",
+      "level": "초등",
+      "title": "성동초등학교 계약제교원(전일제 강사) 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604406",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604405",
+      "sido": "경북",
+      "school": "영순초등학교",
+      "subject": "기간제교사",
+      "level": "초등",
+      "title": "영순초등학교 계약제교원(기간제교사) 채용 공고(2차)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604405",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604171",
+      "sido": "경북",
+      "school": "운남중학교",
+      "subject": "정보·컴퓨터",
+      "level": "중등",
+      "title": "운남중학교 계약제교원 채용 공고(정보·컴퓨터)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604171",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1604151",
+      "sido": "경북",
+      "school": "직지초등학교",
+      "subject": "교과전담1명 / 학급담임1명",
+      "level": "초등",
+      "title": "직지초등학교 전일제강사(교과전담1명 / 학급담임1명) 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604151",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1604150",
+      "sido": "경북",
+      "school": "직지초등학교",
+      "subject": "보건",
+      "level": "초등",
+      "title": "직지초등학교 전일제강사(보건) 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604150",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1604123",
+      "sido": "경북",
+      "school": "인의초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인의초등학교 특수교육지원강사 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604123",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1603798",
+      "sido": "경북",
+      "school": "풍각초등학교",
+      "subject": "교과전담",
+      "level": "초등",
+      "title": "청도 풍각초 전일제 강사 채용 2차 공고(교과전담)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603798",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.500Z"
+    },
+    {
+      "id": "gbe_kr_1603736",
+      "sido": "경북",
+      "school": "상모중학교",
+      "subject": "체육",
+      "level": "중등",
+      "title": "2025학년도 상모중학교 기간제교원(체육) 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603736",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.500Z"
+    },
+    {
+      "id": "gbe_kr_1603708",
+      "sido": "경북",
+      "school": "구미교육지원청 학교지원센터",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "[구미교육지원청 학교지원센터]선주초등학교 계약제교원(전일제강사) 채용 공고(2차)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603708",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.501Z"
+    },
+    {
+      "id": "gbe_kr_1603675",
+      "sido": "경북",
+      "school": "김천교육지원청 학교지원센터",
+      "subject": "국어",
+      "level": "중등",
+      "title": "[김천교육지원청 학교지원센터] 2026학년도 성의중학교 계약제교원(국어) 채용 공고(3차)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603675",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.501Z"
+    },
+    {
+      "id": "gbe_kr_1603542",
+      "sido": "경북",
+      "school": "구미고등학교",
+      "subject": "수학",
+      "level": "중등",
+      "title": "[구미고등학교] 계약제교원 채용 공고(수학)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603542",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1603536",
+      "sido": "경북",
+      "school": "경산초등학교",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "[경산초등학교]2026학년도 계약제교원(전일제강사) 채용공고(영양교사)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603536",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1603214",
+      "sido": "경북",
+      "school": "조재관",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "[기계초]2026학년도 계약제교원(전일제강사) 채용공고(1차)",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603214",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
+    },
+    {
+      "id": "gbe_kr_1603091",
+      "sido": "경북",
+      "school": "포항명도학교",
+      "subject": "전일제강사",
+      "level": "기타",
+      "title": "2026학년도 포항명도학교 계약제교원(전일제강사) 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603091",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:43.369Z"
     },
     {
       "id": "sje_go.kr_3067078",
@@ -731,7 +1499,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067078",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.212Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
     },
     {
       "id": "sje_go.kr_3067067",
@@ -743,7 +1511,7 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067067",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.213Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
     },
     {
       "id": "sje_go.kr_3067066",
@@ -755,7 +1523,43 @@
       "deadline": "2026-04-28",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067066",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.213Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
+    },
+    {
+      "id": "sje_go.kr_3066998",
+      "sido": "세종",
+      "school": "바른초등학교",
+      "subject": "초등 3학년 담임",
+      "level": "초등",
+      "title": "바른초등학교 전일제 강사(초등 3학년 담임) 채용",
+      "deadline": "2026-04-28",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066998",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
+    },
+    {
+      "id": "sje_go.kr_3066997",
+      "sido": "세종",
+      "school": "종촌중학교",
+      "subject": "영어",
+      "level": "중등",
+      "title": "2026학년도 종촌중학교 영어 기간제교사 채용 공고",
+      "deadline": "2026-04-28",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066997",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
+    },
+    {
+      "id": "sje_go.kr_3066992",
+      "sido": "세종",
+      "school": "장기초등학교",
+      "subject": "시간강사",
+      "level": "",
+      "title": "2026 계약제교원(시간강사) 채용 공고(2차)",
+      "deadline": "2026-04-28",
+      "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3066992",
+      "source": "sje.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.656Z"
     },
     {
       "id": "busan_1169518",
@@ -767,7 +1571,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169518",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.216Z"
+      "crawled_at": "2026-04-25T14:24:26.907Z"
     },
     {
       "id": "busan_1169517",
@@ -779,7 +1583,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169517",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.216Z"
+      "crawled_at": "2026-04-25T14:24:26.907Z"
     },
     {
       "id": "jeonbuk_1_1",
@@ -791,7 +1595,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040464",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.924Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "gyeongnam_1808646",
@@ -804,7 +1608,7 @@
       "region": "거창",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808646",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.722Z"
+      "crawled_at": "2026-04-25T14:24:27.475Z"
     },
     {
       "id": "gyeongnam_1808630",
@@ -817,7 +1621,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808630",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.749Z"
+      "crawled_at": "2026-04-25T14:24:28.322Z"
     },
     {
       "id": "gyeongnam_1808618",
@@ -830,7 +1634,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808618",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.751Z"
+      "crawled_at": "2026-04-25T14:24:28.324Z"
     },
     {
       "id": "gangwon_51398",
@@ -842,7 +1646,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.gwe.go.kr/main/bbs/view.do?key=bTIzMDcyMTA1ODU2MzM%3D&sn=51398",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.316Z"
+      "crawled_at": "2026-04-25T14:24:32.874Z"
     },
     {
       "id": "gyeonggi_43897",
@@ -854,7 +1658,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43897",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.130Z"
+      "crawled_at": "2026-04-25T14:24:37.783Z"
     },
     {
       "id": "daejeon_3352612",
@@ -866,7 +1670,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352612&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.424Z"
+      "crawled_at": "2026-04-25T14:24:38.216Z"
     },
     {
       "id": "daejeon_3352590",
@@ -878,7 +1682,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352590&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.424Z"
+      "crawled_at": "2026-04-25T14:24:38.216Z"
     },
     {
       "id": "daejeon_3352583",
@@ -890,7 +1694,127 @@
       "deadline": "2026-04-29",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352583&lev=0&searchType=null&statusYN=W&page=2&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:32.354Z"
+      "crawled_at": "2026-04-25T14:24:39.096Z"
+    },
+    {
+      "id": "ice_go.kr_3369348",
+      "sido": "인천",
+      "school": "인천서흥초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "2026 인천서흥초등학교 특수교육대상학생 보조인력(자원봉사자)모집 공고",
+      "deadline": "2026-04-29",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369348",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
+    },
+    {
+      "id": "ice_go.kr_3368857",
+      "sido": "인천",
+      "school": "인천서흥초등학교",
+      "subject": "수학",
+      "level": "초등",
+      "title": "2026학년도 인천서흥초등학교 전일제 특수학급 협력강사 채용 공고",
+      "deadline": "2026-04-29",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368857",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.047Z"
+    },
+    {
+      "id": "gbe_kr_1604251",
+      "sido": "경북",
+      "school": "포항흥해공업고등학교",
+      "subject": "국어",
+      "level": "중등",
+      "title": "2026학년도 포항흥해공업고등학교 전일제 강사 채용 2치 공고 (국어)",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604251",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1604177",
+      "sido": "경북",
+      "school": "북삼초등학교",
+      "subject": "1차",
+      "level": "초등",
+      "title": "2026학년도 북삼초 특수학급 특수교육지원강사 모집 공고(1차)",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604177",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1604107",
+      "sido": "경북",
+      "school": "원호초등학교",
+      "subject": "전일제 강사",
+      "level": "초등",
+      "title": "2026 원호초등학교 계약제 교원(전일제 강사) 1차 채용 공고",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604107",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1604070",
+      "sido": "경북",
+      "school": "동지여자중학교",
+      "subject": "수학",
+      "level": "중등",
+      "title": "2026학년도 동지여자중학교 전일제시간강사(수학) 채용 공고",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604070",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:40.550Z"
+    },
+    {
+      "id": "gbe_kr_1603717",
+      "sido": "경북",
+      "school": "양학초등학교",
+      "subject": "시간강사",
+      "level": "초등",
+      "title": "2026학년도 양학초등학교 특수교육지원강사(시간강사) 채용 공고",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603717",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.501Z"
+    },
+    {
+      "id": "gbe_kr_1603566",
+      "sido": "경북",
+      "school": "양학초등학교",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "[양학초] 계약제교원(전일제강사) 채용 공고",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603566",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1603544",
+      "sido": "경북",
+      "school": "모화초등학교",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "[모화초]2026학년도 계약제교원(전일제강사) 채용공고(1차)",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603544",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:42.443Z"
+    },
+    {
+      "id": "gbe_kr_1602945",
+      "sido": "경북",
+      "school": "남성초등학교",
+      "subject": "전일제강사",
+      "level": "초등",
+      "title": "남성초등학교 계약제교원(전일제강사) 채용 공고",
+      "deadline": "2026-04-29",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602945",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:44.303Z"
     },
     {
       "id": "sje_go.kr_3067075",
@@ -902,7 +1826,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067075",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.213Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
     },
     {
       "id": "sje_go.kr_3067073",
@@ -914,7 +1838,7 @@
       "deadline": "2026-04-29",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067073",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.213Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
     },
     {
       "id": "jeonbuk_1_5",
@@ -926,7 +1850,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040434",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "jeonbuk_1_7",
@@ -938,7 +1862,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040408",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "gyeongnam_1808616",
@@ -951,7 +1875,7 @@
       "region": "사천",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808616",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:26.752Z"
+      "crawled_at": "2026-04-25T14:24:28.324Z"
     },
     {
       "id": "gyeongnam_1808585",
@@ -964,7 +1888,7 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808585",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.784Z"
+      "crawled_at": "2026-04-25T14:24:29.169Z"
     },
     {
       "id": "seoul_99165",
@@ -976,7 +1900,7 @@
       "deadline": "2026-04-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99165",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.399Z"
+      "crawled_at": "2026-04-25T14:24:28.876Z"
     },
     {
       "id": "seoul_99202",
@@ -988,7 +1912,7 @@
       "deadline": "2026-04-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99202",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.400Z"
+      "crawled_at": "2026-04-25T14:24:28.878Z"
     },
     {
       "id": "gyeonggi_43905",
@@ -1000,7 +1924,7 @@
       "deadline": "2026-04-30",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43905",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.130Z"
+      "crawled_at": "2026-04-25T14:24:37.783Z"
     },
     {
       "id": "gyeonggi_43892",
@@ -1012,7 +1936,79 @@
       "deadline": "2026-04-30",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=43892",
       "source": "goe.go.kr",
-      "crawled_at": "2026-04-25T13:46:29.130Z"
+      "crawled_at": "2026-04-25T14:24:37.783Z"
+    },
+    {
+      "id": "ice_go.kr_3369264",
+      "sido": "인천",
+      "school": "인천아람초등학교",
+      "subject": "시간강사",
+      "level": "초등",
+      "title": "인천아람초등학교 계약제교원(시간강사) 채용",
+      "deadline": "2026-04-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369264",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.469Z"
+    },
+    {
+      "id": "gbe_kr_1604374",
+      "sido": "경북",
+      "school": "문경공업고등학교",
+      "subject": "건설",
+      "level": "중등",
+      "title": "문경공업고등학교 기간제교원 공고(건설)-3차",
+      "deadline": "2026-04-30",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604374",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604362",
+      "sido": "경북",
+      "school": "황남초등학교",
+      "subject": "수학",
+      "level": "초등",
+      "title": "2026년 황남초등학교 특수학급 특수교육수업지원강사 채용 공고",
+      "deadline": "2026-04-30",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604362",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604353",
+      "sido": "경북",
+      "school": "북삼고등학교",
+      "subject": "전일제강사",
+      "level": "중등",
+      "title": "북삼고등학교 기간제교원(전일제강사) 채용 공고(3차)",
+      "deadline": "2026-04-30",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604353",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:38.946Z"
+    },
+    {
+      "id": "gbe_kr_1604158",
+      "sido": "경북",
+      "school": "경구고등학교",
+      "subject": "수학1",
+      "level": "중등",
+      "title": "경구고등학교 전일제강사 채용 공고 (수학1)",
+      "deadline": "2026-04-30",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604158",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
+    },
+    {
+      "id": "gbe_kr_1603787",
+      "sido": "경북",
+      "school": "세화고등학교",
+      "subject": "교무실무사 병가 대체인력",
+      "level": "중등",
+      "title": "[공고] 2026학년도 세화고등학교 교육공무직원(교무실무사 병가 대체인력) 채용 공고",
+      "deadline": "2026-04-30",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603787",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.500Z"
     },
     {
       "id": "busan_1169502",
@@ -1024,7 +2020,7 @@
       "deadline": "2026-05-01",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169502",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.222Z"
+      "crawled_at": "2026-04-25T14:24:26.911Z"
     },
     {
       "id": "jeonbuk_1_3",
@@ -1036,7 +2032,43 @@
       "deadline": "2026-05-01",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040437",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
+    },
+    {
+      "id": "ice_go.kr_3369133",
+      "sido": "인천",
+      "school": "인천서화초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천서화초등학교 학생보호인력 배움터 지킴이 모집 공고",
+      "deadline": "2026-05-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369133",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3369053",
+      "sido": "인천",
+      "school": "인천포스코고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "인천포스코고등학교 조리실무사 채용공고",
+      "deadline": "2026-05-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369053",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.453Z"
+    },
+    {
+      "id": "ice_go.kr_3368704",
+      "sido": "인천",
+      "school": "인천포스코고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "인천포스코고등학교 조리실무사 채용공고",
+      "deadline": "2026-05-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368704",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.478Z"
     },
     {
       "id": "jeonbuk_1_6",
@@ -1048,7 +2080,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040410",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "jeonbuk_1_8",
@@ -1060,7 +2092,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040407",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.925Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "gangwon_51366",
@@ -1072,7 +2104,7 @@
       "deadline": "2026-05-04",
       "url": "https://www.gwe.go.kr/main/bbs/view.do?key=bTIzMDcyMTA1ODU2MzM%3D&sn=51366",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.316Z"
+      "crawled_at": "2026-04-25T14:24:32.874Z"
     },
     {
       "id": "daejeon_3352624",
@@ -1084,7 +2116,67 @@
       "deadline": "2026-05-04",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3352624&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.424Z"
+      "crawled_at": "2026-04-25T14:24:38.216Z"
+    },
+    {
+      "id": "ice_go.kr_3369298",
+      "sido": "인천",
+      "school": "산곡여자중학교",
+      "subject": "",
+      "level": "",
+      "title": "2026 모두다 문화예술교육 지원사업 외부강사 위촉 공고",
+      "deadline": "2026-05-04",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369298",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3369151",
+      "sido": "인천",
+      "school": "인천청선학교",
+      "subject": "5차",
+      "level": "초등",
+      "title": "2026 초등특수교사 보결전담순회강사 채용 공고(5차) / 자격확대: 유,초,중등 특수교사 및 유,초,중등 일반교사 모두 가능",
+      "deadline": "2026-05-04",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369151",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.972Z"
+    },
+    {
+      "id": "ice_go.kr_3369009",
+      "sido": "인천",
+      "school": "인천논곡초등학교",
+      "subject": "러시아어",
+      "level": "초등",
+      "title": "인천논곡초등학교 다문화 학습보조원(러시아어) 위촉 공고",
+      "deadline": "2026-05-04",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369009",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.199Z"
+    },
+    {
+      "id": "gbe_kr_1603723",
+      "sido": "경북",
+      "school": "영천중앙초등학교",
+      "subject": "전일제 강사",
+      "level": "초등",
+      "title": "2026학년도 영천중앙초등학교 계약제교원(전일제 강사) 2차 공고",
+      "deadline": "2026-05-04",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603723",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.500Z"
+    },
+    {
+      "id": "gbe_kr_1602185",
+      "sido": "경북",
+      "school": "점촌북초등학교",
+      "subject": "전일제 강사",
+      "level": "초등",
+      "title": "[문경_점촌북초] 2026학년도 기간제 교원(전일제 강사) 채용 공고",
+      "deadline": "2026-05-04",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602185",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:46.184Z"
     },
     {
       "id": "jeonbuk_1_0",
@@ -1096,7 +2188,7 @@
       "deadline": "2026-05-06",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1040466",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.924Z"
+      "crawled_at": "2026-04-25T14:24:58.301Z"
     },
     {
       "id": "gyeongnam_1808426",
@@ -1109,7 +2201,163 @@
       "region": "밀양",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1808426",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.022Z"
+      "crawled_at": "2026-04-25T14:24:31.194Z"
+    },
+    {
+      "id": "ice_go.kr_3369338",
+      "sido": "인천",
+      "school": "미추홀학교",
+      "subject": "2차",
+      "level": "특수",
+      "title": "2026학년도 미추홀학교 중등 특수교사 보결전담 순회강사 채용 공고(2차) / 자격확대",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369338",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
+    },
+    {
+      "id": "ice_go.kr_3369287",
+      "sido": "인천",
+      "school": "인천동방중학교",
+      "subject": "과학",
+      "level": "중등",
+      "title": "2026학년도 인천동방중학교 기간제교사(과학) 채용 공고",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369287",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3369203",
+      "sido": "인천",
+      "school": "계산여자고등학교",
+      "subject": "시설물청소원",
+      "level": "고등",
+      "title": "[긴급]계산여자고등학교 특수운영직군(시설물청소원) 채용 공고",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369203",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3369084",
+      "sido": "인천",
+      "school": "인천청천초등학교",
+      "subject": "추가",
+      "level": "",
+      "title": "2026 두드림학교 기초학력 강사 위촉 공고(추가)",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369084",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369007",
+      "sido": "인천",
+      "school": "신송고등학교",
+      "subject": "2차,긴급",
+      "level": "고등",
+      "title": "2026학년도 신송고등학교 급식배식원 채용공고(2차,긴급)",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369007",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.199Z"
+    },
+    {
+      "id": "ice_go.kr_3368906",
+      "sido": "인천",
+      "school": "인천동암초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천동암초등학교 협력강사 채용 공고",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368906",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3368796",
+      "sido": "인천",
+      "school": "인천용현초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천용현초등학교 두드림학교 강사 위촉 공고",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368796",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "ice_go.kr_3368761",
+      "sido": "인천",
+      "school": "인천구월초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천구월초등학교 두드림학교 강사 위촉 공고",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368761",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.043Z"
+    },
+    {
+      "id": "ice_go.kr_3368751",
+      "sido": "인천",
+      "school": "인천푸른빛유치원",
+      "subject": "",
+      "level": "유치",
+      "title": "2026 인천푸른빛유치원 기간제 조리실무사 채용 공고",
+      "deadline": "2026-05-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368751",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.043Z"
+    },
+    {
+      "id": "ice_go.kr_3369146",
+      "sido": "인천",
+      "school": "인천서림초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "인천서림초등학교 초등돌봄교실 특수교육대상학생 보조인력(자원봉사자) 모집 공고",
+      "deadline": "2026-05-07",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369146",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3368875",
+      "sido": "인천",
+      "school": "인천공항고등학교",
+      "subject": "신체재활",
+      "level": "고등",
+      "title": "2026학년도 인천공항고등학교 중도중복장애학생 재활복지서비스(신체재활) 강사 모집",
+      "deadline": "2026-05-07",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368875",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3368850",
+      "sido": "인천",
+      "school": "인천산곡남초등학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 온이음 교육복지우선지원사업 우쿨렐레 강사 모집",
+      "deadline": "2026-05-07",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368850",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.732Z"
+    },
+    {
+      "id": "ice_go.kr_3368789",
+      "sido": "인천",
+      "school": "인천인동초등학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 인동초 한글돋움교실 강사 채용 공고",
+      "deadline": "2026-05-07",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368789",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.042Z"
     },
     {
       "id": "seoul_99205",
@@ -1121,7 +2369,19 @@
       "deadline": "2026-05-08",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=99205",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.399Z"
+      "crawled_at": "2026-04-25T14:24:28.877Z"
+    },
+    {
+      "id": "gbe_kr_1604165",
+      "sido": "경북",
+      "school": "글로벌선진학교문경캠퍼스",
+      "subject": "법",
+      "level": "기타",
+      "title": "사단법인 글로벌선진교육, 글로벌선진학교 채용공고",
+      "deadline": "2026-05-08",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1604165",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:39.740Z"
     },
     {
       "id": "sje_go.kr_3067050",
@@ -1133,7 +2393,199 @@
       "deadline": "2026-05-08",
       "url": "https://www.sje.go.kr/sje/na/ntt/selectNttInfo.do?mi=52132&bbsId=108&nttSn=3067050",
       "source": "sje.go.kr",
-      "crawled_at": "2026-04-25T13:46:33.213Z"
+      "crawled_at": "2026-04-25T14:24:40.675Z"
+    },
+    {
+      "id": "gbe_kr_1602553",
+      "sido": "경북",
+      "school": "북삼초등학교",
+      "subject": "2차",
+      "level": "초등",
+      "title": "2026학년도 북삼초 전일제강사 채용 공고(2차)",
+      "deadline": "2026-05-09",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1602553",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:45.234Z"
+    },
+    {
+      "id": "ice_go.kr_3369303",
+      "sido": "인천",
+      "school": "인천연안초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "인천연안초등하교 협력강사 채용 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369303",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3369179",
+      "sido": "인천",
+      "school": "인천봉수초등학교",
+      "subject": "학력향상교실",
+      "level": "초등",
+      "title": "2026학년도 인천봉수초등학교 두드림학교(학력향상교실) 강사 위촉 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369179",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3369031",
+      "sido": "인천",
+      "school": "인천상정초등학교",
+      "subject": "기초학력향상교실",
+      "level": "초등",
+      "title": "2026학년도 상정초등학교 두드림학교(기초학력향상교실)강사 위촉 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369031",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.454Z"
+    },
+    {
+      "id": "ice_go.kr_3369014",
+      "sido": "인천",
+      "school": "인천하늘고등학교",
+      "subject": "생활지도",
+      "level": "",
+      "title": "2026학년도 인천하늘고 직원(생활지도) 채용 공고(변경공고)",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369014",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.454Z"
+    },
+    {
+      "id": "ice_go.kr_3368948",
+      "sido": "인천",
+      "school": "인천구월서초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "인천구월서초등학교학교 특수교육대상학생 보조인력(자원봉사자) 추가 모집 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368948",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368947",
+      "sido": "인천",
+      "school": "인천구월서초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "인천구월서초등학교학교 안전관리강화 보조인력(자원봉사자) 추가 모집 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368947",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368943",
+      "sido": "인천",
+      "school": "인천남부초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "인천남부초등학교 디지털 튜터 채용 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368943",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368921",
+      "sido": "인천",
+      "school": "인천옥련초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 옥련초등학교 다문화 통번역 학습보조원 채용 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368921",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368877",
+      "sido": "인천",
+      "school": "인천청학초등학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 기초학력보장 강사 위촉 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368877",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3368821",
+      "sido": "인천",
+      "school": "인천바이오과학고등학교",
+      "subject": "과학",
+      "level": "고등",
+      "title": "인천바이오과학고등학교 학교폭력 보안관 위촉 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368821",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "ice_go.kr_3368709",
+      "sido": "인천",
+      "school": "인천논현초등학교",
+      "subject": "드림트리 오케스트라",
+      "level": "",
+      "title": "2026 학교예술동아리(드림트리 오케스트라) 지도강사 모집 공고",
+      "deadline": "2026-05-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368709",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3369304",
+      "sido": "인천",
+      "school": "인천산곡고등학교",
+      "subject": "국어",
+      "level": "",
+      "title": "2026학년도 학교폭력책임교사 수업경감 지원강사(국어) 채용 공고",
+      "deadline": "2026-05-12",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369304",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3369239",
+      "sido": "인천",
+      "school": "인천용현초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천용현초등학교 기간제 초등돌봄전담사 채용 공고",
+      "deadline": "2026-05-12",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369239",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.469Z"
+    },
+    {
+      "id": "ice_go.kr_3368854",
+      "sido": "인천",
+      "school": "부원여자중학교",
+      "subject": "체육 시간강사",
+      "level": "",
+      "title": "2026학년도 계약제교원 (체육 시간강사) 채용 공고",
+      "deadline": "2026-05-14",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368854",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.732Z"
+    },
+    {
+      "id": "ice_go.kr_3368954",
+      "sido": "인천",
+      "school": "구월중학교",
+      "subject": "시간강사-도덕",
+      "level": "중등",
+      "title": "[긴급]2026학년도 구월중학교 계약제교원(시간강사-도덕) 채용 계획 공고",
+      "deadline": "2026-05-15",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368954",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
     },
     {
       "id": "busan_1169523",
@@ -1145,7 +2597,7 @@
       "deadline": "2026-05-17",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169523",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.215Z"
+      "crawled_at": "2026-04-25T14:24:26.907Z"
     },
     {
       "id": "busan_1169562",
@@ -1157,7 +2609,7 @@
       "deadline": "2026-05-18",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1169562",
       "source": "pen.go.kr",
-      "crawled_at": "2026-04-25T13:46:25.210Z"
+      "crawled_at": "2026-04-25T14:24:26.905Z"
     },
     {
       "id": "ice_go.kr_3369410",
@@ -1169,7 +2621,139 @@
       "deadline": "2026-05-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369410",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.690Z"
+      "crawled_at": "2026-04-25T14:24:38.009Z"
+    },
+    {
+      "id": "ice_go.kr_3369237",
+      "sido": "인천",
+      "school": "인천여자중학교",
+      "subject": "재공고",
+      "level": "",
+      "title": "양궁부 지도자 채용공고(재공고)",
+      "deadline": "2026-05-18",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369237",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.469Z"
+    },
+    {
+      "id": "ice_go.kr_3368962",
+      "sido": "인천",
+      "school": "남동중학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 자유학기 활동 프로그램 개인위탁 운영자 모집 공고",
+      "deadline": "2026-05-18",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368962",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368844",
+      "sido": "인천",
+      "school": "인천비즈니스고등학교",
+      "subject": "전자상거래 실무",
+      "level": "고등",
+      "title": "2026학년도 인천비즈니스고등학교 산학겸임교사(전자상거래 실무) 공고",
+      "deadline": "2026-05-18",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368844",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.732Z"
+    },
+    {
+      "id": "ice_go.kr_3368687",
+      "sido": "인천",
+      "school": "인천여자상업고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "2026학년도 인천여자상업고등학교 산학겸임교사 채용 공고",
+      "deadline": "2026-05-18",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368687",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.478Z"
+    },
+    {
+      "id": "ice_go.kr_3369329",
+      "sido": "인천",
+      "school": "인천기계공업고등학교",
+      "subject": "기계",
+      "level": "고등",
+      "title": "2026학년도 인천기계공업고등학교 기간제교사 2차 채용 공고(기계)",
+      "deadline": "2026-05-21",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369329",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3368797",
+      "sido": "인천",
+      "school": "인천원당초등학교",
+      "subject": "2차-농구, 음악줄넘기",
+      "level": "",
+      "title": "2026학년도 원당초 창체 동아리 외부강사 모집 공고(2차-농구, 음악줄넘기)",
+      "deadline": "2026-05-21",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368797",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "ice_go.kr_3368716",
+      "sido": "인천",
+      "school": "인천공항중학교",
+      "subject": "체육",
+      "level": "중등",
+      "title": "2026학년도 인천공항중학교 체육과 기간제교원 채용 공고",
+      "deadline": "2026-05-21",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368716",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3369305",
+      "sido": "인천",
+      "school": "능허대중학교",
+      "subject": "수학",
+      "level": "중등",
+      "title": "2026 능허대중학교 수학과 시간강사 채용 공고",
+      "deadline": "2026-05-22",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369305",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3368883",
+      "sido": "인천",
+      "school": "인천중산중학교",
+      "subject": "수학",
+      "level": "",
+      "title": "2026학년도 시간강사 2차 채용공고(수학)",
+      "deadline": "2026-05-22",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368883",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.046Z"
+    },
+    {
+      "id": "ice_go.kr_3368681",
+      "sido": "인천",
+      "school": "인천고등학교",
+      "subject": "영어",
+      "level": "",
+      "title": "2026학년도 계약제교원 임용 계획(영어) 공고문",
+      "deadline": "2026-05-22",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368681",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.479Z"
+    },
+    {
+      "id": "ice_go.kr_3368713",
+      "sido": "인천",
+      "school": "인천아라고등학교",
+      "subject": "특수",
+      "level": "고등",
+      "title": "2026학년도 인천아라고등학교 기간제 교사 공고(특수)-3차",
+      "deadline": "2026-05-26",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368713",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
     },
     {
       "id": "gyeongnam_1807733",
@@ -1182,7 +2766,247 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1807733",
       "source": "gne.go.kr",
-      "crawled_at": "2026-04-25T13:46:30.023Z"
+      "crawled_at": "2026-04-25T14:24:31.195Z"
+    },
+    {
+      "id": "ice_go.kr_3368804",
+      "sido": "인천",
+      "school": "인천아라중학교",
+      "subject": "국어",
+      "level": "중등",
+      "title": "2026학년도 인천아라중학교 장기재직휴가대체 시간강사 채용 (국어)",
+      "deadline": "2026-05-27",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368804",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "gbe_kr_1603797",
+      "sido": "경북",
+      "school": "영천중앙초등학교",
+      "subject": "전일제 강사-담임",
+      "level": "초등",
+      "title": "2026학년도 영천중앙초등학교 계약제교원(전일제 강사-담임) 2차 공고",
+      "deadline": "2026-05-28",
+      "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1603797",
+      "source": "gbe.kr",
+      "crawled_at": "2026-04-25T14:24:41.500Z"
+    },
+    {
+      "id": "ice_go.kr_3368819",
+      "sido": "인천",
+      "school": "숭덕여자고등학교",
+      "subject": "필라테스교실",
+      "level": "",
+      "title": "2026학년도 숭덕여고 스포츠클럽 방과후 강사 모집 공고(필라테스교실)",
+      "deadline": "2026-05-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368819",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.047Z"
+    },
+    {
+      "id": "ice_go.kr_3369227",
+      "sido": "인천",
+      "school": "인성여자중학교",
+      "subject": "과학, 국어",
+      "level": "중등",
+      "title": "인성여자중학교 장기재직휴가 대체 강사(과학, 국어) 채용 공고",
+      "deadline": "2026-06-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369227",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.470Z"
+    },
+    {
+      "id": "ice_go.kr_3369153",
+      "sido": "인천",
+      "school": "대기중",
+      "subject": "법",
+      "level": "고등",
+      "title": "2026년도 학교법인 정파학원 서인천고등학교 사무직원 공개경쟁채용시험 공고",
+      "deadline": "2026-06-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369153",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3369175",
+      "sido": "인천",
+      "school": "인천당하초등학교",
+      "subject": "보조인력",
+      "level": "초등",
+      "title": "2026학년도 초등돌봄교실 자원봉사자(보조인력) 모집 공고",
+      "deadline": "2026-06-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369175",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3368871",
+      "sido": "인천",
+      "school": "인천석정초등학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 온이음 교육복지우선지원사업 석정동아리 강사 채용",
+      "deadline": "2026-06-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368871",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3369073",
+      "sido": "인천",
+      "school": "부평고등학교",
+      "subject": "국어",
+      "level": "고등",
+      "title": "2026학년도 부평고등학교 시간강사(국어) 채용 공고",
+      "deadline": "2026-06-04",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369073",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369248",
+      "sido": "인천",
+      "school": "인천가정초등학교",
+      "subject": "특수학급교사",
+      "level": "특수",
+      "title": "시간강사(특수학급교사) 채용 공고(2차)",
+      "deadline": "2026-06-05",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369248",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3368658",
+      "sido": "인천",
+      "school": "인천가정초등학교",
+      "subject": "시간강사-특수교사",
+      "level": "특수",
+      "title": "계약제교원(시간강사-특수교사) 채용 공고",
+      "deadline": "2026-06-05",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368658",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.479Z"
+    },
+    {
+      "id": "ice_go.kr_3368858",
+      "sido": "인천",
+      "school": "인천가좌여자중학교",
+      "subject": "과학&특수",
+      "level": "중등",
+      "title": "인천가좌여자중학교 시간강사 채용(과학&특수) (2차)",
+      "deadline": "2026-06-10",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368858",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.046Z"
+    },
+    {
+      "id": "ice_go.kr_3369083",
+      "sido": "인천",
+      "school": "도림고등학교",
+      "subject": "영어 시간강사",
+      "level": "고등",
+      "title": "2026학년도 도림고등학교 계약제교원(영어 시간강사) 채용 공고",
+      "deadline": "2026-06-12",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369083",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.453Z"
+    },
+    {
+      "id": "ice_go.kr_3368870",
+      "sido": "인천",
+      "school": "인천한별초등학교",
+      "subject": "교원 장기재직휴가 대체",
+      "level": "초등",
+      "title": "초등 시간강사(교원 장기재직휴가 대체) 채용 2차 공고",
+      "deadline": "2026-06-17",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368870",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.046Z"
+    },
+    {
+      "id": "ice_go.kr_3369322",
+      "sido": "인천",
+      "school": "인천한길초등학교",
+      "subject": "특수교사",
+      "level": "특수",
+      "title": "한길초 기간제교사(특수교사) 채용 공고",
+      "deadline": "2026-06-23",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369322",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3368807",
+      "sido": "인천",
+      "school": "도림고등학교",
+      "subject": "기간제 조리실무사",
+      "level": "고등",
+      "title": "2026학년도 도림고등학교 교육공무직원(기간제 조리실무사) 채용 공고",
+      "deadline": "2026-06-23",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368807",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.733Z"
+    },
+    {
+      "id": "ice_go.kr_3368800",
+      "sido": "인천",
+      "school": "인천서곶초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천서곶초등학교 전통놀이 외부강사 채용 공고",
+      "deadline": "2026-06-23",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368800",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "ice_go.kr_3369176",
+      "sido": "인천",
+      "school": "대기중",
+      "subject": "AI반도체과",
+      "level": "고등",
+      "title": "2026학년도 재능고등학교 교과교실제 운영 산학겸임강사 채용 공고(AI반도체과)",
+      "deadline": "2026-06-24",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369176",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3369022",
+      "sido": "인천",
+      "school": "인화여자고등학교",
+      "subject": "기간제",
+      "level": "고등",
+      "title": "2026 인화여자고등학교 학교교육복지사(기간제) 채용 공고",
+      "deadline": "2026-06-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369022",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.199Z"
+    },
+    {
+      "id": "ice_go.kr_3368887",
+      "sido": "인천",
+      "school": "인화여자고등학교",
+      "subject": "기간제",
+      "level": "",
+      "title": "학교교육복지사(기간제) 채용 공고",
+      "deadline": "2026-06-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368887",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3369380",
+      "sido": "인천",
+      "school": "세일고등학교",
+      "subject": "일반9급",
+      "level": "고등",
+      "title": "2026년도 학교법인 명성학원 세일고등학교 사무직원(일반9급)공개경쟁채용 공고",
+      "deadline": "2026-07-01",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369380",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
     },
     {
       "id": "seoul_98430",
@@ -1194,7 +3018,79 @@
       "deadline": "2026-07-02",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=98430",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-04-25T13:46:27.400Z"
+      "crawled_at": "2026-04-25T14:24:28.877Z"
+    },
+    {
+      "id": "ice_go.kr_3369147",
+      "sido": "인천",
+      "school": "부흥중학교",
+      "subject": "정보 기간제교사",
+      "level": "중등",
+      "title": "2026학년도 부흥중학교 계약제교원(정보 기간제교사) 채용 2차 공고",
+      "deadline": "2026-07-04",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369147",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3369100",
+      "sido": "인천",
+      "school": "인천여자중학교",
+      "subject": "보건",
+      "level": "중등",
+      "title": "2026학년도 인천여자중학교 기간제교원(보건) 채용",
+      "deadline": "2026-07-07",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369100",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369218",
+      "sido": "인천",
+      "school": "만수중학교",
+      "subject": "특수",
+      "level": "중등",
+      "title": "2026학년도 만수중학교 기간제교원(특수) 채용 공고(1차)",
+      "deadline": "2026-07-09",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369218",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3369392",
+      "sido": "인천",
+      "school": "도림고등학교",
+      "subject": "국어 기간제교원",
+      "level": "고등",
+      "title": "2026학년도 도림고등학교 계약제교원 (국어 기간제교원) 채용 공고",
+      "deadline": "2026-07-10",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369392",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369396",
+      "sido": "인천",
+      "school": "인천석정초등학교",
+      "subject": "방과후",
+      "level": "",
+      "title": "2026학년도 찾아가는 한국어학급(방과후) 강사 공고",
+      "deadline": "2026-07-14",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369396",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.817Z"
+    },
+    {
+      "id": "ice_go.kr_3369319",
+      "sido": "인천",
+      "school": "산곡중학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 1학기 자유학기 활동 프로그램 개인위탁 운영자 모집 공고",
+      "deadline": "2026-07-14",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369319",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
     },
     {
       "id": "ice_go.kr_3369425",
@@ -1206,7 +3102,55 @@
       "deadline": "2026-07-16",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369425",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.690Z"
+      "crawled_at": "2026-04-25T14:24:38.009Z"
+    },
+    {
+      "id": "ice_go.kr_3369333",
+      "sido": "인천",
+      "school": "인송중학교",
+      "subject": "러시아어 가능자",
+      "level": "중등",
+      "title": "2026년 인송중학교 방과후 한글돋움반 강사 위촉(러시아어 가능자)",
+      "deadline": "2026-07-16",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369333",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
+    },
+    {
+      "id": "ice_go.kr_3368978",
+      "sido": "인천",
+      "school": "인천서희학교",
+      "subject": "4차",
+      "level": "",
+      "title": "2026학년도 인천서희학교 시간강사(학교폭력책임교사 수업시수 경감) 채용 공고(4차): 일반교과 지원 가능",
+      "deadline": "2026-07-16",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368978",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.200Z"
+    },
+    {
+      "id": "ice_go.kr_3368960",
+      "sido": "인천",
+      "school": "부광여자고등학교",
+      "subject": "기간제교원-국어",
+      "level": "",
+      "title": "2026학년도 계약제교원(기간제교원-국어) 채용 공고",
+      "deadline": "2026-07-16",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368960",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368930",
+      "sido": "인천",
+      "school": "인천선학초등학교",
+      "subject": "기간제교사",
+      "level": "초등",
+      "title": "인천선학초등학교 계약제(기간제교사) 교원 채용 공고",
+      "deadline": "2026-07-16",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368930",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
     },
     {
       "id": "ice_go.kr_3369440",
@@ -1218,7 +3162,103 @@
       "deadline": "2026-07-22",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369440",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.690Z"
+      "crawled_at": "2026-04-25T14:24:38.009Z"
+    },
+    {
+      "id": "ice_go.kr_3369047",
+      "sido": "인천",
+      "school": "인천석천초등학교",
+      "subject": "11:30~13:30 근무",
+      "level": "초등",
+      "title": "석천초등학교 학생 안전생활 지킴이 봉사자 모집 공고(11:30~13:30 근무)",
+      "deadline": "2026-07-22",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369047",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.454Z"
+    },
+    {
+      "id": "ice_go.kr_3368725",
+      "sido": "인천",
+      "school": "인천아라중학교",
+      "subject": "자원봉사자",
+      "level": "중등",
+      "title": "2026학년도 1학기 인천아라중학교 특수교육대상 보조인력(자원봉사자) 모집 공고",
+      "deadline": "2026-07-22",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368725",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3368869",
+      "sido": "인천",
+      "school": "인천현송초등학교",
+      "subject": "유급자원봉사자",
+      "level": "특수",
+      "title": "2026학년도 특수교육대상학생 보조인력(유급자원봉사자) 위촉 추가 공고",
+      "deadline": "2026-07-24",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368869",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.046Z"
+    },
+    {
+      "id": "ice_go.kr_3368733",
+      "sido": "인천",
+      "school": "인천용현남초등학교",
+      "subject": "5학년 영어전담",
+      "level": "초등",
+      "title": "인천용현남초등학교 기간제교사(5학년 영어전담) 채용 공고(3차)",
+      "deadline": "2026-07-25",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368733",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3369407",
+      "sido": "인천",
+      "school": "미추홀외국어고등학교",
+      "subject": "긴급",
+      "level": "",
+      "title": "2026학년도 기간제 조리실무사 채용 공고(긴급)",
+      "deadline": "2026-07-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369407",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369404",
+      "sido": "인천",
+      "school": "문학정보고등학교",
+      "subject": "이모티콘",
+      "level": "",
+      "title": "시각디자인(이모티콘) 전공동아리 방과후 강사 채용공고",
+      "deadline": "2026-07-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369404",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369300",
+      "sido": "인천",
+      "school": "인천용학초등학교",
+      "subject": "기간제-음악전담",
+      "level": "",
+      "title": "인천용학초 계약제교원(기간제-음악전담) 채용 공고(1차)",
+      "deadline": "2026-07-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369300",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3369254",
+      "sido": "인천",
+      "school": "인천구월서초등학교",
+      "subject": "교육행정직 대체",
+      "level": "",
+      "title": "지방공무원 대체 인력(교육행정직 대체)채용 재공고",
+      "deadline": "2026-07-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369254",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.470Z"
     },
     {
       "id": "ice_go.kr_3369412",
@@ -1230,7 +3270,43 @@
       "deadline": "2026-08-03",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369412",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.690Z"
+      "crawled_at": "2026-04-25T14:24:38.009Z"
+    },
+    {
+      "id": "ice_go.kr_3368977",
+      "sido": "인천",
+      "school": "인천서희학교",
+      "subject": "중등특수",
+      "level": "특수",
+      "title": "20256. 5. 11.자 인천서희학교 기간제교원(중등특수) 채용 공고(4차): 일반교과지원 가능",
+      "deadline": "2026-08-08",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368977",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368987",
+      "sido": "인천",
+      "school": "원당중학교",
+      "subject": "기술가정",
+      "level": "중등",
+      "title": "원당중학교 기간제교사 채용 공고(기술가정)",
+      "deadline": "2026-08-10",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368987",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368746",
+      "sido": "인천",
+      "school": "신현중학교",
+      "subject": "교무실무사",
+      "level": "중등",
+      "title": "신현중학교 교육공무직원(교무실무사) 대체인력 채용 공고",
+      "deadline": "2026-08-14",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368746",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.043Z"
     },
     {
       "id": "ice_go.kr_3369443",
@@ -1242,7 +3318,7 @@
       "deadline": "2026-08-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369443",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.689Z"
+      "crawled_at": "2026-04-25T14:24:38.009Z"
     },
     {
       "id": "ice_go.kr_3369462",
@@ -1254,7 +3330,7 @@
       "deadline": "2026-08-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369462",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.689Z"
+      "crawled_at": "2026-04-25T14:24:38.008Z"
     },
     {
       "id": "ice_go.kr_3369411",
@@ -1266,7 +3342,55 @@
       "deadline": "2026-08-31",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369411",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.690Z"
+      "crawled_at": "2026-04-25T14:24:38.009Z"
+    },
+    {
+      "id": "ice_go.kr_3369061",
+      "sido": "인천",
+      "school": "인천연안초등학교",
+      "subject": "긴급",
+      "level": "초등",
+      "title": "2026학년도 인천연안초등학교 기간제 조리실무사 채용 공고(긴급)",
+      "deadline": "2026-08-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369061",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.454Z"
+    },
+    {
+      "id": "ice_go.kr_3368708",
+      "sido": "인천",
+      "school": "인천부개초등학교",
+      "subject": "",
+      "level": "특수",
+      "title": "2026 전일제 특수교육대상학생 지원을 위한 프로그램 강사 채용 공고문",
+      "deadline": "2026-08-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368708",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3369171",
+      "sido": "인천",
+      "school": "인천미송중학교",
+      "subject": "국어",
+      "level": "중등",
+      "title": "2026학년도 인천미송중학교 국어 채용 공고",
+      "deadline": "2026-09-23",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369171",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3369347",
+      "sido": "인천",
+      "school": "인천서흥초등학교",
+      "subject": "국어",
+      "level": "초등",
+      "title": "2026학년도 인천서흥초등학교 찾아가는 한국어 교육 강사 채용 재공고",
+      "deadline": "2026-09-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369347",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
     },
     {
       "id": "ice_go.kr_3369452",
@@ -1278,7 +3402,643 @@
       "deadline": "2026-09-30",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369452",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.689Z"
+      "crawled_at": "2026-04-25T14:24:38.008Z"
+    },
+    {
+      "id": "ice_go.kr_3368968",
+      "sido": "인천",
+      "school": "인천현송초등학교",
+      "subject": "과학실무사",
+      "level": "초등",
+      "title": "[긴급]인천현송초등학교 교육공무직원(과학실무사) 채용 공고",
+      "deadline": "2026-09-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368968",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368723",
+      "sido": "인천",
+      "school": "인천사리울초등학교",
+      "subject": "국악 합창",
+      "level": "",
+      "title": "2026학년도 인천사리울초 예술동아리(국악 합창) 지도 강사 모집 공고",
+      "deadline": "2026-11-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368723",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3368707",
+      "sido": "인천",
+      "school": "인천완정초등학교병설유치원",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "2026 인천완정초등학교병설유치원 교육활동 보조인력(자원봉사자) 모집 공고",
+      "deadline": "2026-11-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368707",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.478Z"
+    },
+    {
+      "id": "ice_go.kr_3368710",
+      "sido": "인천",
+      "school": "인천가정초등학교",
+      "subject": "국어",
+      "level": "",
+      "title": "2026학년도 한국어교육 지도강사 채용 공고",
+      "deadline": "2026-12-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368710",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3368865",
+      "sido": "인천",
+      "school": "인천새봄초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 새봄초등학교 협력강사 채용 공고",
+      "deadline": "2026-12-18",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368865",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.047Z"
+    },
+    {
+      "id": "ice_go.kr_3368859",
+      "sido": "인천",
+      "school": "제일고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "2026학년도 제일고등학교 디지털 튜터 채용 공고",
+      "deadline": "2026-12-24",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368859",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.046Z"
+    },
+    {
+      "id": "ice_go.kr_3369243",
+      "sido": "인천",
+      "school": "인천장도초등학교",
+      "subject": "학력향상교실",
+      "level": "초등",
+      "title": "2026학년도 인천장도초등학교 두드림학교(학력향상교실) 지도 강사 위촉 공고",
+      "deadline": "2026-12-25",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369243",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3369293",
+      "sido": "인천",
+      "school": "영화초등학교",
+      "subject": "두드림학교",
+      "level": "",
+      "title": "2026학년도 기초학력강사(두드림학교) 위촉 공고",
+      "deadline": "2026-12-29",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369293",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3369078",
+      "sido": "인천",
+      "school": "자유유치원",
+      "subject": "간호사",
+      "level": "유치",
+      "title": "2026학년도 자유유치원 중도중복장애유아 지원 의료인(간호사) 보조인력 추가모집 2차 재공고",
+      "deadline": "2026-12-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369078",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369023",
+      "sido": "인천",
+      "school": "인천문남초등학교",
+      "subject": "국어",
+      "level": "",
+      "title": "2026학년도 한국어학급 강사 채용",
+      "deadline": "2026-12-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369023",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.199Z"
+    },
+    {
+      "id": "ice_go.kr_3368899",
+      "sido": "인천",
+      "school": "관교여자중학교",
+      "subject": "",
+      "level": "특수",
+      "title": "특수교육대상학생 지원 인력 위촉",
+      "deadline": "2026-12-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368899",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368815",
+      "sido": "인천",
+      "school": "인천서창중학교",
+      "subject": "긴급",
+      "level": "중등",
+      "title": "(긴급) 인천서창중학교 기간제 조리실무사 채용 공고",
+      "deadline": "2026-12-30",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368815",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.732Z"
+    },
+    {
+      "id": "ice_go.kr_3369403",
+      "sido": "인천",
+      "school": "문학정보고등학교",
+      "subject": "",
+      "level": "",
+      "title": "웹툰창작 전공동아리 방과후강사 모집",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369403",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369388",
+      "sido": "인천",
+      "school": "인천용현초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "2026 인천용현초등학교 특수교육대상학생 교육활동 보조인력(자원봉사자) 위촉 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369388",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369272",
+      "sido": "인천",
+      "school": "인천단봉초등학교",
+      "subject": "학력향상교실",
+      "level": "초등",
+      "title": "2026학년도 인천단봉초등학교 두드림학교(학력향상교실) 지도 강사 위촉 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369272",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.469Z"
+    },
+    {
+      "id": "ice_go.kr_3369253",
+      "sido": "인천",
+      "school": "인천먼우금초등학교",
+      "subject": "일본어",
+      "level": "",
+      "title": "세계동행학교 일본어 강사 모집 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369253",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.470Z"
+    },
+    {
+      "id": "ice_go.kr_3369249",
+      "sido": "인천",
+      "school": "인천광역시교육청 학교교육국 진로진학직업교육과",
+      "subject": "진로",
+      "level": "",
+      "title": "2026년도 인천광역시교육청 진로진학직업교육과 취업지원관 채용",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369249",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3369202",
+      "sido": "인천",
+      "school": "인천이음중학교",
+      "subject": "수학",
+      "level": "중등",
+      "title": "2026학년도 인천이음중학교 협력강사(수학) 채용 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369202",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3369139",
+      "sido": "인천",
+      "school": "만성중학교",
+      "subject": "",
+      "level": "중등",
+      "title": "2026학년도 만성중학교 방과후강사 채용 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369139",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3369093",
+      "sido": "인천",
+      "school": "인천중학교",
+      "subject": "도덕",
+      "level": "중등",
+      "title": "2026학년도 인천중학교 (도덕) 시간강사 채용 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369093",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369051",
+      "sido": "인천",
+      "school": "인천주안북초등학교",
+      "subject": "바이올린부",
+      "level": "",
+      "title": "2026학년도 인천주안북초 학생예술동아리(바이올린부) 강사 채용 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369051",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.454Z"
+    },
+    {
+      "id": "ice_go.kr_3369025",
+      "sido": "인천",
+      "school": "인천연일학교",
+      "subject": "체육",
+      "level": "",
+      "title": "2026학년도 인천연일학교 장애학생 맞춤형 건강체육활동 개인위탁 외부강사 채용 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369025",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.199Z"
+    },
+    {
+      "id": "ice_go.kr_3368886",
+      "sido": "인천",
+      "school": "인천도화초등학교",
+      "subject": "",
+      "level": "",
+      "title": "인천도화초 공간재구조화공사 안전지도 전담인력 위촉 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368886",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3368806",
+      "sido": "인천",
+      "school": "인천안산초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천안산초등학교 두드림 학력향상교실강사 위촉 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368806",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.733Z"
+    },
+    {
+      "id": "ice_go.kr_3368779",
+      "sido": "인천",
+      "school": "인천연일학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 인천연일학교 예술특화교육과정 개인위탁 외부강사 채용 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368779",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "ice_go.kr_3368684",
+      "sido": "인천",
+      "school": "인천상정고등학교",
+      "subject": "일본어",
+      "level": "",
+      "title": "2026학년도 다국어교육(일본어) 원어민 코티칭 강사 채용 공고",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368684",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.478Z"
+    },
+    {
+      "id": "ice_go.kr_3368657",
+      "sido": "인천",
+      "school": "인천송현초등학교",
+      "subject": "긴급",
+      "level": "초등",
+      "title": "인천송현초등학교 지방공무원 대체 시설관리직 채용 공고(긴급)",
+      "deadline": "2026-12-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368657",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.479Z"
+    },
+    {
+      "id": "ice_go.kr_3368724",
+      "sido": "인천",
+      "school": "인천영선초등학교",
+      "subject": "자원봉사자",
+      "level": "특수",
+      "title": "특수교육대상학생 보조인력(자원봉사자) 모집 공고",
+      "deadline": "2027-01-05",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368724",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3369167",
+      "sido": "인천",
+      "school": "인천청천초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "인천청천초등학교 특수교육대상학생 보조인력(자원봉사자) 공개모집",
+      "deadline": "2027-01-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369167",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3368949",
+      "sido": "인천",
+      "school": "인천사리울초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천사리울초등학교 협력강사 채용 공고",
+      "deadline": "2027-01-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368949",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368786",
+      "sido": "인천",
+      "school": "인천동부초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "인천동부초등학교 생활지도사(자원봉사자) 모집 공고",
+      "deadline": "2027-01-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368786",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.043Z"
+    },
+    {
+      "id": "ice_go.kr_3368926",
+      "sido": "인천",
+      "school": "인천주원초등학교",
+      "subject": "",
+      "level": "",
+      "title": "2026 맞춤형 학습지원 두드림학교 지도강사 위촉 공고",
+      "deadline": "2027-01-08",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368926",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368818",
+      "sido": "인천",
+      "school": "인천청인학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 인천청인학교 안전체험관 지도강사 모집 공고",
+      "deadline": "2027-01-08",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368818",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.732Z"
+    },
+    {
+      "id": "ice_go.kr_3368826",
+      "sido": "인천",
+      "school": "인천보건고등학교",
+      "subject": "3차",
+      "level": "고등",
+      "title": "2026학년도 인천보건고등학교 시간제 급식배식원 채용 공고(3차)",
+      "deadline": "2027-01-08",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368826",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "ice_go.kr_3369002",
+      "sido": "인천",
+      "school": "인천서희학교",
+      "subject": "교사 결원 대체",
+      "level": "",
+      "title": "2026학년도 인천서희학교 시간강사(교사 결원 대체) 채용 공고(4차): 일반교과 지원 가능",
+      "deadline": "2027-01-12",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369002",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.200Z"
+    },
+    {
+      "id": "ice_go.kr_3368840",
+      "sido": "인천",
+      "school": "인천공항중학교",
+      "subject": "",
+      "level": "",
+      "title": "2026 중도중복장애학급 재활복지 맞춤형 프로그램 외부강사 채용 공고",
+      "deadline": "2027-01-15",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368840",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.733Z"
+    },
+    {
+      "id": "ice_go.kr_3369233",
+      "sido": "인천",
+      "school": "인천당산초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "[긴급]2026학년도 인천당산초등학교 급식배식원 채용 공고",
+      "deadline": "2027-01-31",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369233",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.470Z"
+    },
+    {
+      "id": "ice_go.kr_3369185",
+      "sido": "인천",
+      "school": "인천논곡초등학교",
+      "subject": "학력향상교실",
+      "level": "초등",
+      "title": "2026학년도 인천논곡초등학교 두드림학교(학력향상교실) 강사 위촉 공고",
+      "deadline": "2027-02-05",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369185",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3368778",
+      "sido": "인천",
+      "school": "인천한들초등학교",
+      "subject": "늘봄학교",
+      "level": "초등",
+      "title": "2026학년도 인천한들초 초등방과후돌봄(늘봄학교) 특수교육 지원 대상자 자원봉사자 재위촉",
+      "deadline": "2027-02-06",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368778",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.042Z"
+    },
+    {
+      "id": "ice_go.kr_3369256",
+      "sido": "인천",
+      "school": "인천부평초등학교",
+      "subject": "맞춤형프로그램",
+      "level": "초등",
+      "title": "2026학년도 초등방과후 돌봄(맞춤형프로그램) 자원봉사자 위촉 공고",
+      "deadline": "2027-02-13",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369256",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.470Z"
+    },
+    {
+      "id": "ice_go.kr_3369236",
+      "sido": "인천",
+      "school": "인천해든초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "2026학년도 인천해든초등학교 초등 방과후·돌봄 맞춤형 프로그램 안전관리인력 자원봉사자 모집 공고",
+      "deadline": "2027-02-19",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369236",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:47.470Z"
+    },
+    {
+      "id": "ice_go.kr_3369211",
+      "sido": "인천",
+      "school": "인천경원초등학교병설유치원",
+      "subject": "자원봉사자",
+      "level": "유치",
+      "title": "2026학년도 유치원 방과후과정 보조인력(자원봉사자) 모집",
+      "deadline": "2027-02-19",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369211",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3369116",
+      "sido": "인천",
+      "school": "인천당산초등학교병설유치원",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "2026학년도 당산초등학교병설유치원 특수교육대상학생 보조인력(자원봉사자) 모집 공고",
+      "deadline": "2027-02-19",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369116",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3368986",
+      "sido": "인천",
+      "school": "인천정각초등학교",
+      "subject": "보드게임",
+      "level": "초등",
+      "title": "2026학년도 인천정각초등학교 오후돌봄교실 프로그램(보드게임) 강사 모집공고",
+      "deadline": "2027-02-19",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368986",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368924",
+      "sido": "인천",
+      "school": "인천푸른빛유치원",
+      "subject": "보조인력",
+      "level": "유치",
+      "title": "2026학년 푸른빛유치원 방과후 과정 자원봉사자(보조인력)를 모집합니다.",
+      "deadline": "2027-02-19",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368924",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368918",
+      "sido": "인천",
+      "school": "인천예송유치원",
+      "subject": "자원봉사자",
+      "level": "유치",
+      "title": "2026학년도 인천예송유치원 특수교육대상학생 보조인력 (자원봉사자) 모집 공고",
+      "deadline": "2027-02-19",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368918",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:07.541Z"
+    },
+    {
+      "id": "ice_go.kr_3368705",
+      "sido": "인천",
+      "school": "인천검단나래유치원",
+      "subject": "",
+      "level": "유치",
+      "title": "검단나래유치원 장애영유아 종일반 지원 자원봉사자 위촉 공고",
+      "deadline": "2027-02-19",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368705",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.478Z"
+    },
+    {
+      "id": "ice_go.kr_3369204",
+      "sido": "인천",
+      "school": "인천만석초등학교",
+      "subject": "",
+      "level": "",
+      "title": "2026학년도 늘봄행정실무사 [기간제 근로자] 채용 공고",
+      "deadline": "2027-02-20",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369204",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3369148",
+      "sido": "인천",
+      "school": "인천윤슬초등학교병설유치원",
+      "subject": "자원봉사자",
+      "level": "유치",
+      "title": "2026학년도 유치원 방과후 과정 보조인력(자원봉사자)을 모집합니다.",
+      "deadline": "2027-02-22",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369148",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.973Z"
+    },
+    {
+      "id": "ice_go.kr_3369378",
+      "sido": "인천",
+      "school": "인천서창초등학교",
+      "subject": "자원종사자",
+      "level": "초등",
+      "title": "2026학년도 서창초등학교 초등돌봄교실 특수교육대상학생 보조인력 (자원종사자) 모집 재공고",
+      "deadline": "2027-02-23",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369378",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.770Z"
+    },
+    {
+      "id": "ice_go.kr_3368852",
+      "sido": "인천",
+      "school": "인천서희학교",
+      "subject": "늘봄학교",
+      "level": "특수",
+      "title": "특수교육대상학생 교육(늘봄학교)활동 보조인력(자원봉사자) 공고",
+      "deadline": "2027-02-23",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368852",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.732Z"
+    },
+    {
+      "id": "ice_go.kr_3369221",
+      "sido": "인천",
+      "school": "인천도림초등학교병설유치원",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "인천도림초등학교병설유치원 특수교육대상유아 종일반 보조인력(자원봉사자) 모집 공고",
+      "deadline": "2027-02-24",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369221",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3368805",
+      "sido": "인천",
+      "school": "인천병방초등학교",
+      "subject": "",
+      "level": "초등",
+      "title": "초등 방과후돌봄 특수교육대상학생 참여지원 자원봉사자 모집공고",
+      "deadline": "2027-02-26",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368805",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
     },
     {
       "id": "ice_go.kr_3369453",
@@ -1290,7 +4050,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369453",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.689Z"
+      "crawled_at": "2026-04-25T14:24:38.008Z"
     },
     {
       "id": "ice_go.kr_3369437",
@@ -1302,7 +4062,439 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369437",
       "source": "ice.go.kr",
-      "crawled_at": "2026-04-25T13:46:31.689Z"
+      "crawled_at": "2026-04-25T14:24:38.009Z"
+    },
+    {
+      "id": "ice_go.kr_3369405",
+      "sido": "인천",
+      "school": "인천대중예술고등학교",
+      "subject": "기간제",
+      "level": "고등",
+      "title": "2026학년도 인천대중예술고등학교 급식배식원(기간제) 채용 공고(긴급)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369405",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369390",
+      "sido": "인천",
+      "school": "인천경명초등학교",
+      "subject": "체육-1-6학년",
+      "level": "초등",
+      "title": "2026학년도 경명초등학교 기간제교사(체육-1-6학년) 채용",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369390",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369383",
+      "sido": "인천",
+      "school": "인천미송유치원",
+      "subject": "2차",
+      "level": "유치",
+      "title": "2026학년도 유치원 방과후 과정 대체 강사 채용 공고(2차)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369383",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.818Z"
+    },
+    {
+      "id": "ice_go.kr_3369379",
+      "sido": "인천",
+      "school": "인천달빛초등학교",
+      "subject": "",
+      "level": "",
+      "title": "인천달빛초 늘품꿈터 자원봉사자 위촉 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369379",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:40.823Z"
+    },
+    {
+      "id": "ice_go.kr_3369374",
+      "sido": "인천",
+      "school": "인일여자고등학교",
+      "subject": "국어",
+      "level": "",
+      "title": "2026학년도 기간제교원(국어) 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369374",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.770Z"
+    },
+    {
+      "id": "ice_go.kr_3369373",
+      "sido": "인천",
+      "school": "인천용학초등학교",
+      "subject": "특수-일반교사 가능",
+      "level": "특수",
+      "title": "인천용학초 계약제교원(특수-일반교사 가능) 채용 공고(4차)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369373",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
+    },
+    {
+      "id": "ice_go.kr_3369344",
+      "sido": "인천",
+      "school": "인제고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "인제고등학교 조리실무사 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369344",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:42.771Z"
+    },
+    {
+      "id": "ice_go.kr_3369295",
+      "sido": "인천",
+      "school": "인천청일초등학교",
+      "subject": "긴급",
+      "level": "초등",
+      "title": "(긴급)2026학년도 인천청일초등학교 급식배식원 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369295",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:44.708Z"
+    },
+    {
+      "id": "ice_go.kr_3369250",
+      "sido": "인천",
+      "school": "인천마전고등학교",
+      "subject": "긴급",
+      "level": "고등",
+      "title": "(긴급)2026학년도 인천마전고등학교 급식배식원 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369250",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.280Z"
+    },
+    {
+      "id": "ice_go.kr_3369206",
+      "sido": "인천",
+      "school": "광성고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "광성고등학교 급식 배식원 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369206",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:50.281Z"
+    },
+    {
+      "id": "ice_go.kr_3369200",
+      "sido": "인천",
+      "school": "인천남동고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "[긴급] 인천남동고등학교 기간제 조리실무사 채용 재공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369200",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
+    },
+    {
+      "id": "ice_go.kr_3369169",
+      "sido": "인천",
+      "school": "인천갈월초등학교",
+      "subject": "3차",
+      "level": "특수",
+      "title": "계약제교원(기간제 특수교사_과밀학급 협력강사) 채용 공고(3차)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369169",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:54.972Z"
+    },
+    {
+      "id": "ice_go.kr_3369128",
+      "sido": "인천",
+      "school": "인천아람초등학교",
+      "subject": "기간제조리실무사",
+      "level": "초등",
+      "title": "2026학년도 인천아람초등학교 교육공무직원(기간제조리실무사) 채용",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369128",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369109",
+      "sido": "인천",
+      "school": "인천상정중학교",
+      "subject": "기간제",
+      "level": "",
+      "title": "급식배식원(기간제) 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369109",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369102",
+      "sido": "인천",
+      "school": "인천해원초등학교",
+      "subject": "본관",
+      "level": "초등",
+      "title": "인천해원초등학교(본관) 기간제조리실무사 채용 재공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369102",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369085",
+      "sido": "인천",
+      "school": "인천봉수초등학교",
+      "subject": "2026.7.1.자",
+      "level": "특수",
+      "title": "인천봉수초 특수교사 기간제교사 채용(2026.7.1.자)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369085",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:57.780Z"
+    },
+    {
+      "id": "ice_go.kr_3369055",
+      "sido": "인천",
+      "school": "선화여자중학교",
+      "subject": "",
+      "level": "중등",
+      "title": "2026학년도 선화여자중학교 기간제 조리실무사 채용 재공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369055",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.453Z"
+    },
+    {
+      "id": "ice_go.kr_3369052",
+      "sido": "인천",
+      "school": "제물포여자중학교",
+      "subject": "시설물청소원",
+      "level": "중등",
+      "title": "2026년 제물포여자중학교 장애인희망드림 일자리사업(시설물청소원)채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369052",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.453Z"
+    },
+    {
+      "id": "ice_go.kr_3369038",
+      "sido": "인천",
+      "school": "인천고잔고등학교",
+      "subject": "교육공무직원 대체 근로자",
+      "level": "고등",
+      "title": "인천고잔고등학교 기간제 조리실무사(교육공무직원 대체 근로자) 채용 재공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369038",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:59.454Z"
+    },
+    {
+      "id": "ice_go.kr_3369021",
+      "sido": "인천",
+      "school": "불로중학교",
+      "subject": "학교운동부지도자",
+      "level": "중등",
+      "title": "불로중학교 교육공무직 (학교운동부지도자) 채용공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369021",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.199Z"
+    },
+    {
+      "id": "ice_go.kr_3369020",
+      "sido": "인천",
+      "school": "남동중학교",
+      "subject": "긴급",
+      "level": "중등",
+      "title": "(긴급)2026학년도 남동중학교 교육공무직 교무행정실무사(통합) 기간제 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369020",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.199Z"
+    },
+    {
+      "id": "ice_go.kr_3368996",
+      "sido": "인천",
+      "school": "계양고등학교",
+      "subject": "기간제",
+      "level": "고등",
+      "title": "계양고등학교 급식 배식원(기간제) 채용공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368996",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:02.200Z"
+    },
+    {
+      "id": "ice_go.kr_3368955",
+      "sido": "인천",
+      "school": "인천봉수초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "2026학년도 인천봉수초등학교 특수교육대상자 보조인력(자원봉사자) 추가 모집 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368955",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368931",
+      "sido": "인천",
+      "school": "인천사리울중학교",
+      "subject": "급식배식원",
+      "level": "중등",
+      "title": "인천사리울중학교 교육감 소속 근로자(급식배식원)채용 공고(긴급)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368931",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:04.852Z"
+    },
+    {
+      "id": "ice_go.kr_3368902",
+      "sido": "인천",
+      "school": "인천남고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "[긴급]2026년 인천남고등학교 급식배식원 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368902",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3368900",
+      "sido": "인천",
+      "school": "인천하늘중학교",
+      "subject": "",
+      "level": "중등",
+      "title": "인천하늘중학교 2026학년도 조리실무사 기간제 채용 재공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368900",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3368879",
+      "sido": "인천",
+      "school": "관교중학교",
+      "subject": "통합사회",
+      "level": "중등",
+      "title": "관교중학교-계약제교원(통합사회) 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368879",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:09.256Z"
+    },
+    {
+      "id": "ice_go.kr_3368882",
+      "sido": "인천",
+      "school": "인천용학초등학교",
+      "subject": "기간제교원-특수교사",
+      "level": "특수",
+      "title": "용학초 계약제교원(기간제교원-특수교사) 채용 공고(3차)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368882",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:11.046Z"
+    },
+    {
+      "id": "ice_go.kr_3368816",
+      "sido": "인천",
+      "school": "인천초은초등학교",
+      "subject": "초등 전담교사",
+      "level": "초등",
+      "title": "(2026.5.1.자 인천초은초등학교 기간제교사(초등 전담교사) 채용 공고(수정)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368816",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:13.732Z"
+    },
+    {
+      "id": "ice_go.kr_3368794",
+      "sido": "인천",
+      "school": "인천용정초등학교",
+      "subject": "자원봉사자",
+      "level": "초등",
+      "title": "2026학년도 인천용정초등학교 특수교육대상학생 보조인력(자원봉사자) 위촉 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368794",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:16.405Z"
+    },
+    {
+      "id": "ice_go.kr_3368791",
+      "sido": "인천",
+      "school": "인천예송중학교",
+      "subject": "사회",
+      "level": "중등",
+      "title": "2026학년도 인천예송중학교 기간제 교원 채용 공고(사회)",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368791",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.042Z"
+    },
+    {
+      "id": "ice_go.kr_3368753",
+      "sido": "인천",
+      "school": "인천성동학교",
+      "subject": "기간제",
+      "level": "특수",
+      "title": "2026학년도 인천성동학교 특수교육실무사(기간제) 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368753",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.043Z"
+    },
+    {
+      "id": "ice_go.kr_3368717",
+      "sido": "인천",
+      "school": "인천한별초등학교",
+      "subject": "10개월",
+      "level": "초등",
+      "title": "초등 창의적체험활동전담교사(10개월) 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368717",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:19.043Z"
+    },
+    {
+      "id": "ice_go.kr_3368726",
+      "sido": "인천",
+      "school": "인천해송중학교",
+      "subject": "자원봉사자",
+      "level": "중등",
+      "title": "인천해송중학교 특수교육대상학생 보조인력(자원봉사자) 위촉",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368726",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:21.682Z"
+    },
+    {
+      "id": "ice_go.kr_3368690",
+      "sido": "인천",
+      "school": "영종국제물류고등학교",
+      "subject": "",
+      "level": "고등",
+      "title": "2026학년도 영종국제물류고등학교 취업지원관 2차 채용 공고",
+      "deadline": "2027-02-28",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3368690",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:25:23.478Z"
+    },
+    {
+      "id": "ice_go.kr_3369158",
+      "sido": "인천",
+      "school": "광성고등학교",
+      "subject": "교육행정직",
+      "level": "고등",
+      "title": "2026학년도 광성고등학교 사무직원(교육행정직) 대체인력 채용 재공고",
+      "deadline": "2027-05-03",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3369158",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-04-25T14:24:52.142Z"
     }
   ]
 }
