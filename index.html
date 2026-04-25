@@ -24,20 +24,27 @@
       --gray-400: #9ca3af;
       --gray-600: #4b5563;
       --gray-800: #1f2937;
+      --header-h: 96px;
+      --sidebar-w: 72px;
     }
+
+    html, body { height: 100%; }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif;
       background: var(--gray-50);
       color: var(--gray-800);
-      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
     }
 
-    /* Header */
+    /* ── Header ── */
     header {
       background: var(--blue);
       color: #fff;
-      padding: 16px 16px 0;
+      flex-shrink: 0;
+      padding: 14px 16px 0;
       position: sticky;
       top: 0;
       z-index: 100;
@@ -48,194 +55,222 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
-    header h1 {
-      font-size: 18px;
-      font-weight: 700;
-    }
-
-    .header-actions {
-      display: flex;
-      gap: 8px;
-    }
+    header h1 { font-size: 17px; font-weight: 700; }
 
     .icon-btn {
-      background: rgba(255,255,255,.15);
+      background: rgba(255,255,255,.18);
       border: none;
       border-radius: 8px;
       color: #fff;
       cursor: pointer;
       font-size: 18px;
       padding: 6px 10px;
-      transition: background .15s;
     }
 
-    .icon-btn:hover { background: rgba(255,255,255,.25); }
-    .icon-btn.active { background: rgba(255,255,255,.35); }
-
-    /* Tabs */
-    .tabs {
-      display: flex;
-      gap: 4px;
-    }
+    .tabs { display: flex; gap: 4px; }
 
     .tab {
       background: none;
       border: none;
       border-bottom: 3px solid transparent;
-      color: rgba(255,255,255,.7);
+      color: rgba(255,255,255,.65);
       cursor: pointer;
       font-size: 14px;
       font-weight: 600;
-      padding: 8px 12px;
+      padding: 8px 14px;
       transition: all .15s;
     }
 
-    .tab.active {
-      border-bottom-color: #fff;
-      color: #fff;
+    .tab.active { border-bottom-color: #fff; color: #fff; }
+
+    /* ── Body layout ── */
+    .layout {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
     }
 
-    /* Filters */
-    #filter-section {
+    /* ── Sidebar ── */
+    .sidebar {
+      background: #fff;
+      border-right: 1px solid var(--gray-200);
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      overflow-y: auto;
+      width: var(--sidebar-w);
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .sidebar::-webkit-scrollbar { display: none; }
+
+    .sidebar-section-label {
+      background: var(--gray-50);
+      border-bottom: 1px solid var(--gray-200);
+      color: var(--gray-400);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .05em;
+      padding: 6px 0 5px;
+      text-align: center;
+    }
+
+    .sidebar-btn {
+      background: none;
+      border: none;
+      border-bottom: 1px solid var(--gray-100);
+      color: var(--gray-600);
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 14px 4px;
+      position: relative;
+      text-align: center;
+      transition: background .12s, color .12s;
+      width: 100%;
+      line-height: 1.2;
+    }
+
+    .sidebar-btn:active { background: var(--gray-100); }
+
+    .sidebar-btn.on {
+      background: var(--blue-light);
+      color: var(--blue);
+      font-weight: 700;
+    }
+
+    .sidebar-btn.on::before {
+      background: var(--blue);
+      border-radius: 0 3px 3px 0;
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 3px;
+    }
+
+    .sidebar-divider {
+      background: var(--gray-200);
+      flex-shrink: 0;
+      height: 1px;
+      margin: 4px 8px;
+    }
+
+    /* 학교급 구분선 + 레이블 */
+    .level-section {
+      margin-top: 2px;
+    }
+
+    /* ── Right panel ── */
+    .right-panel {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    /* Search */
+    .search-wrap {
       background: #fff;
       border-bottom: 1px solid var(--gray-200);
-      padding: 12px 16px;
+      padding: 10px 12px;
     }
 
-    .search-bar {
-      display: flex;
-      gap: 8px;
-      margin-bottom: 10px;
-    }
-
-    .search-bar input {
-      border: 1px solid var(--gray-200);
-      border-radius: 8px;
-      flex: 1;
-      font-size: 14px;
-      padding: 8px 12px;
-      outline: none;
-    }
-
-    .search-bar input:focus { border-color: var(--blue); }
-
-    .filter-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin-bottom: 6px;
-    }
-
-    .filter-row:last-child { margin-bottom: 0; }
-
-    .filter-label {
-      color: var(--gray-600);
-      font-size: 12px;
-      font-weight: 600;
-      padding-top: 4px;
-      white-space: nowrap;
-    }
-
-    .chip {
-      background: var(--gray-100);
+    .search-wrap input {
+      background: var(--gray-50);
       border: 1px solid var(--gray-200);
       border-radius: 20px;
-      color: var(--gray-600);
-      cursor: pointer;
-      font-size: 12px;
-      padding: 4px 10px;
-      transition: all .15s;
-      white-space: nowrap;
+      font-size: 13px;
+      outline: none;
+      padding: 8px 14px;
+      width: 100%;
     }
 
-    .chip.on {
-      background: var(--blue);
+    .search-wrap input:focus {
       border-color: var(--blue);
-      color: #fff;
+      background: #fff;
     }
 
-    /* Status bar */
-    #status-bar {
+    /* Status */
+    .status-bar {
       align-items: center;
-      background: #fff;
+      background: var(--gray-50);
       border-bottom: 1px solid var(--gray-200);
-      color: var(--gray-600);
+      color: var(--gray-400);
       display: flex;
-      font-size: 12px;
+      font-size: 11px;
       justify-content: space-between;
-      padding: 6px 16px;
+      padding: 5px 12px;
     }
 
     /* Job list */
     #job-list {
-      padding: 12px 16px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      max-width: 700px;
-      margin: 0 auto;
+      gap: 8px;
+      overflow-y: auto;
+      padding: 10px 10px 20px;
+      -webkit-overflow-scrolling: touch;
     }
 
+    /* ── Job Card ── */
     .job-card {
       background: #fff;
       border: 1px solid var(--gray-200);
       border-radius: 12px;
-      padding: 14px;
       cursor: pointer;
-      transition: box-shadow .15s, border-color .15s;
-      position: relative;
+      padding: 12px;
+      transition: box-shadow .15s;
     }
 
-    .job-card:hover {
-      box-shadow: 0 4px 12px rgba(0,0,0,.08);
-      border-color: var(--blue);
-    }
+    .job-card:active { background: var(--gray-50); }
 
     .job-card.urgent { border-left: 4px solid var(--red); }
     .job-card.warning { border-left: 4px solid var(--orange); }
 
     .card-top {
-      display: flex;
       align-items: flex-start;
-      justify-content: space-between;
-      gap: 8px;
-      margin-bottom: 6px;
+      display: flex;
+      gap: 6px;
+      margin-bottom: 7px;
     }
 
     .card-title {
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 1.4;
-      flex: 1;
       color: var(--gray-800);
+      flex: 1;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.45;
     }
 
     .bookmark-btn {
       background: none;
       border: none;
       cursor: pointer;
-      font-size: 18px;
-      padding: 0 2px;
       flex-shrink: 0;
+      font-size: 17px;
       line-height: 1;
+      padding: 0;
     }
 
     .card-meta {
+      align-items: center;
       display: flex;
       flex-wrap: wrap;
-      gap: 6px;
-      align-items: center;
-      margin-bottom: 8px;
+      gap: 5px;
+      margin-bottom: 7px;
     }
 
     .badge {
-      border-radius: 6px;
-      font-size: 11px;
-      font-weight: 600;
-      padding: 2px 7px;
+      border-radius: 5px;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
     }
 
     .badge-sido { background: var(--blue-light); color: var(--blue); }
@@ -243,23 +278,30 @@
     .badge-subject { background: #f0fdf4; color: #16a34a; }
 
     .dday {
-      border-radius: 6px;
-      font-size: 11px;
+      border-radius: 5px;
+      font-size: 10px;
       font-weight: 700;
-      padding: 2px 7px;
       margin-left: auto;
+      padding: 2px 6px;
     }
 
     .dday-urgent { background: var(--red-light); color: var(--red); }
     .dday-warning { background: var(--orange-light); color: var(--orange); }
     .dday-normal { background: var(--gray-100); color: var(--gray-600); }
 
+    .card-bottom {
+      align-items: center;
+      display: flex;
+      gap: 6px;
+    }
+
     .card-school {
       color: var(--gray-600);
-      font-size: 12px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
+      flex: 1;
+      font-size: 11px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
 
     .school-link {
@@ -268,36 +310,38 @@
       border-radius: 4px;
       color: var(--blue);
       cursor: pointer;
-      font-size: 11px;
-      padding: 1px 5px;
+      flex-shrink: 0;
+      font-size: 10px;
+      padding: 2px 5px;
+      white-space: nowrap;
     }
 
     .card-deadline {
       color: var(--gray-400);
-      font-size: 11px;
-      margin-top: 4px;
+      font-size: 10px;
+      margin-top: 5px;
     }
 
     .card-deadline.urgent { color: var(--red); font-weight: 600; }
     .card-deadline.warning { color: var(--orange); font-weight: 600; }
 
-    /* Empty / loading */
+    /* Empty */
     .empty {
-      text-align: center;
       color: var(--gray-400);
+      font-size: 13px;
       padding: 48px 16px;
-      font-size: 14px;
+      text-align: center;
     }
 
-    /* Notification settings modal */
+    /* ── Modal ── */
     .modal-overlay {
-      display: none;
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,.4);
-      z-index: 200;
       align-items: flex-end;
+      display: none;
+      inset: 0;
+      background: rgba(0,0,0,.45);
       justify-content: center;
+      position: fixed;
+      z-index: 200;
     }
 
     .modal-overlay.open { display: flex; }
@@ -305,75 +349,63 @@
     .modal {
       background: #fff;
       border-radius: 20px 20px 0 0;
-      padding: 24px 20px 32px;
-      width: 100%;
-      max-width: 500px;
-      max-height: 80vh;
+      max-height: 85vh;
       overflow-y: auto;
+      padding: 24px 20px 36px;
+      width: 100%;
+      max-width: 480px;
     }
 
-    .modal h2 {
-      font-size: 17px;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
+    .modal h2 { font-size: 17px; font-weight: 700; margin-bottom: 18px; }
 
     .modal-section { margin-bottom: 18px; }
 
     .modal-section h3 {
-      font-size: 13px;
-      font-weight: 600;
       color: var(--gray-600);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .03em;
       margin-bottom: 8px;
+      text-transform: uppercase;
     }
 
-    .modal-chips {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-    }
+    .modal-chips { display: flex; flex-wrap: wrap; gap: 6px; }
 
-    .modal-actions {
-      display: flex;
-      gap: 8px;
-      margin-top: 24px;
-    }
-
-    .btn {
-      border: none;
-      border-radius: 10px;
+    .chip {
+      background: var(--gray-100);
+      border: 1px solid var(--gray-200);
+      border-radius: 20px;
+      color: var(--gray-600);
       cursor: pointer;
-      font-size: 14px;
-      font-weight: 600;
-      padding: 12px 0;
-      flex: 1;
+      font-size: 13px;
+      padding: 6px 14px;
+      transition: all .15s;
     }
 
-    .btn-primary { background: var(--blue); color: #fff; }
-    .btn-secondary { background: var(--gray-100); color: var(--gray-600); }
+    .chip.on { background: var(--blue); border-color: var(--blue); color: #fff; }
 
     .notif-toggle {
       align-items: center;
       background: var(--blue-light);
-      border-radius: 10px;
+      border-radius: 12px;
       display: flex;
       gap: 12px;
       margin-bottom: 20px;
-      padding: 12px;
+      padding: 14px;
     }
 
-    .notif-toggle span { flex: 1; font-size: 13px; color: var(--gray-800); }
+    .notif-toggle span { flex: 1; font-size: 13px; }
 
     .toggle {
       appearance: none;
       background: var(--gray-200);
       border-radius: 12px;
       cursor: pointer;
+      flex-shrink: 0;
       height: 24px;
       position: relative;
-      width: 44px;
       transition: background .2s;
-      flex-shrink: 0;
+      width: 44px;
     }
 
     .toggle::after {
@@ -391,13 +423,31 @@
     .toggle:checked { background: var(--blue); }
     .toggle:checked::after { left: 23px; }
 
-    /* Scrollbar */
-    ::-webkit-scrollbar { width: 4px; }
-    ::-webkit-scrollbar-thumb { background: var(--gray-200); border-radius: 2px; }
+    .modal-actions { display: flex; gap: 8px; margin-top: 24px; }
 
-    @media (min-width: 700px) {
-      #job-list { padding: 16px; }
+    .btn {
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      flex: 1;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 0;
     }
+
+    .btn-primary { background: var(--blue); color: #fff; }
+    .btn-secondary { background: var(--gray-100); color: var(--gray-600); }
+
+    .subject-input {
+      border: 1px solid var(--gray-200);
+      border-radius: 10px;
+      font-size: 13px;
+      outline: none;
+      padding: 10px 14px;
+      width: 100%;
+    }
+
+    .subject-input:focus { border-color: var(--blue); }
   </style>
 </head>
 <body>
@@ -405,9 +455,7 @@
 <header>
   <div class="header-top">
     <h1>📋 기간제교사 채용공고</h1>
-    <div class="header-actions">
-      <button class="icon-btn" id="notif-btn" title="알림 설정">🔔</button>
-    </div>
+    <button class="icon-btn" id="notif-btn" title="알림 설정">🔔</button>
   </div>
   <div class="tabs">
     <button class="tab active" data-tab="all">전체</button>
@@ -415,58 +463,63 @@
   </div>
 </header>
 
-<div id="filter-section">
-  <div class="search-bar">
-    <input type="search" id="search-input" placeholder="학교명, 과목, 지역 검색..." autocomplete="off">
+<div class="layout">
+
+  <!-- ── 사이드바 ── -->
+  <nav class="sidebar">
+    <div class="sidebar-section-label">시도</div>
+    <button class="sidebar-btn on" data-filter="sido" data-val="">전체</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="서울">서울</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="경기">경기</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="인천">인천</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="부산">부산</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="경남">경남</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="경북">경북</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="강원">강원</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="충남">충남</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="충북">충북</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="전북">전북</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="전남">전남</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="광주">광주</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="대전">대전</button>
+    <button class="sidebar-btn" data-filter="sido" data-val="세종">세종</button>
+
+    <div class="sidebar-divider"></div>
+    <div class="sidebar-section-label">학교급</div>
+    <button class="sidebar-btn on" data-filter="level" data-val="">전체</button>
+    <button class="sidebar-btn" data-filter="level" data-val="초등">초등</button>
+    <button class="sidebar-btn" data-filter="level" data-val="중등">중등</button>
+    <button class="sidebar-btn" data-filter="level" data-val="고등">고등</button>
+    <button class="sidebar-btn" data-filter="level" data-val="유치">유치</button>
+    <button class="sidebar-btn" data-filter="level" data-val="특수">특수</button>
+  </nav>
+
+  <!-- ── 오른쪽 패널 ── -->
+  <div class="right-panel">
+    <div class="search-wrap">
+      <input type="search" id="search-input" placeholder="학교명, 과목 검색..." autocomplete="off">
+    </div>
+    <div class="status-bar">
+      <span id="status-text">불러오는 중...</span>
+      <span id="updated-at"></span>
+    </div>
+    <div id="job-list"><div class="empty">불러오는 중...</div></div>
   </div>
-  <div class="filter-row">
-    <span class="filter-label">시도</span>
-    <button class="chip on" data-filter="sido" data-val="">전체</button>
-    <button class="chip" data-filter="sido" data-val="서울">서울</button>
-    <button class="chip" data-filter="sido" data-val="경기">경기</button>
-    <button class="chip" data-filter="sido" data-val="인천">인천</button>
-    <button class="chip" data-filter="sido" data-val="부산">부산</button>
-    <button class="chip" data-filter="sido" data-val="경남">경남</button>
-    <button class="chip" data-filter="sido" data-val="경북">경북</button>
-    <button class="chip" data-filter="sido" data-val="강원">강원</button>
-    <button class="chip" data-filter="sido" data-val="충남">충남</button>
-    <button class="chip" data-filter="sido" data-val="충북">충북</button>
-    <button class="chip" data-filter="sido" data-val="전북">전북</button>
-    <button class="chip" data-filter="sido" data-val="전남">전남</button>
-    <button class="chip" data-filter="sido" data-val="광주">광주</button>
-    <button class="chip" data-filter="sido" data-val="대전">대전</button>
-    <button class="chip" data-filter="sido" data-val="세종">세종</button>
-  </div>
-  <div class="filter-row">
-    <span class="filter-label">학교급</span>
-    <button class="chip on" data-filter="level" data-val="">전체</button>
-    <button class="chip" data-filter="level" data-val="초등">초등</button>
-    <button class="chip" data-filter="level" data-val="중등">중등</button>
-    <button class="chip" data-filter="level" data-val="고등">고등</button>
-    <button class="chip" data-filter="level" data-val="유치">유치</button>
-    <button class="chip" data-filter="level" data-val="특수">특수</button>
-  </div>
+
 </div>
 
-<div id="status-bar">
-  <span id="status-text">불러오는 중...</span>
-  <span id="updated-at"></span>
-</div>
-
-<div id="job-list"><div class="empty">불러오는 중...</div></div>
-
-<!-- 알림 설정 모달 -->
+<!-- ── 알림 설정 모달 ── -->
 <div class="modal-overlay" id="notif-modal">
   <div class="modal">
     <h2>🔔 맞춤 알림 설정</h2>
 
     <div class="notif-toggle">
-      <span>새 공고 알림 받기<br><small style="color:var(--gray-400)">앱 방문 시 내 조건에 맞는 새 공고를 알려드려요</small></span>
+      <span>새 공고 알림 받기<br><small style="color:var(--gray-400)">방문 시 내 조건에 맞는 새 공고를 알려드려요</small></span>
       <input type="checkbox" class="toggle" id="notif-toggle">
     </div>
 
     <div class="modal-section">
-      <h3>관심 지역 (복수 선택)</h3>
+      <h3>관심 지역</h3>
       <div class="modal-chips" id="pref-sidos">
         <button class="chip on" data-pref="sido" data-val="">전체</button>
         <button class="chip" data-pref="sido" data-val="서울">서울</button>
@@ -487,7 +540,7 @@
     </div>
 
     <div class="modal-section">
-      <h3>관심 학교급 (복수 선택)</h3>
+      <h3>관심 학교급</h3>
       <div class="modal-chips" id="pref-levels">
         <button class="chip on" data-pref="level" data-val="">전체</button>
         <button class="chip" data-pref="level" data-val="초등">초등</button>
@@ -499,9 +552,8 @@
     </div>
 
     <div class="modal-section">
-      <h3>관심 과목 (쉼표로 구분)</h3>
-      <input type="text" id="pref-subjects" placeholder="예: 수학, 영어, 체육"
-        style="border:1px solid var(--gray-200);border-radius:8px;padding:8px 12px;font-size:13px;width:100%;outline:none;">
+      <h3>관심 과목</h3>
+      <input type="text" id="pref-subjects" class="subject-input" placeholder="예: 수학, 영어, 체육">
     </div>
 
     <div class="modal-actions">
@@ -512,29 +564,20 @@
 </div>
 
 <script>
-// ── State ────────────────────────────────────────────────────────────────────
+// ── State ──────────────────────────────────────────────────────────────────────
 let allJobs = [];
 let currentTab = 'all';
 let filter = { sido: '', level: '' };
 let searchQ = '';
 let bookmarks = new Set(JSON.parse(localStorage.getItem('bookmarks') || '[]'));
 let seenIds = new Set(JSON.parse(localStorage.getItem('seenIds') || '[]'));
-
 const prefs = JSON.parse(localStorage.getItem('prefs') || '{"sidos":[],"levels":[],"subjects":[]}');
-const notifEnabled = localStorage.getItem('notifEnabled') === 'true';
 
-// ── Service Worker ────────────────────────────────────────────────────────────
+// ── Service Worker ─────────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').then(reg => {
-    // 새 공고 체크 요청
+  navigator.serviceWorker.register('./sw.js').then(() => {
     navigator.serviceWorker.ready.then(r => {
-      if (r.active) {
-        r.active.postMessage({
-          type: 'CHECK_NEW_JOBS',
-          prefs,
-          seen: [...seenIds],
-        });
-      }
+      r.active?.postMessage({ type: 'CHECK_NEW_JOBS', prefs, seen: [...seenIds] });
     });
   });
 
@@ -546,89 +589,88 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-// ── Data loading ──────────────────────────────────────────────────────────────
+// ── Data ───────────────────────────────────────────────────────────────────────
 async function loadJobs() {
   try {
     const res = await fetch('./data/jobs.json?t=' + Date.now());
     const data = await res.json();
     allJobs = data.jobs || [];
 
-    const ua = document.getElementById('updated-at');
     if (data.updated_at) {
       const d = new Date(data.updated_at);
-      ua.textContent = '업데이트: ' + d.toLocaleString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      document.getElementById('updated-at').textContent =
+        d.toLocaleString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
     }
 
-    // 새 공고 seenIds 확보
     allJobs.forEach(j => seenIds.add(j.id));
     localStorage.setItem('seenIds', JSON.stringify([...seenIds]));
-
     render();
   } catch {
-    document.getElementById('job-list').innerHTML = '<div class="empty">데이터를 불러오지 못했습니다.<br>잠시 후 다시 시도해주세요.</div>';
+    document.getElementById('job-list').innerHTML =
+      '<div class="empty">데이터를 불러오지 못했습니다.<br>잠시 후 다시 시도해주세요.</div>';
   }
 }
 
-// ── D-day ─────────────────────────────────────────────────────────────────────
+// ── D-day ──────────────────────────────────────────────────────────────────────
 function dday(deadline) {
   if (!deadline) return null;
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const due = new Date(deadline);
-  const diff = Math.round((due - today) / 86400000);
-  return diff;
+  const today = new Date(); today.setHours(0,0,0,0);
+  return Math.round((new Date(deadline) - today) / 86400000);
 }
 
-function ddayLabel(diff) {
-  if (diff === null) return '';
-  if (diff < 0) return '마감';
-  if (diff === 0) return 'D-day';
-  return `D-${diff}`;
+function ddayLabel(d) {
+  if (d === null) return '';
+  if (d < 0) return '마감';
+  if (d === 0) return 'D-day';
+  return `D-${d}`;
 }
 
-function ddayClass(diff) {
-  if (diff === null || diff < 0) return '';
-  if (diff <= 3) return 'dday-urgent';
-  if (diff <= 7) return 'dday-warning';
+function ddayClass(d) {
+  if (d === null || d < 0) return '';
+  if (d <= 3) return 'dday-urgent';
+  if (d <= 7) return 'dday-warning';
   return 'dday-normal';
 }
 
-function cardClass(diff) {
-  if (diff === null || diff < 0) return '';
-  if (diff <= 3) return 'urgent';
-  if (diff <= 7) return 'warning';
+function cardClass(d) {
+  if (d === null || d < 0) return '';
+  if (d <= 3) return 'urgent';
+  if (d <= 7) return 'warning';
   return '';
 }
 
-// ── Filter/Search ─────────────────────────────────────────────────────────────
+// ── Filter ─────────────────────────────────────────────────────────────────────
 function filteredJobs() {
   const q = searchQ.toLowerCase();
   return allJobs.filter(j => {
     if (currentTab === 'bookmarks' && !bookmarks.has(j.id)) return false;
     if (filter.sido && j.sido !== filter.sido) return false;
-    if (filter.level && j.level && j.level !== filter.level) return false;
-    if (filter.level && !j.level) return false;
-    if (q && !j.title.toLowerCase().includes(q) && !j.school.toLowerCase().includes(q) && !j.sido.includes(q)) return false;
+    if (filter.level && j.level !== filter.level) return false;
+    if (q && !j.title.toLowerCase().includes(q) &&
+        !(j.school||'').toLowerCase().includes(q) &&
+        !j.sido.includes(q)) return false;
     return true;
   });
 }
 
-// ── School info link (학교알리미) ─────────────────────────────────────────────
+// ── School info ────────────────────────────────────────────────────────────────
 function schoolInfoUrl(name) {
   return `https://www.schoolinfo.go.kr/ei/ss/Pneiss_b02_s0.do?schulNm=${encodeURIComponent(name)}`;
 }
 
-// ── Render ────────────────────────────────────────────────────────────────────
+function escHtml(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────────
 function render() {
   const jobs = filteredJobs();
   const list = document.getElementById('job-list');
-  const status = document.getElementById('status-text');
 
-  if (currentTab === 'bookmarks') {
-    status.textContent = `북마크 ${bookmarks.size}개 중 ${jobs.length}건 표시`;
-  } else {
-    status.textContent = `${jobs.length}건`;
-  }
+  document.getElementById('status-text').textContent =
+    currentTab === 'bookmarks'
+      ? `북마크 ${jobs.length}건`
+      : `${jobs.length}건`;
 
   if (jobs.length === 0) {
     list.innerHTML = currentTab === 'bookmarks'
@@ -638,61 +680,52 @@ function render() {
   }
 
   list.innerHTML = jobs.map(job => {
-    const diff = dday(job.deadline);
-    const isBookmarked = bookmarks.has(job.id);
-    const dc = ddayClass(diff);
-    const dl = ddayLabel(diff);
-    const cc = cardClass(diff);
-    const deadlineClass = diff !== null && diff <= 3 ? 'urgent' : diff !== null && diff <= 7 ? 'warning' : '';
+    const d = dday(job.deadline);
+    const bm = bookmarks.has(job.id);
+    const dlClass = d !== null && d <= 3 ? 'urgent' : d !== null && d <= 7 ? 'warning' : '';
+    const dl = ddayLabel(d);
 
     return `
-    <div class="job-card ${cc}" data-id="${job.id}">
+    <div class="job-card ${cardClass(d)}" data-id="${job.id}">
       <div class="card-top">
         <div class="card-title">${escHtml(job.title)}</div>
-        <button class="bookmark-btn" data-id="${job.id}" title="북마크">${isBookmarked ? '⭐' : '☆'}</button>
+        <button class="bookmark-btn" data-id="${job.id}">${bm ? '⭐' : '☆'}</button>
       </div>
       <div class="card-meta">
         <span class="badge badge-sido">${escHtml(job.sido)}</span>
         ${job.level ? `<span class="badge badge-level">${escHtml(job.level)}</span>` : ''}
         ${job.subject ? `<span class="badge badge-subject">${escHtml(job.subject)}</span>` : ''}
-        ${dl ? `<span class="dday ${dc}">${dl}</span>` : ''}
+        ${dl ? `<span class="dday ${ddayClass(d)}">${dl}</span>` : ''}
       </div>
-      <div class="card-school">
-        ${job.school ? `<span>${escHtml(job.school)}</span>
-        <button class="school-link" data-school="${escHtml(job.school)}">학교알리미 →</button>` : ''}
+      <div class="card-bottom">
+        ${job.school ? `
+          <span class="card-school">${escHtml(job.school)}</span>
+          <button class="school-link" data-school="${escHtml(job.school)}">학교알리미</button>
+        ` : ''}
       </div>
-      ${job.deadline ? `<div class="card-deadline ${deadlineClass}">마감 ${job.deadline}</div>` : ''}
+      ${job.deadline ? `<div class="card-deadline ${dlClass}">마감 ${job.deadline}</div>` : ''}
     </div>`;
   }).join('');
 
-  // Card click → open posting
   list.querySelectorAll('.job-card').forEach(card => {
     card.addEventListener('click', e => {
-      if (e.target.classList.contains('bookmark-btn') || e.target.classList.contains('school-link')) return;
-      const id = card.dataset.id;
-      const job = allJobs.find(j => j.id === id);
+      if (e.target.closest('.bookmark-btn') || e.target.closest('.school-link')) return;
+      const job = allJobs.find(j => j.id === card.dataset.id);
       if (job?.url) window.open(job.url, '_blank');
     });
   });
 
-  // Bookmark
   list.querySelectorAll('.bookmark-btn').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
       const id = btn.dataset.id;
-      if (bookmarks.has(id)) {
-        bookmarks.delete(id);
-        btn.textContent = '☆';
-      } else {
-        bookmarks.add(id);
-        btn.textContent = '⭐';
-      }
+      if (bookmarks.has(id)) { bookmarks.delete(id); btn.textContent = '☆'; }
+      else { bookmarks.add(id); btn.textContent = '⭐'; }
       localStorage.setItem('bookmarks', JSON.stringify([...bookmarks]));
       if (currentTab === 'bookmarks') render();
     });
   });
 
-  // 학교알리미
   list.querySelectorAll('.school-link').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
@@ -701,11 +734,7 @@ function render() {
   });
 }
 
-function escHtml(s) {
-  return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-
-// ── Tabs ──────────────────────────────────────────────────────────────────────
+// ── Tabs ───────────────────────────────────────────────────────────────────────
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -715,90 +744,65 @@ document.querySelectorAll('.tab').forEach(tab => {
   });
 });
 
-// ── Chips (filter) ────────────────────────────────────────────────────────────
-document.querySelectorAll('.chip[data-filter]').forEach(chip => {
-  chip.addEventListener('click', () => {
-    const type = chip.dataset.filter;
-    document.querySelectorAll(`.chip[data-filter="${type}"]`).forEach(c => c.classList.remove('on'));
-    chip.classList.add('on');
-    filter[type] = chip.dataset.val;
+// ── Sidebar filters ────────────────────────────────────────────────────────────
+document.querySelectorAll('.sidebar-btn[data-filter]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const type = btn.dataset.filter;
+    document.querySelectorAll(`.sidebar-btn[data-filter="${type}"]`).forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    filter[type] = btn.dataset.val;
+    // 스크롤 맨 위로
+    document.getElementById('job-list').scrollTop = 0;
     render();
   });
 });
 
-// ── Search ────────────────────────────────────────────────────────────────────
+// ── Search ─────────────────────────────────────────────────────────────────────
 document.getElementById('search-input').addEventListener('input', e => {
   searchQ = e.target.value.trim();
   render();
 });
 
-// ── Notification modal ────────────────────────────────────────────────────────
+// ── Notification modal ─────────────────────────────────────────────────────────
 const modal = document.getElementById('notif-modal');
 const notifToggle = document.getElementById('notif-toggle');
 
 document.getElementById('notif-btn').addEventListener('click', () => {
   modal.classList.add('open');
-
-  // Load saved prefs into modal
   notifToggle.checked = localStorage.getItem('notifEnabled') === 'true';
 
-  // Restore sido chips
   document.querySelectorAll('#pref-sidos .chip').forEach(c => {
     const saved = prefs.sidos || [];
-    if (saved.length === 0) {
-      c.classList.toggle('on', c.dataset.val === '');
-    } else {
-      c.classList.toggle('on', saved.includes(c.dataset.val));
-    }
+    c.classList.toggle('on', saved.length === 0 ? c.dataset.val === '' : saved.includes(c.dataset.val));
   });
-
-  // Restore level chips
   document.querySelectorAll('#pref-levels .chip').forEach(c => {
     const saved = prefs.levels || [];
-    if (saved.length === 0) {
-      c.classList.toggle('on', c.dataset.val === '');
-    } else {
-      c.classList.toggle('on', saved.includes(c.dataset.val));
-    }
+    c.classList.toggle('on', saved.length === 0 ? c.dataset.val === '' : saved.includes(c.dataset.val));
   });
-
-  // Restore subjects
   document.getElementById('pref-subjects').value = (prefs.subjects || []).join(', ');
 });
 
-modal.addEventListener('click', e => {
-  if (e.target === modal) modal.classList.remove('open');
-});
+modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('open'); });
+document.getElementById('modal-cancel').addEventListener('click', () => modal.classList.remove('open'));
 
-document.getElementById('modal-cancel').addEventListener('click', () => {
-  modal.classList.remove('open');
-});
-
-// Pref chips (multi-select in modal)
 document.querySelectorAll('.chip[data-pref]').forEach(chip => {
   chip.addEventListener('click', () => {
     const group = chip.dataset.pref;
     const val = chip.dataset.val;
-
     if (val === '') {
-      // 전체 선택 → others off
       document.querySelectorAll(`#pref-${group}s .chip`).forEach(c => c.classList.remove('on'));
       chip.classList.add('on');
     } else {
-      // 특정 값 toggle
-      const allChip = document.querySelector(`#pref-${group}s .chip[data-val=""]`);
-      allChip?.classList.remove('on');
+      document.querySelector(`#pref-${group}s .chip[data-val=""]`)?.classList.remove('on');
       chip.classList.toggle('on');
-      // 아무것도 선택 안 됐으면 전체로
       const anyOn = [...document.querySelectorAll(`#pref-${group}s .chip[data-val]:not([data-val=""])`)].some(c => c.classList.contains('on'));
-      if (!anyOn) allChip?.classList.add('on');
+      if (!anyOn) document.querySelector(`#pref-${group}s .chip[data-val=""]`)?.classList.add('on');
     }
   });
 });
 
 document.getElementById('modal-save').addEventListener('click', async () => {
   const wantsNotif = notifToggle.checked;
-
   if (wantsNotif) {
     const perm = await Notification.requestPermission();
     if (perm !== 'granted') {
@@ -806,23 +810,15 @@ document.getElementById('modal-save').addEventListener('click', async () => {
       return;
     }
   }
-
-  // Collect selected sidos
-  const selSidos = [...document.querySelectorAll('#pref-sidos .chip.on')]
-    .map(c => c.dataset.val).filter(v => v !== '');
-  const selLevels = [...document.querySelectorAll('#pref-levels .chip.on')]
-    .map(c => c.dataset.val).filter(v => v !== '');
-  const selSubjects = document.getElementById('pref-subjects').value
-    .split(',').map(s => s.trim()).filter(Boolean);
-
-  const newPrefs = { sidos: selSidos, levels: selLevels, subjects: selSubjects };
-  localStorage.setItem('prefs', JSON.stringify(newPrefs));
+  const selSidos = [...document.querySelectorAll('#pref-sidos .chip.on')].map(c => c.dataset.val).filter(v => v !== '');
+  const selLevels = [...document.querySelectorAll('#pref-levels .chip.on')].map(c => c.dataset.val).filter(v => v !== '');
+  const selSubjects = document.getElementById('pref-subjects').value.split(',').map(s => s.trim()).filter(Boolean);
+  localStorage.setItem('prefs', JSON.stringify({ sidos: selSidos, levels: selLevels, subjects: selSubjects }));
   localStorage.setItem('notifEnabled', wantsNotif ? 'true' : 'false');
-
   modal.classList.remove('open');
 });
 
-// ── Init ──────────────────────────────────────────────────────────────────────
+// ── Init ───────────────────────────────────────────────────────────────────────
 loadJobs();
 </script>
 </body>
