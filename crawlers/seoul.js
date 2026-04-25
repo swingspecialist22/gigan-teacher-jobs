@@ -9,7 +9,7 @@ async function crawlSeoul() {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const params = new URLSearchParams({
       q_recDtlScCd: '1040',
       q_rowPerPage: '20',
@@ -71,9 +71,6 @@ async function crawlSeoul() {
     });
 
     if (!hasNew) break;
-
-    const nextLink = $(`a[href*="q_currPage=${page + 1}"], a[onclick*="currPage=${page + 1}"]`);
-    if (nextLink.length === 0) break;
     page++;
   }
 

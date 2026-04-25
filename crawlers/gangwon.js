@@ -10,7 +10,7 @@ async function crawlGangwon() {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const url = `${LIST_URL}?key=${KEY}&bbsCtgrySn=25&pageIndex=${page}`;
     let html;
     try {
@@ -58,9 +58,6 @@ async function crawlGangwon() {
     });
 
     if (!hasNew) break;
-
-    const nextLink = $(`a[onclick*="pageIndex=${page + 1}"], a[href*="pageIndex=${page + 1}"]`);
-    if (nextLink.length === 0) break;
     page++;
   }
 

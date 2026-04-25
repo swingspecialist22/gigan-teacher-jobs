@@ -8,7 +8,7 @@ async function crawlBusan() {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const url = `${LIST_URL}&currPage=${page}`;
     let html;
     try {
@@ -72,9 +72,6 @@ async function crawlBusan() {
     });
 
     if (!hasNew) break;
-
-    const nextPage = $(`a[href*="currPage=${page + 1}"]`);
-    if (nextPage.length === 0) break;
     page++;
   }
 

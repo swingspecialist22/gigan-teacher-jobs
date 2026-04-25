@@ -1,5 +1,4 @@
 const fetch = require('node-fetch');
-const cheerio = require('cheerio');
 const iconv = require('iconv-lite');
 
 async function fetchHtml(url, encoding = 'utf-8') {
@@ -31,6 +30,25 @@ function isExpired(deadlineStr) {
   return deadline < today;
 }
 
+// 마감일이 N일 이상 지났으면 true → 페이지네이션 중단 신호용
+function isOldExpired(deadlineStr, days = 3) {
+  if (!deadlineStr) return false;
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const deadline = new Date(deadlineStr);
+  return today - deadline > days * 24 * 60 * 60 * 1000;
+}
+
+// 직종 필터 — 기간제교사·강사만 수집
+const EXCLUDE_RE = /자원봉사|봉사자|조리|배식|배움터지킴이|돌봄전담사|사무직|행정직|보조인력/;
+const INCLUDE_RE = /기간제|계약제|강사|교원|교사/;
+
+function isRelevantJob(title) {
+  if (!title) return false;
+  if (EXCLUDE_RE.test(title)) return false;
+  return INCLUDE_RE.test(title);
+}
+
 // 과목 키워드 — 긴 것 먼저 (부분 매칭 방지)
 const SUBJECT_KEYWORDS = [
   '생명과학', '지구과학', '사회문화', '기술가정', '생활과윤리', '세계지리', '세계사',
@@ -43,10 +61,8 @@ const SUBJECT_KEYWORDS = [
 ];
 
 function extractSubject(title) {
-  // 1차: 괄호 안 텍스트
   const match = title.match(/[（(]([^)）]{1,15})[)）]/);
   if (match) return match[1];
-  // 2차: 제목 내 키워드 스캔
   for (const kw of SUBJECT_KEYWORDS) {
     if (title.includes(kw)) return kw;
   }
@@ -62,4 +78,4 @@ function extractLevel(title) {
   return '';
 }
 
-module.exports = { fetchHtml, parseDate, isExpired, extractSubject, extractLevel };
+module.exports = { fetchHtml, parseDate, isExpired, isOldExpired, isRelevantJob, extractSubject, extractLevel };

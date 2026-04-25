@@ -8,7 +8,7 @@ async function crawlJeonbuk() {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const url = `${LIST_URL}&pageIndex=${page}`;
     let html;
     try {
@@ -58,9 +58,6 @@ async function crawlJeonbuk() {
     });
 
     if (!hasNew) break;
-
-    const nextPage = $(`a[href*="pageIndex=${page + 1}"]`);
-    if (nextPage.length === 0) break;
     page++;
   }
 

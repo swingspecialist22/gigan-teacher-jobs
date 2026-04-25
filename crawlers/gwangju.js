@@ -10,7 +10,7 @@ async function crawlGwangju() {
   // sCat=11: 기간제교사(유·초등)
   for (const sCat of ['11', '12']) {
     let page = 1;
-    while (true) {
+    while (page <= 20) {
       const params = new URLSearchParams({
         tbnum: '32',
         mode: 'list',
@@ -83,12 +83,6 @@ async function crawlGwangju() {
       });
 
       if (!hasNew) break;
-
-      // 다음 페이지: page+1 링크
-      const nextLink = $(`a[href*="page=${page + 1}"]`).filter((_, el) => {
-        return $(el).attr('href').includes(`sCat=${sCat}`);
-      });
-      if (nextLink.length === 0) break;
       page++;
     }
   }

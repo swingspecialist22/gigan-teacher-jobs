@@ -14,7 +14,7 @@ async function crawlBoard(boardID, m, level) {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const url = `${BASE_URL}/boardCnts/list.do?boardID=${boardID}&m=${m}&s=cne&page=${page}`;
     let html;
     try {
@@ -66,11 +66,6 @@ async function crawlBoard(boardID, m, level) {
     });
 
     if (!hasNew) break;
-
-    const nextLink = $(`a[href*="page=${page + 1}"]`).filter((_, el) => {
-      return $(el).attr('href').includes(`boardID=${boardID}`);
-    });
-    if (nextLink.length === 0) break;
     page++;
   }
 

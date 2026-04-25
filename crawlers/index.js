@@ -10,6 +10,7 @@ const crawlGwangju = require('./gwangju');
 const crawlChungnam = require('./chungnam');
 const crawlDaejeon = require('./daejeon');
 const { crawlAllNttSites } = require('./ntt-bbs');
+const { isRelevantJob } = require('./utils');
 
 async function main() {
   console.log('크롤링 시작...\n');
@@ -42,9 +43,14 @@ async function main() {
     }
   });
 
-  // 마감일 없는 공고 제외 후 빠른 마감 순 정렬
-  const validJobs = allJobs.filter(j => j.deadline);
-  validJobs.sort((a, b) => a.deadline.localeCompare(b.deadline));
+  // 직종 필터 (기간제교사·강사만) → 마감일 임박순 정렬 (마감일 없는 건 맨 뒤)
+  const validJobs = allJobs.filter(j => isRelevantJob(j.title));
+  validJobs.sort((a, b) => {
+    if (!a.deadline && !b.deadline) return 0;
+    if (!a.deadline) return 1;
+    if (!b.deadline) return -1;
+    return a.deadline.localeCompare(b.deadline);
+  });
 
   const output = {
     updated_at: new Date().toISOString(),

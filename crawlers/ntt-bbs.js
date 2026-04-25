@@ -3,17 +3,17 @@
  * 부산, 인천, 전남, 경북, 충북 등에서 동일하게 사용
  */
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = require('./utils');
+const { fetchHtml, parseDate, isExpired, isOldExpired, extractSubject, extractLevel } = require('./utils');
 
 
 /**
  * @param {object} config
- * @param {string} config.sido - 시도명 (예: '인천')
- * @param {string} config.baseUrl - 도메인 (예: 'https://www.ice.go.kr')
- * @param {string} config.path - BBS 경로 (예: '/ice/na/ntt')
- * @param {string} config.mi - 메뉴ID
- * @param {string} config.bbsId - 게시판ID
- * @param {string} config.source - 출처 도메인 (예: 'ice.go.kr')
+ * @param {string} config.sido
+ * @param {string} config.baseUrl
+ * @param {string} config.path
+ * @param {string} config.mi
+ * @param {string} config.bbsId
+ * @param {string} config.source
  */
 async function crawlNttBbs(config) {
   const { sido, baseUrl, path, mi, bbsId, source } = config;
@@ -37,6 +37,8 @@ async function crawlNttBbs(config) {
 
     let hasNew = false;
     let hasRows = false;
+    let shouldStop = false;
+
     rows.each((_, row) => {
       const titleEl = $(row).find('a.nttInfoBtn');
       const dataId = titleEl.attr('data-id');
@@ -69,6 +71,8 @@ async function crawlNttBbs(config) {
         }
       }
 
+      // D+3 이상 지난 항목 발견 시 이 페이지 이후 중단
+      if (isOldExpired(deadline)) { shouldStop = true; return; }
       if (isExpired(deadline)) return;
 
       // 학교명 추출
@@ -91,7 +95,6 @@ async function crawlNttBbs(config) {
         }
       }
 
-      // 학교급 직접 지정 컬럼이 있으면 우선 사용
       const levelFromCol = config.colLevel !== undefined
         ? tds.eq(config.colLevel).text().trim()
         : '';
@@ -111,7 +114,7 @@ async function crawlNttBbs(config) {
       });
     });
 
-    if (!hasRows || !hasNew) break;
+    if (!hasRows || !hasNew || shouldStop) break;
     page++;
   }
 
@@ -119,7 +122,6 @@ async function crawlNttBbs(config) {
   return jobs;
 }
 
-// 각 교육청 설정
 const NTT_SITES = [
   {
     sido: '인천',
@@ -136,6 +138,8 @@ const NTT_SITES = [
     mi: '265',
     bbsId: '117',
     source: 'jne.go.kr',
+    colSchool: 3,
+    colDeadline: 5,
   },
   {
     sido: '경북',
@@ -155,6 +159,9 @@ const NTT_SITES = [
     mi: '12127',
     bbsId: '1091',
     source: 'cbe.go.kr',
+    colSchool: 4,
+    colLevel: 2,
+    // 충북은 목록에 마감일 컬럼 없음 — 상세 페이지에만 있음
   },
   {
     sido: '세종',

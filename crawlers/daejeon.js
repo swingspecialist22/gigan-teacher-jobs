@@ -11,7 +11,7 @@ async function crawlDaejeon() {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const url = `${BASE_URL}/boardCnts/list.do?boardID=${BOARD_ID}&m=${M}&s=dje&page=${page}`;
     let html;
     try {
@@ -63,9 +63,6 @@ async function crawlDaejeon() {
     });
 
     if (!hasNew) break;
-
-    const nextLink = $(`a[href*="page=${page + 1}"][href*="boardID=${BOARD_ID}"]`);
-    if (nextLink.length === 0) break;
     page++;
   }
 

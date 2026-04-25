@@ -8,7 +8,7 @@ async function crawlGyeongnam() {
   const jobs = [];
   let page = 1;
 
-  while (true) {
+  while (page <= 20) {
     const params = new URLSearchParams({
       q_searchStatus: '1001',
       q_rowPerPage: '30',
@@ -77,10 +77,6 @@ async function crawlGyeongnam() {
     });
 
     if (!hasNew) break;
-
-    // 다음 페이지 확인
-    const nextLink = $(`a[onclick*="opMovePage(${page + 1})"], a[onclick*="fn_link_page(${page + 1})"]`);
-    if (nextLink.length === 0) break;
     page++;
   }
 
