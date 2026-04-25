@@ -2,7 +2,7 @@ name: 기간제교사 채용공고 크롤링
 
 on:
   schedule:
-    - cron: '0 0,6,12,18 * * *'  # 하루 4회 (UTC 0/6/12/18시 = KST 9/15/21/3시)
+    - cron: '0 1,6,13 * * *'  # 하루 3회 (UTC 1/6/13시 = KST 10/15/22시)
   workflow_dispatch:              # 수동 실행도 가능
 
 jobs:
