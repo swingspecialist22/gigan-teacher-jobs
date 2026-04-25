@@ -6,7 +6,7 @@ const BASE_URL = 'https://www.cne.go.kr';
 // 유치원/초등/중등 기간제 게시판 각각
 const BOARDS = [
   { boardID: '11005', m: '020201', level: '유치' },
-  { boardID: '641',   m: '020201', level: '초등' },
+  { boardID: '642',   m: '020201', level: '초등' },
   { boardID: '644',   m: '020201', level: '중등' },
 ];
 
