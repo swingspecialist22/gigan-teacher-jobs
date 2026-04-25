@@ -44,44 +44,40 @@
       background: var(--blue);
       color: #fff;
       flex-shrink: 0;
-      padding: 14px 16px 0;
       position: sticky;
       top: 0;
       z-index: 100;
       box-shadow: 0 2px 8px rgba(0,0,0,.15);
     }
 
-    .header-top {
-      display: flex;
+    .header-row {
       align-items: center;
+      display: flex;
       justify-content: space-between;
-      margin-bottom: 10px;
+      padding-right: 16px;
     }
 
-    header h1 { font-size: 17px; font-weight: 700; }
-
-    .icon-btn {
-      background: rgba(255,255,255,.18);
-      border: none;
-      border-radius: 8px;
-      color: #fff;
-      cursor: pointer;
-      font-size: 18px;
-      padding: 6px 10px;
+    .app-name {
+      color: rgba(255,255,255,.95);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: -.02em;
+      white-space: nowrap;
     }
 
-    .tabs { display: flex; gap: 4px; }
+    .tabs { display: flex; gap: 0; }
 
     .tab {
       background: none;
       border: none;
       border-bottom: 3px solid transparent;
-      color: rgba(255,255,255,.65);
+      color: rgba(255,255,255,.6);
       cursor: pointer;
       font-size: 14px;
       font-weight: 600;
-      padding: 8px 14px;
+      padding: 14px 14px 11px;
       transition: all .15s;
+      white-space: nowrap;
     }
 
     .tab.active { border-bottom-color: #fff; color: #fff; }
@@ -478,13 +474,13 @@
 <body>
 
 <header>
-  <div class="header-top">
-    <h1>쌤나우</h1>
-    <button class="icon-btn" id="notif-btn" title="알림 설정">🔔</button>
-  </div>
-  <div class="tabs">
-    <button class="tab active" data-tab="all">전체</button>
-    <button class="tab" data-tab="bookmarks">북마크 ⭐</button>
+  <div class="header-row">
+    <div class="tabs">
+      <button class="tab active" data-tab="all">전체</button>
+      <button class="tab" data-tab="bookmarks">북마크 ⭐</button>
+      <button class="tab" data-tab="notif" id="notif-btn">🔔 알림</button>
+    </div>
+    <span class="app-name">쌤나우</span>
   </div>
 </header>
 
@@ -679,7 +675,7 @@ function filteredJobs() {
 
 // ── School info ────────────────────────────────────────────────────────────────
 function schoolInfoUrl(name) {
-  return `https://www.schoolinfo.go.kr/ei/ss/Pneiss_b02_s0.do?schulNm=${encodeURIComponent(name)}`;
+  return `https://search.naver.com/search.naver?query=${encodeURIComponent(name + ' 학교알리미')}`;
 }
 
 function escHtml(s) {
@@ -761,6 +757,10 @@ function render() {
 // ── Tabs ───────────────────────────────────────────────────────────────────────
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
+    if (tab.dataset.tab === 'notif') {
+      openNotifModal();
+      return;
+    }
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     tab.classList.add('active');
     currentTab = tab.dataset.tab;
@@ -800,7 +800,7 @@ document.getElementById('search-input').addEventListener('input', e => {
 const modal = document.getElementById('notif-modal');
 const notifToggle = document.getElementById('notif-toggle');
 
-document.getElementById('notif-btn').addEventListener('click', () => {
+function openNotifModal() {
   modal.classList.add('open');
   notifToggle.checked = localStorage.getItem('notifEnabled') === 'true';
 
@@ -813,7 +813,7 @@ document.getElementById('notif-btn').addEventListener('click', () => {
     c.classList.toggle('on', saved.length === 0 ? c.dataset.val === '' : saved.includes(c.dataset.val));
   });
   document.getElementById('pref-subjects').value = (prefs.subjects || []).join(', ');
-});
+}
 
 modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('open'); });
 document.getElementById('modal-cancel').addEventListener('click', () => modal.classList.remove('open'));
