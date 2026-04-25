@@ -153,18 +153,6 @@
       width: 3px;
     }
 
-    .sidebar-divider {
-      background: var(--gray-200);
-      flex-shrink: 0;
-      height: 1px;
-      margin: 4px 8px;
-    }
-
-    /* 학교급 구분선 + 레이블 */
-    .level-section {
-      margin-top: 2px;
-    }
-
     /* ── Right panel ── */
     .right-panel {
       display: flex;
@@ -178,6 +166,7 @@
     .search-wrap {
       background: #fff;
       border-bottom: 1px solid var(--gray-200);
+      flex-shrink: 0;
       padding: 10px 12px;
     }
 
@@ -196,6 +185,39 @@
       background: #fff;
     }
 
+    /* Level top bar */
+    .level-bar {
+      background: #fff;
+      border-bottom: 1px solid var(--gray-200);
+      display: flex;
+      flex-shrink: 0;
+      gap: 0;
+      overflow-x: auto;
+      padding: 0 8px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .level-bar::-webkit-scrollbar { display: none; }
+
+    .level-chip {
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--gray-400);
+      cursor: pointer;
+      flex-shrink: 0;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px 12px 8px;
+      transition: color .15s, border-color .15s;
+      white-space: nowrap;
+    }
+
+    .level-chip.on {
+      border-bottom-color: var(--blue);
+      color: var(--blue);
+    }
+
     /* Status */
     .status-bar {
       align-items: center;
@@ -203,6 +225,7 @@
       border-bottom: 1px solid var(--gray-200);
       color: var(--gray-400);
       display: flex;
+      flex-shrink: 0;
       font-size: 11px;
       justify-content: space-between;
       padding: 5px 12px;
@@ -211,8 +234,10 @@
     /* Job list */
     #job-list {
       display: flex;
+      flex: 1;
       flex-direction: column;
       gap: 8px;
+      min-height: 0;
       overflow-y: auto;
       padding: 10px 10px 20px;
       -webkit-overflow-scrolling: touch;
@@ -483,21 +508,20 @@
     <button class="sidebar-btn" data-filter="sido" data-val="광주">광주</button>
     <button class="sidebar-btn" data-filter="sido" data-val="대전">대전</button>
     <button class="sidebar-btn" data-filter="sido" data-val="세종">세종</button>
-
-    <div class="sidebar-divider"></div>
-    <div class="sidebar-section-label">학교급</div>
-    <button class="sidebar-btn on" data-filter="level" data-val="">전체</button>
-    <button class="sidebar-btn" data-filter="level" data-val="초등">초등</button>
-    <button class="sidebar-btn" data-filter="level" data-val="중등">중등</button>
-    <button class="sidebar-btn" data-filter="level" data-val="고등">고등</button>
-    <button class="sidebar-btn" data-filter="level" data-val="유치">유치</button>
-    <button class="sidebar-btn" data-filter="level" data-val="특수">특수</button>
   </nav>
 
   <!-- ── 오른쪽 패널 ── -->
   <div class="right-panel">
     <div class="search-wrap">
       <input type="search" id="search-input" placeholder="학교명, 과목 검색..." autocomplete="off">
+    </div>
+    <div class="level-bar">
+      <button class="level-chip on" data-filter="level" data-val="">전체</button>
+      <button class="level-chip" data-filter="level" data-val="초등">초등</button>
+      <button class="level-chip" data-filter="level" data-val="중등">중등</button>
+      <button class="level-chip" data-filter="level" data-val="고등">고등</button>
+      <button class="level-chip" data-filter="level" data-val="유치">유치</button>
+      <button class="level-chip" data-filter="level" data-val="특수">특수</button>
     </div>
     <div class="status-bar">
       <span id="status-text">불러오는 중...</span>
@@ -744,14 +768,23 @@ document.querySelectorAll('.tab').forEach(tab => {
   });
 });
 
-// ── Sidebar filters ────────────────────────────────────────────────────────────
+// ── Sidebar (시도) ─────────────────────────────────────────────────────────────
 document.querySelectorAll('.sidebar-btn[data-filter]').forEach(btn => {
   btn.addEventListener('click', () => {
-    const type = btn.dataset.filter;
-    document.querySelectorAll(`.sidebar-btn[data-filter="${type}"]`).forEach(b => b.classList.remove('on'));
+    document.querySelectorAll('.sidebar-btn[data-filter]').forEach(b => b.classList.remove('on'));
     btn.classList.add('on');
-    filter[type] = btn.dataset.val;
-    // 스크롤 맨 위로
+    filter.sido = btn.dataset.val;
+    document.getElementById('job-list').scrollTop = 0;
+    render();
+  });
+});
+
+// ── Level top bar ──────────────────────────────────────────────────────────────
+document.querySelectorAll('.level-chip[data-filter]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.level-chip[data-filter]').forEach(b => b.classList.remove('on'));
+    btn.classList.add('on');
+    filter.level = btn.dataset.val;
     document.getElementById('job-list').scrollTop = 0;
     render();
   });
