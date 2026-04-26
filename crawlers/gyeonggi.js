@@ -6,6 +6,7 @@ const LIST_URL = `${BASE_URL}/recruit/ad/func/pb/hnfpPbancList.do`;
 
 async function crawlGyeonggi() {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 50) {
@@ -37,6 +38,8 @@ async function crawlGyeonggi() {
       const idMatch = href.match(/goView\('?(\d+)'?\)/);
       if (!idMatch) return;
       const pbancSn = idMatch[1];
+      if (seen.has(pbancSn)) return;
+      seen.add(pbancSn);
 
       // 학교명
       const school = $(a).find('div.cont_top > span').first().text().trim();
