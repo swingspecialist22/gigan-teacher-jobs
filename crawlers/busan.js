@@ -6,6 +6,7 @@ const LIST_URL = `${BASE_URL}/main/na/ntt/selectNttList.do?mi=30367&bbsId=2364`;
 
 async function crawlBusan() {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -32,6 +33,8 @@ async function crawlBusan() {
       const titleEl = $(row).find('a.nttInfoBtn');
       const dataId = titleEl.attr('data-id');
       if (!dataId) return;
+      if (seen.has(dataId)) return;
+      seen.add(dataId);
 
       // 이미지 alt 텍스트 제거 후 제목 추출
       titleEl.find('img').remove();

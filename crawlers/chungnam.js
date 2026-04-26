@@ -12,6 +12,7 @@ const BOARDS = [
 
 async function crawlBoard(boardID, m, level) {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -37,6 +38,8 @@ async function crawlBoard(boardID, m, level) {
       const seqMatch = onclick.match(/goView\('[^']+',\s*'(\d+)'/);
       if (!seqMatch) return;
       const boardSeq = seqMatch[1];
+      if (seen.has(boardSeq)) return;
+      seen.add(boardSeq);
 
       const school = $(a).text().replace(/\s+/g, ' ').trim();
       if (!school) return;

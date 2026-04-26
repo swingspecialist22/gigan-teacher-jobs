@@ -7,6 +7,7 @@ const LIST_URL = `${BASE_URL}/xboard/board.php`;
 
 async function crawlGwangju() {
   const jobs = [];
+  const seen = new Set();
   // sCat=11: 기간제교사(유·초등)
   for (const sCat of ['11', '12']) {
     let page = 1;
@@ -36,6 +37,8 @@ async function crawlGwangju() {
         const numMatch = href.match(/number=(\d+)/);
         if (!numMatch) return;
         const number = numMatch[1];
+        if (seen.has(number)) return;
+        seen.add(number);
 
         // 제목 (img 제거)
         $(a).find('img').remove();

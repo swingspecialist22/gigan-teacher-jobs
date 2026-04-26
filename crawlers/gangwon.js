@@ -8,6 +8,7 @@ const KEY = 'bTIzMDcyMTA1ODU2MzM%3D';
 
 async function crawlGangwon() {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -30,6 +31,8 @@ async function crawlGangwon() {
       const idMatch = onclick.match(/goView\('(\d+)'/);
       if (!idMatch) return;
       const sn = idMatch[1];
+      if (seen.has(sn)) return;
+      seen.add(sn);
 
       // 제목: title 속성 또는 링크 텍스트
       const title = ($(a).attr('title') || $(a).text()).replace(/\s+/g, ' ').trim();

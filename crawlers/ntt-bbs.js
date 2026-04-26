@@ -19,6 +19,7 @@ async function crawlNttBbs(config) {
   const { sido, baseUrl, path, mi, bbsId, source } = config;
   const listUrl = `${baseUrl}${path}/selectNttList.do?mi=${mi}&bbsId=${bbsId}`;
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -44,6 +45,8 @@ async function crawlNttBbs(config) {
       const dataId = titleEl.attr('data-id');
       if (!dataId) return;
       hasRows = true;
+      if (seen.has(dataId)) return;
+      seen.add(dataId);
 
       titleEl.find('img, span').remove();
       const title = titleEl.text().replace(/\s+/g, ' ').trim();

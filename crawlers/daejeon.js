@@ -9,6 +9,7 @@ const M = '030202';
 
 async function crawlDaejeon() {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -37,6 +38,8 @@ async function crawlDaejeon() {
       const seqMatch = onclick.match(/goView\('[^']+',\s*'(\d+)'/);
       if (!seqMatch) return;
       const boardSeq = seqMatch[1];
+      if (seen.has(boardSeq)) return;
+      seen.add(boardSeq);
 
       // 마감일: td[5] 포맷 "2026/04/27~2026/05/04"
       const tr = $(a).closest('tr');

@@ -7,6 +7,7 @@ const LIST_URL = `${BASE_URL}/work/search/recInfo/BD_selectSrchRecInfo.do`;
 
 async function crawlSeoul() {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -35,6 +36,8 @@ async function crawlSeoul() {
       const snMatch = href.match(/q_rcrtSn=(\d+)/);
       if (!snMatch) return;
       const rcrtSn = snMatch[1];
+      if (seen.has(rcrtSn)) return;
+      seen.add(rcrtSn);
 
       const title = linkEl.text().replace(/\s+/g, ' ').trim();
       if (!title) return;

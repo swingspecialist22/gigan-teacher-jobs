@@ -6,6 +6,7 @@ const LIST_URL = `${BASE_URL}/works/user/recruitment/BD_recruitmentList.do`;
 
 async function crawlGyeongnam() {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -39,6 +40,8 @@ async function crawlGyeongnam() {
       const idMatch = onclick.match(/openDetail\('?(\d+)'?\)/);
       if (!idMatch) return;
       const regSn = idMatch[1];
+      if (seen.has(regSn)) return;
+      seen.add(regSn);
 
       const title = titleEl.attr('title') || titleEl.text().trim();
 

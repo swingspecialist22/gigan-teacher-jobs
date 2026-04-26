@@ -6,6 +6,7 @@ const LIST_URL = `${BASE_URL}/pool/index.jbe?menuCd=DOM_000001601002000000`;
 
 async function crawlJeonbuk() {
   const jobs = [];
+  const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
@@ -31,6 +32,8 @@ async function crawlJeonbuk() {
       const schoolEl = $(tds[2]).find('a');
       const school = schoolEl.text().trim();
       const href = schoolEl.attr('href');
+      if (href && seen.has(href)) return;
+      if (href) seen.add(href);
       const subject = $(tds[3]).text().trim();     // 과목/분야
       const rawLevel = $(tds[1]).text().trim();    // 구분 (초/중/고 등)
       const level = normalizeLevel(rawLevel) || extractLevel('', school);
