@@ -8,7 +8,7 @@ async function crawlGyeonggi() {
   const jobs = [];
   let page = 1;
 
-  while (page <= 20) {
+  while (page <= 50) {
     const params = new URLSearchParams({
       q_pbanSe: '2',  // 기간제교원
       q_currPage: String(page),

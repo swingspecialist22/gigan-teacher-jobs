@@ -47,25 +47,12 @@ async function crawlGwangju() {
         const tds = tr.find('td');
         const school = tds.eq(1).text().trim();
         const subject = tds.eq(3).text().trim();
-        // 채용예정기간: td[5] = "2026-04~2027-02"
-        const periodTd = tds.eq(5).text().trim();
-        const parts = periodTd.replace(/\s+/g, '').split('~');
-        // 끝 달이 마감 → 해당 월 마지막 날로
-        const endPart = (parts[1] || '').trim();
-        let deadline = '';
-        if (endPart) {
-          if (/^\d{4}-\d{2}$/.test(endPart)) {
-            const [y, m] = endPart.split('-').map(Number);
-            if (m >= 1 && m <= 12) {
-              const lastDay = new Date(y, m, 0).getDate();
-              deadline = `${endPart}-${String(lastDay).padStart(2, '0')}`;
-            }
-          } else {
-            deadline = parseDate(endPart);
-          }
-        }
+        // td[7]=상태: "채용중" 인 것만 수집 (마감은 제외)
+        const status = tds.eq(7).text().trim();
+        if (!status.includes('채용중')) return;
 
-        if (isExpired(deadline)) return;
+        // 목록에는 접수기간이 없음 — 마감일 비워둠
+        const deadline = '';
 
         hasNew = true;
         jobs.push({
@@ -73,7 +60,7 @@ async function crawlGwangju() {
           sido: '광주',
           school,
           subject,
-          level: extractLevel(title),
+          level: extractLevel(title, school),
           title,
           deadline,
           url: `${BASE_URL}/xboard/board.php?tbnum=32&mode=view&number=${number}&sCat=${sCat}`,
