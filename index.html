@@ -705,8 +705,9 @@ function filteredJobs() {
 }
 
 // ── School info ────────────────────────────────────────────────────────────────
-function schoolInfoUrl(name) {
-  return `https://search.naver.com/search.naver?query=${encodeURIComponent(name + ' 학교알리미')}`;
+function schoolInfoUrl(name, sido) {
+  const q = sido ? `${sido} ${name} 학교알리미` : `${name} 학교알리미`;
+  return `https://search.naver.com/search.naver?query=${encodeURIComponent(q)}`;
 }
 
 function escHtml(s) {
@@ -751,7 +752,7 @@ function render() {
       <div class="card-bottom">
         ${job.school ? `
           <span class="card-school">${escHtml(job.school)}</span>
-          <button class="school-link" data-school="${escHtml(job.school)}">학교알리미</button>
+          <button class="school-link" data-school="${escHtml(job.school)}" data-sido="${escHtml(job.sido)}">학교알리미</button>
         ` : ''}
       </div>
       ${job.deadline ? `<div class="card-deadline ${dlClass}">마감 ${job.deadline}</div>` : ''}
@@ -780,7 +781,7 @@ function render() {
   list.querySelectorAll('.school-link').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
-      window.open(schoolInfoUrl(btn.dataset.school), '_blank');
+      window.open(schoolInfoUrl(btn.dataset.school, btn.dataset.sido), '_blank');
     });
   });
 }
