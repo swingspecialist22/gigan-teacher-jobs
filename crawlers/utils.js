@@ -40,7 +40,7 @@ function isOldExpired(deadlineStr, days = 3) {
 }
 
 // 직종 필터 — 기간제교사·강사만 수집
-const EXCLUDE_RE = /자원봉사|봉사자|조리|배식|배움터지킴이|돌봄전담사|사무직|행정직|보조인력/;
+const EXCLUDE_RE = /자원봉사|봉사자|조리|배식|배움터지킴이|돌봄전담사|사무직|행정직|보조인력|합격자/;
 const INCLUDE_RE = /기간제|계약제|강사|교원|교사/;
 
 function isRelevantJob(title) {
