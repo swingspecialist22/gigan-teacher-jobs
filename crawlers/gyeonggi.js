@@ -63,7 +63,7 @@ async function crawlGyeonggi() {
         sido: '경기',
         school,
         subject: extractSubject(title),
-        level: extractLevel(title),
+        level: extractLevel(title, school),
         title,
         deadline,
         url: `${BASE_URL}/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=${pbancSn}`,

@@ -11,7 +11,7 @@ async function crawlGangwon() {
   let page = 1;
 
   while (page <= 20) {
-    const url = `${LIST_URL}?key=${KEY}&bbsCtgrySn=25&pageIndex=${page}`;
+    const url = `${LIST_URL}?key=${KEY}&pageIndex=${page}`;
     let html;
     try {
       html = await fetchHtml(url);
@@ -48,7 +48,7 @@ async function crawlGangwon() {
         sido: '강원',
         school,
         subject: extractSubject(title),
-        level: extractLevel(title),
+        level: extractLevel(title, school),
         title,
         deadline,
         url: `${BASE_URL}/main/bbs/view.do?key=${KEY}&sn=${sn}`,

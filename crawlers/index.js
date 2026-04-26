@@ -1,4 +1,6 @@
 const fs = require('fs');
+// 일부 교육청 사이트 자체 서명 인증서 허용
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const path = require('path');
 const crawlBusan = require('./busan');
 const crawlJeonbuk = require('./jeonbuk');

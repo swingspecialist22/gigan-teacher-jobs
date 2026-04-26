@@ -66,7 +66,7 @@ async function crawlGyeongnam() {
         sido: '경남',
         school,
         subject: '',
-        level: extractLevel(title),
+        level: extractLevel(title, school),
         title,
         deadline,
         region,

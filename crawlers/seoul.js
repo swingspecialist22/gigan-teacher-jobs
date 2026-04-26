@@ -61,7 +61,7 @@ async function crawlSeoul() {
         sido: '서울',
         school,
         subject: extractSubject(title),
-        level: extractLevel(title),
+        level: extractLevel(title, school),
         title,
         deadline,
         url: `${BASE_URL}/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=${rcrtSn}`,

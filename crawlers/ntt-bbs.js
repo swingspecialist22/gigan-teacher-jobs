@@ -3,7 +3,7 @@
  * 부산, 인천, 전남, 경북, 충북 등에서 동일하게 사용
  */
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired, isOldExpired, extractSubject, extractLevel } = require('./utils');
+const { fetchHtml, parseDate, isExpired, isOldExpired, normalizeLevel, extractSubject, extractLevel } = require('./utils');
 
 
 /**
@@ -96,7 +96,7 @@ async function crawlNttBbs(config) {
       }
 
       const levelFromCol = config.colLevel !== undefined
-        ? tds.eq(config.colLevel).text().trim()
+        ? normalizeLevel(tds.eq(config.colLevel).text().trim())
         : '';
 
       hasNew = true;
@@ -105,7 +105,7 @@ async function crawlNttBbs(config) {
         sido,
         school,
         subject: extractSubject(title),
-        level: levelFromCol || extractLevel(title),
+        level: levelFromCol || extractLevel(title, school),
         title,
         deadline,
         url: `${baseUrl}${path}/selectNttInfo.do?mi=${mi}&bbsId=${bbsId}&nttSn=${dataId}`,

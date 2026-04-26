@@ -49,6 +49,17 @@ function isRelevantJob(title) {
   return INCLUDE_RE.test(title);
 }
 
+// colLevel 원시값 → 표준값 변환
+function normalizeLevel(raw) {
+  if (!raw) return '';
+  if (/초등학교|^초등$/.test(raw)) return '초등';
+  if (/중학교|^중등$/.test(raw)) return '중등';
+  if (/고등학교|^고등$/.test(raw)) return '고등';
+  if (/유치원|^유치$/.test(raw)) return '유치';
+  if (/특수학교|^특수$/.test(raw)) return '특수';
+  return ''; // 기관/기타/보건 등 → extractLevel로 fallback
+}
+
 // 과목 키워드 — 긴 것 먼저 (부분 매칭 방지)
 const SUBJECT_KEYWORDS = [
   '생명과학', '지구과학', '사회문화', '기술가정', '생활과윤리', '세계지리', '세계사',
@@ -69,13 +80,33 @@ function extractSubject(title) {
   return '';
 }
 
-function extractLevel(title) {
-  if (title.includes('초등') || title.includes('초교')) return '초등';
-  if (title.includes('중학') || title.includes('중교')) return '중등';
-  if (title.includes('고등') || title.includes('고교')) return '고등';
-  if (title.includes('유치')) return '유치';
-  if (title.includes('특수')) return '특수';
+function extractLevel(title, school = '') {
+  const src = title + ' ' + school;
+
+  // 전체 교명 (우선)
+  if (/고등학교|고교/.test(src)) return '고등';
+  if (/초등학교|초교/.test(src)) return '초등';
+  if (/중학교/.test(src)) return '중등';
+  if (/유치원/.test(src)) return '유치';
+  if (/특수학교/.test(src)) return '특수';
+
+  // 약칭 키워드
+  if (/여고|공업고|상업고/.test(src)) return '고등';
+  if (/여중/.test(src)) return '중등';
+
+  // 학교 약칭 패턴: 한글2자 이상 + 초/중/고 + (공백·괄호·끝)
+  if (/[가-힣]{2}고([\s\(,\/]|$)/.test(src)) return '고등';
+  if (/[가-힣]{2}초([\s\(,\/]|$)/.test(src)) return '초등';
+  if (/[가-힣]{2}중([\s\(,\/]|$)/.test(src)) return '중등';
+
+  // 제목 키워드
+  if (/초등|[1-6]학년 담임/.test(title)) return '초등';
+  if (/중학|중등/.test(title)) return '중등';
+  if (/고등/.test(title)) return '고등';
+  if (/유치/.test(title)) return '유치';
+  if (/특수/.test(title)) return '특수';
+
   return '';
 }
 
-module.exports = { fetchHtml, parseDate, isExpired, isOldExpired, isRelevantJob, extractSubject, extractLevel };
+module.exports = { fetchHtml, parseDate, isExpired, isOldExpired, isRelevantJob, normalizeLevel, extractSubject, extractLevel };

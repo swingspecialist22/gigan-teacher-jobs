@@ -62,7 +62,7 @@ async function crawlBusan() {
         sido: '부산',
         school,
         subject: extractSubject(title),
-        level: extractLevel(title),
+        level: extractLevel(title, school),
         title,
         deadline,
         url: detailUrl,

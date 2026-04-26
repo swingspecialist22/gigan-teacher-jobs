@@ -1,5 +1,5 @@
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired } = require('./utils');
+const { fetchHtml, parseDate, isExpired, normalizeLevel, extractLevel } = require('./utils');
 
 const BASE_URL = 'https://www.jbe.go.kr';
 const LIST_URL = `${BASE_URL}/pool/index.jbe?menuCd=DOM_000001601002000000`;
@@ -28,11 +28,12 @@ async function crawlJeonbuk() {
       const tds = $(row).find('td');
       if (tds.length < 5) return;
 
-      const level = $(tds[1]).text().trim();       // 구분 (초/중/고 등)
       const schoolEl = $(tds[2]).find('a');
       const school = schoolEl.text().trim();
       const href = schoolEl.attr('href');
       const subject = $(tds[3]).text().trim();     // 과목/분야
+      const rawLevel = $(tds[1]).text().trim();    // 구분 (초/중/고 등)
+      const level = normalizeLevel(rawLevel) || extractLevel('', school);
       const periodText = $(tds[4]).text().trim();  // 접수기간
 
       if (!school) return;
