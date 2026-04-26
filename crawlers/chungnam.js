@@ -1,89 +1,88 @@
+const fetch = require('node-fetch');
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired } = require('./utils');
+const { parseDate, isExpired, isOldExpired, extractSubject, extractLevel } = require('./utils');
 
-const BASE_URL = 'https://www.cne.go.kr';
+const BASE_URL = 'http://www.cne.go.kr';
+const LIST_URL = `${BASE_URL}/apply/list.do?s=cne&m=032101`;
 
-// 유치원/초등/중등 기간제 게시판 각각
-const BOARDS = [
-  { boardID: '11005', m: '020201', level: '유치' },
-  { boardID: '642',   m: '020201', level: '초등' },
-  { boardID: '644',   m: '020201', level: '중등' },
-];
+const LEVEL_MAP = { '초': '초등', '중': '중등', '고': '고등', '유': '유치', '특': '특수' };
 
-async function crawlBoard(boardID, m, level) {
+async function crawlChungnam() {
   const jobs = [];
   const seen = new Set();
   let page = 1;
 
   while (page <= 20) {
-    const url = `${BASE_URL}/boardCnts/list.do?boardID=${boardID}&m=${m}&s=cne&page=${page}`;
     let html;
     try {
-      html = await fetchHtml(url);
+      const res = await fetch(LIST_URL, {
+        method: 'POST',
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: `nowPage=${page}&rcpt_bgng_ymd=&rcpt_endd_ymd=&empmn_qualf_course=`,
+      });
+      html = await res.text();
     } catch (e) {
-      console.error(`[충남 ${level}] 페이지 ${page} 실패:`, e.message);
+      console.error(`[충남] 페이지 ${page} 실패:`, e.message);
       break;
     }
 
     const $ = cheerio.load(html);
-    // 공고 행: onclick에 goView 포함된 a 태그
-    const links = $(`a[onclick*="goView('${boardID}'"]`).filter((_, el) => {
-      return $(el).closest('table').length > 0;
-    });
-    if (links.length === 0) break;
+    const rows = $('tr').filter((_, el) => $(el).find('td').length === 11);
+    if (rows.length === 0) break;
 
     let hasNew = false;
-    links.each((_, a) => {
-      const onclick = $(a).attr('onclick') || '';
-      const seqMatch = onclick.match(/goView\('[^']+',\s*'(\d+)'/);
+    let shouldStop = false;
+
+    rows.each((_, row) => {
+      const tds = $(row).find('td');
+      const status = tds.eq(6).text().trim();
+      // 마감 상태는 건너뜀
+      if (status === '마감') return;
+
+      const onclick = $(row).find('[onclick*="listAction"]').attr('onclick') || '';
+      const seqMatch = onclick.match(/listAction\('(\d+)'\)/);
       if (!seqMatch) return;
-      const boardSeq = seqMatch[1];
-      if (seen.has(boardSeq)) return;
-      seen.add(boardSeq);
+      const seq = seqMatch[1];
+      if (seen.has(seq)) return;
+      seen.add(seq);
 
-      const school = $(a).text().replace(/\s+/g, ' ').trim();
-      if (!school) return;
+      const school = tds.eq(3).text().trim();
+      const subject = tds.eq(5).text().trim();
+      const rawLevel = tds.eq(2).text().trim();
+      const level = LEVEL_MAP[rawLevel] || extractLevel('', school);
 
-      const tr = $(a).closest('tr');
-      const tds = tr.find('td');
-      // 컬럼: 번호, 과목, 지역, 학교명(link), 작성일, 마감일, 조회수
-      const subject = tds.eq(1).text().trim();
-      const deadlineText = tds.eq(5).text().trim();
-      const deadline = parseDate(deadlineText);
+      // 접수기간 끝 날짜 파싱: "2026-04-27 09:00 ~ 2026-04-29 10:00"
+      const periodText = tds.eq(7).text().trim();
+      const parts = periodText.split('~');
+      const deadline = parseDate((parts[1] || '').trim());
 
+      if (isOldExpired(deadline)) { shouldStop = true; return; }
       if (isExpired(deadline)) return;
+
+      const title = `${school} ${subject} 기간제교사 채용`;
 
       hasNew = true;
       jobs.push({
-        id: `chungnam_${boardSeq}`,
+        id: `chungnam_${seq}`,
         sido: '충남',
         school,
-        subject,
+        subject: extractSubject(subject) || subject,
         level,
-        title: `${school} 기간제교사 채용`,
+        title,
         deadline,
-        url: `${BASE_URL}/boardCnts/view.do?boardID=${boardID}&boardSeq=${boardSeq}&lev=0&searchType=null&statusYN=W&page=${page}&s=cne&m=${m}&opType=N`,
+        url: `${BASE_URL}/apply/select.do?s=cne&m=032101`,
         source: 'cne.go.kr',
         crawled_at: new Date().toISOString(),
       });
     });
 
-    if (!hasNew) break;
+    if (!hasNew || shouldStop) break;
     page++;
   }
 
-  return jobs;
-}
-
-async function crawlChungnam() {
-  const results = await Promise.allSettled(
-    BOARDS.map(b => crawlBoard(b.boardID, b.m, b.level))
-  );
-  const jobs = [];
-  results.forEach((r, i) => {
-    if (r.status === 'fulfilled') jobs.push(...r.value);
-    else console.error(`[충남 ${BOARDS[i].level}] 실패:`, r.reason.message);
-  });
   console.log(`[충남] ${jobs.length}건 수집`);
   return jobs;
 }
