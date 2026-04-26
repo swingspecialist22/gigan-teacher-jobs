@@ -50,9 +50,9 @@ async function crawlGwangju() {
         const tds = tr.find('td');
         const school = tds.eq(1).text().trim();
         const subject = tds.eq(3).text().trim();
-        // td[7]=상태: "채용중" 인 것만 수집 (마감은 제외)
+        // td[7]=상태: "접수마감" 이면 제외
         const status = tds.eq(7).text().trim();
-        if (!status.includes('채용중')) return;
+        if (status.includes('접수마감')) return;
 
         // 목록에는 접수기간이 없음 — 마감일 비워둠
         const deadline = '';
