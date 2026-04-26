@@ -12,6 +12,8 @@ const crawlGwangju = require('./gwangju');
 const crawlChungnam = require('./chungnam');
 const crawlDaejeon = require('./daejeon');
 const { crawlAllNttSites } = require('./ntt-bbs');
+const crawlJeju = require('./jeju');
+const crawlUlsan = require('./ulsan');
 const { isRelevantJob } = require('./utils');
 
 async function main() {
@@ -27,6 +29,8 @@ async function main() {
     crawlGwangju(),
     crawlChungnam(),
     crawlDaejeon(),
+    crawlJeju(),
+    crawlUlsan(),
     crawlAllNttSites(),
   ]);
 
@@ -34,6 +38,7 @@ async function main() {
   const labels = [
     '부산', '전북', '경남', '강원',
     '서울', '경기', '광주', '충남', '대전',
+    '제주', '울산',
     'NTT공통(인천·전남·경북·충북·세종)',
   ];
   results.forEach((result, i) => {
