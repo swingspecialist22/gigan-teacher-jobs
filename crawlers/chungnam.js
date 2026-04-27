@@ -73,7 +73,7 @@ async function crawlChungnam() {
         level,
         title,
         deadline,
-        url: `${BASE_URL}/apply/select.do?s=cne&m=032101`,
+        url: `${BASE_URL}/apply/list.do?s=cne&m=032101`,
         source: 'cne.go.kr',
         crawled_at: new Date().toISOString(),
       });
