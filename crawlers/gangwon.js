@@ -54,7 +54,7 @@ async function crawlGangwon() {
         level: extractLevel(title, school),
         title,
         deadline,
-        url: `${BASE_URL}/main/bbs/view.do?key=${KEY}&sn=${sn}`,
+        url: `${BASE_URL}/main/bbs/list.do?key=${KEY}`,
         source: 'gwe.go.kr',
         crawled_at: new Date().toISOString(),
       });
