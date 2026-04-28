@@ -561,8 +561,11 @@
 <!-- ── 앱 정보 모달 ── -->
 <div class="modal-overlay" id="about-modal">
   <div class="modal">
-    <h2>앱 정보</h2>
-    <p style="font-size:14px;line-height:1.7;color:var(--gray-600);margin-top:12px;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+      <h2 style="margin-bottom:0;">앱 정보</h2>
+      <button id="about-close" style="background:none;border:none;cursor:pointer;font-size:22px;color:var(--gray-400);line-height:1;padding:4px;">✕</button>
+    </div>
+    <p style="font-size:14px;line-height:1.7;color:var(--gray-600);">
       <strong>티커리어</strong>는 전국 시도교육청에 공개된 채용공고를 수집하여 제공하는 <strong>렛츠고티처</strong>의 서비스입니다.<br><br>
       교육부·각 시도교육청과 무관하며, 정부 기관을 대표하지 않습니다.<br><br>
       공식 정보는 각 시도교육청 사이트에서 확인하시기 바랍니다.
@@ -570,7 +573,6 @@
     <p style="font-size:11px;color:var(--gray-400);margin-top:12px;line-height:1.8;">
       수집 출처: pen.go.kr · jbe.go.kr · gne.go.kr · gwe.go.kr · sen.go.kr · goe.go.kr · gen.go.kr · cne.go.kr · dje.go.kr · ije.go.kr · jne.go.kr · gbe.go.kr · cbe.go.kr · sje.go.kr · jje.go.kr · use.go.kr
     </p>
-    <button class="modal-close" id="about-close">닫기</button>
   </div>
 </div>
 
