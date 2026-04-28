@@ -500,7 +500,10 @@
       <button class="tab" data-tab="bookmarks">북마크 ⭐</button>
       <button class="tab" data-tab="notif" id="notif-btn">알림 🔔</button>
     </div>
-    <a href="./" style="display:flex;align-items:center;"><img src="logo/tclogo2.png" alt="티커리어" style="height:36px;object-fit:contain;"></a>
+    <div style="display:flex;align-items:center;gap:8px;">
+      <button id="about-btn" style="background:none;border:none;cursor:pointer;color:var(--gray-400);font-size:18px;padding:4px 6px;line-height:1;" title="앱 정보">ⓘ</button>
+      <a href="./" style="display:flex;align-items:center;"><img src="logo/tclogo2.png" alt="티커리어" style="height:36px;object-fit:contain;"></a>
+    </div>
   </div>
 </header>
 
@@ -551,13 +554,24 @@
       <span id="updated-at"></span>
     </div>
     <div id="job-list"><div class="empty">불러오는 중...</div></div>
-    <footer style="padding:16px;text-align:center;font-size:11px;color:#9ca3af;line-height:1.8;border-top:1px solid #e5e7eb;margin-top:8px;">
-      <strong style="color:#6b7280;">티커리어</strong>는 교육부·각 시도교육청과 무관한 민간 서비스입니다.<br>
-      공식 정보는 각 교육청 사이트에서 확인하세요.<br>
-      <span style="font-size:10px;">pen.go.kr · jbe.go.kr · gne.go.kr · gwe.go.kr · sen.go.kr · goe.go.kr · gen.go.kr · cne.go.kr · dje.go.kr · ije.go.kr · jne.go.kr · gbe.go.kr · cbe.go.kr · sje.go.kr · jje.go.kr · use.go.kr</span>
-    </footer>
   </div>
 
+</div>
+
+<!-- ── 앱 정보 모달 ── -->
+<div class="modal-overlay" id="about-modal">
+  <div class="modal">
+    <h2>앱 정보</h2>
+    <p style="font-size:14px;line-height:1.7;color:var(--gray-600);margin-top:12px;">
+      <strong>티커리어</strong>는 전국 시도교육청의 공개 채용공고를 수집하여 제공하는 <strong>민간 서비스</strong>입니다.<br><br>
+      교육부·각 시도교육청과 무관하며, 정부 기관을 대표하지 않습니다.<br><br>
+      공식 정보는 각 시도교육청 사이트에서 확인하시기 바랍니다.
+    </p>
+    <p style="font-size:11px;color:var(--gray-400);margin-top:12px;line-height:1.8;">
+      수집 출처: pen.go.kr · jbe.go.kr · gne.go.kr · gwe.go.kr · sen.go.kr · goe.go.kr · gen.go.kr · cne.go.kr · dje.go.kr · ije.go.kr · jne.go.kr · gbe.go.kr · cbe.go.kr · sje.go.kr · jje.go.kr · use.go.kr
+    </p>
+    <button class="modal-close" id="about-close">닫기</button>
+  </div>
 </div>
 
 <!-- ── 알림 설정 모달 ── -->
@@ -849,6 +863,12 @@ document.getElementById('sort-select').addEventListener('change', e => {
   sortBy = e.target.value;
   render();
 });
+
+// ── About modal ────────────────────────────────────────────────────────────────
+const aboutModal = document.getElementById('about-modal');
+document.getElementById('about-btn').addEventListener('click', () => aboutModal.classList.add('open'));
+document.getElementById('about-close').addEventListener('click', () => aboutModal.classList.remove('open'));
+aboutModal.addEventListener('click', e => { if (e.target === aboutModal) aboutModal.classList.remove('open'); });
 
 // ── Notification modal ─────────────────────────────────────────────────────────
 const modal = document.getElementById('notif-modal');
