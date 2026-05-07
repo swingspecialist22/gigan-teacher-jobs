@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "kr.tcareer.app",
+      "sha256_cert_fingerprints": ["BB:5D:CC:5F:88:52:FD:8F:FE:AB:59:FC:15:70:07:BC:26:33:D1:F5:C7:A0:D5:0F:DF:C3:79:24:B8:68:E9:B4"]
+    }
+  }
+]
