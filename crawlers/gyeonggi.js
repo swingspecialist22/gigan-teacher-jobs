@@ -24,36 +24,39 @@ async function crawlGyeonggi() {
     }
 
     const $ = cheerio.load(html);
-    // 실제 HTML: <a onclick="javascript:goView('12345');">
-    const items = $('a[onclick*="goView("]');
+    // 실제 HTML: <a href="javascript:goView('12345');">
+    const items = $('a[href*="goView"]');
 
     if (items.length === 0) break;
 
     let hasNew = false;
     items.each((_, a) => {
-      const onclick = $(a).attr('onclick') || '';
-      const idMatch = onclick.match(/goView\('?(\d+)'?\)/);
+      const href = $(a).attr('href') || '';
+      const idMatch = href.match(/goView\('?(\d+)'?\)/);
       if (!idMatch) return;
       const pbancSn = idMatch[1];
       if (seen.has(pbancSn)) return;
       seen.add(pbancSn);
 
-      // 학교명 (전화번호 포함될 수 있으므로 제거)
-      const school = $(a).find('div.school_name').text()
-        .replace(/\s*[\d]{2,4}-[\d]{3,4}-[\d]{4}/, '').trim();
+      // 실제 구조: class 없는 div 배열
+      // div[0]: 학교명 + 전화번호 + 등록일 + 조회수
+      // div[1]: [마감임박] 공고제목
+      // div[n]: 접수기간 포함 div
+      const divs = $(a).find('div');
 
-      // 공고 제목
-      const title = ($(a).find('div.title').text() || $(a).find('p.cont_tit').text())
-        .replace(/\s+/g, ' ').trim();
+      const school = divs.eq(0).text()
+        .replace(/\s*\d{2,4}-\d{3,4}-\d{4}.*$/, '').trim();
+
+      const title = divs.eq(1).text()
+        .replace(/^(마감임박|마감)\s*/u, '').replace(/\s+/g, ' ').trim();
       if (!title) return;
 
-      // 접수기간: <span class="period">접수기간 2026/05/15 ~ 2026/05/19</span>
       let deadline = '';
-      $(a).find('span.period, em.btm_tit').each((_, el) => {
-        const text = $(el).text();
+      divs.each((_, div) => {
+        const text = $(div).text();
         if (text.includes('접수기간')) {
-          const periodText = text.replace('접수기간', '').trim();
-          const parts = periodText.split('~');
+          const clean = text.replace(/접수기간\s*/g, '').trim();
+          const parts = clean.split('~');
           deadline = parseDate((parts[1] || '').trim());
         }
       });

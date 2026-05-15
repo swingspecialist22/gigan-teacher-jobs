@@ -1,5 +1,5 @@
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = require('./utils');
+const { fetchHtml, parseDate, isOldExpired, extractSubject, extractLevel } = require('./utils');
 
 const BASE_URL = 'https://www.gen.go.kr';
 // sCat=11: 기간제교사구인(유·초등), sCat=12: 특수학교강사구인
@@ -54,11 +54,9 @@ async function crawlGwangju() {
         const status = tds.eq(7).text().trim();
         if (status.includes('접수마감')) return;
 
-        // td[5]=채용예정기간 (예: "2025.03.01~2025.05.31")에서 종료일 파싱
-        const periodText = tds.eq(5).text().trim();
-        const periodParts = periodText.split('~');
-        const deadline = parseDate((periodParts[1] || periodParts[0] || '').trim());
-        if (isExpired(deadline)) return;
+        // td[4]=공고일 기준 90일 초과 시 오래된 공고로 판단해 제외
+        const postingDate = parseDate(tds.eq(4).text().trim());
+        if (isOldExpired(postingDate, 90)) return;
 
         hasNew = true;
         jobs.push({
@@ -68,7 +66,7 @@ async function crawlGwangju() {
           subject,
           level: extractLevel(title, school),
           title,
-          deadline,
+          deadline: '',
           url: `${BASE_URL}/xboard/board.php?tbnum=32&mode=view&number=${number}&sCat=${sCat}`,
           source: 'gen.go.kr',
           crawled_at: new Date().toISOString(),
