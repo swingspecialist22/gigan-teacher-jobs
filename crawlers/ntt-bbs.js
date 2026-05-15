@@ -74,8 +74,14 @@ async function crawlNttBbs(config) {
         }
       }
 
-      // D+3 이상 지난 항목 발견 시 이 페이지 이후 중단
-      if (isOldExpired(deadline)) { shouldStop = true; return; }
+      // 마감일 없는 경우 등록일 기준 90일 초과 공고 제외
+      if (!deadline && config.colPostingDate !== undefined) {
+        const postingDate = parseDate(tds.eq(config.colPostingDate).text().trim());
+        if (isOldExpired(postingDate, 90)) return;
+      }
+
+      // D+14 이상 지난 항목 발견 시 이 페이지 이후 중단 (정렬이 날짜순일 때만 효과)
+      if (isOldExpired(deadline, 14)) { shouldStop = true; return; }
       if (isExpired(deadline)) return;
 
       // 학교명 추출
@@ -154,6 +160,7 @@ const NTT_SITES = [
     colSchool: 4,
     colDeadline: 6,
     colLevel: 3,
+    colPostingDate: 5,  // 마감일 blank 행은 등록일 기준 90일 필터
   },
   {
     sido: '충북',
@@ -164,7 +171,7 @@ const NTT_SITES = [
     source: 'cbe.go.kr',
     colSchool: 4,
     colLevel: 2,
-    // 충북은 목록에 마감일 컬럼 없음 — 상세 페이지에만 있음
+    colPostingDate: 5,  // 목록에 마감일 없음 → 등록일 기준 90일 필터
   },
   {
     sido: '세종',
