@@ -24,37 +24,37 @@ async function crawlGyeonggi() {
     }
 
     const $ = cheerio.load(html);
-    // 각 공고: li > a[href*="goView"]
-    const items = $('a[href*="goView"]').filter((_, el) => {
-      const onclick = $(el).attr('href') || '';
-      return onclick.includes('goView(');
-    });
+    // 실제 HTML: <a onclick="javascript:goView('12345');">
+    const items = $('a[onclick*="goView("]');
 
     if (items.length === 0) break;
 
     let hasNew = false;
     items.each((_, a) => {
-      const href = $(a).attr('href') || '';
-      const idMatch = href.match(/goView\('?(\d+)'?\)/);
+      const onclick = $(a).attr('onclick') || '';
+      const idMatch = onclick.match(/goView\('?(\d+)'?\)/);
       if (!idMatch) return;
       const pbancSn = idMatch[1];
       if (seen.has(pbancSn)) return;
       seen.add(pbancSn);
 
-      // 학교명
-      const school = $(a).find('div.cont_top > span').first().text().trim();
+      // 학교명 (전화번호 포함될 수 있으므로 제거)
+      const school = $(a).find('div.school_name').text()
+        .replace(/\s*[\d]{2,4}-[\d]{3,4}-[\d]{4}/, '').trim();
 
       // 공고 제목
-      const title = $(a).find('p.cont_tit').text().replace(/\s+/g, ' ').trim();
+      const title = ($(a).find('div.title').text() || $(a).find('p.cont_tit').text())
+        .replace(/\s+/g, ' ').trim();
       if (!title) return;
 
-      // 접수기간
+      // 접수기간: <span class="period">접수기간 2026/05/15 ~ 2026/05/19</span>
       let deadline = '';
-      $(a).find('em.btm_tit').each((_, em) => {
-        if ($(em).text().includes('접수기간')) {
-          const periodText = $(em).parent().text().replace('접수기간', '').trim();
+      $(a).find('span.period, em.btm_tit').each((_, el) => {
+        const text = $(el).text();
+        if (text.includes('접수기간')) {
+          const periodText = text.replace('접수기간', '').trim();
           const parts = periodText.split('~');
-          deadline = parseDate(parts[1] || '');
+          deadline = parseDate((parts[1] || '').trim());
         }
       });
 

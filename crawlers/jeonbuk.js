@@ -8,6 +8,7 @@ async function crawlJeonbuk() {
   const jobs = [];
   const seen = new Set();
   let page = 1;
+  let emptyPages = 0;
 
   while (page <= 20) {
     const url = `${LIST_URL}&pageIndex=${page}`;
@@ -61,7 +62,12 @@ async function crawlJeonbuk() {
       });
     });
 
-    if (!hasNew) break;
+    if (!hasNew) {
+      emptyPages++;
+      if (emptyPages >= 2) break;
+    } else {
+      emptyPages = 0;
+    }
     page++;
   }
 

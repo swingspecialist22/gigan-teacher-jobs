@@ -647,10 +647,22 @@ const LEVEL_LABEL = { '유치': '유치원' };
 
 // ── Service Worker ─────────────────────────────────────────────────────────────
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').then(() => {
-    navigator.serviceWorker.ready.then(r => {
-      r.active?.postMessage({ type: 'CHECK_NEW_JOBS', prefs, seen: [...seenIds] });
-    });
+  navigator.serviceWorker.register('./sw.js').then(async () => {
+    const reg = await navigator.serviceWorker.ready;
+
+    // 알림 활성화된 경우에만 새 공고 체크
+    const notifEnabled = localStorage.getItem('notifEnabled') === 'true';
+    if (notifEnabled) {
+      const prefs = JSON.parse(localStorage.getItem('prefs') || '{"sidos":[],"levels":[],"subjects":[]}');
+      reg.active?.postMessage({ type: 'CHECK_NEW_JOBS', prefs, seen: [...seenIds] });
+    }
+
+    // Periodic Background Sync 등록 (Android Chrome/TWA 지원)
+    if ('periodicSync' in reg && notifEnabled) {
+      try {
+        await reg.periodicSync.register('check-new-jobs', { minInterval: 2 * 60 * 60 * 1000 });
+      } catch {}
+    }
   });
 
   navigator.serviceWorker.addEventListener('message', e => {
@@ -677,8 +689,11 @@ async function loadJobs() {
       document.getElementById('updated-at').textContent = `${mm}.${dd}. ${hh}:${mi} 기준`;
     }
 
-    allJobs.forEach(j => seenIds.add(j.id));
-    localStorage.setItem('seenIds', JSON.stringify([...seenIds]));
+    // 최초 설치 시에만 현재 공고를 전부 seen으로 처리 (이후엔 새 공고만 알림)
+    if (!localStorage.getItem('seenIds')) {
+      allJobs.forEach(j => seenIds.add(j.id));
+      localStorage.setItem('seenIds', JSON.stringify([...seenIds]));
+    }
     render();
   } catch {
     document.getElementById('job-list').innerHTML =
@@ -923,8 +938,31 @@ document.getElementById('modal-save').addEventListener('click', async () => {
   const selSidos = [...document.querySelectorAll('#pref-sidos .chip.on')].map(c => c.dataset.val).filter(v => v !== '');
   const selLevels = [...document.querySelectorAll('#pref-levels .chip.on')].map(c => c.dataset.val).filter(v => v !== '');
   const selSubjects = document.getElementById('pref-subjects').value.split(',').map(s => s.trim()).filter(Boolean);
-  localStorage.setItem('prefs', JSON.stringify({ sidos: selSidos, levels: selLevels, subjects: selSubjects }));
+  const prefsObj = { sidos: selSidos, levels: selLevels, subjects: selSubjects };
+  localStorage.setItem('prefs', JSON.stringify(prefsObj));
   localStorage.setItem('notifEnabled', wantsNotif ? 'true' : 'false');
+
+  // Periodic Background Sync용으로 Cache Storage에도 prefs/seenIds 저장
+  if ('caches' in window) {
+    const cache = await caches.open('notif-prefs-v1');
+    await cache.put('prefs', new Response(JSON.stringify(prefsObj)));
+    await cache.put('seenIds', new Response(JSON.stringify([...seenIds])));
+  }
+
+  // periodicSync 등록/해제
+  if ('serviceWorker' in navigator) {
+    const reg = await navigator.serviceWorker.ready;
+    if ('periodicSync' in reg) {
+      try {
+        if (wantsNotif) {
+          await reg.periodicSync.register('check-new-jobs', { minInterval: 2 * 60 * 60 * 1000 });
+        } else {
+          await reg.periodicSync.unregister('check-new-jobs');
+        }
+      } catch {}
+    }
+  }
+
   modal.classList.remove('open');
 });
 

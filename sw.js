@@ -25,19 +25,13 @@ self.addEventListener('fetch', e => {
   );
 });
 
-// 알림 체크: main thread에서 postMessage로 호출
-self.addEventListener('message', async e => {
-  if (e.data?.type !== 'CHECK_NEW_JOBS') return;
-
-  const prefs = e.data.prefs || {};
-  const seen = e.data.seen || [];
-
+async function matchAndNotify(prefs, seen) {
   let data;
   try {
     const res = await fetch(DATA_URL + '?t=' + Date.now());
     data = await res.json();
   } catch {
-    return;
+    return [];
   }
 
   const jobs = data.jobs || [];
@@ -49,7 +43,7 @@ self.addEventListener('message', async e => {
     return true;
   });
 
-  if (newMatches.length === 0) return;
+  if (newMatches.length === 0) return [];
 
   const title = `기간제교사 새 공고 ${newMatches.length}건`;
   const body = newMatches.slice(0, 3).map(j => `[${j.sido}] ${j.title}`).join('\n');
@@ -62,9 +56,42 @@ self.addEventListener('message', async e => {
     renotify: true,
   });
 
-  // 새로 본 항목 ID 목록을 client에 알림
+  return newMatches.map(j => j.id);
+}
+
+// 알림 체크: main thread에서 postMessage로 호출
+self.addEventListener('message', async e => {
+  if (e.data?.type !== 'CHECK_NEW_JOBS') return;
+
+  const prefs = e.data.prefs || {};
+  const seen = e.data.seen || [];
+
+  const newIds = await matchAndNotify(prefs, seen);
+  if (newIds.length === 0) return;
+
   const clients = await self.clients.matchAll();
-  clients.forEach(c => c.postMessage({ type: 'NEW_JOB_IDS', ids: newMatches.map(j => j.id) }));
+  clients.forEach(c => c.postMessage({ type: 'NEW_JOB_IDS', ids: newIds }));
+});
+
+// 백그라운드 주기적 알림 체크 (Periodic Background Sync)
+self.addEventListener('periodicsync', async event => {
+  if (event.tag !== 'check-new-jobs') return;
+  event.waitUntil((async () => {
+    const cache = await caches.open('notif-prefs-v1');
+    const [prefsRes, seenRes] = await Promise.all([
+      cache.match('prefs'),
+      cache.match('seenIds'),
+    ]);
+    if (!prefsRes) return;
+    const prefs = await prefsRes.json();
+    const seen = seenRes ? await seenRes.json() : [];
+
+    const newIds = await matchAndNotify(prefs, seen);
+    if (newIds.length === 0) return;
+
+    const updatedSeen = [...new Set([...seen, ...newIds])];
+    await cache.put('seenIds', new Response(JSON.stringify(updatedSeen)));
+  })());
 });
 
 self.addEventListener('notificationclick', e => {

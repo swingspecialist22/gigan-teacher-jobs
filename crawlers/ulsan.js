@@ -1,5 +1,5 @@
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired, isOldExpired, extractSubject, extractLevel } = require('./utils');
+const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = require('./utils');
 
 const BASE_URL = 'https://use.go.kr';
 const LIST_URL = `${BASE_URL}/job/user/jobpost/BD_selectJobPostList.do`;
@@ -24,7 +24,6 @@ async function crawlUlsan() {
     if (rows.length === 0) break;
 
     let hasNew = false;
-    let shouldStop = false;
 
     rows.forEach(row => {
       const tds = $(row).find('td');
@@ -42,7 +41,6 @@ async function crawlUlsan() {
       const school = tds.eq(1).text().trim();
       const deadline = parseDate(tds.eq(6).text().trim());
 
-      if (isOldExpired(deadline)) { shouldStop = true; return; }
       if (isExpired(deadline)) return;
 
       hasNew = true;
@@ -60,7 +58,7 @@ async function crawlUlsan() {
       });
     });
 
-    if (!hasNew || shouldStop) break;
+    if (!hasNew) break;
     page++;
   }
 

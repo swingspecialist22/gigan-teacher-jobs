@@ -10,6 +10,7 @@ async function crawlGangwon() {
   const jobs = [];
   const seen = new Set();
   let page = 1;
+  let emptyPages = 0;
 
   while (page <= 20) {
     const url = `${LIST_URL}?key=${KEY}&pageIndex=${page}`;
@@ -60,7 +61,12 @@ async function crawlGangwon() {
       });
     });
 
-    if (!hasNew) break;
+    if (!hasNew) {
+      emptyPages++;
+      if (emptyPages >= 2) break;
+    } else {
+      emptyPages = 0;
+    }
     page++;
   }
 

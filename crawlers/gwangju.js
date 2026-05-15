@@ -54,8 +54,11 @@ async function crawlGwangju() {
         const status = tds.eq(7).text().trim();
         if (status.includes('접수마감')) return;
 
-        // 목록에는 접수기간이 없음 — 마감일 비워둠
-        const deadline = '';
+        // td[5]=채용예정기간 (예: "2025.03.01~2025.05.31")에서 종료일 파싱
+        const periodText = tds.eq(5).text().trim();
+        const periodParts = periodText.split('~');
+        const deadline = parseDate((periodParts[1] || periodParts[0] || '').trim());
+        if (isExpired(deadline)) return;
 
         hasNew = true;
         jobs.push({
