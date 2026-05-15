@@ -8,6 +8,7 @@ async function crawlGyeonggi() {
   const jobs = [];
   const seen = new Set();
   let page = 1;
+  let emptyPages = 0;
 
   while (page <= 50) {
     const params = new URLSearchParams({
@@ -38,26 +39,23 @@ async function crawlGyeonggi() {
       if (seen.has(pbancSn)) return;
       seen.add(pbancSn);
 
-      // 실제 구조: class 없는 div 배열
-      // div[0]: 학교명 + 전화번호 + 등록일 + 조회수
-      // div[1]: [마감임박] 공고제목
-      // div[n]: 접수기간 포함 div
-      const divs = $(a).find('div');
+      // 실제 HTML 구조:
+      // div.cont_txt > div.cont_top > span[학교명], span[전화], span[등록일], span[조회]
+      // div.cont_txt > p.cont_tit > span.krds-badge(배지) + 제목텍스트
+      // div.cont_txt > div.cont_btm > p > em.btm_tit(접수기간) + 날짜텍스트
+      const school = $(a).find('div.cont_top > span').first().text().trim();
 
-      const school = divs.eq(0).text()
-        .replace(/\s*\d{2,4}-\d{3,4}-\d{4}.*$/, '').trim();
-
-      const title = divs.eq(1).text()
-        .replace(/^(마감임박|마감)\s*/u, '').replace(/\s+/g, ' ').trim();
+      const titleEl = $(a).find('p.cont_tit').clone();
+      titleEl.find('span.krds-badge').remove();
+      const title = titleEl.text().replace(/\s+/g, ' ').trim();
       if (!title) return;
 
       let deadline = '';
-      divs.each((_, div) => {
-        const text = $(div).text();
-        if (text.includes('접수기간')) {
-          const clean = text.replace(/접수기간\s*/g, '').trim();
-          const parts = clean.split('~');
-          deadline = parseDate((parts[1] || '').trim());
+      $(a).find('em.btm_tit').each((_, em) => {
+        if ($(em).text().includes('접수기간')) {
+          const periodText = $(em).parent().text().replace('접수기간', '').trim();
+          const parts = periodText.split('~');
+          deadline = parseDate((parts[1] || '').trim()) || '';
         }
       });
 
@@ -78,7 +76,12 @@ async function crawlGyeonggi() {
       });
     });
 
-    if (!hasNew) break;
+    if (!hasNew) {
+      emptyPages++;
+      if (emptyPages >= 2) break;
+    } else {
+      emptyPages = 0;
+    }
     page++;
   }
 
