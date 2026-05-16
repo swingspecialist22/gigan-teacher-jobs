@@ -32,7 +32,8 @@ async function crawlGyeongnam() {
     rows.each((_, row) => {
       // 카테고리에 '기간제교원' 또는 '기간제교사' 포함된 것만
       const cate = $(row).find('span.cate').first().text().trim();
-      if (!cate.includes('기간제교원') && !cate.includes('기간제교사') && !cate.includes('계약제교원')) return;
+      // '결원대체강사' = 기간제교사/계약제교원 모집 시 사용하는 경남 카테고리
+      if (!cate.includes('기간제교원') && !cate.includes('기간제교사') && !cate.includes('계약제교원') && !cate.includes('결원대체강사')) return;
 
       // onclick에서 ID 추출
       const titleEl = $(row).find('a[onclick*="openDetail"]');
