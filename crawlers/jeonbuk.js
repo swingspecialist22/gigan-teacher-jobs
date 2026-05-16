@@ -37,10 +37,15 @@ async function crawlJeonbuk() {
     );
     if (rows.length === 0) break;
 
-    let hasNew = false;
-    let allExpired = true;
+    // 페이지 내 모든 row의 마감일이 지났는지 추적 (SUBJECT_INCLUDE 여부와 무관)
+    let pageAllExpired = true;
 
     rows.each((_, row) => {
+      const periodText = $(row).find('td[data-cell-header^="접수기간"]').text().trim();
+      const parts = periodText.split('~');
+      const deadline = parseDate((parts[1] || parts[0] || '').trim()) || '';
+      if (!isExpired(deadline)) pageAllExpired = false;
+
       const subject = $(row).find('td[data-cell-header^="과목"]').text().trim();
       if (!SUBJECT_INCLUDE.test(subject)) return;
 
@@ -56,14 +61,8 @@ async function crawlJeonbuk() {
       const rawLevel = $(row).find('td[data-cell-header^="구분"]').text().trim();
       const level = levelFromCategory(rawLevel) || extractLevel(subject, school);
 
-      const periodText = $(row).find('td[data-cell-header^="접수기간"]').text().trim();
-      const parts = periodText.split('~');
-      const deadline = parseDate((parts[1] || parts[0] || '').trim()) || '';
-
-      allExpired = false;
       if (isExpired(deadline)) return;
 
-      hasNew = true;
       jobs.push({
         id: `jeonbuk_${dataSid}`,
         sido: '전북',
@@ -78,8 +77,8 @@ async function crawlJeonbuk() {
       });
     });
 
-    // 해당 페이지 전체가 마감일 지난 공고 → 이후 페이지도 마찬가지이므로 중단
-    if (allExpired) break;
+    // 최신순 정렬 기준: 페이지 내 모든 공고가 마감됐으면 이후 페이지도 만료
+    if (pageAllExpired) break;
     page++;
   }
 

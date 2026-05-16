@@ -75,10 +75,11 @@ async function crawlNttBbs(config) {
         }
       }
 
-      // 마감일 없는 경우 등록일 기준 90일 초과 공고 제외
+      // 마감일 없는 경우 등록일 기준 N일 초과 공고 제외 (기본 90, 단기공고 사이트는 설정 축소)
       if (!deadline && config.colPostingDate !== undefined) {
         const postingDate = parseDate(tds.eq(config.colPostingDate).text().trim());
-        if (isOldExpired(postingDate, 90)) return;
+        const maxAge = config.postingMaxAge !== undefined ? config.postingMaxAge : 90;
+        if (isOldExpired(postingDate, maxAge)) return;
       }
 
       // D+14 이상 지난 항목 발견 시 이 페이지 이후 중단 (정렬이 날짜순일 때만 효과)
@@ -172,7 +173,8 @@ const NTT_SITES = [
     source: 'cbe.go.kr',
     colSchool: 4,
     colLevel: 2,
-    colPostingDate: 5,  // 목록에 마감일 없음 → 등록일 기준 90일 필터
+    colPostingDate: 5,  // 목록에 마감일 없음 → 등록일 기준 필터
+    postingMaxAge: 21,  // 기간제교사 공고 마감 주기가 짧으므로 21일로 제한
     titleExclude: /방과후|방학.*강사|봉사|조리|배식|배움터지킴이/,
   },
   {
