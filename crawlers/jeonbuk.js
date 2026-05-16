@@ -1,17 +1,28 @@
 const cheerio = require('cheerio');
-const { fetchHtml, parseDate, isExpired, normalizeLevel, extractLevel } = require('./utils');
+const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = require('./utils');
 
 const BASE_URL = 'https://www.jbe.go.kr';
-const LIST_URL = `${BASE_URL}/pool/index.jbe?menuCd=DOM_000001601002000000`;
+const LIST_URL = `${BASE_URL}/pool/board/list.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&searchOperation=AND&listRow=30&listCel=1`;
+
+// 기간제교사/기간제교원/계약제교원/담임 포함 공고만 수집
+const SUBJECT_INCLUDE = /기간제교사|기간제교원|계약제교원|담임/;
+
+function levelFromCategory(cat) {
+  if (/초등/.test(cat)) return '초등';
+  if (/중학/.test(cat)) return '중등';
+  if (/고등/.test(cat)) return '고등';
+  if (/유치/.test(cat)) return '유치';
+  if (/특수/.test(cat)) return '특수';
+  return '';
+}
 
 async function crawlJeonbuk() {
   const jobs = [];
   const seen = new Set();
   let page = 1;
-  let emptyPages = 0;
 
   while (page <= 20) {
-    const url = `${LIST_URL}&pageIndex=${page}`;
+    const url = `${LIST_URL}&startPage=${page}`;
     let html;
     try {
       html = await fetchHtml(url);
@@ -21,53 +32,54 @@ async function crawlJeonbuk() {
     }
 
     const $ = cheerio.load(html);
-    const rows = $('table tbody tr');
-
+    const rows = $('table tbody tr').filter((_, tr) =>
+      $(tr).find('td[data-cell-header^="학교"]').length > 0
+    );
     if (rows.length === 0) break;
 
     let hasNew = false;
+    let allExpired = true;
+
     rows.each((_, row) => {
-      const tds = $(row).find('td');
-      if (tds.length < 5) return;
+      const subject = $(row).find('td[data-cell-header^="과목"]').text().trim();
+      if (!SUBJECT_INCLUDE.test(subject)) return;
 
-      const schoolEl = $(tds[2]).find('a');
-      const school = schoolEl.text().trim();
-      const href = schoolEl.attr('href');
-      if (href && seen.has(href)) return;
-      if (href) seen.add(href);
-      const subject = $(tds[3]).text().trim();     // 과목/분야
-      const rawLevel = $(tds[1]).text().trim();    // 구분 (초/중/고 등)
-      const level = normalizeLevel(rawLevel) || extractLevel('', school);
-      const periodText = $(tds[4]).text().trim();  // 접수기간
+      const schoolEl = $(row).find('td[data-cell-header^="학교"] a');
+      const school = schoolEl.attr('title') || schoolEl.text().trim();
+      const href = schoolEl.attr('href') || '';
+      const dataSidMatch = href.match(/dataSid=(\d+)/);
+      if (!dataSidMatch) return;
+      const dataSid = dataSidMatch[1];
+      if (seen.has(dataSid)) return;
+      seen.add(dataSid);
 
-      if (!school) return;
+      const rawLevel = $(row).find('td[data-cell-header^="구분"]').text().trim();
+      const level = levelFromCategory(rawLevel) || extractLevel(subject, school);
 
-      const dates = periodText.split('~');
-      const deadline = parseDate(dates[1] || '');
+      const periodText = $(row).find('td[data-cell-header^="접수기간"]').text().trim();
+      const parts = periodText.split('~');
+      const deadline = parseDate((parts[1] || parts[0] || '').trim()) || '';
 
+      allExpired = false;
       if (isExpired(deadline)) return;
 
       hasNew = true;
       jobs.push({
-        id: `jeonbuk_${page}_${jobs.length}`,
+        id: `jeonbuk_${dataSid}`,
         sido: '전북',
         school,
-        subject,
+        subject: extractSubject(subject) || subject,
         level,
-        title: `${school} ${subject} 기간제교사`,
+        title: `${school} ${subject}`,
         deadline,
-        url: href ? (href.startsWith('http') ? href : BASE_URL + href) : LIST_URL,
+        url: `${BASE_URL}${href.startsWith('/') ? href : '/' + href}`,
         source: 'jbe.go.kr',
         crawled_at: new Date().toISOString(),
       });
     });
 
-    if (!hasNew) {
-      emptyPages++;
-      if (emptyPages >= 2) break;
-    } else {
-      emptyPages = 0;
-    }
+    // 해당 페이지 전체가 마감일 지난 공고 → 이후 페이지도 마찬가지이므로 중단
+    if (allExpired) break;
     page++;
   }
 
