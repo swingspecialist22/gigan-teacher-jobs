@@ -8,17 +8,24 @@ async function crawlGyeonggi() {
   const jobs = [];
   const seen = new Set();
   let page = 1;
-  let emptyPages = 0;
 
   while (page <= 50) {
-    const params = new URLSearchParams({
-      q_pbanSe: '2',  // 기간제교원
-      q_currPage: String(page),
+    const body = new URLSearchParams({
+      currPage: String(page),
+      srchOcptCd: 'A',          // 기간제/사립교원
+      srchOcptNm: '기간제/사립교원',
+      srchEcptDl: 'Y',           // 마감 공고 제외
+      pageIndex: '10',
+      adminAt: 'N',
+      sysId: 'recruit',
     });
-    const url = `${LIST_URL}?${params.toString()}`;
     let html;
     try {
-      html = await fetchHtml(url);
+      html = await fetchHtml(LIST_URL, 'utf-8', {
+        method: 'POST',
+        body: body.toString(),
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      });
     } catch (e) {
       console.error(`[경기] 페이지 ${page} 실패:`, e.message);
       break;
@@ -30,7 +37,6 @@ async function crawlGyeonggi() {
 
     if (items.length === 0) break;
 
-    let hasNew = false;
     items.each((_, a) => {
       const href = $(a).attr('href') || '';
       const idMatch = href.match(/goView\('?(\d+)'?\)/);
@@ -61,7 +67,6 @@ async function crawlGyeonggi() {
 
       if (isExpired(deadline)) return;
 
-      hasNew = true;
       jobs.push({
         id: `gyeonggi_${pbancSn}`,
         sido: '경기',
@@ -76,12 +81,6 @@ async function crawlGyeonggi() {
       });
     });
 
-    if (!hasNew) {
-      emptyPages++;
-      if (emptyPages >= 2) break;
-    } else {
-      emptyPages = 0;
-    }
     page++;
   }
 
