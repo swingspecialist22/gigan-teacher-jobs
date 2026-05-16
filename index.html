@@ -444,10 +444,11 @@
       align-items: flex-end;
       display: none;
       position: fixed;
-      top: 0; left: 0; right: 0; bottom: 58px;
+      inset: 0;
+      padding-bottom: 58px;
       background: rgba(0,0,0,.45);
       justify-content: center;
-      z-index: 200;
+      z-index: 300;
     }
 
     .modal-overlay.open { display: flex; }
@@ -671,7 +672,7 @@
     <span class="nav-icon">⭐</span>북마크
   </button>
   <button class="bottom-nav-btn" data-tab="notif">
-    <span class="nav-icon">🔔</span>알림
+    <span class="nav-icon">🔔</span>알람
   </button>
   <button class="bottom-nav-btn" data-tab="settings">
     <span class="nav-icon">⚙️</span>설정
@@ -681,10 +682,10 @@
 <!-- ── 알림 설정 모달 ── -->
 <div class="modal-overlay" id="notif-modal">
   <div class="modal">
-    <h2>🔔 맞춤 알림 설정</h2>
+    <h2>🔔 맞춤 알람 설정</h2>
 
     <div class="notif-toggle">
-      <span>새 공고 알림 받기<br><small style="color:var(--gray-400)">방문 시 내 조건에 맞는 새 공고를 알려드려요</small></span>
+      <span>새 공고 알람 받기<br><small style="color:var(--gray-400)">방문 시 내 조건에 맞는 새 공고를 알려드려요</small></span>
       <input type="checkbox" class="toggle" id="notif-toggle">
     </div>
 
@@ -942,6 +943,7 @@ function render() {
 
 // ── Bottom Nav ─────────────────────────────────────────────────────────────────
 function switchTab(tabName) {
+  document.getElementById('notif-modal').classList.remove('open');
   if (tabName === 'notif') { openNotifModal(); return; }
   currentTab = tabName;
   document.querySelectorAll('.bottom-nav-btn').forEach(b => b.classList.remove('active'));
@@ -1042,7 +1044,7 @@ document.getElementById('modal-save').addEventListener('click', async () => {
   if (wantsNotif) {
     const perm = await Notification.requestPermission();
     if (perm !== 'granted') {
-      alert('알림 권한이 거부되었습니다. 브라우저 설정에서 알림을 허용해주세요.');
+      alert('알람 권한이 거부되었습니다. 브라우저 설정에서 알람을 허용해주세요.');
       return;
     }
   }
