@@ -11,6 +11,7 @@
   <meta property="og:image" content="https://raw.githubusercontent.com/swingspecialist22/gigan-teacher-jobs/main/logo/tclogo.png">
   <meta property="og:url" content="https://swingspecialist22.github.io/gigan-teacher-jobs/">
   <link rel="manifest" href="manifest.json">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
   <meta name="theme-color" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -119,6 +120,120 @@
       font-size: 14px;
       font-weight: 600;
       padding: 11px 24px;
+    }
+
+    /* ── 비교분석 고급 UI ── */
+    .compare-header {
+      padding: 14px 16px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .compare-schools-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .compare-school-chip {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--blue-light);
+      border: 1.5px solid var(--blue);
+      border-radius: 20px;
+      padding: 5px 10px 5px 12px;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--blue);
+    }
+
+    .compare-school-chip button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--blue);
+      font-size: 15px;
+      line-height: 1;
+      padding: 0;
+    }
+
+    .compare-add-hint {
+      font-size: 12px;
+      color: var(--gray-400);
+      padding: 2px 0 6px;
+    }
+
+    .compare-add-hint a {
+      color: var(--blue);
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .compare-chart-wrap {
+      padding: 8px 12px 0;
+      position: relative;
+    }
+
+    .compare-table {
+      margin: 8px 16px 16px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--gray-200);
+      font-size: 12px;
+    }
+
+    .compare-table-head {
+      display: grid;
+      background: var(--gray-50);
+      border-bottom: 1px solid var(--gray-200);
+      font-weight: 700;
+      color: var(--gray-600);
+    }
+
+    .compare-table-row {
+      display: grid;
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    .compare-table-row:last-child { border-bottom: none; }
+    .compare-table-row:nth-child(even) { background: var(--gray-50); }
+
+    .compare-table-head > div,
+    .compare-table-row > div {
+      padding: 9px 10px;
+      display: flex;
+      align-items: center;
+    }
+
+    .compare-table-head > div:not(:first-child),
+    .compare-table-row > div:not(:first-child) {
+      justify-content: center;
+      text-align: center;
+    }
+
+    .compare-table-label { color: var(--gray-600); font-size: 11px; line-height: 1.3; }
+
+    .compare-best { color: var(--blue); font-weight: 700; }
+
+    .compare-btn {
+      background: none;
+      border: 1.5px solid var(--gray-300);
+      border-radius: 6px;
+      color: var(--gray-600);
+      cursor: pointer;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 7px;
+      white-space: nowrap;
+      transition: all .15s;
+    }
+
+    .compare-btn.added {
+      background: var(--blue-light);
+      border-color: var(--blue);
+      color: var(--blue);
     }
 
     /* ── 설정 패널 ── */
@@ -623,14 +738,7 @@
   </div>
 
   <!-- ── 비교분석 패널 ── -->
-  <div id="compare-panel">
-    <div class="compare-empty">
-      <div class="icon">📊</div>
-      <p>공고 카드에서 <strong>비교 추가</strong> 버튼을 눌러<br>학교를 선택하세요</p>
-      <p style="color:var(--gray-300);font-size:12px;">최대 3개 학교를 비교할 수 있습니다</p>
-      <button class="compare-go-btn" onclick="switchTab('all')">공고 보러가기 →</button>
-    </div>
-  </div>
+  <div id="compare-panel"></div>
 
   <!-- ── 오른쪽 패널 ── -->
   <div class="right-panel">
@@ -739,6 +847,8 @@
 <script>
 // ── State ──────────────────────────────────────────────────────────────────────
 let allJobs = [];
+let compareList = [];
+let radarChart = null;
 let currentTab = 'all';
 let filter = { sido: '', level: '' };
 let searchQ = '';
@@ -907,6 +1017,9 @@ function render() {
       <div class="card-bottom">
         ${job.school ? `
           <span class="card-school">${escHtml(job.school)}</span>
+          <button class="compare-btn${compareList.some(j=>j.id===job.id)?' added':''}" data-id="${job.id}">
+            ${compareList.some(j=>j.id===job.id)?'✓ 비교중':'+ 비교'}
+          </button>
           <button class="school-link" data-school="${escHtml(job.school)}" data-sido="${escHtml(job.sido)}">학교알리미</button>
         ` : ''}
       </div>
@@ -933,12 +1046,167 @@ function render() {
     });
   });
 
+  list.querySelectorAll('.compare-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const job = allJobs.find(j => j.id === btn.dataset.id);
+      if (!job) return;
+      const idx = compareList.findIndex(j => j.id === job.id);
+      if (idx >= 0) {
+        compareList.splice(idx, 1);
+      } else {
+        if (compareList.length >= 3) {
+          alert('최대 3개 학교까지 비교할 수 있습니다.');
+          return;
+        }
+        compareList.push(job);
+      }
+      renderCompare();
+      render();
+    });
+  });
+
   list.querySelectorAll('.school-link').forEach(btn => {
     btn.addEventListener('click', e => {
       e.stopPropagation();
       window.open(schoolInfoUrl(btn.dataset.school, btn.dataset.sido), '_blank');
     });
   });
+}
+
+// ── 비교분석 더미 데이터 ────────────────────────────────────────────────────────
+const COMPARE_FACTORS = [
+  { key: 'teacherRatio', label: '교사1인당\n학생수', unit: '명', lowerBetter: true },
+  { key: 'classRatio',   label: '학급당\n학생수',   unit: '명', lowerBetter: true },
+  { key: 'environment',  label: '생활환경\n지수',   unit: '점', lowerBetter: false },
+  { key: 'growthRate',   label: '학생수\n증감률',   unit: '%',  lowerBetter: false },
+  { key: 'commute',      label: '통근접근성\n지수', unit: '점', lowerBetter: false },
+  { key: 'classCount',   label: '학급수',            unit: '개', lowerBetter: false },
+];
+
+function getDummyData(school) {
+  const h = [...(school||'?')].reduce((a,c,i) => a + c.charCodeAt(0) * (i+1), 0);
+  const rng = (seed, min, max) => min + ((h * seed * 2654435761) >>> 0) % (max - min + 1);
+  return {
+    teacherRatio: rng(1, 8, 22),
+    classRatio:   rng(2, 16, 32),
+    environment:  rng(3, 42, 95),
+    growthRate:   rng(4, -15, 20),
+    commute:      rng(5, 35, 95),
+    classCount:   rng(6, 6, 48),
+  };
+}
+
+function toScore(val, factor) {
+  const ranges = {
+    teacherRatio: [8, 22], classRatio: [16, 32], environment: [42, 95],
+    growthRate: [-15, 20], commute: [35, 95], classCount: [6, 48],
+  };
+  const [min, max] = ranges[factor.key];
+  const ratio = (val - min) / (max - min);
+  return Math.round(factor.lowerBetter ? (1 - ratio) * 100 : ratio * 100);
+}
+
+const CHART_COLORS = [
+  { line: '#2563eb', fill: 'rgba(37,99,235,0.15)' },
+  { line: '#16a34a', fill: 'rgba(22,163,74,0.15)' },
+  { line: '#dc2626', fill: 'rgba(220,38,38,0.15)' },
+];
+
+function renderCompare() {
+  const panel = document.getElementById('compare-panel');
+
+  if (compareList.length === 0) {
+    if (radarChart) { radarChart.destroy(); radarChart = null; }
+    panel.innerHTML = `
+      <div class="compare-empty">
+        <div class="icon">📊</div>
+        <p>공고 카드에서 <strong>+ 비교</strong> 버튼을 눌러<br>학교를 선택하세요</p>
+        <p style="color:var(--gray-400);font-size:12px;">최대 3개 학교를 비교할 수 있습니다</p>
+        <button class="compare-go-btn" onclick="switchTab('all')">공고 보러가기 →</button>
+      </div>`;
+    return;
+  }
+
+  const dataMap = compareList.map(j => ({ job: j, data: getDummyData(j.school || j.title) }));
+  const colW = compareList.length === 1 ? '1fr' : compareList.length === 2 ? '2fr 1fr 1fr' : '2fr 1fr 1fr 1fr';
+
+  const chipsHtml = compareList.map((j, i) => `
+    <div class="compare-school-chip">
+      <span style="width:8px;height:8px;border-radius:50%;background:${CHART_COLORS[i].line};flex-shrink:0;"></span>
+      ${escHtml(j.school || j.title)}
+      <button onclick="removeFromCompare('${j.id}')">✕</button>
+    </div>`).join('');
+
+  const remaining = 3 - compareList.length;
+  const hintHtml = remaining > 0
+    ? `<div class="compare-add-hint">+ ${remaining}개 더 추가 가능 · <a onclick="switchTab('all')">공고 목록으로</a></div>`
+    : `<div class="compare-add-hint">3개 선택 완료</div>`;
+
+  const headCols = compareList.map((j,i) => `<div style="color:${CHART_COLORS[i].line};font-size:11px;">${escHtml((j.school||j.title).slice(0,6))}</div>`).join('');
+
+  const rowsHtml = COMPARE_FACTORS.map(f => {
+    const vals = dataMap.map(d => d.data[f.key]);
+    const bestVal = f.lowerBetter ? Math.min(...vals) : Math.max(...vals);
+    const cells = vals.map(v => `<div class="${v === bestVal && compareList.length > 1 ? 'compare-best' : ''}">${v}${f.unit}</div>`).join('');
+    return `<div class="compare-table-row" style="grid-template-columns:${colW};">
+      <div class="compare-table-label">${f.label.replace('\n','<br>')}</div>${cells}
+    </div>`;
+  }).join('');
+
+  panel.innerHTML = `
+    <div class="compare-header">
+      <div class="compare-schools-row">${chipsHtml}</div>
+      ${hintHtml}
+    </div>
+    <div class="compare-chart-wrap"><canvas id="radar-canvas" height="260"></canvas></div>
+    <div class="compare-table">
+      <div class="compare-table-head" style="grid-template-columns:${colW};">
+        <div>항목</div>${headCols}
+      </div>
+      ${rowsHtml}
+    </div>
+    <p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;">※ 현재 더미 데이터로 표시됩니다. API 연동 후 실제 데이터로 업데이트 예정</p>`;
+
+  if (radarChart) { radarChart.destroy(); radarChart = null; }
+  const ctx = document.getElementById('radar-canvas').getContext('2d');
+  radarChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+      labels: COMPARE_FACTORS.map(f => f.label.split('\n')),
+      datasets: dataMap.map((d, i) => ({
+        label: d.job.school || d.job.title,
+        data: COMPARE_FACTORS.map(f => toScore(d.data[f.key], f)),
+        borderColor: CHART_COLORS[i].line,
+        backgroundColor: CHART_COLORS[i].fill,
+        borderWidth: 2,
+        pointBackgroundColor: CHART_COLORS[i].line,
+        pointRadius: 3,
+      })),
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        r: {
+          min: 0, max: 100,
+          ticks: { stepSize: 25, font: { size: 9 }, color: '#9ca3af' },
+          pointLabels: { font: { size: 10 }, color: '#4b5563' },
+          grid: { color: '#e5e7eb' },
+          angleLines: { color: '#e5e7eb' },
+        },
+      },
+      plugins: {
+        legend: { position: 'bottom', labels: { font: { size: 11 }, boxWidth: 10, padding: 12 } },
+      },
+    },
+  });
+}
+
+function removeFromCompare(id) {
+  compareList = compareList.filter(j => j.id !== id);
+  renderCompare();
+  render();
 }
 
 // ── Bottom Nav ─────────────────────────────────────────────────────────────────
@@ -959,7 +1227,8 @@ function switchTab(tabName) {
   document.querySelector('.right-panel').style.display = isPanel ? 'none' : '';
   document.querySelector('.sidebar').style.display = isPanel ? 'none' : '';
 
-  if (!isPanel) render();
+  if (isCompare) renderCompare();
+  else if (!isPanel) render();
 }
 
 document.querySelectorAll('.bottom-nav-btn').forEach(btn => {
