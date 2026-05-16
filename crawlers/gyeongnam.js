@@ -79,7 +79,6 @@ async function crawlGyeongnam() {
       });
     });
 
-    if (!hasNew) break;
     page++;
   }
 

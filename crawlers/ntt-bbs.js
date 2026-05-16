@@ -51,6 +51,7 @@ async function crawlNttBbs(config) {
       titleEl.find('img, span').remove();
       const title = titleEl.text().replace(/\s+/g, ' ').trim();
       if (!title) return;
+      if (config.titleExclude && config.titleExclude.test(title)) return;
 
       const tds = $(row).find('td');
 
@@ -172,6 +173,7 @@ const NTT_SITES = [
     colSchool: 4,
     colLevel: 2,
     colPostingDate: 5,  // 목록에 마감일 없음 → 등록일 기준 90일 필터
+    titleExclude: /방과후|방학.*강사|봉사|조리|배식|배움터지킴이/,
   },
   {
     sido: '세종',
@@ -180,6 +182,7 @@ const NTT_SITES = [
     mi: '52132',
     bbsId: '108',
     source: 'sje.go.kr',
+    titleExclude: /방과후|방학.*강사|누리과정.*강사/,
   },
 ];
 
