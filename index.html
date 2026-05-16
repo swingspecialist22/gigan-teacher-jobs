@@ -218,20 +218,15 @@
     .compare-best { color: var(--blue); font-weight: 700; }
 
     .compare-btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 5px;
-      width: 100%;
-      background: var(--gray-50);
+      background: none;
       border: 1px solid var(--gray-200);
-      border-radius: 8px;
+      border-radius: 4px;
       color: var(--gray-500);
       cursor: pointer;
-      font-size: 12px;
-      font-weight: 600;
-      padding: 7px 0;
-      margin-top: 8px;
+      flex-shrink: 0;
+      font-size: 10px;
+      padding: 2px 5px;
+      white-space: nowrap;
       transition: all .15s;
     }
 
@@ -1022,23 +1017,19 @@ function render() {
       <div class="card-bottom">
         ${job.school ? `
           <span class="card-school">${escHtml(job.school)}</span>
+          ${compareList.some(j=>j.id===job.id)
+            ? `<button class="compare-btn added" data-id="${job.id}">✓ 비교중</button>`
+            : `<button class="compare-btn" data-id="${job.id}">VS 비교</button>`}
           <button class="school-link" data-school="${escHtml(job.school)}" data-sido="${escHtml(job.sido)}">학교알리미</button>
         ` : ''}
       </div>
-      ${job.school ? `
-        <button class="compare-btn${compareList.some(j=>j.id===job.id)?' added':''}" data-id="${job.id}">
-          ${compareList.some(j=>j.id===job.id)
-            ? '<span>✓</span> 비교중'
-            : '<span>VS</span> 비교'}
-        </button>
-      ` : ''}
       ${job.deadline ? `<div class="card-deadline ${dlClass}">마감 ${job.deadline}</div>` : ''}
     </div>`;
   }).join('');
 
   list.querySelectorAll('.job-card').forEach(card => {
     card.addEventListener('click', e => {
-      if (e.target.closest('.bookmark-btn') || e.target.closest('.school-link')) return;
+      if (e.target.closest('.bookmark-btn') || e.target.closest('.school-link') || e.target.closest('.compare-btn')) return;
       const job = allJobs.find(j => j.id === card.dataset.id);
       if (job?.url) window.open(job.url, '_blank');
     });
