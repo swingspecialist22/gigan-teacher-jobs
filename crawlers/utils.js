@@ -16,6 +16,14 @@ async function fetchHtml(url, encoding = 'utf-8', options = {}) {
 
 function parseDate(str) {
   if (!str) return null;
+  // YYYYMMDD (구분자 없는 형식: 20260514)
+  const compact = str.trim().match(/^(\d{4})(\d{2})(\d{2})$/);
+  if (compact) {
+    const m = parseInt(compact[2], 10);
+    const d = parseInt(compact[3], 10);
+    if (m >= 1 && m <= 12 && d >= 1 && d <= 31)
+      return `${compact[1]}-${compact[2]}-${compact[3]}`;
+  }
   const match = str.match(/(\d{4})[\s.\-\/]+(\d{1,2})[\s.\-\/]+(\d{1,2})/);
   if (!match) return null;
   const m = parseInt(match[2], 10);

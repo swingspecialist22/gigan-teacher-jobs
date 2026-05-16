@@ -4,8 +4,8 @@ const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = requir
 const BASE_URL = 'https://www.jbe.go.kr';
 const LIST_URL = `${BASE_URL}/pool/board/list.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&searchOperation=AND&listRow=30&listCel=1`;
 
-// 기간제교사/기간제교원/계약제교원/담임 포함 공고만 수집
-const SUBJECT_INCLUDE = /기간제교사|기간제교원|계약제교원|담임/;
+// 기간제교사/기간제교원/계약제교원/담임 포함 공고만 수집 (띄어쓰기 포함)
+const SUBJECT_INCLUDE = /기간제\s*교사|기간제\s*교원|계약제\s*교원|담임/;
 
 function levelFromCategory(cat) {
   if (/초등/.test(cat)) return '초등';
