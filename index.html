@@ -30,7 +30,6 @@
       --gray-400: #9ca3af;
       --gray-600: #4b5563;
       --gray-800: #1f2937;
-      --header-h: 96px;
       --sidebar-w: 72px;
     }
 
@@ -43,33 +42,6 @@
       display: flex;
       flex-direction: column;
       height: 100%;
-    }
-
-    /* ── Header ── */
-    header {
-      background: #fff;
-      color: var(--blue);
-      flex-shrink: 0;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: 0 2px 8px rgba(0,0,0,.1);
-      border-bottom: 1px solid #e5e7eb;
-    }
-
-    .header-row {
-      align-items: center;
-      display: flex;
-      justify-content: space-between;
-      padding-right: 16px;
-    }
-
-    .app-name {
-      color: rgba(255,255,255,.95);
-      font-size: 15px;
-      font-weight: 800;
-      letter-spacing: -.02em;
-      white-space: nowrap;
     }
 
     /* ── Bottom Nav ── */
@@ -148,6 +120,59 @@
       font-weight: 600;
       padding: 11px 24px;
     }
+
+    /* ── 설정 패널 ── */
+    #settings-panel {
+      display: none;
+      flex: 1;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .settings-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 24px 28px;
+      background: var(--blue);
+      gap: 10px;
+    }
+
+    .settings-header img { height: 44px; object-fit: contain; filter: brightness(0) invert(1); }
+
+    .settings-section {
+      background: #fff;
+      border-radius: 12px;
+      margin: 16px 16px 0;
+      overflow: hidden;
+    }
+
+    .settings-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 16px;
+      border-bottom: 1px solid var(--gray-100);
+      font-size: 14px;
+      color: var(--gray-800);
+      gap: 12px;
+    }
+
+    .settings-row:last-child { border-bottom: none; }
+    .settings-row-label { font-weight: 500; }
+    .settings-row-value { color: var(--gray-400); font-size: 13px; }
+
+    .settings-info-box {
+      margin: 16px 16px 24px;
+      background: #fff;
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 13px;
+      line-height: 1.8;
+      color: var(--gray-600);
+    }
+
+    .settings-info-box strong { color: var(--gray-800); }
 
     /* ── Sidebar ── */
     .sidebar {
@@ -546,13 +571,6 @@
 </head>
 <body>
 
-<header>
-  <div class="header-row" style="padding: 8px 16px;">
-    <a href="./" style="display:flex;align-items:center;"><img src="logo/tclogo2.png" alt="티커리어" style="height:36px;object-fit:contain;"></a>
-    <button id="about-btn" style="background:none;border:none;cursor:pointer;color:var(--gray-400);font-size:18px;padding:4px 6px;line-height:1;" title="앱 정보">ⓘ</button>
-  </div>
-</header>
-
 <div class="layout">
 
   <!-- ── 사이드바 ── -->
@@ -575,6 +593,33 @@
     <button class="sidebar-btn" data-filter="sido" data-val="세종">세종</button>
     <button class="sidebar-btn" data-filter="sido" data-val="제주">제주</button>
   </nav>
+
+  <!-- ── 설정 패널 ── -->
+  <div id="settings-panel">
+    <div class="settings-header">
+      <img src="logo/tclogo2.png" alt="티커리어">
+    </div>
+    <div class="settings-section">
+      <div class="settings-row">
+        <span class="settings-row-label">버전</span>
+        <span class="settings-row-value">1.0.0</span>
+      </div>
+      <div class="settings-row">
+        <span class="settings-row-label">만든 곳</span>
+        <span class="settings-row-value">렛츠고티처</span>
+      </div>
+    </div>
+    <div class="settings-info-box">
+      <strong>티커리어</strong>는 전국 시도교육청에 공개된 채용공고를 수집하여 제공하는 렛츠고티처의 서비스입니다.<br><br>
+      교육부·각 시도교육청과 무관하며, 정부 기관을 대표하지 않습니다.<br><br>
+      공식 정보는 각 시도교육청 사이트에서 확인하시기 바랍니다.
+    </div>
+    <div style="text-align:center;padding:0 16px 32px;font-size:11px;color:var(--gray-400);line-height:1.9;">
+      수집 출처: pen.go.kr · jbe.go.kr · gne.go.kr · gwe.go.kr<br>
+      sen.go.kr · goe.go.kr · gen.go.kr · cne.go.kr · dje.go.kr<br>
+      ije.go.kr · jne.go.kr · gbe.go.kr · cbe.go.kr · sje.go.kr · jje.go.kr · use.go.kr
+    </div>
+  </div>
 
   <!-- ── 비교분석 패널 ── -->
   <div id="compare-panel">
@@ -628,25 +673,10 @@
   <button class="bottom-nav-btn" data-tab="notif">
     <span class="nav-icon">🔔</span>알림
   </button>
+  <button class="bottom-nav-btn" data-tab="settings">
+    <span class="nav-icon">⚙️</span>설정
+  </button>
 </nav>
-
-<!-- ── 앱 정보 모달 ── -->
-<div class="modal-overlay" id="about-modal">
-  <div class="modal">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
-      <h2 style="margin-bottom:0;">앱 정보</h2>
-      <button id="about-close" style="background:none;border:none;cursor:pointer;font-size:22px;color:var(--gray-400);line-height:1;padding:4px;">✕</button>
-    </div>
-    <p style="font-size:14px;line-height:1.7;color:var(--gray-600);">
-      <strong>티커리어</strong>는 전국 시도교육청에 공개된 채용공고를 수집하여 제공하는 <strong>렛츠고티처</strong>의 서비스입니다.<br><br>
-      교육부·각 시도교육청과 무관하며, 정부 기관을 대표하지 않습니다.<br><br>
-      공식 정보는 각 시도교육청 사이트에서 확인하시기 바랍니다.
-    </p>
-    <p style="font-size:11px;color:var(--gray-400);margin-top:12px;line-height:1.8;">
-      수집 출처: pen.go.kr · jbe.go.kr · gne.go.kr · gwe.go.kr · sen.go.kr · goe.go.kr · gen.go.kr · cne.go.kr · dje.go.kr · ije.go.kr · jne.go.kr · gbe.go.kr · cbe.go.kr · sje.go.kr · jje.go.kr · use.go.kr
-    </p>
-  </div>
-</div>
 
 <!-- ── 알림 설정 모달 ── -->
 <div class="modal-overlay" id="notif-modal">
@@ -912,21 +942,22 @@ function render() {
 
 // ── Bottom Nav ─────────────────────────────────────────────────────────────────
 function switchTab(tabName) {
-  if (tabName === 'notif') {
-    openNotifModal();
-    return;
-  }
+  if (tabName === 'notif') { openNotifModal(); return; }
   currentTab = tabName;
   document.querySelectorAll('.bottom-nav-btn').forEach(b => b.classList.remove('active'));
   const activeBtn = document.querySelector(`.bottom-nav-btn[data-tab="${tabName}"]`);
   if (activeBtn) activeBtn.classList.add('active');
 
   const isCompare = tabName === 'compare';
-  document.getElementById('compare-panel').style.display = isCompare ? 'block' : 'none';
-  document.querySelector('.right-panel').style.display = isCompare ? 'none' : '';
-  document.querySelector('.sidebar').style.display = isCompare ? 'none' : '';
+  const isSettings = tabName === 'settings';
+  const isPanel = isCompare || isSettings;
 
-  if (!isCompare) render();
+  document.getElementById('compare-panel').style.display = isCompare ? 'block' : 'none';
+  document.getElementById('settings-panel').style.display = isSettings ? 'block' : 'none';
+  document.querySelector('.right-panel').style.display = isPanel ? 'none' : '';
+  document.querySelector('.sidebar').style.display = isPanel ? 'none' : '';
+
+  if (!isPanel) render();
 }
 
 document.querySelectorAll('.bottom-nav-btn').forEach(btn => {
@@ -968,9 +999,6 @@ document.getElementById('sort-select').addEventListener('change', e => {
 });
 
 // ── About modal ────────────────────────────────────────────────────────────────
-const aboutModal = document.getElementById('about-modal');
-document.getElementById('about-btn').addEventListener('click', () => aboutModal.classList.add('open'));
-document.getElementById('about-close').addEventListener('click', () => aboutModal.classList.remove('open'));
 aboutModal.addEventListener('click', e => { if (e.target === aboutModal) aboutModal.classList.remove('open'); });
 
 // ── Notification modal ─────────────────────────────────────────────────────────
