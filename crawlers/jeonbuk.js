@@ -4,8 +4,8 @@ const { fetchHtml, parseDate, isExpired, extractSubject, extractLevel } = requir
 const BASE_URL = 'https://www.jbe.go.kr';
 const LIST_URL = `${BASE_URL}/pool/board/list.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&searchOperation=AND&listRow=30&listCel=1`;
 
-// 기간제교사/기간제교원/계약제교원/담임 포함 공고만 수집 (띄어쓰기 포함)
-const SUBJECT_INCLUDE = /기간제\s*교사|기간제\s*교원|계약제\s*교원|담임/;
+// 명백한 비교사직만 제외 (나머지는 교원 관련 공고로 수집)
+const SUBJECT_EXCLUDE = /교육공무직|조리|청소|봉사|안전지킴이|통학버스|돌봄전담|사무직원|시설관리|경비원|미화원|방과후.*강사|방과후.*전일제|개인위탁|태권도|행정대체|교무실무사|배식|산학겸임|늘봄.*강사/;
 
 function levelFromCategory(cat) {
   if (/초등/.test(cat)) return '초등';
@@ -47,7 +47,7 @@ async function crawlJeonbuk() {
       if (!isExpired(deadline)) pageAllExpired = false;
 
       const subject = $(row).find('td[data-cell-header^="과목"]').text().trim();
-      if (!SUBJECT_INCLUDE.test(subject)) return;
+      if (SUBJECT_EXCLUDE.test(subject)) return;
 
       const schoolEl = $(row).find('td[data-cell-header^="학교"] a');
       const school = schoolEl.attr('title') || schoolEl.text().trim();
