@@ -1,11 +1,13 @@
 const fetch = require('node-fetch');
 const iconv = require('iconv-lite');
 
-async function fetchHtml(url, encoding = 'utf-8') {
+async function fetchHtml(url, encoding = 'utf-8', options = {}) {
   const res = await fetch(url, {
     headers: {
       'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+      ...options.headers,
     },
+    ...options,
   });
   if (!res.ok) throw new Error(`fetch 실패: ${url} (${res.status})`);
   const buffer = await res.buffer();

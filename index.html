@@ -665,10 +665,15 @@ if ('serviceWorker' in navigator) {
     }
   });
 
-  navigator.serviceWorker.addEventListener('message', e => {
+  navigator.serviceWorker.addEventListener('message', async e => {
     if (e.data?.type === 'NEW_JOB_IDS') {
       e.data.ids.forEach(id => seenIds.add(id));
       localStorage.setItem('seenIds', JSON.stringify([...seenIds]));
+      // 주기적 백그라운드 싱크(periodicSync)도 동일한 seenIds를 사용하도록 동기화
+      if ('caches' in window) {
+        const cache = await caches.open('notif-prefs-v1');
+        await cache.put('seenIds', new Response(JSON.stringify([...seenIds])));
+      }
     }
   });
 }
