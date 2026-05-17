@@ -209,21 +209,6 @@
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
-  "서울::고명외식고등학교": {
-    "neisCode": "7011487",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 성북구 북악산로 870",
-    "lat": null,
-    "lng": null,
-    "classCount": 24,
-    "facilityScore": null,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "growthRate": 4,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
   "서울::동국대학교사범대학부속고등학교": {
     "neisCode": "7010151",
     "atptCode": "B10",
@@ -6082,21 +6067,6 @@
     "lat": null,
     "lng": null,
     "classCount": 56,
-    "facilityScore": null,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 9,
-    "growthRate": 4,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
-  "서울::언북중학교": {
-    "neisCode": "7091442",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강남구 도산대로38길 27",
-    "lat": null,
-    "lng": null,
-    "classCount": 12,
     "facilityScore": null,
     "classStudentRatio": 20,
     "teacherStudentRatio": 9,
