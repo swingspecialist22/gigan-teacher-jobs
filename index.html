@@ -1363,9 +1363,14 @@ document.getElementById('modal-save').addEventListener('click', async () => {
 // ── 뒤로 가기 종료 모달 ────────────────────────────────────────────────────────
 const exitModal = document.getElementById('exit-modal');
 
+// replaceState: 히스토리 맨 아래 항목도 state로 교체 → 새로고침 후에도 popstate 발생
+history.replaceState({ pwa: true }, '');
 history.pushState({ pwa: true }, '');
 
+let pwaExiting = false;
+
 window.addEventListener('popstate', () => {
+  if (pwaExiting) return;
   history.pushState({ pwa: true }, ''); // 다음 뒤로가기도 잡기 위해 재등록
   exitModal.classList.add('open');
 });
@@ -1376,8 +1381,9 @@ document.getElementById('exit-cancel').addEventListener('click', () => {
 
 document.getElementById('exit-confirm').addEventListener('click', () => {
   exitModal.classList.remove('open');
-  // 등록된 state 2개를 제거하고 실제 뒤로 이동 (앱 종료)
-  history.go(-2);
+  pwaExiting = true;
+  // 쌓인 guard state 모두 제거하고 실제 이탈
+  history.go(-(history.length));
 });
 
 exitModal.addEventListener('click', e => {
