@@ -130,116 +130,44 @@ async function kakaoFacilityScore(lat, lng) {
   return Math.round(Math.min(total / 60, 1) * 100);
 }
 
-// ── 학교알리미 스크래핑 (실제 학생수·교원수) ──────────────────────────────
-// URL: https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do
-//      ?schulCode={SD_SCHUL_CODE}&schulCrseScCode={crse}&schulKndScCode={knd}
-const SCHOOL_TYPE_CODES = {
-  '유치원':   { crse: '2', knd: '01' },
-  '초등학교': { crse: '1', knd: '02' },
-  '중학교':   { crse: '3', knd: '03' },
-  '고등학교': { crse: '4', knd: '04' },
-  '특수학교': { crse: '5', knd: '05' },
-};
-
-async function scrapeSchoolAlimi(sdCode, schoolType, classCount) {
-  if (!sdCode) return null;
-
-  let codes = null;
-  for (const [type, c] of Object.entries(SCHOOL_TYPE_CODES)) {
-    if (schoolType?.includes(type)) { codes = c; break; }
-  }
-  if (!codes) return null;
-
-  const url = `https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do`
-    + `?schulCode=${sdCode}&schulCrseScCode=${codes.crse}&schulKndScCode=${codes.knd}`;
-
+// ── NEIS: 재학생 현황 (elstInfo) ────────────────────────────────────────────
+async function neisStudentCount(atptCode, sdCode) {
+  const year = new Date().getFullYear();
+  const url = `https://open.neis.go.kr/hub/elstInfo`
+    + `?KEY=${NEIS_KEY}&Type=json&pSize=1000`
+    + `&ATPT_OFCDC_SC_CODE=${atptCode}`
+    + `&SD_SCHUL_CODE=${sdCode}`
+    + `&AY=${year}&SEM=1`;
   try {
-    const res = await fetch(url, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'ko-KR,ko;q=0.9',
-      },
-      timeout: 12000,
-    });
-    if (!res.ok) return null;
-    const html = await res.text();
-    const $ = cheerio.load(html);
+    const res = await fetch(url, { timeout: 8000 });
+    const data = await res.json();
+    const rows = data?.elstInfo?.[1]?.row;
+    if (!rows?.length) return null;
+    // 전체 학생수 합산 (주간 기준)
+    const total = rows
+      .filter(r => !r.DGHT_ORDR || r.DGHT_ORDR === '주간')
+      .reduce((sum, r) => sum + (parseInt(r.ELST_CNT) || 0), 0);
+    return total > 0 ? total : null;
+  } catch { return null; }
+}
 
-    let totalStudents = null;
-    let teacherCount = null;
-    let prevStudents = null;
-
-    // 학교알리미 현황 테이블 파싱
-    // 패턴1: <th>재학생수</th><td>XXX명</td>
-    // 패턴2: summary/caption에 '현황' 포함 테이블
-    $('table').each((_, table) => {
-      const caption = $(table).find('caption').text();
-      const summary = $(table).attr('summary') || '';
-      const isRelevant = /현황|학생|교원|교사/.test(caption + summary);
-
-      $(table).find('tr').each((_, tr) => {
-        const ths = $(tr).find('th');
-        const tds = $(tr).find('td');
-
-        ths.each((i, th) => {
-          const label = $(th).text().replace(/\s+/g, '').trim();
-          const valTd = tds.eq(i).text().replace(/[^0-9]/g, '');
-          const num = parseInt(valTd);
-          if (isNaN(num) || num <= 0) return;
-
-          if (/재학생|전체학생|학생수/.test(label) && !/(교사|학급|학년)/.test(label)) {
-            if (!totalStudents || num > totalStudents) totalStudents = num;
-          }
-          if (/교원수|교사수|전체교원|재직교원/.test(label)) {
-            if (!teacherCount || num > teacherCount) teacherCount = num;
-          }
-          // 전년도 학생수 (증감률 계산용) — 테이블에 연도별 컬럼이 있는 경우
-          if (/전년|작년|[0-9]{4}학년도/.test(label) && /학생/.test(caption + summary)) {
-            prevStudents = num;
-          }
-        });
-      });
-    });
-
-    // dl/dt 패턴으로도 탐색 (학교알리미 일부 페이지)
-    $('dl').each((_, dl) => {
-      $(dl).find('dt').each((i, dt) => {
-        const label = $(dt).text().replace(/\s+/g, '').trim();
-        const dd = $(dl).find('dd').eq(i).text().replace(/[^0-9]/g, '');
-        const num = parseInt(dd);
-        if (isNaN(num) || num <= 0) return;
-        if (/재학생|학생수/.test(label) && !/(교사|학급)/.test(label)) totalStudents = num;
-        if (/교원수|교사수/.test(label)) teacherCount = num;
-      });
-    });
-
-    // 첫 번째 학교알리미 조회 결과 디버깅
-    if (!scrapeSchoolAlimi._logged) {
-      scrapeSchoolAlimi._logged = true;
-      const bodySnippet = html.slice(0, 300).replace(/\s+/g, ' ');
-      console.log(`[알리미 디버그] URL=${url}`);
-      console.log(`[알리미 디버그] HTML 앞부분: ${bodySnippet}`);
-      console.log(`[알리미 디버그] totalStudents=${totalStudents} teacherCount=${teacherCount}`);
-    }
-
-    if (!totalStudents) return null;
-
-    const classStudentRatio = (classCount > 0 && totalStudents > 0)
-      ? Math.round(totalStudents / classCount * 10) / 10 : null;
-    const teacherStudentRatio = (teacherCount > 0 && totalStudents > 0)
-      ? Math.round(totalStudents / teacherCount * 10) / 10 : null;
-    const growthRate = (prevStudents > 0 && totalStudents > 0)
-      ? Math.round((totalStudents - prevStudents) / prevStudents * 1000) / 10 : null;
-
-    return { classStudentRatio, teacherStudentRatio, growthRate, totalStudents };
-  } catch (e) {
-    if (!scrapeSchoolAlimi._errLogged) {
-      scrapeSchoolAlimi._errLogged = true;
-      console.error(`[알리미 디버그] fetch 오류:`, e.message);
-    }
-    return null;
-  }
+// ── NEIS: 교원 현황 (tiInfo) ─────────────────────────────────────────────────
+async function neisTeacherCount(atptCode, sdCode) {
+  const year = new Date().getFullYear();
+  const url = `https://open.neis.go.kr/hub/tiInfo`
+    + `?KEY=${NEIS_KEY}&Type=json&pSize=200`
+    + `&ATPT_OFCDC_SC_CODE=${atptCode}`
+    + `&SD_SCHUL_CODE=${sdCode}`
+    + `&AY=${year}`;
+  try {
+    const res = await fetch(url, { timeout: 8000 });
+    const data = await res.json();
+    const rows = data?.tiInfo?.[1]?.row;
+    if (!rows?.length) return null;
+    // 전체 교원수 (PROF_NM 기준: 교장·교감 제외한 교사만 합산)
+    const total = rows.reduce((sum, r) => sum + (parseInt(r.TEACHER_CNT || r.TOTAL_PERSON_CNT) || 0), 0);
+    return total > 0 ? total : null;
+  } catch { return null; }
 }
 
 // ── 추정값 생성 (학교알리미 스크래핑 실패 시 폴백) ──────────────────────────
@@ -287,15 +215,18 @@ async function processSchool(school, sido) {
   await delay(200);
   const facilityScore = await kakaoFacilityScore(coords?.lat, coords?.lng);
 
-  // 학교알리미 스크래핑 시도 (실제 학생수·교원수)
-  await delay(300);
-  const alimi = await scrapeSchoolAlimi(info.SD_SCHUL_CODE, info.SCHUL_KND_SC_NM, classCount);
+  // NEIS elstInfo + tiInfo로 실제 학생수·교원수 수집
+  await delay(200);
+  const totalStudents = await neisStudentCount(atptCode, info.SD_SCHUL_CODE);
+
+  await delay(200);
+  const teacherCount = await neisTeacherCount(atptCode, info.SD_SCHUL_CODE);
 
   let classStudentRatio, teacherStudentRatio, growthRate, statsEstimated;
-  if (alimi) {
-    classStudentRatio   = alimi.classStudentRatio;
-    teacherStudentRatio = alimi.teacherStudentRatio;
-    growthRate          = alimi.growthRate;
+  if (totalStudents) {
+    classStudentRatio   = classCount > 0 ? Math.round(totalStudents / classCount * 10) / 10 : null;
+    teacherStudentRatio = teacherCount  ? Math.round(totalStudents / teacherCount * 10) / 10 : null;
+    growthRate          = null; // NEIS elstInfo에 전년도 비교 없음 → 추후 개선
     statsEstimated      = false;
   } else {
     const est = estimateSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
@@ -361,9 +292,12 @@ async function buildSchoolsData() {
 
   let fetched = 0, skipped = 0, failed = 0;
 
+  const forceRefresh = process.env.FORCE_REFRESH === '1';
+  if (forceRefresh) console.log('[학교데이터] 강제 새로고침 모드 — 캐시 무시');
+
   for (const [key, { school, sido }] of pairs) {
-    // 오늘 이미 수집한 건 스킵
-    if (cache[key]?.updated === today) { skipped++; continue; }
+    // 오늘 이미 수집한 건 스킵 (강제 새로고침 시 제외)
+    if (!forceRefresh && cache[key]?.updated === today) { skipped++; continue; }
 
     try {
       const data = await processSchool(school, sido);
