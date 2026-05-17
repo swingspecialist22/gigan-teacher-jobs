@@ -27,6 +27,8 @@ function expandName(name) {
   return name;
 }
 
+let _debugDumped = false; // 첫 학교에만 전체 element 덤프
+
 // 학교알리미에서 UUID 검색 (페이지 1개)
 async function fetchUUID(browser, school, sido) {
   const fullName = expandName(school);
@@ -37,26 +39,64 @@ async function fetchUUID(browser, school, sido) {
       'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
       '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
     );
-    await page.setDefaultNavigationTimeout(30000);
-    await page.setDefaultTimeout(20000);
+    await page.setDefaultNavigationTimeout(40000);
+    await page.setDefaultTimeout(30000);
 
     // ── 1. 학교알리미 학교 검색 페이지 ──
     await page.goto('https://www.schoolinfo.go.kr/ei/ss/Pneiss_a01_s0.do', {
-      waitUntil: 'networkidle2',
+      waitUntil: 'domcontentloaded',
+      timeout: 40000,
     });
-    await delay(400);
+    // JS 렌더링 대기
+    await delay(3000);
 
-    // ── 2. 검색창 찾기 (여러 selector 시도) ──
-    const INPUT_SELECTORS = [
-      '#schulNm', '#schoolNm', '#schlNm',
-      'input[name="schulNm"]', 'input[name="schoolNm"]',
-      'input[placeholder*="학교"]', 'input[type="text"]',
-    ];
-    let inputSel = null;
-    for (const sel of INPUT_SELECTORS) {
-      if (await page.$(sel)) { inputSel = sel; break; }
+    // ── 디버그: 첫 학교에서 페이지의 모든 form 요소 출력 ──
+    if (!_debugDumped) {
+      _debugDumped = true;
+      const dbg = await page.evaluate(() => ({
+        url:     location.href,
+        title:   document.title,
+        inputs:  Array.from(document.querySelectorAll('input')).map(e => ({
+          id: e.id, name: e.name, type: e.type,
+          cls: e.className.trim().slice(0, 60), ph: e.placeholder,
+        })),
+        selects: Array.from(document.querySelectorAll('select')).map(e => ({
+          id: e.id, name: e.name, cls: e.className.trim().slice(0, 60),
+        })),
+        btns: Array.from(document.querySelectorAll('button,input[type=submit],input[type=button],a[onclick]')).slice(0, 10).map(e => ({
+          tag: e.tagName, id: e.id, cls: e.className.trim().slice(0, 60),
+          txt: e.textContent.trim().slice(0, 30), onclick: (e.getAttribute('onclick')||'').slice(0, 80),
+        })),
+        bodySnippet: document.body?.innerHTML?.slice(0, 2000),
+      }));
+      console.log('[DEBUG URL]', dbg.url);
+      console.log('[DEBUG TITLE]', dbg.title);
+      console.log('[DEBUG INPUTS]', JSON.stringify(dbg.inputs));
+      console.log('[DEBUG SELECTS]', JSON.stringify(dbg.selects));
+      console.log('[DEBUG BTNS]', JSON.stringify(dbg.btns));
+      console.log('[DEBUG BODY]', dbg.bodySnippet);
     }
-    if (!inputSel) {
+
+    // ── 2. 검색창 찾기 — 동적으로 모든 text input 탐색 ──
+    const inputSel = await page.evaluate(() => {
+      const candidates = Array.from(document.querySelectorAll('input'));
+      // 학교명 관련 placeholder/id/name 우선
+      for (const el of candidates) {
+        const s = `${el.id} ${el.name} ${el.placeholder} ${el.className}`.toLowerCase();
+        if (s.includes('schul') || s.includes('school') || s.includes('학교')) return `#${el.id || ''}` || `input[name="${el.name}"]`;
+      }
+      // 보이는 text input 중 첫 번째
+      for (const el of candidates) {
+        if ((el.type === 'text' || el.type === '') && el.offsetParent !== null) {
+          if (el.id) return `#${el.id}`;
+          if (el.name) return `input[name="${el.name}"]`;
+          return 'input[type="text"]';
+        }
+      }
+      return null;
+    });
+
+    if (!inputSel || inputSel === '#') {
       console.log(`  [UUID] 검색창 없음: ${school}`);
       return null;
     }
@@ -64,31 +104,33 @@ async function fetchUUID(browser, school, sido) {
     // ── 3. 학교명 입력 + 검색 ──
     await page.click(inputSel, { clickCount: 3 });
     await page.type(inputSel, fullName, { delay: 40 });
-    await delay(200);
+    await delay(300);
 
-    // Enter 또는 검색 버튼
-    const BTN_SELECTORS = [
-      '#btnSearch', '#searchBtn', 'button[type="submit"]',
-      'a.btn-search', 'input[type="submit"]',
-    ];
-    let clicked = false;
-    for (const sel of BTN_SELECTORS) {
-      if (await page.$(sel)) {
-        await Promise.all([
-          page.click(sel),
-          page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {}),
-        ]);
-        clicked = true;
-        break;
+    // 버튼 또는 Enter
+    const btnSel = await page.evaluate(() => {
+      const btns = Array.from(document.querySelectorAll('button,input[type=submit],input[type=button],a'));
+      for (const el of btns) {
+        const s = `${el.id} ${el.className} ${el.textContent}`.toLowerCase();
+        if (s.includes('search') || s.includes('조회') || s.includes('검색')) {
+          if (el.id) return `#${el.id}`;
+          return el.tagName.toLowerCase() + (el.className ? `.${el.className.trim().split(' ')[0]}` : '');
+        }
       }
-    }
-    if (!clicked) {
+      return null;
+    });
+
+    if (btnSel) {
+      await Promise.all([
+        page.click(btnSel),
+        page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {}),
+      ]);
+    } else {
       await Promise.all([
         page.keyboard.press('Enter'),
         page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {}),
       ]);
     }
-    await delay(600);
+    await delay(1000);
 
     // ── 4. 결과에서 SHL_IDF_CD 추출 ──
     const uuid = await page.evaluate((full, short) => {
@@ -97,7 +139,6 @@ async function fetchUUID(browser, school, sido) {
 
       const norm = s => s.replace(/\s+/g, '');
 
-      // 완전 일치 우선
       for (const a of links) {
         const t = norm(a.textContent);
         if (t === norm(full) || t === norm(short)) {
@@ -105,7 +146,6 @@ async function fetchUUID(browser, school, sido) {
           if (m) return m[1];
         }
       }
-      // 부분 일치
       for (const a of links) {
         const t = norm(a.textContent);
         if (t.includes(norm(short)) || norm(full).includes(t)) {
@@ -113,7 +153,6 @@ async function fetchUUID(browser, school, sido) {
           if (m) return m[1];
         }
       }
-      // 첫 번째 결과
       const m = links[0].href.match(/SHL_IDF_CD=([^&\s"']+)/i);
       return m ? m[1] : null;
     }, fullName, school);
