@@ -12,8 +12,7 @@
   "dependencies": {
     "cheerio": "^1.0.0",
     "iconv-lite": "^0.7.2",
-    "node-fetch": "^2.7.0",
-    "puppeteer": "^22.0.0"
+    "node-fetch": "^2.7.0"
   },
   "devDependencies": {
     "jimp": "^1.6.1",

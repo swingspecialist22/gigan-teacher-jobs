@@ -36,18 +36,6 @@ jobs:
       - name: 패키지 설치
         run: npm install
 
-      # Puppeteer Chrome 캐싱 (매번 300MB 다운로드 방지)
-      - name: Puppeteer Chrome 캐시 복원
-        id: cache-chrome
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/puppeteer
-          key: puppeteer-chrome-${{ runner.os }}-v1
-
-      - name: Puppeteer Chrome 설치
-        if: steps.cache-chrome.outputs.cache-hit != 'true'
-        run: npx puppeteer browsers install chrome
-
       - name: 크롤링 실행
         run: npm run crawl
 
