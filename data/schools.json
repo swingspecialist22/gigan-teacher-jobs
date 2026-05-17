@@ -599,21 +599,6 @@
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
-  "서울::광장중학교": {
-    "neisCode": "7134124",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 광진구 광장로1길 1",
-    "lat": 37.5471775185817,
-    "lng": 127.101927589353,
-    "classCount": 23,
-    "facilityScore": 80,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
   "서울::서울계남초등학교": {
     "neisCode": "7081426",
     "atptCode": "B10",
@@ -8590,6 +8575,36 @@
     "facilityScore": 82,
     "transitScore": 0,
     "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-05-17"
+  },
+  "서울::백운중학교": {
+    "neisCode": "7051182",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 도봉구 도봉로129길 50",
+    "lat": 37.6562806786387,
+    "lng": 127.035622286787,
+    "classCount": 15,
+    "facilityScore": 87,
+    "transitScore": 33,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-05-17"
+  },
+  "서울::용산고등학교": {
+    "neisCode": "7010103",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 용산구 두텁바위로 60",
+    "lat": 37.5458673821179,
+    "lng": 126.980327669219,
+    "classCount": 30,
+    "facilityScore": 77,
+    "transitScore": 67,
+    "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-05-17"
