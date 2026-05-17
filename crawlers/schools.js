@@ -164,7 +164,7 @@ async function kakaoGeocode(address) {
 }
 
 // ── Kakao: 반경 1km 편의시설 카운트 ─────────────────────────────────────────
-// CE7=카페, CS2=편의점, MT1=대형마트, FD6=음식점, HP8=병원
+// CE7=카페, CS2=편의점, MT1=대형마트, FD6=음식점
 const FACILITY_CATS = ['CE7', 'CS2', 'MT1', 'FD6'];
 
 async function kakaoFacilityScore(lat, lng) {
@@ -185,6 +185,23 @@ async function kakaoFacilityScore(lat, lng) {
   }
   // 0~60개 → 0~100점으로 정규화
   return Math.round(Math.min(total / 60, 1) * 100);
+}
+
+// ── Kakao: 반경 1km 지하철역 수 → 대중교통 접근성 점수 ──────────────────────
+// SW8=지하철역  (0개=0점 / 1개=34점 / 2개=67점 / 3개+=100점)
+async function kakaoTransitScore(lat, lng) {
+  if (!lat || !lng) return null;
+  const url = `https://dapi.kakao.com/v2/local/search/category.json`
+    + `?category_group_code=SW8&x=${lng}&y=${lat}&radius=1000&size=15`;
+  try {
+    const res = await fetch(url, {
+      headers: { Authorization: `KakaoAK ${KAKAO_KEY}` },
+      timeout: 8000,
+    });
+    const data = await res.json();
+    const count = data?.documents?.length || 0;
+    return Math.min(Math.round(count / 3 * 100), 100);
+  } catch { return null; }
 }
 
 // ── 학교 유형별 통계 추정 (교육부 공시 평균 기반) ──────────────────────────
@@ -214,9 +231,8 @@ function calcSchoolStats(schoolName, schoolType, classCount) {
 
   const classStudentRatio   = avgPerClass;
   const teacherStudentRatio = teacherRatio;
-  const growthRate          = rng(13, -8, 5); // -8~+5% (전국 학령인구 감소 추세 반영)
 
-  return { classStudentRatio, teacherStudentRatio, growthRate };
+  return { classStudentRatio, teacherStudentRatio };
 }
 
 
@@ -241,10 +257,13 @@ async function processSchool(school, sido, uuid) {
   const coords = await kakaoGeocode(info.ORG_RDNMA);
 
   await delay(200);
-  const facilityScore = await kakaoFacilityScore(coords?.lat, coords?.lng);
+  const facilityScore  = await kakaoFacilityScore(coords?.lat, coords?.lng);
+
+  await delay(200);
+  const transitScore   = await kakaoTransitScore(coords?.lat, coords?.lng);
 
   // ── 학교알리미 실제 데이터 (UUID 있을 때) ──────────────────────────────────
-  let classStudentRatio, teacherStudentRatio, growthRate, statsEstimated;
+  let classStudentRatio, teacherStudentRatio, statsEstimated;
 
   const realStats = uuid ? await schoolinfoStats(uuid) : null;
 
@@ -252,7 +271,6 @@ async function processSchool(school, sido, uuid) {
     const effectiveClassCount = classCount > 0 ? classCount : 1;
     classStudentRatio   = Math.round(realStats.students / effectiveClassCount * 10) / 10;
     teacherStudentRatio = Math.round(realStats.students / realStats.teachers * 10) / 10;
-    growthRate          = null; // 학교알리미에서 증감률은 별도 페이지 — 현재는 null
     statsEstimated      = false;
     console.log(`  ✓ 실제데이터 ${school}: 학생${realStats.students} 교원${realStats.teachers} → 학급당${classStudentRatio} 교사당${teacherStudentRatio}`);
   } else {
@@ -260,7 +278,6 @@ async function processSchool(school, sido, uuid) {
     const est = calcSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
     classStudentRatio   = est.classStudentRatio;
     teacherStudentRatio = est.teacherStudentRatio;
-    growthRate          = est.growthRate;
     statsEstimated      = true;
   }
 
@@ -274,10 +291,10 @@ async function processSchool(school, sido, uuid) {
 
     classCount,          // NEIS 실측
     facilityScore,       // Kakao 실측 (null이면 좌표 없음)
+    transitScore,        // Kakao 실측 — 1km 내 지하철역 수 기반 (null이면 좌표 없음)
 
     classStudentRatio,   // 학교알리미 실측 or 통계 추정
     teacherStudentRatio, // 학교알리미 실측 or 통계 추정
-    growthRate,          // 학교알리미 실측(미구현) or 통계 추정
     statsEstimated,      // false=실제데이터 / true=추정
 
     updated: new Date().toISOString().split('T')[0],

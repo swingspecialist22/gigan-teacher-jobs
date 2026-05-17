@@ -1176,10 +1176,10 @@ const COMPARE_FACTORS = [
     desc: '한 학급당 평균 학생 수입니다.\n낮을수록 담임 업무 부담이 적습니다.\n\n📌 출처: NEIS 실측 학급수 기반\n교육부 2024년 통계 평균으로 추정' },
   { key: 'facilityScore',       label: '생활환경\n지수',   unit: '점', lowerBetter: false, canEst: false,
     desc: '학교 주변 1km 반경 내 카페·편의점·대형마트·음식점 수를 0~100점으로 환산한 점수입니다.\n높을수록 생활 편의시설이 풍부합니다.\n\n📌 출처: Kakao 지역 검색 API 실측' },
-  { key: 'growthRate',          label: '학생수\n증감률',   unit: '%',  lowerBetter: false, canEst: true,
-    desc: '학생 수 증감 추세입니다.\n높을수록 학교가 성장하는 지역입니다.\n\n📌 출처: 전국 학령인구 감소 추세 기반 통계 추정' },
-  { key: 'commuteScore',        label: '통근거리',         unit: 'km', lowerBetter: true,  canEst: false,
-    desc: '내 현재 위치에서 학교까지의 직선 거리입니다.\n낮을수록 가까운 학교입니다.\n\n📌 출처: GPS 위치 + Kakao 좌표 Haversine 계산\n(위치 정보 제공 시에만 표시)' },
+  { key: 'transitScore',        label: '대중교통\n접근성',  unit: '점', lowerBetter: false, canEst: false,
+    desc: '학교 반경 1km 내 지하철역 수를 0~100점으로 환산한 점수입니다.\n높을수록 대중교통으로 출퇴근하기 편리합니다.\n\n📌 출처: Kakao 지역 검색 API 실측\n(지하철 없는 지역은 0점으로 표시)' },
+  { key: 'commuteScore',        label: '내위치\n통근거리',  unit: 'km', lowerBetter: true,  canEst: false,
+    desc: '내 현재 GPS 위치에서 학교까지의 직선 거리입니다.\n낮을수록 가까운 학교입니다.\n\n📌 출처: GPS 위치 + Kakao 좌표 Haversine 계산\n(위치 정보 제공 시에만 표시)' },
   { key: 'classCount',          label: '학급수',           unit: '개', lowerBetter: false, canEst: false,
     desc: '학교 전체 학급 수입니다.\n규모가 클수록 다양한 지원과 시설을 갖출 가능성이 높습니다.\n\n📌 출처: NEIS 실측 데이터' },
 ];
@@ -1188,7 +1188,7 @@ const FACTOR_RANGES = {
   teacherStudentRatio: [8, 24],
   classStudentRatio:   [15, 32],
   facilityScore:       [0, 100],
-  growthRate:          [-15, 20],
+  transitScore:        [0, 100],
   commuteScore:        [0, 80],   // km (낮을수록 좋음)
   classCount:          [6, 48],
 };
@@ -1206,10 +1206,10 @@ function getSchoolData(job) {
       teacherStudentRatio: s.teacherStudentRatio ?? null,
       classStudentRatio:   s.classStudentRatio   ?? null,
       facilityScore:       s.facilityScore       ?? null,
-      growthRate:          s.growthRate          ?? null,
+      transitScore:        s.transitScore        ?? null,
       commuteScore,
       classCount:          s.classCount          ?? null,
-      statsEstimated:      s.statsEstimated      ?? false, // 학교알리미 스크래핑 실패 시 true
+      statsEstimated:      s.statsEstimated      ?? false,
     };
   }
   // schools.json에 없으면 해시 기반 추정값
@@ -1219,10 +1219,10 @@ function getSchoolData(job) {
     teacherStudentRatio: rng(1, 9, 22),
     classStudentRatio:   rng(2, 16, 31),
     facilityScore:       null,
-    growthRate:          rng(4, -12, 15),
+    transitScore:        null,
     commuteScore,
     classCount:          rng(6, 6, 42),
-    statsEstimated:      true, // schools.json에 없음 → 전체 추정
+    statsEstimated:      true,
   };
 }
 
