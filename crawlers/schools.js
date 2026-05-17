@@ -1,18 +1,21 @@
 /**
  * 학교 비교분석 데이터 수집기
- * NEIS OpenAPI + Kakao Local API → data/schools.json
+ * NEIS OpenAPI + Kakao Local API + 학교알리미(schoolinfo.go.kr) → data/schools.json
  *
  * 실제 데이터:
- *   - 학급수       (NEIS classInfo)
- *   - 학교 좌표    (NEIS schoolInfo → Kakao geocoding)
- *   - 편의시설 점수 (Kakao 카테고리 검색, 반경 1km)
+ *   - 학급수          (NEIS classInfo)
+ *   - 학교 좌표       (NEIS schoolInfo → Kakao geocoding)
+ *   - 편의시설 점수   (Kakao 카테고리 검색, 반경 1km)
+ *   - 학생수·교원수   (학교알리미 UUID → EUC-KR 디코딩 파싱)
  *
- * 추정 데이터 (NEIS 무료키에 학생/교사 수 없음):
+ * 추정 데이터 (학교알리미 UUID 없는 학교):
  *   - 학급당 학생수, 교사1인당 학생수, 학생수 증감률
- *   → 학교 유형·학급수 기반 합리적 추정값 + 교명 해시로 편차 부여
+ *   → 학교 유형·학급수 기반 합리적 추정값
  */
 
 const fetch = require('node-fetch');
+const iconv = require('iconv-lite');
+const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 
@@ -74,6 +77,67 @@ async function neisClassCount(atptCode, sdCode) {
     const rows = data?.classInfo?.[1]?.row;
     return rows?.length || 0;
   } catch { return 0; }
+}
+
+// ── 학교알리미: 실제 학생수·교원수 수집 ─────────────────────────────────────
+async function schoolinfoStats(uuid) {
+  if (!uuid) return null;
+  const url = `https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do?SHL_IDF_CD=${uuid}`;
+  try {
+    const res = await fetch(url, {
+      timeout: 10000,
+      headers: { 'Accept-Charset': 'euc-kr' },
+    });
+    if (!res.ok) return null;
+
+    // EUC-KR 디코딩
+    const buf = await res.buffer();
+    const html = iconv.decode(buf, 'euc-kr');
+    const $ = cheerio.load(html);
+
+    // 학생수 추출 — 여러 패턴 시도
+    let students = null, teachers = null;
+
+    // 패턴 1: 숫자만 있는 td에서 합계 행 찾기
+    $('table').each((_, tbl) => {
+      const text = $(tbl).text();
+      if (!/학생/.test(text)) return;
+      // "합계" 또는 "전체" 행의 숫자
+      $(tbl).find('tr').each((_, tr) => {
+        const rowText = $(tr).text();
+        if (!/합계|전체/.test(rowText)) return;
+        const nums = rowText.match(/[\d,]+/g)?.map(n => parseInt(n.replace(/,/g, ''), 10)).filter(n => n > 10 && n < 5000);
+        if (nums?.length) { students = nums[0]; return false; }
+      });
+    });
+
+    // 패턴 2: 정규식 직접 매칭
+    if (!students) {
+      const m = html.match(/(?:학생수|전체학생|총\s*학생)[^<\d]*(\d[\d,]+)/);
+      if (m) students = parseInt(m[1].replace(/,/g, ''), 10);
+    }
+
+    // 교원수 추출
+    $('table').each((_, tbl) => {
+      const text = $(tbl).text();
+      if (!/교원|교직원/.test(text)) return;
+      $(tbl).find('tr').each((_, tr) => {
+        const rowText = $(tr).text();
+        if (!/합계|전체/.test(rowText)) return;
+        const nums = rowText.match(/[\d,]+/g)?.map(n => parseInt(n.replace(/,/g, ''), 10)).filter(n => n > 3 && n < 500);
+        if (nums?.length) { teachers = nums[0]; return false; }
+      });
+    });
+
+    if (!teachers) {
+      const m = html.match(/(?:교원수|교직원수|총\s*교원)[^<\d]*(\d[\d,]+)/);
+      if (m) teachers = parseInt(m[1].replace(/,/g, ''), 10);
+    }
+
+    if (!students || !teachers) return null;
+    return { students, teachers };
+
+  } catch { return null; }
 }
 
 // ── Kakao: 주소 → 좌표 ──────────────────────────────────────────────────────
@@ -157,7 +221,7 @@ function calcSchoolStats(schoolName, schoolType, classCount) {
 
 
 // ── 학교 1개 처리 ────────────────────────────────────────────────────────────
-async function processSchool(school, sido) {
+async function processSchool(school, sido, uuid) {
   const atptCode = SIDO_ATPT[sido];
   if (!atptCode) return null;
 
@@ -179,12 +243,26 @@ async function processSchool(school, sido) {
   await delay(200);
   const facilityScore = await kakaoFacilityScore(coords?.lat, coords?.lng);
 
-  // 교육부 공시 평균 기반 통계 계산 (NEIS classCount 활용)
-  const stats = calcSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
-  const classStudentRatio   = stats.classStudentRatio;
-  const teacherStudentRatio = stats.teacherStudentRatio;
-  const growthRate          = stats.growthRate;
-  const statsEstimated      = true; // 학생수·교원수는 통계 기반 추정값
+  // ── 학교알리미 실제 데이터 (UUID 있을 때) ──────────────────────────────────
+  let classStudentRatio, teacherStudentRatio, growthRate, statsEstimated;
+
+  const realStats = uuid ? await schoolinfoStats(uuid) : null;
+
+  if (realStats && realStats.students > 0 && realStats.teachers > 0) {
+    const effectiveClassCount = classCount > 0 ? classCount : 1;
+    classStudentRatio   = Math.round(realStats.students / effectiveClassCount * 10) / 10;
+    teacherStudentRatio = Math.round(realStats.students / realStats.teachers * 10) / 10;
+    growthRate          = null; // 학교알리미에서 증감률은 별도 페이지 — 현재는 null
+    statsEstimated      = false;
+    console.log(`  ✓ 실제데이터 ${school}: 학생${realStats.students} 교원${realStats.teachers} → 학급당${classStudentRatio} 교사당${teacherStudentRatio}`);
+  } else {
+    // UUID 없거나 파싱 실패 → 통계 추정
+    const est = calcSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
+    classStudentRatio   = est.classStudentRatio;
+    teacherStudentRatio = est.teacherStudentRatio;
+    growthRate          = est.growthRate;
+    statsEstimated      = true;
+  }
 
   return {
     neisCode:    info.SD_SCHUL_CODE,
@@ -194,15 +272,13 @@ async function processSchool(school, sido) {
     lat:         coords?.lat || null,
     lng:         coords?.lng || null,
 
-    // 실제 데이터 (NEIS)
-    classCount,
-    // 실제 데이터 (Kakao)
-    facilityScore,       // null이면 좌표 없음
-    // 실제/추정 데이터 (학교알리미 우선, 실패 시 추정)
-    classStudentRatio,
-    teacherStudentRatio,
-    growthRate,          // 학교알리미에 전년도 데이터 없으면 null 또는 추정
-    statsEstimated,      // true면 학교알리미 스크래핑 실패 → 추정값
+    classCount,          // NEIS 실측
+    facilityScore,       // Kakao 실측 (null이면 좌표 없음)
+
+    classStudentRatio,   // 학교알리미 실측 or 통계 추정
+    teacherStudentRatio, // 학교알리미 실측 or 통계 추정
+    growthRate,          // 학교알리미 실측(미구현) or 통계 추정
+    statsEstimated,      // false=실제데이터 / true=추정
 
     updated: new Date().toISOString().split('T')[0],
   };
@@ -226,6 +302,15 @@ async function buildSchoolsData() {
     try { cache = JSON.parse(fs.readFileSync(outputPath, 'utf-8')); } catch {}
   }
 
+  // 학교알리미 UUID 캐시 로드
+  const uuidsPath = path.join(__dirname, '..', 'data', 'school-uuids.json');
+  let uuids = {};
+  if (fs.existsSync(uuidsPath)) {
+    try { uuids = JSON.parse(fs.readFileSync(uuidsPath, 'utf-8')); } catch {}
+  }
+  const uuidCount = Object.values(uuids).filter(v => v !== null).length;
+  console.log(`[학교데이터] UUID 캐시: ${uuidCount}개 학교 실제데이터 가능`);
+
   // 오늘 날짜 (KST)
   const today = new Date(Date.now() + 9 * 3600000).toISOString().split('T')[0];
 
@@ -246,11 +331,14 @@ async function buildSchoolsData() {
   if (forceRefresh) console.log('[학교데이터] 강제 새로고침 모드 — 캐시 무시');
 
   for (const [key, { school, sido }] of pairs) {
-    // 오늘 이미 수집한 건 스킵 (강제 새로고침 시 제외)
-    if (!forceRefresh && cache[key]?.updated === today) { skipped++; continue; }
+    // 오늘 이미 수집한 건 스킵 — 단, UUID 있는데 아직 추정값이면 재수집
+    const cached = cache[key];
+    const uuid = uuids[key] || null;
+    const needsRealData = uuid && cached?.statsEstimated === true;
+    if (!forceRefresh && cached?.updated === today && !needsRealData) { skipped++; continue; }
 
     try {
-      const data = await processSchool(school, sido);
+      const data = await processSchool(school, sido, uuid);
       if (data) {
         cache[key] = data;
         fetched++;

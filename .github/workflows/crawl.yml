@@ -36,8 +36,23 @@ jobs:
       - name: 패키지 설치
         run: npm install
 
+      # Puppeteer Chrome 캐싱 (매번 300MB 다운로드 방지)
+      - name: Puppeteer Chrome 캐시 복원
+        id: cache-chrome
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/puppeteer
+          key: puppeteer-chrome-${{ runner.os }}-v1
+
+      - name: Puppeteer Chrome 설치
+        if: steps.cache-chrome.outputs.cache-hit != 'true'
+        run: npx puppeteer browsers install chrome
+
       - name: 크롤링 실행
         run: npm run crawl
+
+      - name: 학교알리미 UUID 수집
+        run: npm run get-uuids
 
       - name: 학교 데이터 수집
         run: npm run schools
@@ -51,5 +66,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "자동 업데이트: 채용공고 + 학교 데이터"
-          file_pattern: data/jobs.json data/schools.json
+          file_pattern: data/jobs.json data/schools.json data/school-uuids.json
           push_options: '--force-with-lease'

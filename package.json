@@ -6,12 +6,14 @@
   "scripts": {
     "start": "node crawlers/index.js",
     "crawl": "node crawlers/index.js",
+    "get-uuids": "node crawlers/get-uuids.js",
     "schools": "node crawlers/schools.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",
     "iconv-lite": "^0.7.2",
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^22.0.0"
   },
   "devDependencies": {
     "jimp": "^1.6.1",
