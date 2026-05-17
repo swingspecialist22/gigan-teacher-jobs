@@ -45,7 +45,7 @@ jobs:
           NEIS_API_KEY: ${{ secrets.NEIS_API_KEY }}
           KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
           # 전체갱신 조건: 새벽 1시 자동실행 OR 수동으로 체크박스 선택
-          FORCE_REFRESH: ${{ (github.event.schedule == '0 16 * * *' || inputs.refresh_schools == true) && '1' || '0' }}
+          FORCE_REFRESH: ${{ (github.event.schedule == '0 16 * * *' || inputs.refresh_schools == 'true') && '1' || '0' }}
 
       - name: 결과 저장 (자동 커밋)
         uses: stefanzweifel/git-auto-commit-action@v5
