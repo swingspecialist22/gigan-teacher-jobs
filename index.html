@@ -1363,28 +1363,32 @@ document.getElementById('modal-save').addEventListener('click', async () => {
 // ── 뒤로 가기 종료 모달 ────────────────────────────────────────────────────────
 const exitModal = document.getElementById('exit-modal');
 
-// replaceState: 히스토리 맨 아래를 named state로 교체 → 새로고침 후도 popstate 발생
 history.replaceState({ pwa: 'base' }, '');
 history.pushState({ pwa: 'guard' }, '');
 
-window.addEventListener('popstate', () => {
-  // 모달 표시 + guard 재등록 (다음 뒤로가기도 잡기 위해)
+function pwaPopHandler() {
+  // 현재 base 상태 — 모달만 표시, guard 재등록은 취소 시에만
   exitModal.classList.add('open');
-  history.pushState({ pwa: 'guard' }, '');
-});
+}
+
+window.addEventListener('popstate', pwaPopHandler);
 
 document.getElementById('exit-cancel').addEventListener('click', () => {
   exitModal.classList.remove('open');
+  history.pushState({ pwa: 'guard' }, ''); // 다음 뒤로가기도 잡기 위해 재등록
 });
 
 document.getElementById('exit-confirm').addEventListener('click', () => {
   exitModal.classList.remove('open');
-  // about:blank로 이동 = PWA 범위 밖 이탈 → Android에서 앱 종료
-  window.location.replace('about:blank');
+  window.removeEventListener('popstate', pwaPopHandler);
+  history.back(); // base 앞으로 이동 → history 없으면 Android가 앱 종료
 });
 
 exitModal.addEventListener('click', e => {
-  if (e.target === exitModal) exitModal.classList.remove('open');
+  if (e.target === exitModal) {
+    exitModal.classList.remove('open');
+    history.pushState({ pwa: 'guard' }, '');
+  }
 });
 
 // ── Init ───────────────────────────────────────────────────────────────────────
