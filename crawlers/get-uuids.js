@@ -249,16 +249,20 @@ async function main() {
 
   console.log(`[UUID수집] ${toFetch.length}개 학교 UUID 수집 시작`);
 
-  // 학교알리미 서비스 상태 확인
+  // 학교알리미 검색 서비스 상태 확인 (메인 페이지가 아닌 실제 검색 엔드포인트 테스트)
   try {
-    const ping = await fetch('https://www.schoolinfo.go.kr/', {
-      timeout: 8000,
-      headers: COMMON_HEADERS,
+    const pingParams = new URLSearchParams({
+      SEARCH_SCHUL_NM: '테스트', pageNumber: '1',
+      callbackMode: 'json', schulCrseScCode: '', hsKndScCode: '', fondScCode: '',
+    });
+    const ping = await fetch('https://www.schoolinfo.go.kr/ei/ss/Pneiss_f01_l0.do', {
+      method: 'POST', body: pingParams, timeout: 8000,
+      headers: { ...COMMON_HEADERS, 'Content-Type': 'application/x-www-form-urlencoded' },
     });
     const buf  = await ping.buffer();
     const html = decodeBuffer(buf);
     if (html.includes('일시 중단') || html.includes('서비스 점검')) {
-      console.log('[UUID수집] 학교알리미 서비스 점검 중 — 스킵 (기존 캐시 유지)');
+      console.log('[UUID수집] 학교알리미 검색 서비스 점검 중 — 스킵 (기존 캐시 유지)');
       fs.writeFileSync(uuidsPath, JSON.stringify(cache, null, 2), 'utf-8');
       return;
     }
@@ -269,27 +273,37 @@ async function main() {
   }
 
   let fetched = 0, failed = 0;
+  let aborted = false;
 
   // 배치 처리 (CONCURRENCY개씩)
   for (let i = 0; i < toFetch.length; i += CONCURRENCY) {
+    if (aborted) break;
     const chunk = toFetch.slice(i, i + CONCURRENCY);
 
     const results = await Promise.allSettled(
       chunk.map(([, { school, sido }]) => fetchUUID(school, sido))
     );
 
+    let maintenanceInBatch = 0;
     results.forEach((r, idx) => {
-      const [key, { school }] = chunk[idx];
+      const [key] = chunk[idx];
       const isMaintenance = r.status === 'rejected' &&
                             r.reason?.message === 'service_maintenance';
       // 점검 중 에러는 캐시 저장 스킵 (다음 실행 때 재시도)
-      if (isMaintenance) { failed++; return; }
+      if (isMaintenance) { failed++; maintenanceInBatch++; return; }
 
       const uuid = r.status === 'fulfilled' ? r.value : null;
       cache[key] = uuid; // null도 저장 (재시도 방지 — "검색했지만 없음")
       if (uuid) fetched++;
       else      failed++;
     });
+
+    // 배치 전체가 점검 에러면 조기 종료
+    if (maintenanceInBatch === chunk.length) {
+      console.log('[UUID수집] 검색 서비스 점검 감지 — 조기 종료 (캐시 유지)');
+      aborted = true;
+      break;
+    }
 
     const done = Math.min(i + CONCURRENCY, toFetch.length);
     if (done % 20 === 0 || done === toFetch.length) {
