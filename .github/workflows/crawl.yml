@@ -38,6 +38,7 @@ jobs:
         env:
           NEIS_API_KEY: ${{ secrets.NEIS_API_KEY }}
           KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
+          FORCE_REFRESH: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
 
       - name: 결과 저장 (자동 커밋)
         uses: stefanzweifel/git-auto-commit-action@v5
