@@ -50,13 +50,17 @@ async function crawlDaejeon() {
 
       if (isExpired(deadline)) return;
 
+      // 제목에서 학교명 추출 (예: "대전○○중학교", "○○고등학교")
+      const schoolMatch = title.match(/([가-힣A-Za-z0-9]{2,}(?:초등학교|중학교|고등학교|유치원|특수학교))/);
+      const school = schoolMatch ? schoolMatch[1] : '';
+
       hasNew = true;
       jobs.push({
         id: `daejeon_${boardSeq}`,
         sido: '대전',
-        school: '',
+        school,
         subject: extractSubject(title),
-        level: extractLevel(title),
+        level: extractLevel(title, school),
         title,
         deadline,
         url: `${BASE_URL}/boardCnts/view.do?boardID=${BOARD_ID}&boardSeq=${boardSeq}&lev=0&searchType=null&statusYN=W&page=${page}&s=dje&m=${M}&opType=N`,

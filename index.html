@@ -787,6 +787,18 @@
   </button>
 </nav>
 
+<!-- ── 종료 확인 모달 ── -->
+<div class="modal-overlay" id="exit-modal" style="align-items:center;padding:24px;">
+  <div class="modal" style="border-radius:16px;padding:24px 20px 18px;max-width:300px;width:100%;text-align:center;">
+    <p style="font-size:16px;font-weight:700;margin-bottom:6px;">앱 종료</p>
+    <p style="font-size:14px;color:var(--gray-600);margin-bottom:20px;">티커리어를 종료하시겠습니까?</p>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" id="exit-cancel">취소</button>
+      <button class="btn btn-primary" id="exit-confirm">종료</button>
+    </div>
+  </div>
+</div>
+
 <!-- ── 알림 설정 모달 ── -->
 <div class="modal-overlay" id="notif-modal">
   <div class="modal">
@@ -1346,6 +1358,30 @@ document.getElementById('modal-save').addEventListener('click', async () => {
   }
 
   modal.classList.remove('open');
+});
+
+// ── 뒤로 가기 종료 모달 ────────────────────────────────────────────────────────
+const exitModal = document.getElementById('exit-modal');
+
+history.pushState({ pwa: true }, '');
+
+window.addEventListener('popstate', () => {
+  history.pushState({ pwa: true }, ''); // 다음 뒤로가기도 잡기 위해 재등록
+  exitModal.classList.add('open');
+});
+
+document.getElementById('exit-cancel').addEventListener('click', () => {
+  exitModal.classList.remove('open');
+});
+
+document.getElementById('exit-confirm').addEventListener('click', () => {
+  exitModal.classList.remove('open');
+  // 등록된 state 2개를 제거하고 실제 뒤로 이동 (앱 종료)
+  history.go(-2);
+});
+
+exitModal.addEventListener('click', e => {
+  if (e.target === exitModal) exitModal.classList.remove('open');
 });
 
 // ── Init ───────────────────────────────────────────────────────────────────────
