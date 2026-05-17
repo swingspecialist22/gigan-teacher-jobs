@@ -214,6 +214,15 @@ async function scrapeSchoolAlimi(sdCode, schoolType, classCount) {
       });
     });
 
+    // 첫 번째 학교알리미 조회 결과 디버깅
+    if (!scrapeSchoolAlimi._logged) {
+      scrapeSchoolAlimi._logged = true;
+      const bodySnippet = html.slice(0, 300).replace(/\s+/g, ' ');
+      console.log(`[알리미 디버그] URL=${url}`);
+      console.log(`[알리미 디버그] HTML 앞부분: ${bodySnippet}`);
+      console.log(`[알리미 디버그] totalStudents=${totalStudents} teacherCount=${teacherCount}`);
+    }
+
     if (!totalStudents) return null;
 
     const classStudentRatio = (classCount > 0 && totalStudents > 0)
@@ -225,6 +234,10 @@ async function scrapeSchoolAlimi(sdCode, schoolType, classCount) {
 
     return { classStudentRatio, teacherStudentRatio, growthRate, totalStudents };
   } catch (e) {
+    if (!scrapeSchoolAlimi._errLogged) {
+      scrapeSchoolAlimi._errLogged = true;
+      console.error(`[알리미 디버그] fetch 오류:`, e.message);
+    }
     return null;
   }
 }
