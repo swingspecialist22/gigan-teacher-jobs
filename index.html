@@ -1363,16 +1363,14 @@ document.getElementById('modal-save').addEventListener('click', async () => {
 // ── 뒤로 가기 종료 모달 ────────────────────────────────────────────────────────
 const exitModal = document.getElementById('exit-modal');
 
-// replaceState: 히스토리 맨 아래 항목도 state로 교체 → 새로고침 후에도 popstate 발생
-history.replaceState({ pwa: true }, '');
-history.pushState({ pwa: true }, '');
-
-let pwaExiting = false;
+// replaceState: 히스토리 맨 아래를 named state로 교체 → 새로고침 후도 popstate 발생
+history.replaceState({ pwa: 'base' }, '');
+history.pushState({ pwa: 'guard' }, '');
 
 window.addEventListener('popstate', () => {
-  if (pwaExiting) return;
-  history.pushState({ pwa: true }, ''); // 다음 뒤로가기도 잡기 위해 재등록
+  // 모달 표시 + guard 재등록 (다음 뒤로가기도 잡기 위해)
   exitModal.classList.add('open');
+  history.pushState({ pwa: 'guard' }, '');
 });
 
 document.getElementById('exit-cancel').addEventListener('click', () => {
@@ -1381,9 +1379,8 @@ document.getElementById('exit-cancel').addEventListener('click', () => {
 
 document.getElementById('exit-confirm').addEventListener('click', () => {
   exitModal.classList.remove('open');
-  pwaExiting = true;
-  // 쌓인 guard state 모두 제거하고 실제 이탈
-  history.go(-(history.length));
+  // about:blank로 이동 = PWA 범위 밖 이탈 → Android에서 앱 종료
+  window.location.replace('about:blank');
 });
 
 exitModal.addEventListener('click', e => {
