@@ -254,21 +254,6 @@
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
-  "서울::원묵중학교": {
-    "neisCode": "7021137",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 중랑구 신내로23길 57",
-    "lat": null,
-    "lng": null,
-    "classCount": 28,
-    "facilityScore": null,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 9,
-    "growthRate": 6,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
   "서울::진관고등학교": {
     "neisCode": "7010883",
     "atptCode": "B10",
@@ -581,36 +566,6 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 9,
     "growthRate": -3,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
-  "충남::천안쌍용초등학교": {
-    "neisCode": "8151081",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 천안시 서북구 쌍용6길 9",
-    "lat": null,
-    "lng": null,
-    "classCount": 20,
-    "facilityScore": null,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 10,
-    "growthRate": -11,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
-  "충남::용남중학교": {
-    "neisCode": "8222012",
-    "atptCode": "N10",
-    "schoolType": "중학교",
-    "address": "충청남도 계룡시 신도안면 신도안2길 66",
-    "lat": null,
-    "lng": null,
-    "classCount": 21,
-    "facilityScore": null,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 9,
-    "growthRate": -10,
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
