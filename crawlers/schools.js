@@ -86,10 +86,17 @@ async function kakaoGeocode(address) {
       timeout: 8000,
     });
     const data = await res.json();
+    if (!kakaoGeocode._logged) {
+      kakaoGeocode._logged = true;
+      console.log(`[Kakao 디버그] status=${res.status} keys=${Object.keys(data||{}).join(',')} msg=${data?.message||''} docLen=${data?.documents?.length??'?'}`);
+    }
     const doc = data?.documents?.[0];
     if (!doc) return null;
     return { lat: parseFloat(doc.y), lng: parseFloat(doc.x) };
-  } catch { return null; }
+  } catch (e) {
+    if (!kakaoGeocode._errLogged) { kakaoGeocode._errLogged = true; console.error('[Kakao 디버그] 오류:', e.message); }
+    return null;
+  }
 }
 
 // ── Kakao: 반경 1km 편의시설 카운트 ─────────────────────────────────────────
