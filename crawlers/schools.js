@@ -117,7 +117,106 @@ async function kakaoFacilityScore(lat, lng) {
   return Math.round(Math.min(total / 60, 1) * 100);
 }
 
-// ── 추정값 생성 (학교유형 + 학급수 기반) ────────────────────────────────────
+// ── 학교알리미 스크래핑 (실제 학생수·교원수) ──────────────────────────────
+// URL: https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do
+//      ?schulCode={SD_SCHUL_CODE}&schulCrseScCode={crse}&schulKndScCode={knd}
+const SCHOOL_TYPE_CODES = {
+  '유치원':   { crse: '2', knd: '01' },
+  '초등학교': { crse: '1', knd: '02' },
+  '중학교':   { crse: '3', knd: '03' },
+  '고등학교': { crse: '4', knd: '04' },
+  '특수학교': { crse: '5', knd: '05' },
+};
+
+async function scrapeSchoolAlimi(sdCode, schoolType, classCount) {
+  if (!sdCode) return null;
+
+  let codes = null;
+  for (const [type, c] of Object.entries(SCHOOL_TYPE_CODES)) {
+    if (schoolType?.includes(type)) { codes = c; break; }
+  }
+  if (!codes) return null;
+
+  const url = `https://www.schoolinfo.go.kr/ei/ss/Pneiss_b01_s0.do`
+    + `?schulCode=${sdCode}&schulCrseScCode=${codes.crse}&schulKndScCode=${codes.knd}`;
+
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'ko-KR,ko;q=0.9',
+      },
+      timeout: 12000,
+    });
+    if (!res.ok) return null;
+    const html = await res.text();
+    const $ = cheerio.load(html);
+
+    let totalStudents = null;
+    let teacherCount = null;
+    let prevStudents = null;
+
+    // 학교알리미 현황 테이블 파싱
+    // 패턴1: <th>재학생수</th><td>XXX명</td>
+    // 패턴2: summary/caption에 '현황' 포함 테이블
+    $('table').each((_, table) => {
+      const caption = $(table).find('caption').text();
+      const summary = $(table).attr('summary') || '';
+      const isRelevant = /현황|학생|교원|교사/.test(caption + summary);
+
+      $(table).find('tr').each((_, tr) => {
+        const ths = $(tr).find('th');
+        const tds = $(tr).find('td');
+
+        ths.each((i, th) => {
+          const label = $(th).text().replace(/\s+/g, '').trim();
+          const valTd = tds.eq(i).text().replace(/[^0-9]/g, '');
+          const num = parseInt(valTd);
+          if (isNaN(num) || num <= 0) return;
+
+          if (/재학생|전체학생|학생수/.test(label) && !/(교사|학급|학년)/.test(label)) {
+            if (!totalStudents || num > totalStudents) totalStudents = num;
+          }
+          if (/교원수|교사수|전체교원|재직교원/.test(label)) {
+            if (!teacherCount || num > teacherCount) teacherCount = num;
+          }
+          // 전년도 학생수 (증감률 계산용) — 테이블에 연도별 컬럼이 있는 경우
+          if (/전년|작년|[0-9]{4}학년도/.test(label) && /학생/.test(caption + summary)) {
+            prevStudents = num;
+          }
+        });
+      });
+    });
+
+    // dl/dt 패턴으로도 탐색 (학교알리미 일부 페이지)
+    $('dl').each((_, dl) => {
+      $(dl).find('dt').each((i, dt) => {
+        const label = $(dt).text().replace(/\s+/g, '').trim();
+        const dd = $(dl).find('dd').eq(i).text().replace(/[^0-9]/g, '');
+        const num = parseInt(dd);
+        if (isNaN(num) || num <= 0) return;
+        if (/재학생|학생수/.test(label) && !/(교사|학급)/.test(label)) totalStudents = num;
+        if (/교원수|교사수/.test(label)) teacherCount = num;
+      });
+    });
+
+    if (!totalStudents) return null;
+
+    const classStudentRatio = (classCount > 0 && totalStudents > 0)
+      ? Math.round(totalStudents / classCount * 10) / 10 : null;
+    const teacherStudentRatio = (teacherCount > 0 && totalStudents > 0)
+      ? Math.round(totalStudents / teacherCount * 10) / 10 : null;
+    const growthRate = (prevStudents > 0 && totalStudents > 0)
+      ? Math.round((totalStudents - prevStudents) / prevStudents * 1000) / 10 : null;
+
+    return { classStudentRatio, teacherStudentRatio, growthRate, totalStudents };
+  } catch (e) {
+    return null;
+  }
+}
+
+// ── 추정값 생성 (학교알리미 스크래핑 실패 시 폴백) ──────────────────────────
 function estimateSchoolStats(schoolName, schoolType, classCount) {
   // 결정론적 해시 (같은 학교 → 항상 같은 값)
   const h = [...(schoolName || '')].reduce((a, c, i) => a + c.charCodeAt(0) * (i + 3), 1);
@@ -128,7 +227,7 @@ function estimateSchoolStats(schoolName, schoolType, classCount) {
     : schoolType?.includes('고') ? 24 : 23;
   const classStudentRatio = baseRatio + rng(7, -3, 4);
 
-  // 교사1인당 학생수 (학급수가 많을수록 전담교사 비율↑)
+  // 교사1인당 학생수
   const teacherStudentRatio = Math.max(8,
     Math.round(classStudentRatio / (schoolType?.includes('초') ? 1.6 : 2.1) + rng(11, -1, 2))
   );
@@ -136,7 +235,7 @@ function estimateSchoolStats(schoolName, schoolType, classCount) {
   // 학생수 증감률 (-12 ~ +8%)
   const growthRate = rng(13, -12, 8);
 
-  return { classStudentRatio, teacherStudentRatio, growthRate };
+  return { classStudentRatio, teacherStudentRatio, growthRate, estimated: true };
 }
 
 // ── 학교 1개 처리 ────────────────────────────────────────────────────────────
@@ -162,7 +261,23 @@ async function processSchool(school, sido) {
   await delay(200);
   const facilityScore = await kakaoFacilityScore(coords?.lat, coords?.lng);
 
-  const estimated = estimateSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
+  // 학교알리미 스크래핑 시도 (실제 학생수·교원수)
+  await delay(300);
+  const alimi = await scrapeSchoolAlimi(info.SD_SCHUL_CODE, info.SCHUL_KND_SC_NM, classCount);
+
+  let classStudentRatio, teacherStudentRatio, growthRate, statsEstimated;
+  if (alimi) {
+    classStudentRatio   = alimi.classStudentRatio;
+    teacherStudentRatio = alimi.teacherStudentRatio;
+    growthRate          = alimi.growthRate;
+    statsEstimated      = false;
+  } else {
+    const est = estimateSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
+    classStudentRatio   = est.classStudentRatio;
+    teacherStudentRatio = est.teacherStudentRatio;
+    growthRate          = est.growthRate;
+    statsEstimated      = true;
+  }
 
   return {
     neisCode:    info.SD_SCHUL_CODE,
@@ -172,14 +287,15 @@ async function processSchool(school, sido) {
     lat:         coords?.lat || null,
     lng:         coords?.lng || null,
 
-    // 실제 데이터
+    // 실제 데이터 (NEIS)
     classCount,
-    facilityScore, // null이면 좌표 없음
-
-    // 추정 데이터
-    classStudentRatio:   estimated.classStudentRatio,
-    teacherStudentRatio: estimated.teacherStudentRatio,
-    growthRate:          estimated.growthRate,
+    // 실제 데이터 (Kakao)
+    facilityScore,       // null이면 좌표 없음
+    // 실제/추정 데이터 (학교알리미 우선, 실패 시 추정)
+    classStudentRatio,
+    teacherStudentRatio,
+    growthRate,          // 학교알리미에 전년도 데이터 없으면 null 또는 추정
+    statsEstimated,      // true면 학교알리미 스크래핑 실패 → 추정값
 
     updated: new Date().toISOString().split('T')[0],
   };

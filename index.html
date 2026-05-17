@@ -1111,13 +1111,14 @@ function haversine(lat1, lng1, lat2, lng2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
 
+// est: 해당 항목이 통계 추정 가능 여부 (학교알리미 실패 시 추정 표시용)
 const COMPARE_FACTORS = [
-  { key: 'teacherStudentRatio', label: '교사1인당\n학생수', unit: '명', lowerBetter: true,  est: true  },
-  { key: 'classStudentRatio',   label: '학급당\n학생수',   unit: '명', lowerBetter: true,  est: true  },
-  { key: 'facilityScore',       label: '생활환경\n지수',   unit: '점', lowerBetter: false, est: false },
-  { key: 'growthRate',          label: '학생수\n증감률',   unit: '%',  lowerBetter: false, est: true  },
-  { key: 'commuteScore',        label: '통근거리',         unit: 'km', lowerBetter: true,  est: false },
-  { key: 'classCount',          label: '학급수',           unit: '개', lowerBetter: false, est: false },
+  { key: 'teacherStudentRatio', label: '교사1인당\n학생수', unit: '명', lowerBetter: true,  canEst: true  },
+  { key: 'classStudentRatio',   label: '학급당\n학생수',   unit: '명', lowerBetter: true,  canEst: true  },
+  { key: 'facilityScore',       label: '생활환경\n지수',   unit: '점', lowerBetter: false, canEst: false },
+  { key: 'growthRate',          label: '학생수\n증감률',   unit: '%',  lowerBetter: false, canEst: true  },
+  { key: 'commuteScore',        label: '통근거리',         unit: 'km', lowerBetter: true,  canEst: false },
+  { key: 'classCount',          label: '학급수',           unit: '개', lowerBetter: false, canEst: false },
 ];
 
 const FACTOR_RANGES = {
@@ -1139,12 +1140,13 @@ function getSchoolData(job) {
   }
   if (s) {
     return {
-      teacherStudentRatio: s.teacherStudentRatio ?? s.teacherRatio ?? null,
-      classStudentRatio:   s.classStudentRatio   ?? s.classRatio   ?? null,
+      teacherStudentRatio: s.teacherStudentRatio ?? null,
+      classStudentRatio:   s.classStudentRatio   ?? null,
       facilityScore:       s.facilityScore       ?? null,
       growthRate:          s.growthRate          ?? null,
       commuteScore,
       classCount:          s.classCount          ?? null,
+      statsEstimated:      s.statsEstimated      ?? false, // 학교알리미 스크래핑 실패 시 true
     };
   }
   // schools.json에 없으면 해시 기반 추정값
@@ -1157,6 +1159,7 @@ function getSchoolData(job) {
     growthRate:          rng(4, -12, 15),
     commuteScore,
     classCount:          rng(6, 6, 42),
+    statsEstimated:      true, // schools.json에 없음 → 전체 추정
   };
 }
 
@@ -1215,15 +1218,21 @@ function renderCompare() {
     const vals = dataMap.map(d => d.data[f.key]);
     const realVals = vals.filter(v => v !== null);
     const bestVal = realVals.length > 0 ? (f.lowerBetter ? Math.min(...realVals) : Math.max(...realVals)) : null;
-    const estTag = f.est ? `<span style="font-size:9px;color:var(--gray-400);margin-left:2px;">추정</span>` : '';
-    const cells = vals.map(v => {
+    const cells = dataMap.map((d, i) => {
+      const v = d.data[f.key];
       const isBest = v !== null && v === bestVal && compareList.length > 1;
-      return `<div class="${isBest ? 'compare-best' : ''}">${fmtVal(v, f)}</div>`;
+      // 추정 여부: canEst 항목이고 해당 학교 statsEstimated=true
+      const isEst = f.canEst && d.data.statsEstimated;
+      const estMark = isEst ? `<span style="font-size:8px;color:var(--gray-400);vertical-align:super;">추정</span>` : '';
+      return `<div class="${isBest ? 'compare-best' : ''}">${fmtVal(v, f)}${estMark}</div>`;
     }).join('');
     return `<div class="compare-table-row" style="grid-template-columns:${colW};">
-      <div class="compare-table-label">${f.label.replace('\n','<br>')}${estTag}</div>${cells}
+      <div class="compare-table-label">${f.label.replace('\n','<br>')}</div>${cells}
     </div>`;
   }).join('');
+
+  // 추정 학교가 하나라도 있으면 주석 표시
+  const hasAnyEst = dataMap.some(d => d.data.statsEstimated);
 
   panel.innerHTML = `
     <div class="compare-header">
@@ -1237,9 +1246,10 @@ function renderCompare() {
       </div>
       ${rowsHtml}
     </div>
-    <p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;">
-      학급수·생활환경·통근거리: 실제 데이터 &nbsp;|&nbsp; <span style="color:var(--gray-300);">추정</span> 표시 항목: 통계 기반 추정값
-    </p>`;
+    ${hasAnyEst
+      ? `<p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;"><sup>추정</sup> 표시: 학교알리미 미수집 학교 — 통계 기반 추정값</p>`
+      : `<p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;">모든 항목 실제 데이터 (학교알리미·NEIS·Kakao)</p>`
+    }`;
 
   if (radarChart) { radarChart.destroy(); radarChart = null; }
   const ctx = document.getElementById('radar-canvas').getContext('2d');
