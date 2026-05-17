@@ -5,7 +5,8 @@
   "main": "crawlers/index.js",
   "scripts": {
     "start": "node crawlers/index.js",
-    "crawl": "node crawlers/index.js"
+    "crawl": "node crawlers/index.js",
+    "schools": "node crawlers/schools.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0",

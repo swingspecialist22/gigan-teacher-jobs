@@ -33,9 +33,15 @@ jobs:
       - name: 크롤링 실행
         run: npm run crawl
 
+      - name: 학교 데이터 수집
+        run: npm run schools
+        env:
+          NEIS_API_KEY: ${{ secrets.NEIS_API_KEY }}
+          KAKAO_API_KEY: ${{ secrets.KAKAO_API_KEY }}
+
       - name: 결과 저장 (자동 커밋)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "자동 업데이트: 채용공고 크롤링"
-          file_pattern: data/jobs.json
+          commit_message: "자동 업데이트: 채용공고 + 학교 데이터"
+          file_pattern: data/jobs.json data/schools.json
           push_options: '--force-with-lease'

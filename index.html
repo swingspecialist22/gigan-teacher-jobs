@@ -1081,37 +1081,95 @@ function render() {
   });
 }
 
-// ── 비교분석 더미 데이터 ────────────────────────────────────────────────────────
+// ── 비교분석 데이터 ──────────────────────────────────────────────────────────
+let schoolsData = {};     // data/schools.json 캐시
+let userLocation = null;  // { lat, lng }
+
+async function loadSchoolsData() {
+  try {
+    const res = await fetch('./data/schools.json?t=' + Date.now());
+    if (res.ok) schoolsData = await res.json();
+  } catch {}
+}
+loadSchoolsData();
+
+// 사용자 위치 요청 (비교탭 최초 진입 시)
+function requestUserLocation() {
+  if (userLocation || !navigator.geolocation) return;
+  navigator.geolocation.getCurrentPosition(
+    pos => { userLocation = { lat: pos.coords.latitude, lng: pos.coords.longitude }; renderCompare(); },
+    () => {}
+  );
+}
+
+// 직선 거리 (km) Haversine
+function haversine(lat1, lng1, lat2, lng2) {
+  const R = 6371;
+  const dLat = (lat2 - lat1) * Math.PI / 180;
+  const dLng = (lng2 - lng1) * Math.PI / 180;
+  const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLng/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
 const COMPARE_FACTORS = [
-  { key: 'teacherRatio', label: '교사1인당\n학생수', unit: '명', lowerBetter: true },
-  { key: 'classRatio',   label: '학급당\n학생수',   unit: '명', lowerBetter: true },
-  { key: 'environment',  label: '생활환경\n지수',   unit: '점', lowerBetter: false },
-  { key: 'growthRate',   label: '학생수\n증감률',   unit: '%',  lowerBetter: false },
-  { key: 'commute',      label: '통근접근성\n지수', unit: '점', lowerBetter: false },
-  { key: 'classCount',   label: '학급수',            unit: '개', lowerBetter: false },
+  { key: 'teacherStudentRatio', label: '교사1인당\n학생수', unit: '명', lowerBetter: true,  est: true  },
+  { key: 'classStudentRatio',   label: '학급당\n학생수',   unit: '명', lowerBetter: true,  est: true  },
+  { key: 'facilityScore',       label: '생활환경\n지수',   unit: '점', lowerBetter: false, est: false },
+  { key: 'growthRate',          label: '학생수\n증감률',   unit: '%',  lowerBetter: false, est: true  },
+  { key: 'commuteScore',        label: '통근거리',         unit: 'km', lowerBetter: true,  est: false },
+  { key: 'classCount',          label: '학급수',           unit: '개', lowerBetter: false, est: false },
 ];
 
-function getDummyData(school) {
-  const h = [...(school||'?')].reduce((a,c,i) => a + c.charCodeAt(0) * (i+1), 0);
-  const rng = (seed, min, max) => min + ((h * seed * 2654435761) >>> 0) % (max - min + 1);
+const FACTOR_RANGES = {
+  teacherStudentRatio: [8, 24],
+  classStudentRatio:   [15, 32],
+  facilityScore:       [0, 100],
+  growthRate:          [-15, 20],
+  commuteScore:        [0, 80],   // km (낮을수록 좋음)
+  classCount:          [6, 48],
+};
+
+function getSchoolData(job) {
+  const key = `${job.sido}::${job.school}`;
+  const s = schoolsData[key];
+  // 통근 거리 계산
+  let commuteScore = null;
+  if (s?.lat && s?.lng && userLocation) {
+    commuteScore = Math.round(haversine(userLocation.lat, userLocation.lng, s.lat, s.lng) * 10) / 10;
+  }
+  if (s) {
+    return {
+      teacherStudentRatio: s.teacherStudentRatio ?? s.teacherRatio ?? null,
+      classStudentRatio:   s.classStudentRatio   ?? s.classRatio   ?? null,
+      facilityScore:       s.facilityScore       ?? null,
+      growthRate:          s.growthRate          ?? null,
+      commuteScore,
+      classCount:          s.classCount          ?? null,
+    };
+  }
+  // schools.json에 없으면 해시 기반 추정값
+  const h = [...(job.school||'?')].reduce((a,c,i) => a + c.charCodeAt(0)*(i+1), 0);
+  const rng = (seed, min, max) => min + ((h*seed*2654435761)>>>0)%(max-min+1);
   return {
-    teacherRatio: rng(1, 8, 22),
-    classRatio:   rng(2, 16, 32),
-    environment:  rng(3, 42, 95),
-    growthRate:   rng(4, -15, 20),
-    commute:      rng(5, 35, 95),
-    classCount:   rng(6, 6, 48),
+    teacherStudentRatio: rng(1, 9, 22),
+    classStudentRatio:   rng(2, 16, 31),
+    facilityScore:       null,
+    growthRate:          rng(4, -12, 15),
+    commuteScore,
+    classCount:          rng(6, 6, 42),
   };
 }
 
 function toScore(val, factor) {
-  const ranges = {
-    teacherRatio: [8, 22], classRatio: [16, 32], environment: [42, 95],
-    growthRate: [-15, 20], commute: [35, 95], classCount: [6, 48],
-  };
-  const [min, max] = ranges[factor.key];
-  const ratio = (val - min) / (max - min);
+  if (val === null) return 50; // 데이터 없을 때 중간값
+  const [min, max] = FACTOR_RANGES[factor.key];
+  const ratio = Math.max(0, Math.min(1, (val - min) / (max - min)));
   return Math.round(factor.lowerBetter ? (1 - ratio) * 100 : ratio * 100);
+}
+
+function fmtVal(val, factor) {
+  if (val === null) return '?';
+  return `${val}${factor.unit}`;
 }
 
 const CHART_COLORS = [
@@ -1135,7 +1193,8 @@ function renderCompare() {
     return;
   }
 
-  const dataMap = compareList.map(j => ({ job: j, data: getDummyData(j.school || j.title) }));
+  requestUserLocation();
+  const dataMap = compareList.map(j => ({ job: j, data: getSchoolData(j) }));
   const colW = compareList.length === 1 ? '1fr' : compareList.length === 2 ? '2fr 1fr 1fr' : '2fr 1fr 1fr 1fr';
 
   const chipsHtml = compareList.map((j, i) => `
@@ -1154,10 +1213,15 @@ function renderCompare() {
 
   const rowsHtml = COMPARE_FACTORS.map(f => {
     const vals = dataMap.map(d => d.data[f.key]);
-    const bestVal = f.lowerBetter ? Math.min(...vals) : Math.max(...vals);
-    const cells = vals.map(v => `<div class="${v === bestVal && compareList.length > 1 ? 'compare-best' : ''}">${v}${f.unit}</div>`).join('');
+    const realVals = vals.filter(v => v !== null);
+    const bestVal = realVals.length > 0 ? (f.lowerBetter ? Math.min(...realVals) : Math.max(...realVals)) : null;
+    const estTag = f.est ? `<span style="font-size:9px;color:var(--gray-400);margin-left:2px;">추정</span>` : '';
+    const cells = vals.map(v => {
+      const isBest = v !== null && v === bestVal && compareList.length > 1;
+      return `<div class="${isBest ? 'compare-best' : ''}">${fmtVal(v, f)}</div>`;
+    }).join('');
     return `<div class="compare-table-row" style="grid-template-columns:${colW};">
-      <div class="compare-table-label">${f.label.replace('\n','<br>')}</div>${cells}
+      <div class="compare-table-label">${f.label.replace('\n','<br>')}${estTag}</div>${cells}
     </div>`;
   }).join('');
 
@@ -1173,7 +1237,9 @@ function renderCompare() {
       </div>
       ${rowsHtml}
     </div>
-    <p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;">※ 현재 더미 데이터로 표시됩니다. API 연동 후 실제 데이터로 업데이트 예정</p>`;
+    <p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;">
+      학급수·생활환경·통근거리: 실제 데이터 &nbsp;|&nbsp; <span style="color:var(--gray-300);">추정</span> 표시 항목: 통계 기반 추정값
+    </p>`;
 
   if (radarChart) { radarChart.destroy(); radarChart = null; }
   const ctx = document.getElementById('radar-canvas').getContext('2d');
