@@ -239,21 +239,6 @@
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
-  "서울::우신고등학교": {
-    "neisCode": "7010223",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 구로구 부일로 917",
-    "lat": null,
-    "lng": null,
-    "classCount": 27,
-    "facilityScore": null,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "growthRate": 5,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
   "서울::진관고등학교": {
     "neisCode": "7010883",
     "atptCode": "B10",
@@ -296,21 +281,6 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "growthRate": 1,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
-  "서울::서울이태원초등학교": {
-    "neisCode": "7061077",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 용산구 녹사평대로40길 19",
-    "lat": null,
-    "lng": null,
-    "classCount": 16,
-    "facilityScore": null,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 10,
-    "growthRate": -12,
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
@@ -566,21 +536,6 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 9,
     "growthRate": -3,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
-  "충남::온양여자고등학교": {
-    "neisCode": "8140062",
-    "atptCode": "N10",
-    "schoolType": "고등학교",
-    "address": "충청남도 아산시 온여고길21번길 24",
-    "lat": null,
-    "lng": null,
-    "classCount": 33,
-    "facilityScore": null,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "growthRate": 8,
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
@@ -5714,21 +5669,6 @@
     "statsEstimated": true,
     "updated": "2026-05-17"
   },
-  "충남::천안청수고등학교": {
-    "neisCode": "8140265",
-    "atptCode": "N10",
-    "schoolType": "고등학교",
-    "address": "충청남도 천안시 동남구 청수로 82-46",
-    "lat": null,
-    "lng": null,
-    "classCount": 39,
-    "facilityScore": null,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "growthRate": -9,
-    "statsEstimated": true,
-    "updated": "2026-05-17"
-  },
   "제주::서귀포초등학교": {
     "neisCode": "9299024",
     "atptCode": "T10",
@@ -9041,6 +8981,21 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "growthRate": -8,
+    "statsEstimated": true,
+    "updated": "2026-05-17"
+  },
+  "충남::당진초등학교": {
+    "neisCode": "8291025",
+    "atptCode": "N10",
+    "schoolType": "초등학교",
+    "address": "충청남도 당진시 교동길 106",
+    "lat": null,
+    "lng": null,
+    "classCount": 16,
+    "facilityScore": null,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 10,
+    "growthRate": 7,
     "statsEstimated": true,
     "updated": "2026-05-17"
   }
