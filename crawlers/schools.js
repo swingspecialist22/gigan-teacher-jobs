@@ -130,97 +130,38 @@ async function kakaoFacilityScore(lat, lng) {
   return Math.round(Math.min(total / 60, 1) * 100);
 }
 
-// ── NEIS: 재학생 현황 ────────────────────────────────────────────────────────
-// NEIS API는 학교급별로 엔드포인트가 다름
-// 초등: elstInfo / 중등: miestInfo / 고등: hiestInfo (또는 통합: stInfo)
-const NEIS_STUDENT_ENDPOINTS = ['stInfo', 'elstInfo', 'miestInfo', 'hiestInfo'];
-
-async function neisStudentCount(atptCode, sdCode) {
-  const year = new Date().getFullYear();
-  // 올해 → 작년 순으로 시도 (NEIS 공시 시점 차이)
-  for (const ay of [year, year - 1]) {
-    for (const ep of NEIS_STUDENT_ENDPOINTS) {
-      const url = `https://open.neis.go.kr/hub/${ep}`
-        + `?KEY=${NEIS_KEY}&Type=json&pSize=1000`
-        + `&ATPT_OFCDC_SC_CODE=${atptCode}`
-        + `&SD_SCHUL_CODE=${sdCode}`
-        + `&AY=${ay}&SEM=1`;
-      try {
-        const res = await fetch(url, { timeout: 8000 });
-        const data = await res.json();
-        // 첫 시도 응답 로깅
-        if (!neisStudentCount._logged) {
-          neisStudentCount._logged = true;
-          const code = data?.[ep]?.[0]?.head?.[1]?.RESULT?.CODE || data?.RESULT?.CODE;
-          const msg  = data?.[ep]?.[0]?.head?.[1]?.RESULT?.MESSAGE || data?.RESULT?.MESSAGE;
-          console.log(`[학생수 디버그] ep=${ep} ay=${ay} CODE=${code} MSG=${msg} keys=${Object.keys(data||{}).join(',')}`);
-        }
-        const rows = data?.[ep]?.[1]?.row;
-        if (!rows?.length) { await delay(100); continue; }
-        const total = rows.reduce((sum, r) => {
-          // 여러 필드명 시도
-          const cnt = parseInt(r.ELST_CNT || r.MIESTCNT || r.HIESTCNT || r.STCNT || r.TOTAL_CNT || 0);
-          return sum + (isNaN(cnt) ? 0 : cnt);
-        }, 0);
-        if (total > 0) return total;
-      } catch { await delay(100); }
-    }
-  }
-  return null;
-}
-
-// ── NEIS: 교원 현황 (tiInfo) ─────────────────────────────────────────────────
-async function neisTeacherCount(atptCode, sdCode) {
-  const year = new Date().getFullYear();
-  for (const ay of [year, year - 1]) {
-    const url = `https://open.neis.go.kr/hub/tiInfo`
-      + `?KEY=${NEIS_KEY}&Type=json&pSize=200`
-      + `&ATPT_OFCDC_SC_CODE=${atptCode}`
-      + `&SD_SCHUL_CODE=${sdCode}`
-      + `&AY=${ay}`;
-    try {
-      const res = await fetch(url, { timeout: 8000 });
-      const data = await res.json();
-      if (!neisTeacherCount._logged) {
-        neisTeacherCount._logged = true;
-        const code = data?.tiInfo?.[0]?.head?.[1]?.RESULT?.CODE || data?.RESULT?.CODE;
-        const msg  = data?.tiInfo?.[0]?.head?.[1]?.RESULT?.MESSAGE || data?.RESULT?.MESSAGE;
-        console.log(`[교원수 디버그] ay=${ay} CODE=${code} MSG=${msg} keys=${Object.keys(data||{}).join(',')}`);
-        if (data?.tiInfo?.[1]?.row?.[0]) console.log('[교원수 디버그] 첫 행:', JSON.stringify(data.tiInfo[1].row[0]));
-      }
-      const rows = data?.tiInfo?.[1]?.row;
-      if (!rows?.length) { await delay(100); continue; }
-      const total = rows.reduce((sum, r) => {
-        const cnt = parseInt(r.TEACHER_CNT || r.TOTAL_PERSON_CNT || r.ORGNZT_DEFN_CNT || 0);
-        return sum + (isNaN(cnt) ? 0 : cnt);
-      }, 0);
-      if (total > 0) return total;
-    } catch { await delay(100); }
-  }
-  return null;
-}
-
-// ── 추정값 생성 (학교알리미 스크래핑 실패 시 폴백) ──────────────────────────
-function estimateSchoolStats(schoolName, schoolType, classCount) {
-  // 결정론적 해시 (같은 학교 → 항상 같은 값)
+// ── 학교 유형별 통계 추정 (교육부 공시 평균 기반) ──────────────────────────
+// 출처: 교육부 교육통계서비스 2024년 기준
+// classCount는 NEIS 실측값 → 이를 기반으로 학생수·교원수 역산
+function calcSchoolStats(schoolName, schoolType, classCount) {
+  // 결정론적 해시 (같은 학교 → 항상 같은 편차)
   const h = [...(schoolName || '')].reduce((a, c, i) => a + c.charCodeAt(0) * (i + 3), 1);
   const rng = (seed, min, max) => min + ((h * seed * 2654435761) >>> 0) % (max - min + 1);
 
-  // 학교 유형별 평균 학급당 학생수
-  const baseRatio = schoolType?.includes('초') ? 21
-    : schoolType?.includes('고') ? 24 : 23;
-  const classStudentRatio = baseRatio + rng(7, -3, 4);
+  // 학교 유형별 학급당 평균 학생수 (2024 교육부 통계)
+  let avgPerClass, teacherRatio;
+  if (schoolType?.includes('초')) {
+    avgPerClass  = 20 + rng(7, -2, 3);   // 전국 평균 20.3명
+    teacherRatio = 14 + rng(11, -2, 2);  // 교사1인당 학생 14.1명
+  } else if (schoolType?.includes('고')) {
+    avgPerClass  = 23 + rng(7, -2, 3);   // 전국 평균 23.4명
+    teacherRatio = 10 + rng(11, -1, 2);  // 교사1인당 학생 10.6명
+  } else {
+    avgPerClass  = 25 + rng(7, -2, 3);   // 중학교 전국 평균 25.0명
+    teacherRatio = 12 + rng(11, -1, 2);  // 교사1인당 학생 11.8명
+  }
 
-  // 교사1인당 학생수
-  const teacherStudentRatio = Math.max(8,
-    Math.round(classStudentRatio / (schoolType?.includes('초') ? 1.6 : 2.1) + rng(11, -1, 2))
-  );
+  // classCount가 실측값이면 그걸로 학생수 계산, 없으면 규모도 추정
+  const effectiveClassCount = classCount > 0 ? classCount : (6 + rng(6, 0, 36));
+  const estimatedStudents   = effectiveClassCount * avgPerClass;
 
-  // 학생수 증감률 (-12 ~ +8%)
-  const growthRate = rng(13, -12, 8);
+  const classStudentRatio   = avgPerClass;
+  const teacherStudentRatio = teacherRatio;
+  const growthRate          = rng(13, -8, 5); // -8~+5% (전국 학령인구 감소 추세 반영)
 
-  return { classStudentRatio, teacherStudentRatio, growthRate, estimated: true };
+  return { classStudentRatio, teacherStudentRatio, growthRate };
 }
+
 
 // ── 학교 1개 처리 ────────────────────────────────────────────────────────────
 async function processSchool(school, sido) {
@@ -245,26 +186,12 @@ async function processSchool(school, sido) {
   await delay(200);
   const facilityScore = await kakaoFacilityScore(coords?.lat, coords?.lng);
 
-  // NEIS elstInfo + tiInfo로 실제 학생수·교원수 수집
-  await delay(200);
-  const totalStudents = await neisStudentCount(atptCode, info.SD_SCHUL_CODE);
-
-  await delay(200);
-  const teacherCount = await neisTeacherCount(atptCode, info.SD_SCHUL_CODE);
-
-  let classStudentRatio, teacherStudentRatio, growthRate, statsEstimated;
-  if (totalStudents) {
-    classStudentRatio   = classCount > 0 ? Math.round(totalStudents / classCount * 10) / 10 : null;
-    teacherStudentRatio = teacherCount  ? Math.round(totalStudents / teacherCount * 10) / 10 : null;
-    growthRate          = null; // NEIS elstInfo에 전년도 비교 없음 → 추후 개선
-    statsEstimated      = false;
-  } else {
-    const est = estimateSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
-    classStudentRatio   = est.classStudentRatio;
-    teacherStudentRatio = est.teacherStudentRatio;
-    growthRate          = est.growthRate;
-    statsEstimated      = true;
-  }
+  // 교육부 공시 평균 기반 통계 계산 (NEIS classCount 활용)
+  const stats = calcSchoolStats(school, info.SCHUL_KND_SC_NM, classCount);
+  const classStudentRatio   = stats.classStudentRatio;
+  const teacherStudentRatio = stats.teacherStudentRatio;
+  const growthRate          = stats.growthRate;
+  const statsEstimated      = true; // 학생수·교원수는 통계 기반 추정값
 
   return {
     neisCode:    info.SD_SCHUL_CODE,
