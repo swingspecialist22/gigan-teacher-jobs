@@ -787,17 +787,12 @@
   </button>
 </nav>
 
-<!-- ── 종료 확인 모달 ── -->
-<div class="modal-overlay" id="exit-modal" style="align-items:center;padding:24px;">
-  <div class="modal" style="border-radius:16px;padding:24px 20px 18px;max-width:300px;width:100%;text-align:center;">
-    <p style="font-size:16px;font-weight:700;margin-bottom:6px;">앱 종료</p>
-    <p style="font-size:14px;color:var(--gray-600);margin-bottom:20px;">티커리어를 종료하시겠습니까?</p>
-    <div class="modal-actions">
-      <button class="btn btn-secondary" id="exit-cancel">취소</button>
-      <button class="btn btn-primary" id="exit-confirm">종료</button>
-    </div>
-  </div>
-</div>
+<!-- ── 종료 토스트 ── -->
+<div id="exit-toast" style="
+  display:none; position:fixed; bottom:70px; left:50%; transform:translateX(-50%);
+  background:rgba(30,30,30,.9); color:#fff; font-size:13px; font-weight:600;
+  padding:10px 20px; border-radius:20px; z-index:400; white-space:nowrap;
+  pointer-events:none;">한 번 더 누르면 종료됩니다</div>
 
 <!-- ── 알림 설정 모달 ── -->
 <div class="modal-overlay" id="notif-modal">
@@ -1360,36 +1355,36 @@ document.getElementById('modal-save').addEventListener('click', async () => {
   modal.classList.remove('open');
 });
 
-// ── 뒤로 가기 종료 모달 ────────────────────────────────────────────────────────
-const exitModal = document.getElementById('exit-modal');
+// ── 뒤로 가기 종료 (두 번 연속 패턴) ──────────────────────────────────────────
+const exitToast = document.getElementById('exit-toast');
+let backPressedOnce = false;
+let backPressTimer = null;
 
 history.replaceState({ pwa: 'base' }, '');
 history.pushState({ pwa: 'guard' }, '');
 
 function pwaPopHandler() {
-  // 현재 base 상태 — 모달만 표시, guard 재등록은 취소 시에만
-  exitModal.classList.add('open');
+  history.pushState({ pwa: 'guard' }, ''); // 항상 guard 재등록
+
+  if (backPressedOnce) {
+    // 두 번째 뒤로가기 → 실제 종료
+    clearTimeout(backPressTimer);
+    backPressedOnce = false;
+    window.removeEventListener('popstate', pwaPopHandler);
+    history.go(-3); // guard × 2 + base 제거 → Android가 앱 종료 처리
+    return;
+  }
+
+  // 첫 번째 뒤로가기 → 토스트 표시
+  backPressedOnce = true;
+  exitToast.style.display = 'block';
+  backPressTimer = setTimeout(() => {
+    backPressedOnce = false;
+    exitToast.style.display = 'none';
+  }, 2000);
 }
 
 window.addEventListener('popstate', pwaPopHandler);
-
-document.getElementById('exit-cancel').addEventListener('click', () => {
-  exitModal.classList.remove('open');
-  history.pushState({ pwa: 'guard' }, ''); // 다음 뒤로가기도 잡기 위해 재등록
-});
-
-document.getElementById('exit-confirm').addEventListener('click', () => {
-  exitModal.classList.remove('open');
-  window.removeEventListener('popstate', pwaPopHandler);
-  history.back(); // base 앞으로 이동 → history 없으면 Android가 앱 종료
-});
-
-exitModal.addEventListener('click', e => {
-  if (e.target === exitModal) {
-    exitModal.classList.remove('open');
-    history.pushState({ pwa: 'guard' }, '');
-  }
-});
 
 // ── Init ───────────────────────────────────────────────────────────────────────
 loadJobs();
