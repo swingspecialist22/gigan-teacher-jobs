@@ -254,7 +254,7 @@
       position: relative;
     }
 
-    .settings-header img { height: 44px; object-fit: contain; filter: brightness(0) invert(1); display: block; }
+    .settings-header img { height: 44px; width: auto; max-width: 160px; display: block; filter: brightness(0) invert(1); }
 
     .settings-info-btn {
       position: absolute;
@@ -1289,8 +1289,9 @@ function renderCompare() {
       const estMark = isEst ? `<span style="font-size:8px;color:var(--gray-400);vertical-align:super;">추정</span>` : '';
       return `<div class="${isBest ? 'compare-best' : ''}">${fmtVal(v, f)}${estMark}</div>`;
     }).join('');
+    const fIdx = COMPARE_FACTORS.indexOf(f);
     const infoBtn = f.desc
-      ? `<button class="factor-info-btn" onclick="showFactorInfo(${JSON.stringify(f.desc)})">ℹ</button>`
+      ? `<button class="factor-info-btn" data-fidx="${fIdx}">ℹ</button>`
       : '';
     return `<div class="compare-table-row" style="grid-template-columns:${colW};">
       <div class="compare-table-label">${f.label.replace('\n','<br>')}${infoBtn}</div>${cells}
@@ -1316,6 +1317,15 @@ function renderCompare() {
       ? `<p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;"><sup>추정</sup> 표시: 학교알리미 미수집 학교 — 통계 기반 추정값</p>`
       : `<p style="text-align:center;font-size:10px;color:var(--gray-400);padding:4px 0 16px;">모든 항목 실제 데이터 (학교알리미·NEIS·Kakao)</p>`
     }`;
+
+  // ℹ️ 항목 설명 버튼 이벤트 위임 (innerHTML 교체 후)
+  panel.querySelectorAll('.factor-info-btn').forEach(btn => {
+    btn.addEventListener('click', e => {
+      e.stopPropagation();
+      const f = COMPARE_FACTORS[parseInt(btn.dataset.fidx)];
+      if (f?.desc) showFactorInfo(f.desc);
+    });
+  });
 
   if (radarChart) { radarChart.destroy(); radarChart = null; }
   const ctx = document.getElementById('radar-canvas').getContext('2d');
@@ -1531,22 +1541,23 @@ const exitToast = document.getElementById('exit-toast');
 let backPressedOnce = false;
 let backPressTimer = null;
 
-// guard 엔트리 추가 (첫 번째 뒤로가기를 popstate로 잡기 위해)
-history.pushState({ pwa: 'guard' }, '');
+// guard 2개 쌓기: [원래페이지, g1, g2]
+// → g2에서 back → g1: 첫 번째 감지, g1 재등록
+// → g1에서 back → 원래: 두 번째 감지, guard 없음 → Android가 앱 종료
+history.pushState({ pwa: 'g1' }, '');
+history.pushState({ pwa: 'g2' }, '');
 
 window.addEventListener('popstate', function pwaPopHandler() {
   if (backPressedOnce) {
-    // 두 번째 뒤로가기 → 앱 종료
-    // 현재 히스토리 맨 앞(앱 진입 이전)으로 이동 → Android TWA 종료
+    // 두 번째 뒤로가기 → guard 재등록 하지 않음 → Android 자동 종료
     clearTimeout(backPressTimer);
     backPressedOnce = false;
     exitToast.style.display = 'none';
     window.removeEventListener('popstate', pwaPopHandler);
-    setTimeout(() => history.back(), 0); // 히스토리 시작점 이전 → TWA 종료
     return;
   }
-  // 첫 번째 뒤로가기 → guard 재등록 + 토스트 표시
-  history.pushState({ pwa: 'guard' }, '');
+  // 첫 번째 뒤로가기 → guard 재등록 + 토스트
+  history.pushState({ pwa: 'g2' }, '');
   backPressedOnce = true;
   exitToast.style.display = 'block';
   backPressTimer = setTimeout(() => {

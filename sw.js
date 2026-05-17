@@ -1,4 +1,4 @@
-const CACHE = 'gigan-v1';
+const CACHE = 'gigan-v3';
 const DATA_URL = './data/jobs.json';
 
 self.addEventListener('install', e => {
@@ -6,7 +6,12 @@ self.addEventListener('install', e => {
 });
 
 self.addEventListener('activate', e => {
-  e.waitUntil(self.clients.claim());
+  // 구 캐시 삭제 → 강제로 새 index.html 받아오게 함
+  e.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
+  );
 });
 
 self.addEventListener('fetch', e => {
