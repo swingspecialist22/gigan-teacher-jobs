@@ -251,9 +251,48 @@
       padding: 40px 24px 28px;
       background: var(--blue);
       gap: 10px;
+      position: relative;
     }
 
-    .settings-header img { height: 44px; object-fit: contain; filter: brightness(0) invert(1); }
+    .settings-header img { height: 44px; object-fit: contain; filter: brightness(0) invert(1); display: block; }
+
+    .settings-info-btn {
+      position: absolute;
+      top: 14px;
+      right: 16px;
+      background: rgba(255,255,255,.25);
+      border: none;
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 700;
+      height: 32px;
+      width: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+    }
+
+    .factor-info-btn {
+      background: none;
+      border: 1px solid var(--gray-300);
+      border-radius: 50%;
+      color: var(--gray-400);
+      cursor: pointer;
+      font-size: 9px;
+      font-weight: 700;
+      height: 15px;
+      width: 15px;
+      padding: 0;
+      line-height: 1;
+      vertical-align: middle;
+      margin-left: 3px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
 
     .settings-section {
       background: #fff;
@@ -714,6 +753,7 @@
   <div id="settings-panel">
     <div class="settings-header">
       <img src="logo/tclogo2.png" alt="티커리어">
+      <button class="settings-info-btn" id="settings-info-open" title="앱 정보">ℹ</button>
     </div>
     <div class="settings-section">
       <div class="settings-row">
@@ -721,19 +761,30 @@
         <span class="settings-row-value">1.0.0</span>
       </div>
       <div class="settings-row">
-        <span class="settings-row-label">만든 곳</span>
+        <span class="settings-row-label">제작</span>
         <span class="settings-row-value">렛츠고티처</span>
       </div>
     </div>
-    <div class="settings-info-box">
-      <strong>티커리어</strong>는 전국 시도교육청에 공개된 채용공고를 수집하여 제공하는 렛츠고티처의 서비스입니다.<br><br>
-      교육부·각 시도교육청과 무관하며, 정부 기관을 대표하지 않습니다.<br><br>
-      공식 정보는 각 시도교육청 사이트에서 확인하시기 바랍니다.
-    </div>
-    <div style="text-align:center;padding:0 16px 32px;font-size:11px;color:var(--gray-400);line-height:1.9;">
-      수집 출처: pen.go.kr · jbe.go.kr · gne.go.kr · gwe.go.kr<br>
-      sen.go.kr · goe.go.kr · gen.go.kr · cne.go.kr · dje.go.kr<br>
-      ije.go.kr · jne.go.kr · gbe.go.kr · cbe.go.kr · sje.go.kr · jje.go.kr · use.go.kr
+  </div>
+
+  <!-- ── 앱 정보 모달 ── -->
+  <div class="modal-overlay" id="app-info-modal">
+    <div class="modal">
+      <h2>ℹ️ 티커리어 정보</h2>
+      <p style="font-size:13px;line-height:1.9;color:var(--gray-600);margin-bottom:14px;">
+        <strong>티커리어</strong>는 전국 시도교육청에 공개된 기간제 교사 채용공고를 수집하여 제공하는 <strong>렛츠고티처</strong>의 서비스입니다.<br><br>
+        교육부·각 시도교육청과 무관하며, 정부 기관을 대표하지 않습니다.<br><br>
+        공식 정보는 각 시도교육청 사이트에서 확인하시기 바랍니다.
+      </p>
+      <div style="background:var(--gray-100);border-radius:10px;padding:12px;font-size:11px;color:var(--gray-500);line-height:2;">
+        <strong style="color:var(--gray-600);">수집 출처</strong><br>
+        pen.go.kr · jbe.go.kr · gne.go.kr · gwe.go.kr<br>
+        sen.go.kr · goe.go.kr · gen.go.kr · cne.go.kr · dje.go.kr<br>
+        ije.go.kr · jne.go.kr · gbe.go.kr · cbe.go.kr · sje.go.kr · jje.go.kr · use.go.kr
+      </div>
+      <div class="modal-actions">
+        <button class="btn btn-primary" id="app-info-close">확인</button>
+      </div>
     </div>
   </div>
 
@@ -854,7 +905,12 @@
 <script>
 // ── State ──────────────────────────────────────────────────────────────────────
 let allJobs = [];
-let compareList = [];
+let compareList = (function() {
+  try {
+    const saved = JSON.parse(localStorage.getItem('compareList') || '[]');
+    return Array.isArray(saved) ? saved : [];
+  } catch { return []; }
+})();
 let radarChart = null;
 let currentTab = 'all';
 let filter = { sido: '', level: '' };
@@ -1068,6 +1124,7 @@ function render() {
         }
         compareList.push(job);
       }
+      saveCompareList();
       renderCompare();
       render();
     });
@@ -1113,12 +1170,18 @@ function haversine(lat1, lng1, lat2, lng2) {
 
 // est: 해당 항목이 통계 추정 가능 여부 (학교알리미 실패 시 추정 표시용)
 const COMPARE_FACTORS = [
-  { key: 'teacherStudentRatio', label: '교사1인당\n학생수', unit: '명', lowerBetter: true,  canEst: true  },
-  { key: 'classStudentRatio',   label: '학급당\n학생수',   unit: '명', lowerBetter: true,  canEst: true  },
-  { key: 'facilityScore',       label: '생활환경\n지수',   unit: '점', lowerBetter: false, canEst: false },
-  { key: 'growthRate',          label: '학생수\n증감률',   unit: '%',  lowerBetter: false, canEst: true  },
-  { key: 'commuteScore',        label: '통근거리',         unit: 'km', lowerBetter: true,  canEst: false },
-  { key: 'classCount',          label: '학급수',           unit: '개', lowerBetter: false, canEst: false },
+  { key: 'teacherStudentRatio', label: '교사1인당\n학생수', unit: '명', lowerBetter: true,  canEst: true,
+    desc: '교사 1인당 담당하는 학생 수입니다.\n낮을수록 교사의 학생 지도 여건이 좋습니다.\n\n📌 출처: NEIS 실측 학급수 기반\n교육부 2024년 통계 평균으로 추정' },
+  { key: 'classStudentRatio',   label: '학급당\n학생수',   unit: '명', lowerBetter: true,  canEst: true,
+    desc: '한 학급당 평균 학생 수입니다.\n낮을수록 담임 업무 부담이 적습니다.\n\n📌 출처: NEIS 실측 학급수 기반\n교육부 2024년 통계 평균으로 추정' },
+  { key: 'facilityScore',       label: '생활환경\n지수',   unit: '점', lowerBetter: false, canEst: false,
+    desc: '학교 주변 1km 반경 내 카페·편의점·대형마트·음식점 수를 0~100점으로 환산한 점수입니다.\n높을수록 생활 편의시설이 풍부합니다.\n\n📌 출처: Kakao 지역 검색 API 실측' },
+  { key: 'growthRate',          label: '학생수\n증감률',   unit: '%',  lowerBetter: false, canEst: true,
+    desc: '학생 수 증감 추세입니다.\n높을수록 학교가 성장하는 지역입니다.\n\n📌 출처: 전국 학령인구 감소 추세 기반 통계 추정' },
+  { key: 'commuteScore',        label: '통근거리',         unit: 'km', lowerBetter: true,  canEst: false,
+    desc: '내 현재 위치에서 학교까지의 직선 거리입니다.\n낮을수록 가까운 학교입니다.\n\n📌 출처: GPS 위치 + Kakao 좌표 Haversine 계산\n(위치 정보 제공 시에만 표시)' },
+  { key: 'classCount',          label: '학급수',           unit: '개', lowerBetter: false, canEst: false,
+    desc: '학교 전체 학급 수입니다.\n규모가 클수록 다양한 지원과 시설을 갖출 가능성이 높습니다.\n\n📌 출처: NEIS 실측 데이터' },
 ];
 
 const FACTOR_RANGES = {
@@ -1226,8 +1289,11 @@ function renderCompare() {
       const estMark = isEst ? `<span style="font-size:8px;color:var(--gray-400);vertical-align:super;">추정</span>` : '';
       return `<div class="${isBest ? 'compare-best' : ''}">${fmtVal(v, f)}${estMark}</div>`;
     }).join('');
+    const infoBtn = f.desc
+      ? `<button class="factor-info-btn" onclick="showFactorInfo(${JSON.stringify(f.desc)})">ℹ</button>`
+      : '';
     return `<div class="compare-table-row" style="grid-template-columns:${colW};">
-      <div class="compare-table-label">${f.label.replace('\n','<br>')}</div>${cells}
+      <div class="compare-table-label">${f.label.replace('\n','<br>')}${infoBtn}</div>${cells}
     </div>`;
   }).join('');
 
@@ -1286,10 +1352,33 @@ function renderCompare() {
   });
 }
 
+function saveCompareList() {
+  try { localStorage.setItem('compareList', JSON.stringify(compareList)); } catch {}
+}
+
 function removeFromCompare(id) {
   compareList = compareList.filter(j => j.id !== id);
+  saveCompareList();
   renderCompare();
   render();
+}
+
+function showFactorInfo(desc) {
+  let ov = document.getElementById('factor-info-overlay');
+  if (!ov) {
+    ov = document.createElement('div');
+    ov.id = 'factor-info-overlay';
+    ov.style.cssText = 'position:fixed;inset:0;z-index:500;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.45);padding:24px;';
+    ov.addEventListener('click', e => { if (e.target === ov) ov.remove(); });
+    document.body.appendChild(ov);
+  }
+  ov.innerHTML = `
+    <div style="background:#fff;border-radius:16px;padding:20px 20px 16px;max-width:320px;width:100%;font-size:13px;line-height:1.8;color:#374151;white-space:pre-line;">
+      ${escHtml(desc)}
+      <br>
+      <button onclick="document.getElementById('factor-info-overlay').remove()"
+        style="margin-top:12px;background:var(--blue);color:#fff;border:none;border-radius:10px;padding:10px 0;font-size:14px;font-weight:700;cursor:pointer;width:100%;">확인</button>
+    </div>`;
 }
 
 // ── Bottom Nav ─────────────────────────────────────────────────────────────────
@@ -1431,36 +1520,40 @@ document.getElementById('modal-save').addEventListener('click', async () => {
   modal.classList.remove('open');
 });
 
+// ── 앱 정보 모달 ───────────────────────────────────────────────────────────────
+const appInfoModal = document.getElementById('app-info-modal');
+document.getElementById('settings-info-open').addEventListener('click', () => appInfoModal.classList.add('open'));
+document.getElementById('app-info-close').addEventListener('click', () => appInfoModal.classList.remove('open'));
+appInfoModal.addEventListener('click', e => { if (e.target === appInfoModal) appInfoModal.classList.remove('open'); });
+
 // ── 뒤로 가기 종료 (두 번 연속 패턴) ──────────────────────────────────────────
 const exitToast = document.getElementById('exit-toast');
 let backPressedOnce = false;
 let backPressTimer = null;
 
-history.replaceState({ pwa: 'base' }, '');
+// guard 엔트리 추가 (첫 번째 뒤로가기를 popstate로 잡기 위해)
 history.pushState({ pwa: 'guard' }, '');
 
-function pwaPopHandler() {
-  history.pushState({ pwa: 'guard' }, ''); // 항상 guard 재등록
-
+window.addEventListener('popstate', function pwaPopHandler() {
   if (backPressedOnce) {
-    // 두 번째 뒤로가기 → 실제 종료
+    // 두 번째 뒤로가기 → 앱 종료
+    // 현재 히스토리 맨 앞(앱 진입 이전)으로 이동 → Android TWA 종료
     clearTimeout(backPressTimer);
     backPressedOnce = false;
+    exitToast.style.display = 'none';
     window.removeEventListener('popstate', pwaPopHandler);
-    history.go(-3); // guard × 2 + base 제거 → Android가 앱 종료 처리
+    setTimeout(() => history.back(), 0); // 히스토리 시작점 이전 → TWA 종료
     return;
   }
-
-  // 첫 번째 뒤로가기 → 토스트 표시
+  // 첫 번째 뒤로가기 → guard 재등록 + 토스트 표시
+  history.pushState({ pwa: 'guard' }, '');
   backPressedOnce = true;
   exitToast.style.display = 'block';
   backPressTimer = setTimeout(() => {
     backPressedOnce = false;
     exitToast.style.display = 'none';
-  }, 2000);
-}
-
-window.addEventListener('popstate', pwaPopHandler);
+  }, 2500);
+});
 
 // ── Init ───────────────────────────────────────────────────────────────────────
 loadJobs();
