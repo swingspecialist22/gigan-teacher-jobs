@@ -130,44 +130,74 @@ async function kakaoFacilityScore(lat, lng) {
   return Math.round(Math.min(total / 60, 1) * 100);
 }
 
-// ── NEIS: 재학생 현황 (elstInfo) ────────────────────────────────────────────
+// ── NEIS: 재학생 현황 ────────────────────────────────────────────────────────
+// NEIS API는 학교급별로 엔드포인트가 다름
+// 초등: elstInfo / 중등: miestInfo / 고등: hiestInfo (또는 통합: stInfo)
+const NEIS_STUDENT_ENDPOINTS = ['stInfo', 'elstInfo', 'miestInfo', 'hiestInfo'];
+
 async function neisStudentCount(atptCode, sdCode) {
   const year = new Date().getFullYear();
-  const url = `https://open.neis.go.kr/hub/elstInfo`
-    + `?KEY=${NEIS_KEY}&Type=json&pSize=1000`
-    + `&ATPT_OFCDC_SC_CODE=${atptCode}`
-    + `&SD_SCHUL_CODE=${sdCode}`
-    + `&AY=${year}&SEM=1`;
-  try {
-    const res = await fetch(url, { timeout: 8000 });
-    const data = await res.json();
-    const rows = data?.elstInfo?.[1]?.row;
-    if (!rows?.length) return null;
-    // 전체 학생수 합산 (주간 기준)
-    const total = rows
-      .filter(r => !r.DGHT_ORDR || r.DGHT_ORDR === '주간')
-      .reduce((sum, r) => sum + (parseInt(r.ELST_CNT) || 0), 0);
-    return total > 0 ? total : null;
-  } catch { return null; }
+  // 올해 → 작년 순으로 시도 (NEIS 공시 시점 차이)
+  for (const ay of [year, year - 1]) {
+    for (const ep of NEIS_STUDENT_ENDPOINTS) {
+      const url = `https://open.neis.go.kr/hub/${ep}`
+        + `?KEY=${NEIS_KEY}&Type=json&pSize=1000`
+        + `&ATPT_OFCDC_SC_CODE=${atptCode}`
+        + `&SD_SCHUL_CODE=${sdCode}`
+        + `&AY=${ay}&SEM=1`;
+      try {
+        const res = await fetch(url, { timeout: 8000 });
+        const data = await res.json();
+        // 첫 시도 응답 로깅
+        if (!neisStudentCount._logged) {
+          neisStudentCount._logged = true;
+          const code = data?.[ep]?.[0]?.head?.[1]?.RESULT?.CODE || data?.RESULT?.CODE;
+          const msg  = data?.[ep]?.[0]?.head?.[1]?.RESULT?.MESSAGE || data?.RESULT?.MESSAGE;
+          console.log(`[학생수 디버그] ep=${ep} ay=${ay} CODE=${code} MSG=${msg} keys=${Object.keys(data||{}).join(',')}`);
+        }
+        const rows = data?.[ep]?.[1]?.row;
+        if (!rows?.length) { await delay(100); continue; }
+        const total = rows.reduce((sum, r) => {
+          // 여러 필드명 시도
+          const cnt = parseInt(r.ELST_CNT || r.MIESTCNT || r.HIESTCNT || r.STCNT || r.TOTAL_CNT || 0);
+          return sum + (isNaN(cnt) ? 0 : cnt);
+        }, 0);
+        if (total > 0) return total;
+      } catch { await delay(100); }
+    }
+  }
+  return null;
 }
 
 // ── NEIS: 교원 현황 (tiInfo) ─────────────────────────────────────────────────
 async function neisTeacherCount(atptCode, sdCode) {
   const year = new Date().getFullYear();
-  const url = `https://open.neis.go.kr/hub/tiInfo`
-    + `?KEY=${NEIS_KEY}&Type=json&pSize=200`
-    + `&ATPT_OFCDC_SC_CODE=${atptCode}`
-    + `&SD_SCHUL_CODE=${sdCode}`
-    + `&AY=${year}`;
-  try {
-    const res = await fetch(url, { timeout: 8000 });
-    const data = await res.json();
-    const rows = data?.tiInfo?.[1]?.row;
-    if (!rows?.length) return null;
-    // 전체 교원수 (PROF_NM 기준: 교장·교감 제외한 교사만 합산)
-    const total = rows.reduce((sum, r) => sum + (parseInt(r.TEACHER_CNT || r.TOTAL_PERSON_CNT) || 0), 0);
-    return total > 0 ? total : null;
-  } catch { return null; }
+  for (const ay of [year, year - 1]) {
+    const url = `https://open.neis.go.kr/hub/tiInfo`
+      + `?KEY=${NEIS_KEY}&Type=json&pSize=200`
+      + `&ATPT_OFCDC_SC_CODE=${atptCode}`
+      + `&SD_SCHUL_CODE=${sdCode}`
+      + `&AY=${ay}`;
+    try {
+      const res = await fetch(url, { timeout: 8000 });
+      const data = await res.json();
+      if (!neisTeacherCount._logged) {
+        neisTeacherCount._logged = true;
+        const code = data?.tiInfo?.[0]?.head?.[1]?.RESULT?.CODE || data?.RESULT?.CODE;
+        const msg  = data?.tiInfo?.[0]?.head?.[1]?.RESULT?.MESSAGE || data?.RESULT?.MESSAGE;
+        console.log(`[교원수 디버그] ay=${ay} CODE=${code} MSG=${msg} keys=${Object.keys(data||{}).join(',')}`);
+        if (data?.tiInfo?.[1]?.row?.[0]) console.log('[교원수 디버그] 첫 행:', JSON.stringify(data.tiInfo[1].row[0]));
+      }
+      const rows = data?.tiInfo?.[1]?.row;
+      if (!rows?.length) { await delay(100); continue; }
+      const total = rows.reduce((sum, r) => {
+        const cnt = parseInt(r.TEACHER_CNT || r.TOTAL_PERSON_CNT || r.ORGNZT_DEFN_CNT || 0);
+        return sum + (isNaN(cnt) ? 0 : cnt);
+      }, 0);
+      if (total > 0) return total;
+    } catch { await delay(100); }
+  }
+  return null;
 }
 
 // ── 추정값 생성 (학교알리미 스크래핑 실패 시 폴백) ──────────────────────────
