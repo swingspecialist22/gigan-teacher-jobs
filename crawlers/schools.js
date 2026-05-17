@@ -54,11 +54,24 @@ async function neisSchoolInfo(schoolName, atptCode) {
   try {
     const res = await fetch(url, { timeout: 8000 });
     const data = await res.json();
+    // 첫 번째 학교 조회 시 응답 구조 디버깅
+    if (!neisSchoolInfo._logged) {
+      neisSchoolInfo._logged = true;
+      const code = data?.RESULT?.CODE || data?.schoolInfo?.[0]?.head?.[1]?.RESULT?.CODE;
+      const msg  = data?.RESULT?.MESSAGE || data?.schoolInfo?.[0]?.head?.[1]?.RESULT?.MESSAGE;
+      console.log(`[NEIS 디버그] 첫 응답 CODE=${code} MSG=${msg} keys=${Object.keys(data||{}).join(',')}`);
+    }
     const rows = data?.schoolInfo?.[1]?.row;
     if (!rows?.length) return null;
     // 정확히 이름이 같은 것 우선, 없으면 첫 번째
     return rows.find(r => r.SCHUL_NM === schoolName) || rows[0];
-  } catch { return null; }
+  } catch (e) {
+    if (!neisSchoolInfo._errLogged) {
+      neisSchoolInfo._errLogged = true;
+      console.error(`[NEIS 디버그] fetch 오류:`, e.message);
+    }
+    return null;
+  }
 }
 
 // ── NEIS: 학급 현황 ──────────────────────────────────────────────────────────
