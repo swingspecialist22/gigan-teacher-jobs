@@ -7918,5 +7918,35 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-05-18"
+  },
+  "서울::대경중학교": {
+    "neisCode": "7061096",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 중구 매봉18길 111",
+    "lat": 37.5563732600255,
+    "lng": 127.016979156363,
+    "classCount": 14,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-05-18"
+  },
+  "경남::경남해양과학고": {
+    "neisCode": "9010301",
+    "atptCode": "S10",
+    "schoolType": "고등학교",
+    "address": "경상남도 남해군 삼동면 동부대로 1810",
+    "lat": 34.8308978742321,
+    "lng": 128.004177015397,
+    "classCount": 6,
+    "facilityScore": 53,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-05-18"
   }
 }
