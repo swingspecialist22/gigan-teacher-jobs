@@ -1529,21 +1529,6 @@
     "statsEstimated": true,
     "updated": "2026-05-23"
   },
-  "서울::백운중학교": {
-    "neisCode": "7051182",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 도봉구 도봉로129길 50",
-    "lat": 37.6562806786387,
-    "lng": 127.035622286787,
-    "classCount": 15,
-    "facilityScore": 87,
-    "transitScore": 33,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-23"
-  },
   "서울::용산고등학교": {
     "neisCode": "7010103",
     "atptCode": "B10",
@@ -2384,21 +2369,6 @@
     "statsEstimated": true,
     "updated": "2026-05-23"
   },
-  "경기::방교중학교": {
-    "neisCode": "7679365",
-    "atptCode": "J10",
-    "schoolType": "중학교",
-    "address": "경기도 화성시 동탄산척로1길 23",
-    "lat": 37.1747532197431,
-    "lng": 127.101534143256,
-    "classCount": 36,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-23"
-  },
   "전북::전주풍남중학교": {
     "neisCode": "8332224",
     "atptCode": "P10",
@@ -3206,36 +3176,6 @@
     "transitScore": 0,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-05-23"
-  },
-  "경기::도곡중학교": {
-    "neisCode": "7631125",
-    "atptCode": "J10",
-    "schoolType": "중학교",
-    "address": "경기도 평택시 포승읍 여술로 58",
-    "lat": 36.9892898411483,
-    "lng": 126.848761656999,
-    "classCount": 17,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-23"
-  },
-  "경기::가내초등학교": {
-    "neisCode": "7631209",
-    "atptCode": "J10",
-    "schoolType": "초등학교",
-    "address": "경기도 평택시 비전2로 265",
-    "lat": 37.0066606131329,
-    "lng": 127.114645957071,
-    "classCount": 44,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-05-23"
   },
