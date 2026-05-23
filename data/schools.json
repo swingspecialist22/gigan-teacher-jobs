@@ -2354,21 +2354,6 @@
     "statsEstimated": true,
     "updated": "2026-05-23"
   },
-  "경남::충렬초": {
-    "neisCode": "9071030",
-    "atptCode": "S10",
-    "schoolType": "초등학교",
-    "address": "경상남도 통영시 여황로 249",
-    "lat": 34.8475642055108,
-    "lng": 128.416475181641,
-    "classCount": 6,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-05-23"
-  },
   "전북::전주풍남중학교": {
     "neisCode": "8332224",
     "atptCode": "P10",
