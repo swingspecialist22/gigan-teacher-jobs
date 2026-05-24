@@ -3779,21 +3779,6 @@
     "statsEstimated": true,
     "updated": "2026-05-24"
   },
-  "서울::강명중학교": {
-    "neisCode": "7130168",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강동구 상일로12길 56",
-    "lat": 37.5556127825867,
-    "lng": 127.174608361426,
-    "classCount": 27,
-    "facilityScore": 82,
-    "transitScore": 67,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-24"
-  },
   "울산::울산중학교": {
     "neisCode": "7491166",
     "atptCode": "H10",
