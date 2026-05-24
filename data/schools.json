@@ -7904,21 +7904,6 @@
     "statsEstimated": true,
     "updated": "2026-05-24"
   },
-  "서울::서울강덕초등학교": {
-    "neisCode": "7130105",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강동구 동남로82길 94-54",
-    "lat": 37.5595474750238,
-    "lng": 127.160483581978,
-    "classCount": 47,
-    "facilityScore": 83,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-05-24"
-  },
   "강원::원주청원학교": {
     "neisCode": "7801215",
     "atptCode": "K10",
