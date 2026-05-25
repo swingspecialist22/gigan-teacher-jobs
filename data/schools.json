@@ -2909,21 +2909,6 @@
     "statsEstimated": true,
     "updated": "2026-05-25"
   },
-  "서울::경수중학교": {
-    "neisCode": "7134120",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 성동구 뚝섬로13길 14",
-    "lat": 37.5395090367488,
-    "lng": 127.059271203056,
-    "classCount": 10,
-    "facilityScore": 77,
-    "transitScore": 67,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-25"
-  },
   "서울::서울구산초등학교": {
     "neisCode": "7031115",
     "atptCode": "B10",
