@@ -7723,5 +7723,20 @@
     "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-05-26"
+  },
+  "서울::서울숭덕초등학교": {
+    "neisCode": "7121317",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 성북구 정릉로 279",
+    "lat": 37.6038254756354,
+    "lng": 127.013292433921,
+    "classCount": 43,
+    "facilityScore": 83,
+    "transitScore": 33,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 15,
+    "statsEstimated": true,
+    "updated": "2026-05-26"
   }
 }
