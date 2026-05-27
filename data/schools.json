@@ -1154,21 +1154,6 @@
     "statsEstimated": true,
     "updated": "2026-05-27"
   },
-  "서울::목동중학교": {
-    "neisCode": "7081491",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 양천구 목동동로 172",
-    "lat": 37.5209571978324,
-    "lng": 126.871443390095,
-    "classCount": 45,
-    "facilityScore": 87,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-27"
-  },
   "충남::송악중학교": {
     "neisCode": "8291014",
     "atptCode": "N10",
@@ -5489,21 +5474,6 @@
     "statsEstimated": true,
     "updated": "2026-05-27"
   },
-  "서울::서울신강초등학교": {
-    "neisCode": "7081449",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 양천구 중앙로55길 72",
-    "lat": 37.5258441852217,
-    "lng": 126.842263907731,
-    "classCount": 15,
-    "facilityScore": 77,
-    "transitScore": 67,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-05-27"
-  },
   "서울::주몽학교": {
     "neisCode": "7010472",
     "atptCode": "B10",
@@ -8156,6 +8126,36 @@
     "transitScore": 100,
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-05-27"
+  },
+  "서울::서울송정초등학교": {
+    "neisCode": "7081446",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강서구 공항대로3길 18",
+    "lat": 37.5622308905044,
+    "lng": 126.810281254376,
+    "classCount": 29,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 12,
+    "statsEstimated": true,
+    "updated": "2026-05-27"
+  },
+  "경기::경기경영고등학교": {
+    "neisCode": "7531275",
+    "atptCode": "J10",
+    "schoolType": "고등학교",
+    "address": "경기도 부천시 심곡로 100",
+    "lat": 37.4750214169066,
+    "lng": 126.773050919151,
+    "classCount": 30,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-05-27"
   }
