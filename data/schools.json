@@ -29,21 +29,6 @@
     "statsEstimated": true,
     "updated": "2026-05-28"
   },
-  "서울::선일초등학교": {
-    "neisCode": "7031170",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 은평구 갈현로29길 27",
-    "lat": 37.6203042094228,
-    "lng": 126.911993073275,
-    "classCount": 18,
-    "facilityScore": 80,
-    "transitScore": 100,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-05-28"
-  },
   "서울::문현고등학교": {
     "neisCode": "7010959",
     "atptCode": "B10",
@@ -6329,21 +6314,6 @@
     "statsEstimated": true,
     "updated": "2026-05-28"
   },
-  "경기::능길초등학교": {
-    "neisCode": "7611038",
-    "atptCode": "J10",
-    "schoolType": "초등학교",
-    "address": "경기도 안산시 단원구 신길중앙로3길 8",
-    "lat": 37.3360649429776,
-    "lng": 126.7643302638,
-    "classCount": 11,
-    "facilityScore": 58,
-    "transitScore": 67,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-05-28"
-  },
   "경기::웃터골초등학교": {
     "neisCode": "7781088",
     "atptCode": "J10",
@@ -8561,6 +8531,36 @@
     "transitScore": 33,
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-05-28"
+  },
+  "서울::서울신용산초등학교": {
+    "neisCode": "7061073",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 용산구 이촌로 255",
+    "lat": 37.5206295929735,
+    "lng": 126.975366260146,
+    "classCount": 59,
+    "facilityScore": 78,
+    "transitScore": 67,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-05-28"
+  },
+  "전북::이리모현초등학교": {
+    "neisCode": "8352091",
+    "atptCode": "P10",
+    "schoolType": "초등학교",
+    "address": "전북특별자치도 익산시 배산로14길 12-4",
+    "lat": 35.945417295049,
+    "lng": 126.939289748826,
+    "classCount": 35,
+    "facilityScore": 83,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-05-28"
   }
