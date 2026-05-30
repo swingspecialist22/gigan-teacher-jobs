@@ -2279,21 +2279,6 @@
     "statsEstimated": true,
     "updated": "2026-05-30"
   },
-  "서울::가원중학교": {
-    "neisCode": "7130166",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 송파구 중대로10길 40-18",
-    "lat": 37.4909683312292,
-    "lng": 127.122978948911,
-    "classCount": 16,
-    "facilityScore": 87,
-    "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-30"
-  },
   "서울::전농중학교": {
     "neisCode": "7021140",
     "atptCode": "B10",
@@ -8126,6 +8111,21 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-05-30"
+  },
+  "제주::남녕고등학교": {
+    "neisCode": "9290076",
+    "atptCode": "T10",
+    "schoolType": "고등학교",
+    "address": "제주특별자치도 제주시 도령로 55",
+    "lat": 33.4900568362415,
+    "lng": 126.481980723796,
+    "classCount": 39,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-05-30"
   }
