@@ -7873,5 +7873,35 @@
     "teacherStudentRatio": 13,
     "statsEstimated": true,
     "updated": "2026-05-30"
+  },
+  "강원::강릉고등학교": {
+    "neisCode": "7801092",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원특별자치도 강릉시 강릉대로587번길 68",
+    "lat": 37.7889169721125,
+    "lng": 128.915986512546,
+    "classCount": 19,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-05-30"
+  },
+  "강원::북평고등학교": {
+    "neisCode": "7801136",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원도 동해시 효자남길 51",
+    "lat": 37.4900813108574,
+    "lng": 129.106501514213,
+    "classCount": 21,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-05-30"
   }
 }
