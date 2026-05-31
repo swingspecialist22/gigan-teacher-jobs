@@ -2099,21 +2099,6 @@
     "statsEstimated": true,
     "updated": "2026-05-31"
   },
-  "서울::신도림중학교": {
-    "neisCode": "7041183",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 구로구 경인로63길 74",
-    "lat": 37.5107407265629,
-    "lng": 126.884807054238,
-    "classCount": 36,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-31"
-  },
   "경남::고성고": {
     "neisCode": "9010160",
     "atptCode": "S10",
@@ -7676,6 +7661,36 @@
     "transitScore": 0,
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-05-31"
+  },
+  "서울::서울소의초등학교": {
+    "neisCode": "7031139",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 마포구 마포대로24길 42",
+    "lat": 37.552781864533,
+    "lng": 126.960655552156,
+    "classCount": 19,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-05-31"
+  },
+  "서울::용강중학교": {
+    "neisCode": "7061111",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 용산구 이촌로65가길 91",
+    "lat": 37.5215769321647,
+    "lng": 126.975485292591,
+    "classCount": 30,
+    "facilityScore": 78,
+    "transitScore": 67,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-05-31"
   }
