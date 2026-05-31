@@ -1814,21 +1814,6 @@
     "statsEstimated": true,
     "updated": "2026-05-31"
   },
-  "서울::서울공업고등학교": {
-    "neisCode": "7010278",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 동작구 대방동1길 46",
-    "lat": 37.5019012578828,
-    "lng": 126.922363030415,
-    "classCount": 40,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-05-31"
-  },
   "세종::다정고등학교": {
     "neisCode": "9300235",
     "atptCode": "I10",
@@ -4664,21 +4649,6 @@
     "statsEstimated": true,
     "updated": "2026-05-31"
   },
-  "서울::월촌중학교": {
-    "neisCode": "7081513",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 양천구 목동서로 31",
-    "lat": 37.5370651782493,
-    "lng": 126.88275880551,
-    "classCount": 48,
-    "facilityScore": 83,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-31"
-  },
   "경기::도곡중학교": {
     "neisCode": "7631125",
     "atptCode": "J10",
@@ -6689,21 +6659,6 @@
     "statsEstimated": true,
     "updated": "2026-05-31"
   },
-  "충남::천안백석초등학교": {
-    "neisCode": "8151094",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 천안시 서북구 백석3로 98",
-    "lat": 36.8203397419728,
-    "lng": 127.122514426304,
-    "classCount": 27,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-05-31"
-  },
   "충남::당진정보고등학교": {
     "neisCode": "8140118",
     "atptCode": "N10",
@@ -7196,21 +7151,6 @@
     "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-05-31"
-  },
-  "서울::서울서래초등학교": {
-    "neisCode": "7091392",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 서초구 방배로 260",
-    "lat": 37.4964040023549,
-    "lng": 126.990156472861,
-    "classCount": 45,
-    "facilityScore": 83,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 15,
     "statsEstimated": true,
     "updated": "2026-05-31"
   },
