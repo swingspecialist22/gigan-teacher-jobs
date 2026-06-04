@@ -8368,5 +8368,20 @@
     "teacherStudentRatio": 15,
     "statsEstimated": true,
     "updated": "2026-06-04"
+  },
+  "강원::북평고등학교": {
+    "neisCode": "7801136",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원도 동해시 효자남길 51",
+    "lat": 37.4900813108574,
+    "lng": 129.106501514213,
+    "classCount": 21,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-04"
   }
 }
