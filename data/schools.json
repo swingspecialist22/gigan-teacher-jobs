@@ -3374,21 +3374,6 @@
     "statsEstimated": true,
     "updated": "2026-06-06"
   },
-  "경기::퇴계원중학교": {
-    "neisCode": "7652132",
-    "atptCode": "J10",
-    "schoolType": "중학교",
-    "address": "경기도 남양주시 퇴계원면 퇴계원로 49-8",
-    "lat": 37.652367901072,
-    "lng": 127.141026037369,
-    "classCount": 21,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-06-06"
-  },
   "서울::서울장평초등학교": {
     "neisCode": "7021106",
     "atptCode": "B10",
