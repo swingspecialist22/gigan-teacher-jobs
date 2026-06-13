@@ -757,7 +757,7 @@
     "lat": 37.7720676716603,
     "lng": 126.716823491857,
     "classCount": 6,
-    "facilityScore": 40,
+    "facilityScore": 15,
     "transitScore": 0,
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
@@ -7301,6 +7301,21 @@
     "transitScore": 100,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-13"
+  },
+  "서울::서울신월초등학교": {
+    "neisCode": "7081456",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강서구 강서로31길 48",
+    "lat": 37.5403655143855,
+    "lng": 126.839455478388,
+    "classCount": 29,
+    "facilityScore": 78,
+    "transitScore": 67,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-06-13"
   }
