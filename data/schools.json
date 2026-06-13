@@ -1439,21 +1439,6 @@
     "statsEstimated": true,
     "updated": "2026-06-13"
   },
-  "서울::서울관광고등학교": {
-    "neisCode": "7010739",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 관악구 은천로15길 25",
-    "lat": 37.4878154195732,
-    "lng": 126.943760849751,
-    "classCount": 24,
-    "facilityScore": 82,
-    "transitScore": 33,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-06-13"
-  },
   "서울::서울포이초등학교": {
     "neisCode": "7091417",
     "atptCode": "B10",
@@ -4829,21 +4814,6 @@
     "statsEstimated": true,
     "updated": "2026-06-13"
   },
-  "서울::서울대현초등학교": {
-    "neisCode": "7091381",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강남구 역삼로98길 16",
-    "lat": 37.5034861238053,
-    "lng": 127.063292075669,
-    "classCount": 40,
-    "facilityScore": 82,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-06-13"
-  },
   "서울::서울문화고등학교": {
     "neisCode": "7010888",
     "atptCode": "B10",
@@ -7736,6 +7706,21 @@
     "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-06-13"
+  },
+  "서울::서울이문초등학교": {
+    "neisCode": "7021105",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 동대문구 신이문로 16",
+    "lat": 37.6018964867149,
+    "lng": 127.064885003959,
+    "classCount": 41,
+    "facilityScore": 83,
+    "transitScore": 67,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 15,
     "statsEstimated": true,
     "updated": "2026-06-13"
   }
