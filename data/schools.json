@@ -1004,21 +1004,6 @@
     "statsEstimated": true,
     "updated": "2026-06-14"
   },
-  "서울::장승중학교": {
-    "neisCode": "7132153",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 동작구 장승배기로10가길 25",
-    "lat": 37.5031485833795,
-    "lng": 126.940834004372,
-    "classCount": 23,
-    "facilityScore": 85,
-    "transitScore": 67,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-06-14"
-  },
   "경기::호곡초등학교": {
     "neisCode": "7621105",
     "atptCode": "J10",
@@ -6479,21 +6464,6 @@
     "statsEstimated": true,
     "updated": "2026-06-14"
   },
-  "서울::서울신월초등학교": {
-    "neisCode": "7081456",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강서구 강서로31길 48",
-    "lat": 37.5403655143855,
-    "lng": 126.839455478388,
-    "classCount": 29,
-    "facilityScore": 78,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-06-14"
-  },
   "서울::서울월천초등학교": {
     "neisCode": "7051152",
     "atptCode": "B10",
@@ -6941,6 +6911,21 @@
     "transitScore": 100,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-14"
+  },
+  "서울::서울등촌초등학교": {
+    "neisCode": "7081436",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강서구 등촌로39길 71",
+    "lat": 37.5476142187642,
+    "lng": 126.857942163854,
+    "classCount": 21,
+    "facilityScore": 83,
+    "transitScore": 33,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-06-14"
   }
