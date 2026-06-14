@@ -5294,21 +5294,6 @@
     "statsEstimated": true,
     "updated": "2026-06-14"
   },
-  "인천::인천서곶초등학교": {
-    "neisCode": "7361041",
-    "atptCode": "E10",
-    "schoolType": "초등학교",
-    "address": "인천광역시 서구 대평로56번길 9",
-    "lat": 37.5476696469984,
-    "lng": 126.669476154188,
-    "classCount": 17,
-    "facilityScore": 82,
-    "transitScore": 67,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-06-14"
-  },
   "인천::용현여자중학교": {
     "neisCode": "7321083",
     "atptCode": "E10",
@@ -7376,6 +7361,21 @@
     "transitScore": 0,
     "classStudentRatio": 22,
     "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-06-14"
+  },
+  "인천::인천서림초등학교": {
+    "neisCode": "7321028",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 동구 금곡로 105",
+    "lat": 37.4754099392173,
+    "lng": 126.646017880407,
+    "classCount": 21,
+    "facilityScore": 75,
+    "transitScore": 33,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-06-14"
   }
