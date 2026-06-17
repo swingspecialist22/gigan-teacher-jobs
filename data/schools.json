@@ -9403,5 +9403,20 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-06-17"
+  },
+  "경기::양감중학교": {
+    "neisCode": "7679116",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 화성시 만세구 양감면 초록로 49",
+    "lat": 37.0814895566643,
+    "lng": 126.95166144149,
+    "classCount": 3,
+    "facilityScore": 35,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-06-17"
   }
 }
