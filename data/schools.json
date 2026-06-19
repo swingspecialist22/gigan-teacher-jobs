@@ -8983,5 +8983,35 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-06-19"
+  },
+  "강원::속초여자고등학교": {
+    "neisCode": "7801153",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원특별자치도 속초시 배움터길 16",
+    "lat": 38.1990679299372,
+    "lng": 128.567954855769,
+    "classCount": 26,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-19"
+  },
+  "강원::민족사관고등학교": {
+    "neisCode": "7801132",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원특별자치도 횡성군 안흥면 봉화로 800",
+    "lat": 37.4581908155987,
+    "lng": 128.145764017431,
+    "classCount": 30,
+    "facilityScore": 0,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-19"
   }
 }
