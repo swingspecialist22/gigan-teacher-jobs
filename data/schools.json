@@ -8518,5 +8518,50 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-06-20"
+  },
+  "경남::수양초": {
+    "neisCode": "9081024",
+    "atptCode": "S10",
+    "schoolType": "초등학교",
+    "address": "경상남도 사천시 사천읍 옥산로 60",
+    "lat": 35.0789944108706,
+    "lng": 128.089365106429,
+    "classCount": 16,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-06-20"
+  },
+  "서울::서울신상계초등학교": {
+    "neisCode": "7051139",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 노원구 상계로 267",
+    "lat": 37.6675183641329,
+    "lng": 127.075828032383,
+    "classCount": 19,
+    "facilityScore": 85,
+    "transitScore": 67,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-06-20"
+  },
+  "서울::신일고등학교": {
+    "neisCode": "7010206",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 강북구 솔매로49길 20",
+    "lat": 37.627967222367,
+    "lng": 127.028403050284,
+    "classCount": 30,
+    "facilityScore": 83,
+    "transitScore": 67,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-20"
   }
 }
