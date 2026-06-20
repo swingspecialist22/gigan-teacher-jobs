@@ -8533,5 +8533,50 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-06-20"
+  },
+  "강원::민족사관고등학교": {
+    "neisCode": "7801132",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원특별자치도 횡성군 안흥면 봉화로 800",
+    "lat": 37.4581908155987,
+    "lng": 128.145764017431,
+    "classCount": 30,
+    "facilityScore": 0,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-20"
+  },
+  "강원::김화고등학교": {
+    "neisCode": "7801114",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원특별자치도 철원군 서면 와수1로 90",
+    "lat": 38.2440444300678,
+    "lng": 127.433371462401,
+    "classCount": 9,
+    "facilityScore": 58,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-20"
+  },
+  "강원::북평고등학교": {
+    "neisCode": "7801136",
+    "atptCode": "K10",
+    "schoolType": "고등학교",
+    "address": "강원도 동해시 효자남길 51",
+    "lat": 37.4900813108574,
+    "lng": 129.106501514213,
+    "classCount": 21,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-20"
   }
 }
