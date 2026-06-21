@@ -1574,21 +1574,6 @@
     "statsEstimated": true,
     "updated": "2026-06-21"
   },
-  "제주::제주동초등학교": {
-    "neisCode": "9296037",
-    "atptCode": "T10",
-    "schoolType": "초등학교",
-    "address": "제주특별자치도 제주시 동문로 65",
-    "lat": 33.5139592167989,
-    "lng": 126.534172230344,
-    "classCount": 21,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-06-21"
-  },
   "서울::효문중학교": {
     "neisCode": "7051213",
     "atptCode": "B10",
@@ -5561,36 +5546,6 @@
     "transitScore": 0,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-06-21"
-  },
-  "제주::남원중학교": {
-    "neisCode": "9299017",
-    "atptCode": "T10",
-    "schoolType": "중학교",
-    "address": "제주특별자치도 서귀포시 남원읍 남한로 36",
-    "lat": 33.2822550220913,
-    "lng": 126.717523663529,
-    "classCount": 9,
-    "facilityScore": 65,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-06-21"
-  },
-  "제주::강정초등학교": {
-    "neisCode": "9299037",
-    "atptCode": "T10",
-    "schoolType": "초등학교",
-    "address": "제주특별자치도 서귀포시 말질로 188",
-    "lat": 33.2347970278685,
-    "lng": 126.478351033969,
-    "classCount": 6,
-    "facilityScore": 40,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-06-21"
   },
