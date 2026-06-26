@@ -9808,5 +9808,35 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-06-26"
+  },
+  "광주::광주세광학교": {
+    "neisCode": "7380110",
+    "atptCode": "F10",
+    "schoolType": "특수학교",
+    "address": "광주광역시 서구 유덕로 177",
+    "lat": 35.1684483440624,
+    "lng": 126.836029977144,
+    "classCount": 23,
+    "facilityScore": 8,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-06-26"
+  },
+  "광주::광주선우학교": {
+    "neisCode": "7380271",
+    "atptCode": "F10",
+    "schoolType": "특수학교",
+    "address": "광주광역시 북구 모룡대길 61",
+    "lat": 35.2165605858537,
+    "lng": 126.894581065053,
+    "classCount": 55,
+    "facilityScore": 65,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-06-26"
   }
 }
