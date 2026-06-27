@@ -3149,21 +3149,6 @@
     "statsEstimated": true,
     "updated": "2026-06-27"
   },
-  "서울::압구정중학교": {
-    "neisCode": "7091440",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강남구 압구정로 225",
-    "lat": 37.5302422355471,
-    "lng": 127.033002687736,
-    "classCount": 16,
-    "facilityScore": 78,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-06-27"
-  },
   "경남::진해고": {
     "neisCode": "9010066",
     "atptCode": "S10",
@@ -9356,6 +9341,21 @@
     "transitScore": 0,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-27"
+  },
+  "서울::서울원촌초등학교": {
+    "neisCode": "7091412",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 서초구 사평대로45길 26",
+    "lat": 37.5062446440008,
+    "lng": 127.012346682947,
+    "classCount": 49,
+    "facilityScore": 92,
+    "transitScore": 100,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-06-27"
   }
