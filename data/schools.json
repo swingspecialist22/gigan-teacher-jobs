@@ -3674,21 +3674,6 @@
     "statsEstimated": true,
     "updated": "2026-06-27"
   },
-  "서울::동양고등학교": {
-    "neisCode": "7010965",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 강서구 허준로 50",
-    "lat": 37.5690302418497,
-    "lng": 126.846888761424,
-    "classCount": 18,
-    "facilityScore": 80,
-    "transitScore": 33,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-06-27"
-  },
   "경기::별망초등학교": {
     "neisCode": "7611045",
     "atptCode": "J10",
@@ -9341,6 +9326,36 @@
     "transitScore": 0,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-27"
+  },
+  "서울::국립전통예술고등학교": {
+    "neisCode": "1371663",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 금천구 시흥대로38길 62",
+    "lat": 37.4463710473917,
+    "lng": 126.906462134788,
+    "classCount": 18,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-27"
+  },
+  "인천::인천성지초등학교": {
+    "neisCode": "7331197",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 계양구 아나지로247번길 8",
+    "lat": 37.5264394328575,
+    "lng": 126.720161746832,
+    "classCount": 12,
+    "facilityScore": 78,
+    "transitScore": 33,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-06-27"
   }
