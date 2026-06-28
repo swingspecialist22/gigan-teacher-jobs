@@ -8009,21 +8009,6 @@
     "statsEstimated": true,
     "updated": "2026-06-28"
   },
-  "서울::서울동의초등학교": {
-    "neisCode": "7134090",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 광진구 영화사로 111",
-    "lat": 37.5534224448219,
-    "lng": 127.099047310011,
-    "classCount": 24,
-    "facilityScore": 80,
-    "transitScore": 67,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-06-28"
-  },
   "강원::마차중학교": {
     "neisCode": "7902031",
     "atptCode": "K10",
@@ -9206,6 +9191,36 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-06-28"
+  },
+  "광주::광주세광학교": {
+    "neisCode": "7380110",
+    "atptCode": "F10",
+    "schoolType": "특수학교",
+    "address": "광주광역시 서구 유덕로 177",
+    "lat": 35.1684483440624,
+    "lng": 126.836029977144,
+    "classCount": 23,
+    "facilityScore": 8,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-06-28"
+  },
+  "광주::광주선우학교": {
+    "neisCode": "7380271",
+    "atptCode": "F10",
+    "schoolType": "특수학교",
+    "address": "광주광역시 북구 모룡대길 61",
+    "lat": 35.2165605858537,
+    "lng": 126.894581065053,
+    "classCount": 55,
+    "facilityScore": 65,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-06-28"
   }
