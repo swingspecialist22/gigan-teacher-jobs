@@ -9133,5 +9133,35 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-06-28"
+  },
+  "서울::서울숭인초등학교": {
+    "neisCode": "7121319",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 성북구 오패산로16길 37",
+    "lat": 37.6090977872099,
+    "lng": 127.038146527662,
+    "classCount": 39,
+    "facilityScore": 87,
+    "transitScore": 100,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-06-28"
+  },
+  "서울::서울양재초등학교": {
+    "neisCode": "7091402",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 서초구 바우뫼로18길 14",
+    "lat": 37.4741653841614,
+    "lng": 127.03189250195,
+    "classCount": 17,
+    "facilityScore": 77,
+    "transitScore": 33,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-06-28"
   }
 }
