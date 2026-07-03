@@ -12913,5 +12913,20 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-07-03"
+  },
+  "경남::인평초": {
+    "neisCode": "9071027",
+    "atptCode": "S10",
+    "schoolType": "초등학교",
+    "address": "경상남도 통영시 평인일주로 91-1",
+    "lat": 34.8426055915416,
+    "lng": 128.39498208031,
+    "classCount": 7,
+    "facilityScore": 37,
+    "transitScore": 0,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-07-03"
   }
 }
