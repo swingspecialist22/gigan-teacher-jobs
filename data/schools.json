@@ -12419,21 +12419,6 @@
     "statsEstimated": true,
     "updated": "2026-07-04"
   },
-  "광주::광주세광학교": {
-    "neisCode": "7380110",
-    "atptCode": "F10",
-    "schoolType": "특수학교",
-    "address": "광주광역시 서구 유덕로 177",
-    "lat": 35.1684081204636,
-    "lng": 126.836012934011,
-    "classCount": 0,
-    "facilityScore": 7,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-04"
-  },
   "경남::인평초": {
     "neisCode": "9071027",
     "atptCode": "S10",
@@ -12475,6 +12460,36 @@
     "facilityScore": 40,
     "transitScore": 0,
     "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-04"
+  },
+  "세종::집현중학교": {
+    "neisCode": "9300311",
+    "atptCode": "I10",
+    "schoolType": "중학교",
+    "address": "세종특별자치시  집현서로 42",
+    "lat": 36.491079887501,
+    "lng": 127.322639520168,
+    "classCount": 16,
+    "facilityScore": 52,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-07-04"
+  },
+  "서울::서울인공지능고등학교": {
+    "neisCode": "7011498",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 송파구 양산로 21",
+    "lat": 37.4916482412209,
+    "lng": 127.142085431868,
+    "classCount": 21,
+    "facilityScore": 83,
+    "transitScore": 67,
+    "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-04"
