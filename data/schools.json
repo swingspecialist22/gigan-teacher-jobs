@@ -6344,21 +6344,6 @@
     "statsEstimated": true,
     "updated": "2026-07-04"
   },
-  "서울::서울상원초등학교": {
-    "neisCode": "7051130",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 노원구 한글비석로54길 119",
-    "lat": 37.6676655147961,
-    "lng": 127.059630713208,
-    "classCount": 16,
-    "facilityScore": 85,
-    "transitScore": 33,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-07-04"
-  },
   "경기::용인백현고등학교": {
     "neisCode": "7530778",
     "atptCode": "J10",
@@ -8846,21 +8831,6 @@
     "transitScore": 67,
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-07-04"
-  },
-  "충남::기지초등학교": {
-    "neisCode": "8291021",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 당진시 송악읍 반촌로 84-3",
-    "lat": 36.9020939188958,
-    "lng": 126.693715804671,
-    "classCount": 61,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 13,
     "statsEstimated": true,
     "updated": "2026-07-04"
   },
@@ -12491,6 +12461,21 @@
     "transitScore": 67,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-04"
+  },
+  "광주::광주세광학교": {
+    "neisCode": "7380110",
+    "atptCode": "F10",
+    "schoolType": "특수학교",
+    "address": "광주광역시 서구 유덕로 177",
+    "lat": 35.1684081204636,
+    "lng": 126.836012934011,
+    "classCount": 0,
+    "facilityScore": 7,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-07-04"
   }
