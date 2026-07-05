@@ -1124,21 +1124,6 @@
     "statsEstimated": true,
     "updated": "2026-07-05"
   },
-  "서울::개포중학교": {
-    "neisCode": "7091421",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강남구 선릉로 9",
-    "lat": 37.4804473919149,
-    "lng": 127.062402866859,
-    "classCount": 36,
-    "facilityScore": 75,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-05"
-  },
   "전북::새솔중학교": {
     "neisCode": "8442042",
     "atptCode": "P10",
@@ -12280,6 +12265,21 @@
     "facilityScore": 55,
     "transitScore": 0,
     "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-05"
+  },
+  "서울::서울금융고등학교": {
+    "neisCode": "7010964",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 양천구 가로공원로61길 19",
+    "lat": 37.5376595496119,
+    "lng": 126.825914607519,
+    "classCount": 22,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-05"
