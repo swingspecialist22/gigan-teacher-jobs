@@ -12043,5 +12043,20 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-07-05"
+  },
+  "광주::광주세광학교": {
+    "neisCode": "7140366",
+    "atptCode": "F10",
+    "schoolType": "특수학교",
+    "address": "전남광주통합특별시 서구 유덕로 177",
+    "lat": 35.1684081204636,
+    "lng": 126.836012934011,
+    "classCount": 23,
+    "facilityScore": 7,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-07-05"
   }
 }
