@@ -239,21 +239,6 @@
     "statsEstimated": true,
     "updated": "2026-07-07"
   },
-  "서울::당곡고등학교": {
-    "neisCode": "7010073",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 관악구 봉천로21길 108",
-    "lat": 37.4917603442825,
-    "lng": 126.934246405052,
-    "classCount": 25,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-07"
-  },
   "인천::계산공업고등학교": {
     "neisCode": "7310090",
     "atptCode": "E10",
@@ -14846,6 +14831,21 @@
     "transitScore": 67,
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-07-07"
+  },
+  "충남::공주생명과학고등학교": {
+    "neisCode": "8140238",
+    "atptCode": "N10",
+    "schoolType": "고등학교",
+    "address": "충청남도 공주시 금벽로 317",
+    "lat": 36.4734663879329,
+    "lng": 127.122704017145,
+    "classCount": 15,
+    "facilityScore": 68,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-07"
   }
