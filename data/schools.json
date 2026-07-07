@@ -14293,5 +14293,20 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-07"
+  },
+  "대전::대전반석고등학교": {
+    "neisCode": "7430238",
+    "atptCode": "G10",
+    "schoolType": "고등학교",
+    "address": "대전광역시 유성구 지족로 332",
+    "lat": 36.3869187814534,
+    "lng": 127.313524211805,
+    "classCount": 30,
+    "facilityScore": 80,
+    "transitScore": 67,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-07"
   }
 }
