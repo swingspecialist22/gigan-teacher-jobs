@@ -1229,21 +1229,6 @@
     "statsEstimated": true,
     "updated": "2026-07-09"
   },
-  "전북::전북푸른학교": {
-    "neisCode": "8321230",
-    "atptCode": "P10",
-    "schoolType": "특수학교",
-    "address": "전북특별자치도 완주군 고산면 대아저수로 157-11",
-    "lat": 35.9900111412498,
-    "lng": 127.239031182667,
-    "classCount": 21,
-    "facilityScore": 0,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-09"
-  },
   "충북::충주대소원초": {
     "neisCode": "8021144",
     "atptCode": "M10",
