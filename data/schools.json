@@ -4049,21 +4049,6 @@
     "statsEstimated": true,
     "updated": "2026-07-11"
   },
-  "서울::휘문고등학교": {
-    "neisCode": "7010268",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 강남구 역삼로 541",
-    "lat": 37.5052894535671,
-    "lng": 127.061993880621,
-    "classCount": 36,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-11"
-  },
   "경기::평촌고등학교": {
     "neisCode": "7530131",
     "atptCode": "J10",
@@ -11039,21 +11024,6 @@
     "statsEstimated": true,
     "updated": "2026-07-11"
   },
-  "전북::군산영광중학교": {
-    "neisCode": "8342146",
-    "atptCode": "P10",
-    "schoolType": "중학교",
-    "address": "전북특별자치도 군산시 둔배미길 21",
-    "lat": 35.9826664165004,
-    "lng": 126.714829639813,
-    "classCount": 15,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-11"
-  },
   "서울::남대문중학교": {
     "neisCode": "7121360",
     "atptCode": "B10",
@@ -14051,6 +14021,36 @@
     "transitScore": 67,
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
+    "statsEstimated": true,
+    "updated": "2026-07-11"
+  },
+  "서울::서울묵현초등학교": {
+    "neisCode": "7021094",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 중랑구 동일로157길 75",
+    "lat": 37.609044756978,
+    "lng": 127.073928695922,
+    "classCount": 22,
+    "facilityScore": 83,
+    "transitScore": 100,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-07-11"
+  },
+  "서울::화랑초등학교": {
+    "neisCode": "7051173",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 노원구 화랑로 621",
+    "lat": 37.6273815936787,
+    "lng": 127.091621159803,
+    "classCount": 24,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-07-11"
   }
