@@ -13259,21 +13259,6 @@
     "statsEstimated": true,
     "updated": "2026-07-19"
   },
-  "서울::신남중학교": {
-    "neisCode": "7081501",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 양천구 중앙로29길 109",
-    "lat": 37.520773887801,
-    "lng": 126.847826214409,
-    "classCount": 22,
-    "facilityScore": 82,
-    "transitScore": 67,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-19"
-  },
   "서울::서울우이초등학교": {
     "neisCode": "7121322",
     "atptCode": "B10",
@@ -13720,6 +13705,21 @@
     "facilityScore": 83,
     "transitScore": 0,
     "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-19"
+  },
+  "경기::신장고등학교": {
+    "neisCode": "7530657",
+    "atptCode": "J10",
+    "schoolType": "고등학교",
+    "address": "경기도 하남시 신장동로 19",
+    "lat": 37.5438320642969,
+    "lng": 127.209760176098,
+    "classCount": 30,
+    "facilityScore": 78,
+    "transitScore": 33,
+    "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-19"
