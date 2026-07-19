@@ -13453,5 +13453,50 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-19"
+  },
+  "경기::야탑고등학교": {
+    "neisCode": "7530548",
+    "atptCode": "J10",
+    "schoolType": "고등학교",
+    "address": "경기도 성남시 분당구 판교로 738",
+    "lat": 37.4037683255112,
+    "lng": 127.153564494099,
+    "classCount": 30,
+    "facilityScore": 53,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-19"
+  },
+  "경남::양산희망학교": {
+    "neisCode": "9010434",
+    "atptCode": "S10",
+    "schoolType": "특수학교",
+    "address": "경상남도 양산시 상북면 충렬로 993-25",
+    "lat": 35.4276677204641,
+    "lng": 129.059385172519,
+    "classCount": 53,
+    "facilityScore": 37,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-07-19"
+  },
+  "세종::세종여자고등학교": {
+    "neisCode": "9300185",
+    "atptCode": "I10",
+    "schoolType": "고등학교",
+    "address": "세종특별자치시  조치원읍 봉산로 16",
+    "lat": 36.6079087062266,
+    "lng": 127.287907560703,
+    "classCount": 28,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-19"
   }
 }
