@@ -14128,5 +14128,35 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-21"
+  },
+  "대전::대전이문고등학교": {
+    "neisCode": "7430240",
+    "atptCode": "G10",
+    "schoolType": "고등학교",
+    "address": "대전광역시 대덕구 석봉로 15",
+    "lat": 36.4473121403739,
+    "lng": 127.423477878465,
+    "classCount": 24,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-21"
+  },
+  "충남::대흥중학교": {
+    "neisCode": "8271012",
+    "atptCode": "N10",
+    "schoolType": "중학교",
+    "address": "충청남도 예산군 대흥면 예당로 845",
+    "lat": 36.605486561109,
+    "lng": 126.791605589418,
+    "classCount": 6,
+    "facilityScore": 30,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-07-21"
   }
 }
