@@ -14833,5 +14833,35 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-22"
+  },
+  "경북::선산고등학교": {
+    "neisCode": "8750105",
+    "atptCode": "R10",
+    "schoolType": "고등학교",
+    "address": "경상북도 구미시 선산읍 단계서4길 18",
+    "lat": 36.2482011485738,
+    "lng": 128.295062273611,
+    "classCount": 12,
+    "facilityScore": 65,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-07-22"
+  },
+  "경기::광주중학교": {
+    "neisCode": "7692042",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 광주시 경안로42번길 11",
+    "lat": 37.4096535887497,
+    "lng": 127.254373704881,
+    "classCount": 24,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-07-22"
   }
 }
