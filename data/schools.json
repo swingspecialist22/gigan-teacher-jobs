@@ -157,7 +157,7 @@
     "lat": 37.7726039859556,
     "lng": 126.762887305161,
     "classCount": 27,
-    "facilityScore": 43,
+    "facilityScore": 45,
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
@@ -11924,21 +11924,6 @@
     "statsEstimated": true,
     "updated": "2026-07-23"
   },
-  "경북::경산중학교": {
-    "neisCode": "8851088",
-    "atptCode": "R10",
-    "schoolType": "중학교",
-    "address": "경상북도 경산시 원효로 89",
-    "lat": 35.8242862609617,
-    "lng": 128.74846467395,
-    "classCount": 26,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-23"
-  },
   "전북::영선중학교": {
     "neisCode": "8452060",
     "atptCode": "P10",
@@ -13349,21 +13334,6 @@
     "statsEstimated": true,
     "updated": "2026-07-23"
   },
-  "서울::신반포중학교": {
-    "neisCode": "7091438",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 서초구 신반포로19길 26",
-    "lat": 37.5062653180781,
-    "lng": 126.996124207907,
-    "classCount": 30,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-23"
-  },
   "세종::온빛초등학교": {
     "neisCode": "9300169",
     "atptCode": "I10",
@@ -14246,6 +14216,21 @@
     "transitScore": 0,
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-07-23"
+  },
+  "경북::구미산동고등학교": {
+    "neisCode": "8750754",
+    "atptCode": "R10",
+    "schoolType": "고등학교",
+    "address": "경상북도 구미시 산동읍 신당인덕2로 11",
+    "lat": 36.1591502546952,
+    "lng": 128.436367992469,
+    "classCount": 24,
+    "facilityScore": 82,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-23"
   }
