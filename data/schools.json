@@ -4394,21 +4394,6 @@
     "statsEstimated": true,
     "updated": "2026-07-25"
   },
-  "경남::창원중앙중": {
-    "neisCode": "9022170",
-    "atptCode": "S10",
-    "schoolType": "중학교",
-    "address": "경상남도 창원시 성산구 반지로3번길 14",
-    "lat": 35.2401285301799,
-    "lng": 128.657399171468,
-    "classCount": 11,
-    "facilityScore": 82,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-07-25"
-  },
   "서울::선일여자중학교": {
     "neisCode": "7031192",
     "atptCode": "B10",
@@ -6101,21 +6086,6 @@
     "transitScore": 0,
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-07-25"
-  },
-  "경남::김해경원고": {
-    "neisCode": "9010040",
-    "atptCode": "S10",
-    "schoolType": "고등학교",
-    "address": "경상남도 김해시 우암로 18",
-    "lat": 35.2318563706783,
-    "lng": 128.861817165997,
-    "classCount": 27,
-    "facilityScore": 83,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-25"
   },
