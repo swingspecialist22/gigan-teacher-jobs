@@ -12553,5 +12553,20 @@
     "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-07-26"
+  },
+  "대전::대전여자중학교": {
+    "neisCode": "7441023",
+    "atptCode": "G10",
+    "schoolType": "중학교",
+    "address": "대전광역시 중구 보문로230번길 69",
+    "lat": 36.3252530086963,
+    "lng": 127.425573390028,
+    "classCount": 18,
+    "facilityScore": 77,
+    "transitScore": 100,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-07-26"
   }
 }
