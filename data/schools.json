@@ -1274,21 +1274,6 @@
     "statsEstimated": true,
     "updated": "2026-07-29"
   },
-  "인천::인천국제고등학교": {
-    "neisCode": "7310334",
-    "atptCode": "E10",
-    "schoolType": "고등학교",
-    "address": "인천광역시 영종구 영종대로277번길 74-40",
-    "lat": 37.4897003932783,
-    "lng": 126.508873640868,
-    "classCount": 18,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-29"
-  },
   "인천::서운고등학교": {
     "neisCode": "7310204",
     "atptCode": "E10",
@@ -12491,6 +12476,21 @@
     "transitScore": 67,
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-07-29"
+  },
+  "전북::전주평화중학교": {
+    "neisCode": "8332223",
+    "atptCode": "P10",
+    "schoolType": "중학교",
+    "address": "전북특별자치도 전주시 완산구 평화로 74",
+    "lat": 35.7833732159703,
+    "lng": 127.134015996687,
+    "classCount": 24,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-07-29"
   }
