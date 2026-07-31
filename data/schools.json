@@ -6239,36 +6239,6 @@
     "statsEstimated": true,
     "updated": "2026-07-31"
   },
-  "대전::서일고등학교": {
-    "neisCode": "7430061",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 서구 계백로828번길 30",
-    "lat": 36.2933263592364,
-    "lng": 127.323636237314,
-    "classCount": 27,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
-  "대전::대전여자고등학교": {
-    "neisCode": "7430036",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 동구 용운로1번길 28-37",
-    "lat": 36.3300002486211,
-    "lng": 127.446273615021,
-    "classCount": 36,
-    "facilityScore": 77,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
   "서울::밀알학교": {
     "neisCode": "7010460",
     "atptCode": "B10",
@@ -6494,21 +6464,6 @@
     "statsEstimated": true,
     "updated": "2026-07-31"
   },
-  "대전::대전대성여자고등학교": {
-    "neisCode": "7430326",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 동구 대성2길 20",
-    "lat": 36.3377260383797,
-    "lng": 127.44056173937,
-    "classCount": 33,
-    "facilityScore": 75,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
   "경북::형일초등학교": {
     "neisCode": "8801133",
     "atptCode": "R10",
@@ -6614,21 +6569,6 @@
     "statsEstimated": true,
     "updated": "2026-07-31"
   },
-  "대전::유성고등학교": {
-    "neisCode": "7430042",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 유성구 유성대로654번길 130",
-    "lat": 36.3492173781649,
-    "lng": 127.334774996888,
-    "classCount": 36,
-    "facilityScore": 80,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
   "경북::농소초등학교": {
     "neisCode": "8781059",
     "atptCode": "R10",
@@ -6719,21 +6659,6 @@
     "statsEstimated": true,
     "updated": "2026-07-31"
   },
-  "대전::명석고등학교": {
-    "neisCode": "7430056",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 동구 우암로 380",
-    "lat": 36.3529874575478,
-    "lng": 127.454245273207,
-    "classCount": 33,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
   "제주::함덕초등학교": {
     "neisCode": "9296085",
     "atptCode": "T10",
@@ -6779,36 +6704,6 @@
     "statsEstimated": true,
     "updated": "2026-07-31"
   },
-  "대전::신탄진용정초등학교": {
-    "neisCode": "7441113",
-    "atptCode": "G10",
-    "schoolType": "초등학교",
-    "address": "대전광역시 대덕구 대청로 65",
-    "lat": 36.4542152156562,
-    "lng": 127.436011977683,
-    "classCount": 23,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
-  "대전::대전노은초등학교": {
-    "neisCode": "7451074",
-    "atptCode": "G10",
-    "schoolType": "초등학교",
-    "address": "대전광역시 유성구 노은동로99번길 35",
-    "lat": 36.368966396155,
-    "lng": 127.320935599882,
-    "classCount": 34,
-    "facilityScore": 80,
-    "transitScore": 67,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
   "경기::목암중학교": {
     "neisCode": "7621010",
     "atptCode": "J10",
@@ -6836,21 +6731,6 @@
     "transitScore": 100,
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
-  "대전::대전제일고등학교": {
-    "neisCode": "7430242",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 서구 배재로46번길 77",
-    "lat": 36.3133742849195,
-    "lng": 127.372358859927,
-    "classCount": 24,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-07-31"
   },
@@ -7031,21 +6911,6 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-07-31"
-  },
-  "대전::대전동광초등학교": {
-    "neisCode": "7441059",
-    "atptCode": "G10",
-    "schoolType": "초등학교",
-    "address": "대전 동구 백룡로11번길 20",
-    "lat": 36.3373553397309,
-    "lng": 127.449528014972,
-    "classCount": 7,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-07-31"
   },
