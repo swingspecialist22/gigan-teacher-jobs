@@ -2744,21 +2744,6 @@
     "statsEstimated": true,
     "updated": "2026-08-01"
   },
-  "서울::서울당곡초등학교": {
-    "neisCode": "7132090",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 관악구 보라매로2길 23",
-    "lat": 37.4901681154487,
-    "lng": 126.930369788237,
-    "classCount": 19,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-08-01"
-  },
   "서울::서울서빙고초등학교": {
     "neisCode": "7061069",
     "atptCode": "B10",
@@ -10826,6 +10811,51 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-01"
+  },
+  "충남::대천중학교": {
+    "neisCode": "8171008",
+    "atptCode": "N10",
+    "schoolType": "중학교",
+    "address": "충청남도 보령시 보령남로 23",
+    "lat": 36.342392396716,
+    "lng": 126.600564304501,
+    "classCount": 18,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-01"
+  },
+  "서울::광영여자고등학교": {
+    "neisCode": "7010135",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 양천구 남부순환로30길 17",
+    "lat": 37.5371981027922,
+    "lng": 126.823275879439,
+    "classCount": 34,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-01"
+  },
+  "충남::아산충무고등학교": {
+    "neisCode": "8140491",
+    "atptCode": "N10",
+    "schoolType": "고등학교",
+    "address": "충청남도 아산시 둔포면 둔포로38번길 145",
+    "lat": 36.928376507935,
+    "lng": 127.054007125718,
+    "classCount": 17,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-01"
   }
