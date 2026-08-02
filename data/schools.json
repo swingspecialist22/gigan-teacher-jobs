@@ -3044,21 +3044,6 @@
     "statsEstimated": true,
     "updated": "2026-08-02"
   },
-  "서울::한영중학교": {
-    "neisCode": "7130209",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강동구 동남로 832",
-    "lat": 37.5490844724681,
-    "lng": 127.156927612469,
-    "classCount": 26,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-02"
-  },
   "서울::동덕여자중학교": {
     "neisCode": "7091450",
     "atptCode": "B10",
@@ -10750,6 +10735,36 @@
     "facilityScore": 7,
     "transitScore": 0,
     "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-02"
+  },
+  "충남::신평초등학교": {
+    "neisCode": "8291038",
+    "atptCode": "N10",
+    "schoolType": "초등학교",
+    "address": "충청남도 당진시 신평면 원머리로 7",
+    "lat": 36.886338706633,
+    "lng": 126.772176728462,
+    "classCount": 9,
+    "facilityScore": 38,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-08-02"
+  },
+  "서울::삼각산고등학교": {
+    "neisCode": "7010985",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 강북구 삼양로19길 40",
+    "lat": 37.6162857334914,
+    "lng": 127.020107911458,
+    "classCount": 22,
+    "facilityScore": 82,
+    "transitScore": 100,
+    "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-02"
