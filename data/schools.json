@@ -12104,21 +12104,6 @@
     "statsEstimated": true,
     "updated": "2026-08-04"
   },
-  "서울::서울청구초등학교": {
-    "neisCode": "7061081",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 중구 다산로 170",
-    "lat": 37.5591166793514,
-    "lng": 127.013724413955,
-    "classCount": 21,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-08-04"
-  },
   "인천::인천서면초등학교": {
     "neisCode": "7341035",
     "atptCode": "E10",
@@ -12144,6 +12129,21 @@
     "classCount": 12,
     "facilityScore": 77,
     "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-04"
+  },
+  "서울::홍은중학교": {
+    "neisCode": "7031222",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 서대문구 연희로41길 94",
+    "lat": 37.5918915088396,
+    "lng": 126.935752441047,
+    "classCount": 13,
+    "facilityScore": 78,
+    "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
