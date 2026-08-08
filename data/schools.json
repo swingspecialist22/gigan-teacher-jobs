@@ -3104,21 +3104,6 @@
     "statsEstimated": true,
     "updated": "2026-08-08"
   },
-  "서울::서울당곡초등학교": {
-    "neisCode": "7132090",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 관악구 보라매로2길 23",
-    "lat": 37.4901681154487,
-    "lng": 126.930369788237,
-    "classCount": 19,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-08-08"
-  },
   "서울::보성중학교": {
     "neisCode": "7130182",
     "atptCode": "B10",
@@ -12071,6 +12056,36 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-08"
+  },
+  "서울::등명중학교": {
+    "neisCode": "7081489",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 강서구 공항대로39길 39",
+    "lat": 37.5601933510779,
+    "lng": 126.843304086976,
+    "classCount": 24,
+    "facilityScore": 88,
+    "transitScore": 100,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-08"
+  },
+  "인천::인천석암초등학교": {
+    "neisCode": "7321031",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 미추홀구 주안동로 46",
+    "lat": 37.4623566788987,
+    "lng": 126.686733449896,
+    "classCount": 41,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
     "statsEstimated": true,
     "updated": "2026-08-08"
   }
