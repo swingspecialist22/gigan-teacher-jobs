@@ -119,21 +119,6 @@
     "statsEstimated": true,
     "updated": "2026-08-08"
   },
-  "인천::인천성동학교": {
-    "neisCode": "7310152",
-    "atptCode": "E10",
-    "schoolType": "특수학교",
-    "address": "인천광역시 부평구 경인로 880",
-    "lat": 37.4849065887549,
-    "lng": 126.717978742916,
-    "classCount": 17,
-    "facilityScore": 80,
-    "transitScore": 100,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-08"
-  },
   "인천::연수여자고등학교": {
     "neisCode": "7310054",
     "atptCode": "E10",
