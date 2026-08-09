@@ -3029,21 +3029,6 @@
     "statsEstimated": true,
     "updated": "2026-08-09"
   },
-  "서울::혜원여자고등학교": {
-    "neisCode": "7010262",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 중랑구 봉우재로58길 39",
-    "lat": 37.5932798745236,
-    "lng": 127.097042711299,
-    "classCount": 24,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-09"
-  },
   "경기::수일고등학교": {
     "neisCode": "7530524",
     "atptCode": "J10",
@@ -4991,21 +4976,6 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-09"
-  },
-  "서울::안천중학교": {
-    "neisCode": "7041184",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 금천구 한내로 69-44",
-    "lat": 37.4595242629201,
-    "lng": 126.887498771184,
-    "classCount": 18,
-    "facilityScore": 87,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-09"
   },
@@ -7781,21 +7751,6 @@
     "transitScore": 67,
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-08-09"
-  },
-  "서울::서울신구로초등학교": {
-    "neisCode": "7041136",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 구로구 가마산로27길 69",
-    "lat": 37.4994208675251,
-    "lng": 126.888857414498,
-    "classCount": 22,
-    "facilityScore": 83,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 15,
     "statsEstimated": true,
     "updated": "2026-08-09"
   },
@@ -11864,21 +11819,6 @@
     "statsEstimated": true,
     "updated": "2026-08-09"
   },
-  "충남::천안가람초등학교": {
-    "neisCode": "8151278",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 천안시 서북구 성성6로 47-11",
-    "lat": 36.8432271914457,
-    "lng": 127.124296334328,
-    "classCount": 61,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-08-09"
-  },
   "충남::서산예천초등학교": {
     "neisCode": "8191090",
     "atptCode": "N10",
@@ -13196,6 +13136,36 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-09"
+  },
+  "경기::미금중학교": {
+    "neisCode": "7652076",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 남양주시 미금로 140",
+    "lat": 37.6149774446693,
+    "lng": 127.159316866037,
+    "classCount": 13,
+    "facilityScore": 80,
+    "transitScore": 33,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-09"
+  },
+  "인천::인천창영초등학교": {
+    "neisCode": "7321054",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 제물포구 우각로15번길 16",
+    "lat": 37.4715066843703,
+    "lng": 126.639695419315,
+    "classCount": 13,
+    "facilityScore": 77,
+    "transitScore": 67,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-08-09"
   }
