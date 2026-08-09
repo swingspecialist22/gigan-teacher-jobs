@@ -11819,21 +11819,6 @@
     "statsEstimated": true,
     "updated": "2026-08-09"
   },
-  "충남::서산예천초등학교": {
-    "neisCode": "8191090",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 서산시 예천1로 3-21",
-    "lat": 36.7699660436644,
-    "lng": 126.44974090812,
-    "classCount": 32,
-    "facilityScore": 82,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-08-09"
-  },
   "강원::화천고등학교": {
     "neisCode": "7801202",
     "atptCode": "K10",
@@ -13166,6 +13151,21 @@
     "transitScore": 67,
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
+    "statsEstimated": true,
+    "updated": "2026-08-09"
+  },
+  "서울::홍익대학교사범대학부속중학교": {
+    "neisCode": "7121368",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 성북구 성북로14가길 23",
+    "lat": 37.5936666161184,
+    "lng": 127.002804963597,
+    "classCount": 13,
+    "facilityScore": 83,
+    "transitScore": 33,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-09"
   }
