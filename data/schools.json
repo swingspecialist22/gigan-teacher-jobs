@@ -9869,21 +9869,6 @@
     "statsEstimated": true,
     "updated": "2026-08-11"
   },
-  "충남::서산부춘중학교": {
-    "neisCode": "8191008",
-    "atptCode": "N10",
-    "schoolType": "중학교",
-    "address": "충청남도 서산시 부춘2로 42",
-    "lat": 36.7861560509379,
-    "lng": 126.44353329163,
-    "classCount": 17,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-11"
-  },
   "충남::부석중학교": {
     "neisCode": "8191007",
     "atptCode": "N10",
@@ -13889,21 +13874,6 @@
     "statsEstimated": true,
     "updated": "2026-08-11"
   },
-  "제주::세화중학교": {
-    "neisCode": "9296029",
-    "atptCode": "T10",
-    "schoolType": "중학교",
-    "address": "제주특별자치도 제주시 구좌읍 일주동로 3132",
-    "lat": 33.52155716141,
-    "lng": 126.853067740454,
-    "classCount": 9,
-    "facilityScore": 67,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-11"
-  },
   "서울::신창중학교": {
     "neisCode": "7051195",
     "atptCode": "B10",
@@ -13945,6 +13915,21 @@
     "facilityScore": 82,
     "transitScore": 67,
     "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-11"
+  },
+  "경북::경북항공고등학교": {
+    "neisCode": "8750557",
+    "atptCode": "R10",
+    "schoolType": "고등학교",
+    "address": "경상북도 영주시 풍기읍 금계로 90",
+    "lat": 36.880338319044,
+    "lng": 128.526668229616,
+    "classCount": 12,
+    "facilityScore": 55,
+    "transitScore": 0,
+    "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-11"
