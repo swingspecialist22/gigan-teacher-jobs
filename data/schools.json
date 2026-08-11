@@ -13933,5 +13933,20 @@
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-11"
+  },
+  "경기::신현중학교": {
+    "neisCode": "7692151",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 광주시 태재로 20-17",
+    "lat": 37.3579915976832,
+    "lng": 127.151155075234,
+    "classCount": 32,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-11"
   }
 }
