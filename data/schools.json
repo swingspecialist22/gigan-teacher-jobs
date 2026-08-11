@@ -119,21 +119,6 @@
     "statsEstimated": true,
     "updated": "2026-08-11"
   },
-  "인천::상인천초등학교": {
-    "neisCode": "7341012",
-    "atptCode": "E10",
-    "schoolType": "초등학교",
-    "address": "인천광역시 남동구 석산로141번길 29",
-    "lat": 37.4612552448574,
-    "lng": 126.706657128786,
-    "classCount": 18,
-    "facilityScore": 80,
-    "transitScore": 100,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-08-11"
-  },
   "인천::인천동명초등학교": {
     "neisCode": "7321067",
     "atptCode": "E10",
