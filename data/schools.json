@@ -614,21 +614,6 @@
     "statsEstimated": true,
     "updated": "2026-08-12"
   },
-  "인천::인천구산초등학교": {
-    "neisCode": "7331014",
-    "atptCode": "E10",
-    "schoolType": "초등학교",
-    "address": "인천광역시 부평구 부개로 93",
-    "lat": 37.5060486531413,
-    "lng": 126.739604624312,
-    "classCount": 14,
-    "facilityScore": 83,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-08-12"
-  },
   "경북::농소초등학교": {
     "neisCode": "8781059",
     "atptCode": "R10",
@@ -2774,21 +2759,6 @@
     "statsEstimated": true,
     "updated": "2026-08-12"
   },
-  "서울::방배중학교": {
-    "neisCode": "7091430",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 서초구 동광로 144",
-    "lat": 37.494868265986,
-    "lng": 126.997827018537,
-    "classCount": 26,
-    "facilityScore": 80,
-    "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-12"
-  },
   "서울::지구촌학교": {
     "neisCode": "7041214",
     "atptCode": "B10",
@@ -3791,21 +3761,6 @@
     "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-12"
-  },
-  "서울::리라아트고등학교": {
-    "neisCode": "7010908",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 중구 소파로2길 ",
-    "lat": 37.5576622746229,
-    "lng": 126.987778499953,
-    "classCount": 18,
-    "facilityScore": 75,
-    "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-12"
   },
@@ -15311,6 +15266,36 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-12"
+  },
+  "부산::사직고": {
+    "neisCode": "7150112",
+    "atptCode": "C10",
+    "schoolType": "고등학교",
+    "address": "부산광역시 동래구 쇠미로119번길 51",
+    "lat": 35.2036221372213,
+    "lng": 129.055978602166,
+    "classCount": 27,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-12"
+  },
+  "서울::방산중학교": {
+    "neisCode": "7130178",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 송파구 오금로29길 31",
+    "lat": 37.5093439082296,
+    "lng": 127.121567809411,
+    "classCount": 16,
+    "facilityScore": 87,
+    "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-12"
   }
