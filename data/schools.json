@@ -1814,21 +1814,6 @@
     "statsEstimated": true,
     "updated": "2026-08-12"
   },
-  "서울::서울반도체고등학교": {
-    "neisCode": "7011575",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 동대문구 겸재로 21",
-    "lat": 37.5851530128648,
-    "lng": 127.069450940954,
-    "classCount": 3,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-12"
-  },
   "경기::부흥고등학교": {
     "neisCode": "7530074",
     "atptCode": "J10",
@@ -15322,6 +15307,21 @@
     "lat": 37.2955207980732,
     "lng": 127.646286515014,
     "classCount": 20,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-12"
+  },
+  "서울::영동중학교": {
+    "neisCode": "7091445",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 서초구 성촌길 14",
+    "lat": 37.465986287158,
+    "lng": 127.025140749981,
+    "classCount": 36,
     "facilityScore": 77,
     "transitScore": 0,
     "classStudentRatio": 27,
