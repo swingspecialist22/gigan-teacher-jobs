@@ -1214,21 +1214,6 @@
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
-  "전북::변산서중학교": {
-    "neisCode": "8462061",
-    "atptCode": "P10",
-    "schoolType": "중학교",
-    "address": "전북특별자치도 부안군 변산면 지서로 139",
-    "lat": 35.6626577648104,
-    "lng": 126.520789097822,
-    "classCount": 4,
-    "facilityScore": 37,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
   "경북::안동영명학교": {
     "neisCode": "8750360",
     "atptCode": "R10",
@@ -1345,21 +1330,6 @@
     "facilityScore": 37,
     "transitScore": 0,
     "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
-  "전북::전주여자상업고등학교": {
-    "neisCode": "8321272",
-    "atptCode": "P10",
-    "schoolType": "고등학교",
-    "address": "전북특별자치도 전주시 완산구 따박골2길 21",
-    "lat": 35.8106759043578,
-    "lng": 127.124988153581,
-    "classCount": 14,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-13"
@@ -1522,7 +1492,7 @@
     "lat": 35.1616317053989,
     "lng": 128.689397121305,
     "classCount": 21,
-    "facilityScore": 80,
+    "facilityScore": 78,
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
@@ -1570,21 +1540,6 @@
     "facilityScore": 80,
     "transitScore": 33,
     "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
-  "전북::전주여자고등학교": {
-    "neisCode": "8321081",
-    "atptCode": "P10",
-    "schoolType": "고등학교",
-    "address": "전북특별자치도 전주시 덕진구 모래내6길 14",
-    "lat": 35.8366531136614,
-    "lng": 127.146215205606,
-    "classCount": 30,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-13"
@@ -1799,21 +1754,6 @@
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
-  "전북::전주오송초등학교": {
-    "neisCode": "8332140",
-    "atptCode": "P10",
-    "schoolType": "초등학교",
-    "address": "전북특별자치도 전주시 덕진구 천마산로 87",
-    "lat": 35.8660214647264,
-    "lng": 127.13035645332,
-    "classCount": 37,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
   "경남::경남꿈키움중": {
     "neisCode": "9010533",
     "atptCode": "S10",
@@ -1994,21 +1934,6 @@
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
-  "전북::전주효문중학교": {
-    "neisCode": "8332235",
-    "atptCode": "P10",
-    "schoolType": "중학교",
-    "address": "전북특별자치도 전주시 완산구 용리로 92",
-    "lat": 35.7982023026868,
-    "lng": 127.119892661821,
-    "classCount": 17,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
   "경남::마산중앙중": {
     "neisCode": "9022134",
     "atptCode": "S10",
@@ -2047,7 +1972,7 @@
     "lat": 37.3754276525261,
     "lng": 127.973197728272,
     "classCount": 9,
-    "facilityScore": 43,
+    "facilityScore": 45,
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
@@ -2276,21 +2201,6 @@
     "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
-  "전북::전주솔빛중학교": {
-    "neisCode": "8332200",
-    "atptCode": "P10",
-    "schoolType": "중학교",
-    "address": "전북특별자치도 전주시 덕진구 솔내6길 33",
-    "lat": 35.8590482838034,
-    "lng": 127.124057665467,
-    "classCount": 26,
-    "facilityScore": 83,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
@@ -3554,21 +3464,6 @@
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
-  "전북::전주화정중학교": {
-    "neisCode": "8332211",
-    "atptCode": "P10",
-    "schoolType": "중학교",
-    "address": "전북특별자치도 전주시 덕진구 세병로 66",
-    "lat": 35.8715835143672,
-    "lng": 127.130634747947,
-    "classCount": 30,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
   "경남::대청중": {
     "neisCode": "9091177",
     "atptCode": "S10",
@@ -4450,21 +4345,6 @@
     "facilityScore": 82,
     "transitScore": 33,
     "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
-  "전북::전주만성중학교": {
-    "neisCode": "8332226",
-    "atptCode": "P10",
-    "schoolType": "중학교",
-    "address": "전북특별자치도 전주시 덕진구 오공로 99",
-    "lat": 35.8367727742549,
-    "lng": 127.066343749317,
-    "classCount": 28,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-13"
@@ -11234,21 +11114,6 @@
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
-  "경기::서연고등학교": {
-    "neisCode": "7531373",
-    "atptCode": "J10",
-    "schoolType": "고등학교",
-    "address": "경기도 화성시 동탄대로4가길 6",
-    "lat": 37.1608528509764,
-    "lng": 127.111313028964,
-    "classCount": 36,
-    "facilityScore": 82,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
   "경북::경북일고등학교": {
     "neisCode": "8750724",
     "atptCode": "R10",
@@ -11396,21 +11261,6 @@
     "transitScore": 33,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
-  "경기::한백초등학교": {
-    "neisCode": "7679335",
-    "atptCode": "J10",
-    "schoolType": "초등학교",
-    "address": "경기도 화성시 동탄순환대로26길 37",
-    "lat": 37.2083602150216,
-    "lng": 127.114968849792,
-    "classCount": 41,
-    "facilityScore": 82,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 15,
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
@@ -15854,21 +15704,6 @@
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
-  "충남::천안공업고등학교": {
-    "neisCode": "8140139",
-    "atptCode": "N10",
-    "schoolType": "고등학교",
-    "address": "충청남도 천안시 동남구 성황5길 17",
-    "lat": 36.8148469316667,
-    "lng": 127.155650756436,
-    "classCount": 42,
-    "facilityScore": 85,
-    "transitScore": 33,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
   "경북::가산초등학교": {
     "neisCode": "8941039",
     "atptCode": "R10",
@@ -16826,6 +16661,36 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-13"
+  },
+  "서울::경성중학교": {
+    "neisCode": "7031179",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 마포구 성미산로 111",
+    "lat": 37.563510635781,
+    "lng": 126.919166278819,
+    "classCount": 13,
+    "facilityScore": 78,
+    "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-13"
+  },
+  "충남::원당중학교": {
+    "neisCode": "8291086",
+    "atptCode": "N10",
+    "schoolType": "중학교",
+    "address": "충청남도 당진시 밤절로 72-34",
+    "lat": 36.9000480803942,
+    "lng": 126.640907524637,
+    "classCount": 34,
+    "facilityScore": 82,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-13"
   }
