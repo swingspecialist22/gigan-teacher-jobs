@@ -7694,21 +7694,6 @@
     "statsEstimated": true,
     "updated": "2026-08-13"
   },
-  "경기::안산해양중학교": {
-    "neisCode": "7611124",
-    "atptCode": "J10",
-    "schoolType": "중학교",
-    "address": "경기도 안산시 상록구 해양로 11",
-    "lat": 37.2953254044463,
-    "lng": 126.821256275459,
-    "classCount": 17,
-    "facilityScore": 68,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-13"
-  },
   "경기::서해고등학교": {
     "neisCode": "7530082",
     "atptCode": "J10",
@@ -16823,6 +16808,21 @@
     "lng": 126.35600961869,
     "classCount": 7,
     "facilityScore": 32,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-13"
+  },
+  "서울::세그루패션디자인고등학교": {
+    "neisCode": "7011084",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 도봉구 시루봉로 53",
+    "lat": 37.6562750160952,
+    "lng": 127.026703057445,
+    "classCount": 24,
+    "facilityScore": 82,
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
