@@ -14669,21 +14669,6 @@
     "statsEstimated": true,
     "updated": "2026-08-14"
   },
-  "인천::인천사리울중학교": {
-    "neisCode": "7341223",
-    "atptCode": "E10",
-    "schoolType": "중학교",
-    "address": "인천광역시 남동구 에코중앙로84번길 12",
-    "lat": 37.3856969934452,
-    "lng": 126.720127958134,
-    "classCount": 24,
-    "facilityScore": 67,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-14"
-  },
   "서울::서울배봉초등학교": {
     "neisCode": "7021095",
     "atptCode": "B10",
@@ -16601,6 +16586,36 @@
     "transitScore": 0,
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-14"
+  },
+  "서울::영원중학교": {
+    "neisCode": "7041190",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 영등포구 영등포로62길 31",
+    "lat": 37.5149741902707,
+    "lng": 126.913646864883,
+    "classCount": 18,
+    "facilityScore": 82,
+    "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-14"
+  },
+  "인천::인천신검단초등학교": {
+    "neisCode": "7361336",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 검단구 금정로 55",
+    "lat": 37.6093755570395,
+    "lng": 126.700520093007,
+    "classCount": 74,
+    "facilityScore": 70,
+    "transitScore": 33,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-08-14"
   }
