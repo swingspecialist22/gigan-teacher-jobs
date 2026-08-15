@@ -16948,5 +16948,35 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-15"
+  },
+  "충남::위례초등학교": {
+    "neisCode": "8151064",
+    "atptCode": "N10",
+    "schoolType": "초등학교",
+    "address": "충청남도 천안시 동남구 북면 오곡2길 6-13",
+    "lat": 36.8246067328958,
+    "lng": 127.274405651928,
+    "classCount": 4,
+    "facilityScore": 13,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-08-15"
+  },
+  "제주::제주서중학교": {
+    "neisCode": "9296016",
+    "atptCode": "T10",
+    "schoolType": "중학교",
+    "address": "제주특별자치도 제주시 일주서로 7811",
+    "lat": 33.4947445805808,
+    "lng": 126.481035555874,
+    "classCount": 43,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-15"
   }
 }
