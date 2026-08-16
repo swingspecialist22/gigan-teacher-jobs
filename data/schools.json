@@ -3449,21 +3449,6 @@
     "statsEstimated": true,
     "updated": "2026-08-16"
   },
-  "서울::성내중학교": {
-    "neisCode": "7130187",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강동구 성안로7길 36",
-    "lat": 37.5290619074653,
-    "lng": 127.129117291814,
-    "classCount": 20,
-    "facilityScore": 85,
-    "transitScore": 100,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-16"
-  },
   "경기::능동중학교": {
     "neisCode": "7679103",
     "atptCode": "J10",
@@ -12389,21 +12374,6 @@
     "statsEstimated": true,
     "updated": "2026-08-16"
   },
-  "인천::인천장서초등학교": {
-    "neisCode": "7341270",
-    "atptCode": "E10",
-    "schoolType": "초등학교",
-    "address": "인천광역시 남동구 서창남순환로 109",
-    "lat": 37.4292163486291,
-    "lng": 126.745328050722,
-    "classCount": 51,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-08-16"
-  },
   "인천::인천만수북초등학교": {
     "neisCode": "7341028",
     "atptCode": "E10",
@@ -16601,6 +16571,21 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-16"
+  },
+  "인천::인천별빛초등학교": {
+    "neisCode": "7321228",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 영종구 은하수로 402",
+    "lat": 37.4908521586404,
+    "lng": 126.550807589875,
+    "classCount": 51,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
     "statsEstimated": true,
     "updated": "2026-08-16"
   }
