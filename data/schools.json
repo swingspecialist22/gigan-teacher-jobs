@@ -1769,21 +1769,6 @@
     "statsEstimated": true,
     "updated": "2026-08-16"
   },
-  "경기::서정초등학교": {
-    "neisCode": "7621288",
-    "atptCode": "J10",
-    "schoolType": "초등학교",
-    "address": "경기도 고양시 덕양구 소원로 251",
-    "lat": 37.6143410847384,
-    "lng": 126.848839387776,
-    "classCount": 9,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-08-16"
-  },
   "경남::증산중학교": {
     "neisCode": "9151165",
     "atptCode": "S10",
@@ -6221,21 +6206,6 @@
     "transitScore": 100,
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-16"
-  },
-  "서울::서울한산초등학교": {
-    "neisCode": "7130164",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강동구 풍성로 261",
-    "lat": 37.5286945837724,
-    "lng": 127.14107694998,
-    "classCount": 28,
-    "facilityScore": 83,
-    "transitScore": 67,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 14,
     "statsEstimated": true,
     "updated": "2026-08-16"
   },
@@ -16571,6 +16541,21 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-16"
+  },
+  "서울::서울동호초등학교": {
+    "neisCode": "7134092",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 성동구 매봉길 49-35",
+    "lat": 37.5462920770572,
+    "lng": 127.009879731064,
+    "classCount": 18,
+    "facilityScore": 82,
+    "transitScore": 100,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-08-16"
   }
