@@ -9689,21 +9689,6 @@
     "statsEstimated": true,
     "updated": "2026-08-17"
   },
-  "인천::인천만수북초등학교": {
-    "neisCode": "7341028",
-    "atptCode": "E10",
-    "schoolType": "초등학교",
-    "address": "인천광역시 남동구 백범로180번길 25",
-    "lat": 37.4591086576716,
-    "lng": 126.728319125626,
-    "classCount": 23,
-    "facilityScore": 78,
-    "transitScore": 67,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-08-17"
-  },
   "서울::서울위례솔초등학교": {
     "neisCode": "7130270",
     "atptCode": "B10",
@@ -12434,21 +12419,6 @@
     "statsEstimated": true,
     "updated": "2026-08-17"
   },
-  "서울::여의도고등학교": {
-    "neisCode": "7010096",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 영등포구 국제금융로7길 37",
-    "lat": 37.525051010673,
-    "lng": 126.934219234109,
-    "classCount": 26,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-17"
-  },
   "서울::서울강신초등학교": {
     "neisCode": "7081422",
     "atptCode": "B10",
@@ -12491,21 +12461,6 @@
     "transitScore": 67,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-17"
-  },
-  "충남::서산중학교": {
-    "neisCode": "8191011",
-    "atptCode": "N10",
-    "schoolType": "중학교",
-    "address": "충청남도 서산시 덕지천로 90",
-    "lat": 36.7690953466335,
-    "lng": 126.458370439795,
-    "classCount": 28,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-17"
   },
@@ -14441,6 +14396,21 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-17"
+  },
+  "서울::서울장평초등학교": {
+    "neisCode": "7021106",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 동대문구 답십리로 ",
+    "lat": 37.5728706947252,
+    "lng": 127.058958260045,
+    "classCount": 44,
+    "facilityScore": 83,
+    "transitScore": 33,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 14,
     "statsEstimated": true,
     "updated": "2026-08-17"
   }
