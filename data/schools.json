@@ -1589,21 +1589,6 @@
     "statsEstimated": true,
     "updated": "2026-08-17"
   },
-  "서울::세곡중학교": {
-    "neisCode": "7091461",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강남구 자곡로 81",
-    "lat": 37.4719648659665,
-    "lng": 127.092583750444,
-    "classCount": 35,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-17"
-  },
   "경기::초당고등학교": {
     "neisCode": "7530883",
     "atptCode": "J10",
@@ -15659,21 +15644,6 @@
     "statsEstimated": true,
     "updated": "2026-08-17"
   },
-  "충남::대덕초등학교": {
-    "neisCode": "8291102",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 당진시 대덕1로 80",
-    "lat": 36.8828045690222,
-    "lng": 126.639717373369,
-    "classCount": 32,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-08-17"
-  },
   "충남::당진정보고등학교": {
     "neisCode": "8140118",
     "atptCode": "N10",
@@ -16289,21 +16259,6 @@
     "statsEstimated": true,
     "updated": "2026-08-17"
   },
-  "충남::홍주고등학교": {
-    "neisCode": "8140109",
-    "atptCode": "N10",
-    "schoolType": "고등학교",
-    "address": "충청남도 홍성군 홍성읍 문화로 78",
-    "lat": 36.5927792950641,
-    "lng": 126.662591570724,
-    "classCount": 24,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-17"
-  },
   "인천::인천해송중학교": {
     "neisCode": "7341096",
     "atptCode": "E10",
@@ -16361,6 +16316,51 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-17"
+  },
+  "서울::원묵중학교": {
+    "neisCode": "7021137",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 중랑구 신내로23길 57",
+    "lat": 37.6178416319695,
+    "lng": 127.084553885966,
+    "classCount": 28,
+    "facilityScore": 83,
+    "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-17"
+  },
+  "울산::동대초등학교": {
+    "neisCode": "7491102",
+    "atptCode": "H10",
+    "schoolType": "초등학교",
+    "address": "울산광역시 북구 신천로 36",
+    "lat": 35.641323006265,
+    "lng": 129.34982900635,
+    "classCount": 23,
+    "facilityScore": 82,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-08-17"
+  },
+  "제주::동광초등학교": {
+    "neisCode": "9296060",
+    "atptCode": "T10",
+    "schoolType": "초등학교",
+    "address": "제주특별자치도 제주시 태성로 6",
+    "lat": 33.5017001277327,
+    "lng": 126.547315557269,
+    "classCount": 39,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-08-17"
   }
