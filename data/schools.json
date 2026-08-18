@@ -1139,21 +1139,6 @@
     "statsEstimated": true,
     "updated": "2026-08-18"
   },
-  "경기::신기중학교": {
-    "neisCode": "7569063",
-    "atptCode": "J10",
-    "schoolType": "중학교",
-    "address": "경기도 안양시 동안구 경수대로610번길 57",
-    "lat": 37.3790806852258,
-    "lng": 126.958830202749,
-    "classCount": 30,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-18"
-  },
   "경기::풍양중학교": {
     "neisCode": "7652171",
     "atptCode": "J10",
@@ -12734,21 +12719,6 @@
     "statsEstimated": true,
     "updated": "2026-08-18"
   },
-  "서울::길음중학교": {
-    "neisCode": "7121357",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 성북구 길음로 144 ",
-    "lat": 37.6140334599191,
-    "lng": 127.017752359697,
-    "classCount": 30,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-18"
-  },
   "울산::호계고등학교": {
     "neisCode": "7480109",
     "atptCode": "H10",
@@ -17874,6 +17844,21 @@
     "classCount": 28,
     "facilityScore": 45,
     "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-18"
+  },
+  "서울::서울동구고등학교": {
+    "neisCode": "7011539",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 성북구 성북로8길 71",
+    "lat": 37.5941065881018,
+    "lng": 127.008215538987,
+    "classCount": 21,
+    "facilityScore": 80,
+    "transitScore": 100,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
