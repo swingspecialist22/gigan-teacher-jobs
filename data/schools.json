@@ -10844,21 +10844,6 @@
     "statsEstimated": true,
     "updated": "2026-08-20"
   },
-  "전북::정읍여자고등학교": {
-    "neisCode": "8321137",
-    "atptCode": "P10",
-    "schoolType": "고등학교",
-    "address": "전북특별자치도 정읍시 충정로 56-11",
-    "lat": 35.5591403117145,
-    "lng": 126.871133125893,
-    "classCount": 17,
-    "facilityScore": 82,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-20"
-  },
   "경북::이서고등학교": {
     "neisCode": "8750203",
     "atptCode": "R10",
@@ -12625,21 +12610,6 @@
     "facilityScore": 77,
     "transitScore": 0,
     "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-20"
-  },
-  "서울::광장중학교": {
-    "neisCode": "7134124",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 광진구 광장로1길 1",
-    "lat": 37.5471775185817,
-    "lng": 127.101927589353,
-    "classCount": 23,
-    "facilityScore": 80,
-    "transitScore": 33,
-    "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-20"
@@ -18401,6 +18371,36 @@
     "transitScore": 0,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-20"
+  },
+  "서울::세그루패션디자인고등학교": {
+    "neisCode": "7011084",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 도봉구 시루봉로 53",
+    "lat": 37.6562750160952,
+    "lng": 127.026703057445,
+    "classCount": 24,
+    "facilityScore": 82,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-20"
+  },
+  "서울::서울한남초등학교": {
+    "neisCode": "7061086",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 용산구 한남대로 112",
+    "lat": 37.5392036532348,
+    "lng": 127.005599847436,
+    "classCount": 13,
+    "facilityScore": 80,
+    "transitScore": 67,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 13,
     "statsEstimated": true,
     "updated": "2026-08-20"
   }
