@@ -3914,21 +3914,6 @@
     "statsEstimated": true,
     "updated": "2026-08-21"
   },
-  "서울::강동중학교": {
-    "neisCode": "7130167",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강동구 풍산로 237",
-    "lat": 37.5696502296451,
-    "lng": 127.17790883049,
-    "classCount": 20,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-21"
-  },
   "경기::이포초등학교": {
     "neisCode": "7661034",
     "atptCode": "J10",
@@ -16016,6 +16001,36 @@
     "transitScore": 67,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-21"
+  },
+  "서울::서울잠일초등학교": {
+    "neisCode": "7130153",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 송파구 올림픽로 95",
+    "lat": 37.5147416618092,
+    "lng": 127.081636216984,
+    "classCount": 57,
+    "facilityScore": 78,
+    "transitScore": 100,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 12,
+    "statsEstimated": true,
+    "updated": "2026-08-21"
+  },
+  "인천::인천중산초등학교": {
+    "neisCode": "7321221",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 영종구 두미포로 100",
+    "lat": 37.4947635986422,
+    "lng": 126.565458665287,
+    "classCount": 57,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
     "statsEstimated": true,
     "updated": "2026-08-21"
   }
