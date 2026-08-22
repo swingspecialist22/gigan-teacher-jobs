@@ -647,15 +647,15 @@
   "부산::ou=명지중학교": {
     "neisCode": "       ",
     "atptCode": "C10",
-    "schoolType": "초등학교",
+    "schoolType": "중학교",
     "address": "부산광역시 북구 백양대로1016번다길 44",
     "lat": 35.1941702556382,
     "lng": 128.995214224876,
     "classCount": 0,
     "facilityScore": 80,
     "transitScore": 67,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 12,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-22"
   },
