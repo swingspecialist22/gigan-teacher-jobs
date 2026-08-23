@@ -13319,21 +13319,6 @@
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
-  "서울::신림중학교": {
-    "neisCode": "7132150",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 관악구 신림로 40",
-    "lat": 37.4703273364656,
-    "lng": 126.946003990797,
-    "classCount": 12,
-    "facilityScore": 77,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
   "서울::등명중학교": {
     "neisCode": "7081489",
     "atptCode": "B10",
