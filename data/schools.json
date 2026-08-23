@@ -13124,21 +13124,6 @@
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
-  "제주::월랑초등학교": {
-    "neisCode": "9296064",
-    "atptCode": "T10",
-    "schoolType": "초등학교",
-    "address": "제주특별자치도 제주시 남녕로 63",
-    "lat": 33.4931213801602,
-    "lng": 126.478442782484,
-    "classCount": 21,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
   "서울::환일고등학교": {
     "neisCode": "7010266",
     "atptCode": "B10",
