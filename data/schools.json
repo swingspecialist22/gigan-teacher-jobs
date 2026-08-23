@@ -1454,21 +1454,6 @@
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
-  "서울::수도사랑의학교": {
-    "neisCode": "7010858",
-    "atptCode": "B10",
-    "schoolType": "특수학교",
-    "address": "서울특별시 종로구 사직로7길 17",
-    "lat": 37.5747822076287,
-    "lng": 126.965233100854,
-    "classCount": 7,
-    "facilityScore": 80,
-    "transitScore": 67,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
   "경기::고양장항초등학교": {
     "neisCode": "7621407",
     "atptCode": "J10",
@@ -2894,21 +2879,6 @@
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
-  "서울::서울망원초등학교": {
-    "neisCode": "7031124",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 마포구 방울내로5길 28",
-    "lat": 37.5610439363669,
-    "lng": 126.901117241,
-    "classCount": 10,
-    "facilityScore": 77,
-    "transitScore": 100,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
   "경기::이산중학교": {
     "neisCode": "7679409",
     "atptCode": "J10",
@@ -4019,21 +3989,6 @@
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
-  "서울::삼성고등학교": {
-    "neisCode": "7010081",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 관악구 신림로 41",
-    "lat": 37.469107701859,
-    "lng": 126.944010788599,
-    "classCount": 15,
-    "facilityScore": 77,
-    "transitScore": 67,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
   "경기::비전고등학교": {
     "neisCode": "7531109",
     "atptCode": "J10",
@@ -4496,21 +4451,6 @@
     "transitScore": 67,
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
-  "서울::서울증산초등학교": {
-    "neisCode": "7031162",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 은평구 증산서길 61",
-    "lat": 37.5825652695002,
-    "lng": 126.904276446505,
-    "classCount": 30,
-    "facilityScore": 80,
-    "transitScore": 100,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
@@ -6281,21 +6221,6 @@
     "transitScore": 100,
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
-  "서울::세현고등학교": {
-    "neisCode": "7010764",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 강서구 허준로 227",
-    "lat": 37.5604306618095,
-    "lng": 126.863621128106,
-    "classCount": 18,
-    "facilityScore": 85,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
@@ -12959,21 +12884,6 @@
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
-  "충남::설화고등학교": {
-    "neisCode": "8140266",
-    "atptCode": "N10",
-    "schoolType": "고등학교",
-    "address": "충청남도 아산시 배방읍 용연로 ",
-    "lat": 36.7893927788277,
-    "lng": 127.090751855348,
-    "classCount": 41,
-    "facilityScore": 82,
-    "transitScore": 33,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
   "충남::아산세교중학교": {
     "neisCode": "8181178",
     "atptCode": "N10",
@@ -13019,21 +12929,6 @@
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
-  "충남::대남초등학교": {
-    "neisCode": "8171027",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 보령시 남대천로 22",
-    "lat": 36.3518911250942,
-    "lng": 126.59384949697,
-    "classCount": 6,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
   "충남::천안동성중학교": {
     "neisCode": "8151236",
     "atptCode": "N10",
@@ -13061,21 +12956,6 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-23"
-  },
-  "충남::염작초등학교": {
-    "neisCode": "8181038",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 아산시 둔포면 아산밸리중앙로 33",
-    "lat": 36.9244567635785,
-    "lng": 127.051959347589,
-    "classCount": 57,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-08-23"
   },
@@ -14440,6 +14320,36 @@
     "facilityScore": 82,
     "transitScore": 100,
     "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-23"
+  },
+  "서울::성암국제무역고등학교": {
+    "neisCode": "7010837",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 강북구 도봉로29길 52",
+    "lat": 37.6204135324231,
+    "lng": 127.023905892641,
+    "classCount": 21,
+    "facilityScore": 83,
+    "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-08-23"
+  },
+  "서울::잠신고등학교": {
+    "neisCode": "7010106",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 송파구 잠실로 24",
+    "lat": 37.5147012912615,
+    "lng": 127.08828295987,
+    "classCount": 27,
+    "facilityScore": 82,
+    "transitScore": 33,
+    "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-23"
