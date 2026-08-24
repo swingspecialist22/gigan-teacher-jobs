@@ -9764,21 +9764,6 @@
     "statsEstimated": true,
     "updated": "2026-08-24"
   },
-  "서울::서울월정초등학교": {
-    "neisCode": "7081471",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강서구 월정로 176",
-    "lat": 37.5349941902011,
-    "lng": 126.836293577736,
-    "classCount": 34,
-    "facilityScore": 80,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-08-24"
-  },
   "경기::동탄중앙초등학교": {
     "neisCode": "7679339",
     "atptCode": "J10",
