@@ -3089,21 +3089,6 @@
     "statsEstimated": true,
     "updated": "2026-08-24"
   },
-  "인천::부평중학교": {
-    "neisCode": "7331065",
-    "atptCode": "E10",
-    "schoolType": "중학교",
-    "address": "인천광역시 부평구 부흥북로57번길 10",
-    "lat": 37.5019004403095,
-    "lng": 126.729345286,
-    "classCount": 14,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-24"
-  },
   "인천::만수여자중학교": {
     "neisCode": "7341075",
     "atptCode": "E10",
@@ -9040,21 +9025,6 @@
     "facilityScore": 85,
     "transitScore": 100,
     "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-24"
-  },
-  "서울::광장중학교": {
-    "neisCode": "7134124",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 광진구 광장로1길 1",
-    "lat": 37.5471775185817,
-    "lng": 127.101927589353,
-    "classCount": 23,
-    "facilityScore": 80,
-    "transitScore": 33,
-    "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-24"
