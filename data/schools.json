@@ -944,21 +944,6 @@
     "statsEstimated": true,
     "updated": "2026-08-24"
   },
-  "서울::개원중학교": {
-    "neisCode": "7091420",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강남구 영동대로 101",
-    "lat": 37.4915905275033,
-    "lng": 127.071900307455,
-    "classCount": 29,
-    "facilityScore": 88,
-    "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-24"
-  },
   "경기::신월초등학교": {
     "neisCode": "7751098",
     "atptCode": "J10",
