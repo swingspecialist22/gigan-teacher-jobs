@@ -11924,21 +11924,6 @@
     "statsEstimated": true,
     "updated": "2026-08-25"
   },
-  "서울::서울청량초등학교": {
-    "neisCode": "7021116",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 동대문구 회기로25길 31",
-    "lat": 37.5923093987643,
-    "lng": 127.055908478798,
-    "classCount": 36,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-08-25"
-  },
   "경기::새솔학교": {
     "neisCode": "7531140",
     "atptCode": "J10",
@@ -12401,6 +12386,36 @@
     "transitScore": 0,
     "classStudentRatio": 22,
     "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-08-25"
+  },
+  "서울::증산중학교": {
+    "neisCode": "7031217",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 은평구 증산로5길 27-30",
+    "lat": 37.5838153929282,
+    "lng": 126.904939878075,
+    "classCount": 21,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-25"
+  },
+  "경기::효자중학교": {
+    "neisCode": "7561015",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 의정부시 부용로185번길 15",
+    "lat": 37.7521917628742,
+    "lng": 127.076985197284,
+    "classCount": 20,
+    "facilityScore": 82,
+    "transitScore": 100,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-25"
   }
