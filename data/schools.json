@@ -2924,21 +2924,6 @@
     "statsEstimated": true,
     "updated": "2026-08-26"
   },
-  "서울::경동고등학교": {
-    "neisCode": "7010061",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 성북구 보문로29길 49",
-    "lat": 37.5859418116443,
-    "lng": 127.01457927632,
-    "classCount": 18,
-    "facilityScore": 85,
-    "transitScore": 100,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-26"
-  },
   "서울::서울청구초등학교": {
     "neisCode": "7061081",
     "atptCode": "B10",
@@ -8654,21 +8639,6 @@
     "statsEstimated": true,
     "updated": "2026-08-26"
   },
-  "서울::난우중학교": {
-    "neisCode": "7132129",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 관악구 난곡로16길 32",
-    "lat": 37.4668039555901,
-    "lng": 126.922828324577,
-    "classCount": 19,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-08-26"
-  },
   "부산::부산배화학교": {
     "neisCode": "7150277",
     "atptCode": "C10",
@@ -11654,21 +11624,6 @@
     "statsEstimated": true,
     "updated": "2026-08-26"
   },
-  "충남::청양고등학교": {
-    "neisCode": "8140267",
-    "atptCode": "N10",
-    "schoolType": "고등학교",
-    "address": "충청남도 청양군 청양읍 문화예술로 149",
-    "lat": 36.4535860421092,
-    "lng": 126.79795725883,
-    "classCount": 21,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-26"
-  },
   "충남::당진정보고등학교": {
     "neisCode": "8140118",
     "atptCode": "N10",
@@ -12686,6 +12641,21 @@
     "transitScore": 0,
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-26"
+  },
+  "서울::서울백영고등학교": {
+    "neisCode": "7011584",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 강서구 방화대로34길 13",
+    "lat": 37.5692177821112,
+    "lng": 126.817040800626,
+    "classCount": 21,
+    "facilityScore": 82,
+    "transitScore": 100,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-08-26"
   }
