@@ -11788,5 +11788,20 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-08-26"
+  },
+  "대전::대전노은중학교": {
+    "neisCode": "7451020",
+    "atptCode": "G10",
+    "schoolType": "중학교",
+    "address": "대전광역시 유성구 노은동로 104",
+    "lat": 36.3700492190492,
+    "lng": 127.324283112219,
+    "classCount": 32,
+    "facilityScore": 80,
+    "transitScore": 67,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-08-26"
   }
 }
