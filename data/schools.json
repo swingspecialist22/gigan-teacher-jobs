@@ -3839,21 +3839,6 @@
     "statsEstimated": true,
     "updated": "2026-08-29"
   },
-  "서울::신도고등학교": {
-    "neisCode": "7010983",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 은평구 통일로 961",
-    "lat": 37.6291325083008,
-    "lng": 126.918748608965,
-    "classCount": 24,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-29"
-  },
   "서울::인헌중학교": {
     "neisCode": "7132152",
     "atptCode": "B10",
@@ -5141,21 +5126,6 @@
     "transitScore": 0,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-08-29"
-  },
-  "충남::천안청수초등학교": {
-    "neisCode": "8151085",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 천안시 동남구 청수로 35-3",
-    "lat": 36.7895749678844,
-    "lng": 127.150769718362,
-    "classCount": 14,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-08-29"
   },
