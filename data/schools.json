@@ -509,21 +509,6 @@
     "statsEstimated": true,
     "updated": "2026-09-11"
   },
-  "서울::경신중학교": {
-    "neisCode": "7061094",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 종로구 혜화로 74",
-    "lat": 37.5922022663657,
-    "lng": 126.999531005507,
-    "classCount": 11,
-    "facilityScore": 82,
-    "transitScore": 33,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-09-11"
-  },
   "서울::서울새롬학교": {
     "neisCode": "7011468",
     "atptCode": "B10",
@@ -1769,21 +1754,6 @@
     "statsEstimated": true,
     "updated": "2026-09-11"
   },
-  "서울::서울사근초등학교": {
-    "neisCode": "7134095",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 성동구 사근동11길 16",
-    "lat": 37.5626751242374,
-    "lng": 127.047560151027,
-    "classCount": 10,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-09-11"
-  },
   "경기::교동초등학교": {
     "neisCode": "7751065",
     "atptCode": "J10",
@@ -2006,21 +1976,6 @@
     "transitScore": 0,
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-09-11"
-  },
-  "서울::중계중학교": {
-    "neisCode": "7051202",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 노원구 덕릉로76길 23",
-    "lat": 37.6556269059244,
-    "lng": 127.074900383387,
-    "classCount": 30,
-    "facilityScore": 82,
-    "transitScore": 33,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-09-11"
   },
@@ -7754,21 +7709,6 @@
     "statsEstimated": true,
     "updated": "2026-09-11"
   },
-  "인천::강화초등학교": {
-    "neisCode": "7351007",
-    "atptCode": "E10",
-    "schoolType": "초등학교",
-    "address": "인천광역시 강화군 강화읍 북문길 36",
-    "lat": 37.7503470919545,
-    "lng": 126.486131242143,
-    "classCount": 11,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-09-11"
-  },
   "인천::부흥중학교": {
     "neisCode": "7331066",
     "atptCode": "E10",
@@ -8920,21 +8860,6 @@
     "facilityScore": 78,
     "transitScore": 100,
     "classStudentRatio": 22,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-09-11"
-  },
-  "서울::서울방산초등학교": {
-    "neisCode": "7130127",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 송파구 오금로27길 42",
-    "lat": 37.5095379215333,
-    "lng": 127.121190696197,
-    "classCount": 27,
-    "facilityScore": 87,
-    "transitScore": 100,
-    "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-09-11"
@@ -10436,6 +10361,51 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-09-11"
+  },
+  "경기::관양고등학교": {
+    "neisCode": "7530553",
+    "atptCode": "J10",
+    "schoolType": "고등학교",
+    "address": "경기도 안양시 동안구 일동로 115",
+    "lat": 37.4088142308233,
+    "lng": 126.960117747105,
+    "classCount": 36,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-09-11"
+  },
+  "서울::경복비즈니스고등학교": {
+    "neisCode": "7010835",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 강서구 화곡로 379",
+    "lat": 37.5580972589988,
+    "lng": 126.852670273321,
+    "classCount": 20,
+    "facilityScore": 88,
+    "transitScore": 67,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-09-11"
+  },
+  "인천::인천남부초등학교이작분교장": {
+    "neisCode": "7321060",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 옹진군 자월면 대이작로 60",
+    "lat": 37.1767623510358,
+    "lng": 126.25275977973,
+    "classCount": 3,
+    "facilityScore": 10,
+    "transitScore": 0,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 14,
     "statsEstimated": true,
     "updated": "2026-09-11"
   }
