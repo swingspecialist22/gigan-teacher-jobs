@@ -1799,21 +1799,6 @@
     "statsEstimated": true,
     "updated": "2026-09-19"
   },
-  "경기::태성초등학교": {
-    "neisCode": "7692165",
-    "atptCode": "J10",
-    "schoolType": "초등학교",
-    "address": "경기도 광주시 태성로 37",
-    "lat": 37.3849654293061,
-    "lng": 127.228862193388,
-    "classCount": 49,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-09-19"
-  },
   "경북::창포초등학교": {
     "neisCode": "8761150",
     "atptCode": "R10",
@@ -2489,21 +2474,6 @@
     "statsEstimated": true,
     "updated": "2026-09-19"
   },
-  "경남::거제상문고": {
-    "neisCode": "9010480",
-    "atptCode": "S10",
-    "schoolType": "고등학교",
-    "address": "경상남도 거제시 수양로 29",
-    "lat": 34.8633930399088,
-    "lng": 128.646715350706,
-    "classCount": 38,
-    "facilityScore": 60,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-09-19"
-  },
   "서울::서울아이티고등학교": {
     "neisCode": "7010960",
     "atptCode": "B10",
@@ -2604,36 +2574,6 @@
     "classCount": 19,
     "facilityScore": 72,
     "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-09-19"
-  },
-  "경기::남양주다산중학교": {
-    "neisCode": "7652298",
-    "atptCode": "J10",
-    "schoolType": "중학교",
-    "address": "경기도 남양주시 다산중앙로172번길 50",
-    "lat": 37.6278462428523,
-    "lng": 127.15871085216,
-    "classCount": 46,
-    "facilityScore": 82,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-09-19"
-  },
-  "경기::도덕초등학교": {
-    "neisCode": "7591024",
-    "atptCode": "J10",
-    "schoolType": "초등학교",
-    "address": "경기도 광명시 가마산로 28",
-    "lat": 37.4842670145231,
-    "lng": 126.870706794206,
-    "classCount": 42,
-    "facilityScore": 85,
-    "transitScore": 33,
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
@@ -4629,21 +4569,6 @@
     "classCount": 29,
     "facilityScore": 88,
     "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-09-19"
-  },
-  "서울::영남중학교": {
-    "neisCode": "7041187",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 영등포구 대림로31나길 17",
-    "lat": 37.4978721812656,
-    "lng": 126.895836459703,
-    "classCount": 17,
-    "facilityScore": 80,
-    "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
@@ -8459,21 +8384,6 @@
     "statsEstimated": true,
     "updated": "2026-09-19"
   },
-  "충남::온양고등학교": {
-    "neisCode": "8140061",
-    "atptCode": "N10",
-    "schoolType": "고등학교",
-    "address": "충청남도 아산시 온천대로 1411",
-    "lat": 36.7837015262243,
-    "lng": 126.995175389687,
-    "classCount": 34,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-09-19"
-  },
   "충남::천안와촌초등학교": {
     "neisCode": "8151035",
     "atptCode": "N10",
@@ -9719,21 +9629,6 @@
     "statsEstimated": true,
     "updated": "2026-09-19"
   },
-  "인천::인천해원초등학교": {
-    "neisCode": "7361254",
-    "atptCode": "E10",
-    "schoolType": "초등학교",
-    "address": "인천광역시 서해구 청라사파이어로140번길 5",
-    "lat": 37.5276671309205,
-    "lng": 126.625484818066,
-    "classCount": 67,
-    "facilityScore": 82,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-09-19"
-  },
   "인천::인천서창초등학교": {
     "neisCode": "7341036",
     "atptCode": "E10",
@@ -10076,6 +9971,21 @@
     "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-09-19"
+  },
+  "서울::서울홍파초등학교": {
+    "neisCode": "7021118",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 동대문구 고산자로 518",
+    "lat": 37.586120384461,
+    "lng": 127.039414975087,
+    "classCount": 12,
+    "facilityScore": 77,
+    "transitScore": 100,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 14,
     "statsEstimated": true,
     "updated": "2026-09-19"
   }
