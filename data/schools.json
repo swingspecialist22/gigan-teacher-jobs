@@ -3224,21 +3224,6 @@
     "statsEstimated": true,
     "updated": "2026-09-25"
   },
-  "경기::칠봉초등학교": {
-    "neisCode": "7602083",
-    "atptCode": "J10",
-    "schoolType": "초등학교",
-    "address": "경기도 양주시 회정로 156",
-    "lat": 37.838079864376,
-    "lng": 127.070718470364,
-    "classCount": 19,
-    "facilityScore": 82,
-    "transitScore": 33,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-09-25"
-  },
   "경북::오태초등학교": {
     "neisCode": "8801116",
     "atptCode": "R10",
@@ -3746,21 +3731,6 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-09-25"
-  },
-  "서울::염창중학교": {
-    "neisCode": "7081512",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강서구 양천로67가길 83",
-    "lat": 37.5542640665682,
-    "lng": 126.871747328101,
-    "classCount": 31,
-    "facilityScore": 82,
-    "transitScore": 67,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-09-25"
   },
