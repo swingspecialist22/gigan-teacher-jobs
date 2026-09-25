@@ -8144,21 +8144,6 @@
     "statsEstimated": true,
     "updated": "2026-09-25"
   },
-  "충남::모산중학교": {
-    "neisCode": "8181150",
-    "atptCode": "N10",
-    "schoolType": "중학교",
-    "address": "충청남도 아산시 배방읍 배방로 90",
-    "lat": 36.7687053372353,
-    "lng": 127.055561590836,
-    "classCount": 41,
-    "facilityScore": 83,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-09-25"
-  },
   "충남::서산예천초등학교": {
     "neisCode": "8191090",
     "atptCode": "N10",
