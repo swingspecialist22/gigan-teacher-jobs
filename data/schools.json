@@ -9733,5 +9733,20 @@
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-10-07"
+  },
+  "서울::상암중학교": {
+    "neisCode": "7031189",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 마포구 상암산로1길 26",
+    "lat": 37.5790569198061,
+    "lng": 126.887550793573,
+    "classCount": 31,
+    "facilityScore": 82,
+    "transitScore": 67,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-10-07"
   }
 }
