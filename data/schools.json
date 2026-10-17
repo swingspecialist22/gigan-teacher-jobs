@@ -2939,21 +2939,6 @@
     "statsEstimated": true,
     "updated": "2026-10-17"
   },
-  "서울::서울반원초등학교": {
-    "neisCode": "7091385",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 서초구 잠원로3길 28",
-    "lat": 37.5103872227025,
-    "lng": 127.004236132457,
-    "classCount": 53,
-    "facilityScore": 88,
-    "transitScore": 100,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-10-17"
-  },
   "서울::염광메디텍고등학교": {
     "neisCode": "7011568",
     "atptCode": "B10",
@@ -3449,21 +3434,6 @@
     "statsEstimated": true,
     "updated": "2026-10-17"
   },
-  "경기::창성중학교": {
-    "neisCode": "7551287",
-    "atptCode": "J10",
-    "schoolType": "중학교",
-    "address": "경기도 성남시 수정구 수정로 400",
-    "lat": 37.4607386234547,
-    "lng": 127.153509907201,
-    "classCount": 10,
-    "facilityScore": 77,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-10-17"
-  },
   "경북::경북드론고등학교": {
     "neisCode": "8750731",
     "atptCode": "R10",
@@ -3520,21 +3490,6 @@
     "facilityScore": 78,
     "transitScore": 67,
     "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-10-17"
-  },
-  "서울::대왕중학교": {
-    "neisCode": "7091425",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강남구 광평로20길 7",
-    "lat": 37.4834603317394,
-    "lng": 127.087338052671,
-    "classCount": 27,
-    "facilityScore": 82,
-    "transitScore": 33,
-    "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-10-17"
@@ -5099,21 +5054,6 @@
     "statsEstimated": true,
     "updated": "2026-10-17"
   },
-  "경기::동탄중앙고등학교": {
-    "neisCode": "7531159",
-    "atptCode": "J10",
-    "schoolType": "고등학교",
-    "address": "경기도 화성시 동탄구 동탄대로시범길 167",
-    "lat": 37.2012922058865,
-    "lng": 127.110601797394,
-    "classCount": 31,
-    "facilityScore": 87,
-    "transitScore": 0,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-10-17"
-  },
   "전북::임실동중학교": {
     "neisCode": "8432036",
     "atptCode": "P10",
@@ -5186,21 +5126,6 @@
     "transitScore": 0,
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-10-17"
-  },
-  "서울::서울대현초등학교": {
-    "neisCode": "7091381",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강남구 역삼로98길 16",
-    "lat": 37.5034861238053,
-    "lng": 127.063292075669,
-    "classCount": 40,
-    "facilityScore": 82,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
     "statsEstimated": true,
     "updated": "2026-10-17"
   },
@@ -8246,6 +8171,21 @@
     "transitScore": 100,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-10-17"
+  },
+  "서울::서울수송초등학교": {
+    "neisCode": "7121314",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강북구 한천로124길 14",
+    "lat": 37.6373144075316,
+    "lng": 127.032917771185,
+    "classCount": 22,
+    "facilityScore": 77,
+    "transitScore": 33,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
     "statsEstimated": true,
     "updated": "2026-10-17"
   }
