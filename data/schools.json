@@ -12,7 +12,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::신진과학기술고등학교": {
     "neisCode": "7011316",
@@ -27,7 +27,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::풍문고등학교": {
     "neisCode": "7011457",
@@ -42,7 +42,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::등촌중학교": {
     "neisCode": "7081517",
@@ -57,7 +57,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울삼성학교": {
     "neisCode": "7010464",
@@ -72,7 +72,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울신구초등학교": {
     "neisCode": "7091398",
@@ -87,7 +87,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::성신여자중학교": {
     "neisCode": "7121363",
@@ -102,7 +102,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::성신초등학교": {
     "neisCode": "7121338",
@@ -117,7 +117,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::혜원여자고등학교": {
     "neisCode": "7010262",
@@ -132,7 +132,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::봉은중학교": {
     "neisCode": "7091431",
@@ -147,7 +147,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::유석초등학교": {
     "neisCode": "7081483",
@@ -162,7 +162,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울정인학교": {
     "neisCode": "7010521",
@@ -177,7 +177,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::경희초등학교": {
     "neisCode": "7021079",
@@ -192,7 +192,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::현대고등학교": {
     "neisCode": "7010260",
@@ -207,7 +207,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울광남초등학교": {
     "neisCode": "7134081",
@@ -222,7 +222,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::선덕중학교": {
     "neisCode": "7051190",
@@ -237,7 +237,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::용화여자고등학교": {
     "neisCode": "7010222",
@@ -252,7 +252,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::충암고등학교": {
     "neisCode": "7010248",
@@ -267,22 +267,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울전농초등학교": {
-    "neisCode": "7021108",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 동대문구 사가정로 66",
-    "lat": 37.5746852353644,
-    "lng": 127.054397292161,
-    "classCount": 48,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::세화여자고등학교": {
     "neisCode": "7010198",
@@ -297,7 +282,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울신월초등학교": {
     "neisCode": "7081456",
@@ -312,7 +297,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::경구고등학교": {
     "neisCode": "8750143",
@@ -327,7 +312,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::세명컴퓨터고등학교": {
     "neisCode": "7010537",
@@ -342,7 +327,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::선일초등학교": {
     "neisCode": "7031170",
@@ -357,7 +342,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울새롬학교": {
     "neisCode": "7011468",
@@ -372,7 +357,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울창도초등학교": {
     "neisCode": "7051160",
@@ -387,7 +372,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::한국구화학교": {
     "neisCode": "7010473",
@@ -402,7 +387,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::세종과학고등학교": {
     "neisCode": "7010816",
@@ -417,7 +402,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::성베드로학교": {
     "neisCode": "7010469",
@@ -432,7 +417,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울대진초등학교": {
     "neisCode": "7091378",
@@ -447,7 +432,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::신남중학교": {
     "neisCode": "7081501",
@@ -462,22 +447,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울대왕초등학교": {
-    "neisCode": "7091377",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강남구 헌릉로618길 8",
-    "lat": 37.4646391801831,
-    "lng": 127.105303959604,
-    "classCount": 25,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울맹학교": {
     "neisCode": "1342098",
@@ -492,7 +462,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울동천학교": {
     "neisCode": "7010582",
@@ -507,7 +477,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::상현중학교": {
     "neisCode": "7132144",
@@ -522,7 +492,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "전북::남원국악예술고등학교": {
     "neisCode": "8321155",
@@ -537,7 +507,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::양천중학교": {
     "neisCode": "7081510",
@@ -552,7 +522,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::한양초등학교": {
     "neisCode": "7134118",
@@ -567,7 +537,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울봉천초등학교": {
     "neisCode": "7132097",
@@ -582,7 +552,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::중동고등학교": {
     "neisCode": "7010238",
@@ -597,7 +567,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::구미인덕초등학교": {
     "neisCode": "8801203",
@@ -612,7 +582,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::대동세무고등학교": {
     "neisCode": "7010833",
@@ -627,22 +597,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::포항송곡초등학교": {
-    "neisCode": "8761229",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 포항시 북구 장량중앙로 27",
-    "lat": 36.0922068088997,
-    "lng": 129.384608422723,
-    "classCount": 37,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울신용산초등학교": {
     "neisCode": "7061073",
@@ -657,7 +612,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울월촌초등학교": {
     "neisCode": "7081472",
@@ -672,7 +627,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::용산고등학교": {
     "neisCode": "7010103",
@@ -687,7 +642,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::경기고등학교": {
     "neisCode": "7010059",
@@ -702,22 +657,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::진성초등학교": {
-    "neisCode": "8851081",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 경산시 진량읍 진성로 115-5",
-    "lat": 35.8538226317175,
-    "lng": 128.815510510282,
-    "classCount": 6,
-    "facilityScore": 27,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::형곡초등학교": {
     "neisCode": "8801131",
@@ -732,7 +672,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::창동중학교": {
     "neisCode": "7051205",
@@ -747,7 +687,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울백운초등학교": {
     "neisCode": "7051124",
@@ -762,7 +702,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울상신초등학교": {
     "neisCode": "7031130",
@@ -777,7 +717,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울숭덕초등학교": {
     "neisCode": "7121317",
@@ -792,7 +732,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::경산여자고등학교": {
     "neisCode": "8750144",
@@ -807,7 +747,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "전북::글로벌학산고등학교": {
     "neisCode": "8321236",
@@ -822,7 +762,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "울산::무거고등학교": {
     "neisCode": "7480107",
@@ -837,7 +777,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::영신간호비즈니스고등학교": {
     "neisCode": "7011088",
@@ -852,7 +792,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::동지여자중학교": {
     "neisCode": "8761203",
@@ -867,7 +807,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::봉화초등학교": {
     "neisCode": "8961032",
@@ -882,7 +822,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::초동초": {
     "neisCode": "9101025",
@@ -897,7 +837,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::진해고": {
     "neisCode": "9010066",
@@ -912,7 +852,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::배재고등학교": {
     "neisCode": "7010170",
@@ -927,7 +867,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::웅상고": {
     "neisCode": "9010221",
@@ -942,7 +882,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::진평초등학교": {
     "neisCode": "8801128",
@@ -957,7 +897,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "전북::함열여자고등학교": {
     "neisCode": "8321135",
@@ -972,7 +912,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "부산::ou=정원초등학교": {
     "neisCode": "       ",
@@ -987,7 +927,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::김해생명과학고": {
     "neisCode": "9010327",
@@ -1002,7 +942,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "울산::삼일초등학교": {
     "neisCode": "7491116",
@@ -1017,7 +957,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::농소초등학교": {
     "neisCode": "8781059",
@@ -1032,22 +972,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::풍천중학교": {
-    "neisCode": "8791089",
-    "atptCode": "R10",
-    "schoolType": "중학교",
-    "address": "경상북도 안동시 풍천면 풍요5길 14",
-    "lat": 36.5747434338336,
-    "lng": 128.500287511274,
-    "classCount": 36,
-    "facilityScore": 72,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::신천중학교": {
     "neisCode": "7130194",
@@ -1062,22 +987,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울구의초등학교": {
-    "neisCode": "7134085",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 광진구 광나루로30길 49",
-    "lat": 37.5430074366803,
-    "lng": 127.08031177586,
-    "classCount": 23,
-    "facilityScore": 87,
-    "transitScore": 100,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::경희학교": {
     "neisCode": "8750356",
@@ -1092,7 +1002,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::구산초": {
     "neisCode": "9091009",
@@ -1107,7 +1017,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::포항이동고등학교": {
     "neisCode": "8750539",
@@ -1122,7 +1032,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::충암중학교": {
     "neisCode": "7031220",
@@ -1137,7 +1047,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::한신초등학교": {
     "neisCode": "7051172",
@@ -1152,7 +1062,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::구평남부초등학교": {
     "neisCode": "8801095",
@@ -1167,7 +1077,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::불암고등학교": {
     "neisCode": "7010736",
@@ -1182,37 +1092,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "전북::이일여자고등학교": {
-    "neisCode": "8321131",
-    "atptCode": "P10",
-    "schoolType": "고등학교",
-    "address": "전북특별자치도 익산시 평동로7길 30",
-    "lat": 35.9345885979776,
-    "lng": 126.948981411717,
-    "classCount": 24,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::포항펜타초등학교": {
-    "neisCode": "8761273",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 포항시 북구 흥해읍 펜타시티단지로 47",
-    "lat": 36.0574253408667,
-    "lng": 129.308871905992,
-    "classCount": 19,
-    "facilityScore": 40,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::동해초등학교": {
     "neisCode": "8761124",
@@ -1227,7 +1107,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::태릉중학교": {
     "neisCode": "7021147",
@@ -1242,7 +1122,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::봉강초": {
     "neisCode": "9022042",
@@ -1257,52 +1137,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "전북::완주고등학교": {
-    "neisCode": "8321173",
-    "atptCode": "P10",
-    "schoolType": "고등학교",
-    "address": "전북특별자치도 완주군 봉동읍 봉동로 172",
-    "lat": 35.9407823335497,
-    "lng": 127.166284597593,
-    "classCount": 21,
-    "facilityScore": 60,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::포항양덕초등학교": {
-    "neisCode": "8761157",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 포항시 북구 양덕로 20-5",
-    "lat": 36.0798703580104,
-    "lng": 129.403270154764,
-    "classCount": 32,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::고아초등학교": {
-    "neisCode": "8801086",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 구미시 고아읍 관심1길 46",
-    "lat": 36.2124050911121,
-    "lng": 128.328716616496,
-    "classCount": 7,
-    "facilityScore": 23,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::초계중": {
     "neisCode": "9221028",
@@ -1317,7 +1152,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::성동공업고등학교": {
     "neisCode": "7010737",
@@ -1332,7 +1167,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::양학초등학교": {
     "neisCode": "8761135",
@@ -1347,7 +1182,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::신일고등학교": {
     "neisCode": "7010206",
@@ -1362,7 +1197,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::포항동부초": {
     "neisCode": "8761155",
@@ -1377,7 +1212,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::이화여자고등학교": {
     "neisCode": "7010227",
@@ -1392,22 +1227,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "강원::기린고등학교": {
-    "neisCode": "7801113",
-    "atptCode": "K10",
-    "schoolType": "고등학교",
-    "address": "강원특별자치도 인제군 기린면 창암길 20",
-    "lat": 37.9462055987458,
-    "lng": 128.31169001689,
-    "classCount": 4,
-    "facilityScore": 38,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::역삼중학교": {
     "neisCode": "7091444",
@@ -1422,7 +1242,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "강원::양구초등학교": {
     "neisCode": "7952016",
@@ -1437,7 +1257,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울신당초등학교": {
     "neisCode": "7061072",
@@ -1452,7 +1272,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "강원::민족사관고등학교": {
     "neisCode": "7801132",
@@ -1467,7 +1287,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::이화여자외국어고등학교": {
     "neisCode": "7010230",
@@ -1482,7 +1302,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "강원::춘천삼육초등학교": {
     "neisCode": "7811057",
@@ -1497,7 +1317,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "강원::강원애니고등학교": {
     "neisCode": "7801104",
@@ -1512,7 +1332,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "강원::인제남초등학교": {
     "neisCode": "7962024",
@@ -1527,22 +1347,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "강원::금병초등학교": {
-    "neisCode": "7812054",
-    "atptCode": "K10",
-    "schoolType": "초등학교",
-    "address": "강원특별자치도 춘천시 신동면 김유정로 1394",
-    "lat": 37.8147550013139,
-    "lng": 127.714764780389,
-    "classCount": 12,
-    "facilityScore": 55,
-    "transitScore": 33,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::화랑초등학교": {
     "neisCode": "8771107",
@@ -1557,7 +1362,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::운곡초등학교": {
     "neisCode": "8781113",
@@ -1572,22 +1377,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::양포초등학교": {
-    "neisCode": "8801114",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 구미시 흥안로3길 30",
-    "lat": 36.1448129113755,
-    "lng": 128.41580356004,
-    "classCount": 17,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::주약초": {
     "neisCode": "9051039",
@@ -1602,7 +1392,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울청운초등학교": {
     "neisCode": "7061082",
@@ -1617,7 +1407,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::덕원중학교": {
     "neisCode": "7081516",
@@ -1632,7 +1422,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::서라벌여자중학교": {
     "neisCode": "8771121",
@@ -1647,7 +1437,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "강원::평원초등학교": {
     "neisCode": "7822121",
@@ -1662,7 +1452,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::영등포고등학교": {
     "neisCode": "7010098",
@@ -1677,7 +1467,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::신목고등학교": {
     "neisCode": "7010093",
@@ -1692,7 +1482,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울서일초등학교": {
     "neisCode": "7091395",
@@ -1707,7 +1497,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::배명중학교": {
     "neisCode": "7130180",
@@ -1722,7 +1512,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::포항과학기술고등학교": {
     "neisCode": "8750625",
@@ -1737,7 +1527,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울성산초등학교": {
     "neisCode": "7031136",
@@ -1752,7 +1542,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "강원::북평고등학교": {
     "neisCode": "7801136",
@@ -1767,7 +1557,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::대영중학교": {
     "neisCode": "8811061",
@@ -1782,7 +1572,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울명일초등학교": {
     "neisCode": "7130122",
@@ -1797,7 +1587,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::부천혜림학교": {
     "neisCode": "7530428",
@@ -1812,7 +1602,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::병점중학교": {
     "neisCode": "7679110",
@@ -1827,7 +1617,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::나룰초등학교": {
     "neisCode": "7692113",
@@ -1842,22 +1632,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "전북::청웅중학교": {
-    "neisCode": "8432044",
-    "atptCode": "P10",
-    "schoolType": "중학교",
-    "address": "전북특별자치도 임실군 청웅면 청웅로 131-7",
-    "lat": 35.5694202370899,
-    "lng": 127.198291318967,
-    "classCount": 3,
-    "facilityScore": 22,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::녹천중학교": {
     "neisCode": "7051179",
@@ -1872,22 +1647,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경기::청덕고등학교": {
-    "neisCode": "7530884",
-    "atptCode": "J10",
-    "schoolType": "고등학교",
-    "address": "경기도 용인시 기흥구 구성1로 21",
-    "lat": 37.2923336778719,
-    "lng": 127.143917028382,
-    "classCount": 33,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::이현중학교": {
     "neisCode": "7751035",
@@ -1902,7 +1662,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::쌍동초등학교": {
     "neisCode": "7692226",
@@ -1917,7 +1677,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::감일고등학교": {
     "neisCode": "7531390",
@@ -1932,7 +1692,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::고진초등학교": {
     "neisCode": "7751395",
@@ -1947,7 +1707,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::서원고등학교": {
     "neisCode": "7530574",
@@ -1962,7 +1722,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::풍천초등학교": {
     "neisCode": "7751121",
@@ -1977,7 +1737,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::보평고등학교": {
     "neisCode": "7530921",
@@ -1992,7 +1752,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::가평고등학교": {
     "neisCode": "7530633",
@@ -2007,37 +1767,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::모전초등학교": {
-    "neisCode": "8841038",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 문경시 매봉로 75",
-    "lat": 36.5918949939923,
-    "lng": 128.180946011913,
-    "classCount": 37,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::강동초등학교": {
-    "neisCode": "8771068",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 경주시 강동면 강동로 80",
-    "lat": 35.991896569926,
-    "lng": 129.276238842716,
-    "classCount": 6,
-    "facilityScore": 43,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::한봄고등학교": {
     "neisCode": "7531327",
@@ -2052,7 +1782,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::수원중촌초등학교": {
     "neisCode": "7541342",
@@ -2067,7 +1797,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::안양외국어고등학교": {
     "neisCode": "7530187",
@@ -2082,7 +1812,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::기산초등학교": {
     "neisCode": "7679014",
@@ -2097,7 +1827,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::산내초등학교": {
     "neisCode": "7681194",
@@ -2112,7 +1842,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::신봉고등학교": {
     "neisCode": "7531013",
@@ -2127,7 +1857,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::치동중학교": {
     "neisCode": "7679489",
@@ -2142,7 +1872,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::매탄초등학교": {
     "neisCode": "7541078",
@@ -2157,7 +1887,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::배곧중학교": {
     "neisCode": "7781136",
@@ -2172,7 +1902,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::김천신일초등학교": {
     "neisCode": "8781056",
@@ -2187,7 +1917,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::김해삼문고": {
     "neisCode": "9010295",
@@ -2202,7 +1932,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::인창중학교": {
     "neisCode": "7031213",
@@ -2217,7 +1947,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::상봉초등학교": {
     "neisCode": "7679034",
@@ -2232,7 +1962,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::귀인초등학교": {
     "neisCode": "7569013",
@@ -2247,7 +1977,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::하길초등학교": {
     "neisCode": "7679368",
@@ -2262,7 +1992,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::고양일고등학교": {
     "neisCode": "7530892",
@@ -2277,7 +2007,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::화성고등학교": {
     "neisCode": "7530584",
@@ -2292,7 +2022,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::바른중학교": {
     "neisCode": "7679535",
@@ -2307,7 +2037,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::대일초등학교": {
     "neisCode": "7551059",
@@ -2322,7 +2052,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::광주중앙고등학교": {
     "neisCode": "7530786",
@@ -2337,7 +2067,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::소하고등학교": {
     "neisCode": "7530088",
@@ -2352,7 +2082,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::이천초등학교": {
     "neisCode": "7741038",
@@ -2367,7 +2097,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::동탄중앙고등학교": {
     "neisCode": "7531159",
@@ -2382,7 +2112,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::다원학교": {
     "neisCode": "7531254",
@@ -2397,7 +2127,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::부명중학교": {
     "neisCode": "7581013",
@@ -2412,7 +2142,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::시흥매화고등학교": {
     "neisCode": "7530898",
@@ -2427,7 +2157,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::연일초등학교": {
     "neisCode": "8761136",
@@ -2442,7 +2172,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::명문고등학교": {
     "neisCode": "7530628",
@@ -2457,7 +2187,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울예술고등학교": {
     "neisCode": "7010187",
@@ -2472,7 +2202,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::성산초등학교": {
     "neisCode": "7679080",
@@ -2487,7 +2217,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::세종초등학교": {
     "neisCode": "7134117",
@@ -2502,7 +2232,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::신광여자고등학교": {
     "neisCode": "7010205",
@@ -2517,7 +2247,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::매원중학교": {
     "neisCode": "7541021",
@@ -2532,7 +2262,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::진건고등학교": {
     "neisCode": "7530526",
@@ -2547,7 +2277,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::동수원초등학교": {
     "neisCode": "7541075",
@@ -2562,7 +2292,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::선덕고등학교": {
     "neisCode": "7010189",
@@ -2577,7 +2307,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::풍무고등학교": {
     "neisCode": "7530621",
@@ -2592,7 +2322,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::비전중학교": {
     "neisCode": "7631003",
@@ -2607,7 +2337,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::용인한얼초등학교": {
     "neisCode": "7751358",
@@ -2622,7 +2352,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::구성고등학교": {
     "neisCode": "7530611",
@@ -2637,7 +2367,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::수동중학교": {
     "neisCode": "7652086",
@@ -2652,7 +2382,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::새얼학교": {
     "neisCode": "7530429",
@@ -2667,7 +2397,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::능곡고등학교": {
     "neisCode": "7530060",
@@ -2682,7 +2412,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::창인학교": {
     "neisCode": "7530510",
@@ -2697,7 +2427,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::궁내중학교": {
     "neisCode": "7642039",
@@ -2712,7 +2442,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::정현초등학교": {
     "neisCode": "7679387",
@@ -2727,7 +2457,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::이천송정중학교": {
     "neisCode": "7741011",
@@ -2742,82 +2472,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::문경초등학교": {
-    "neisCode": "8841039",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 문경시 문경읍 청운로 23",
-    "lat": 36.7368326501298,
-    "lng": 128.104840693716,
-    "classCount": 6,
-    "facilityScore": 62,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::산북초등학교": {
-    "neisCode": "8841040",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 문경시 산북면 금천로 553-12",
-    "lat": 36.6558203344805,
-    "lng": 128.257715675996,
-    "classCount": 6,
-    "facilityScore": 18,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::왜관초등학교": {
-    "neisCode": "8941055",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 칠곡군 왜관읍 구상길 204",
-    "lat": 35.9851239557555,
-    "lng": 128.396588834679,
-    "classCount": 26,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::옥계동부중학교": {
-    "neisCode": "8801151",
-    "atptCode": "R10",
-    "schoolType": "중학교",
-    "address": "경상북도 구미시 옥계북로 87",
-    "lat": 36.1390517100042,
-    "lng": 128.426148331219,
-    "classCount": 28,
-    "facilityScore": 75,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "경북::영주중앙초": {
-    "neisCode": "8811046",
-    "atptCode": "R10",
-    "schoolType": "초등학교",
-    "address": "경상북도 영주시 중앙로 126",
-    "lat": 36.8263734356131,
-    "lng": 128.626053210877,
-    "classCount": 13,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 15,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::중화중학교": {
     "neisCode": "7021145",
@@ -2832,22 +2487,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::우신고등학교": {
-    "neisCode": "7010223",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 구로구 부일로 917",
-    "lat": 37.4949023087281,
-    "lng": 126.826353599765,
-    "classCount": 27,
-    "facilityScore": 77,
-    "transitScore": 67,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "울산::내황초등학교": {
     "neisCode": "7491096",
@@ -2862,7 +2502,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::신방학중학교": {
     "neisCode": "7051193",
@@ -2877,7 +2517,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::송화초등학교": {
     "neisCode": "7679042",
@@ -2892,7 +2532,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울화곡초등학교": {
     "neisCode": "7081480",
@@ -2907,7 +2547,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::신월초등학교": {
     "neisCode": "7751098",
@@ -2922,7 +2562,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울신내초등학교": {
     "neisCode": "7021098",
@@ -2937,7 +2577,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::미성중학교": {
     "neisCode": "7132138",
@@ -2952,7 +2592,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::방화중학교": {
     "neisCode": "7081495",
@@ -2967,7 +2607,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울대학교사범대학부설중학교": {
     "neisCode": "7121371",
@@ -2982,7 +2622,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::양정고등학교": {
     "neisCode": "7010208",
@@ -2997,82 +2637,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "대전::대전과학고등학교": {
-    "neisCode": "7430032",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 유성구 과학로 46",
-    "lat": 36.3741946568515,
-    "lng": 127.371435752239,
-    "classCount": 18,
-    "facilityScore": 65,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "대전::계룡디지텍고등학교": {
-    "neisCode": "7430324",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 동구 소랑길 64",
-    "lat": 36.3376254914464,
-    "lng": 127.434474866587,
-    "classCount": 27,
-    "facilityScore": 75,
-    "transitScore": 33,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "대전::외삼초등학교": {
-    "neisCode": "7451121",
-    "atptCode": "G10",
-    "schoolType": "초등학교",
-    "address": "대전광역시 유성구 반석동로 63",
-    "lat": 36.3928981806548,
-    "lng": 127.310507584115,
-    "classCount": 31,
-    "facilityScore": 78,
-    "transitScore": 33,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "대전::대전탄방초등학교": {
-    "neisCode": "7451116",
-    "atptCode": "G10",
-    "schoolType": "초등학교",
-    "address": "대전광역시 서구 탄방로 15",
-    "lat": 36.3460351467324,
-    "lng": 127.390982535791,
-    "classCount": 31,
-    "facilityScore": 83,
-    "transitScore": 100,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "대전::대전대성여자고등학교": {
-    "neisCode": "7430326",
-    "atptCode": "G10",
-    "schoolType": "고등학교",
-    "address": "대전광역시 동구 대성2길 20",
-    "lat": 36.3377260383797,
-    "lng": 127.44056173937,
-    "classCount": 33,
-    "facilityScore": 75,
-    "transitScore": 67,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "대전::대전문창초등학교": {
     "neisCode": "7441069",
@@ -3087,7 +2652,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "대전::대덕고등학교": {
     "neisCode": "7430030",
@@ -3102,7 +2667,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::문산중": {
     "neisCode": "9051054",
@@ -3117,7 +2682,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::신기중학교": {
     "neisCode": "7569063",
@@ -3132,22 +2697,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "충남::아산갈산중학교": {
-    "neisCode": "8181174",
-    "atptCode": "N10",
-    "schoolType": "중학교",
-    "address": "충청남도 아산시 탕정면 이순신대로 512",
-    "lat": 36.7956110960807,
-    "lng": 127.060220601219,
-    "classCount": 22,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::한울초등학교": {
     "neisCode": "8261098",
@@ -3162,7 +2712,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::천안새샘초등학교": {
     "neisCode": "8151214",
@@ -3177,7 +2727,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::천안청수고등학교": {
     "neisCode": "8140265",
@@ -3192,7 +2742,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::천안부대초등학교": {
     "neisCode": "8151075",
@@ -3207,7 +2757,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::오송중학교": {
     "neisCode": "8011330",
@@ -3222,7 +2772,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::만수초등학교": {
     "neisCode": "8011300",
@@ -3237,7 +2787,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::양청고등학교": {
     "neisCode": "8000268",
@@ -3252,7 +2802,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::진천중학교": {
     "neisCode": "8081009",
@@ -3267,7 +2817,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::꽃동네학교": {
     "neisCode": "8000197",
@@ -3282,7 +2832,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::강서초등학교": {
     "neisCode": "8011164",
@@ -3297,7 +2847,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::용아초등학교": {
     "neisCode": "8011371",
@@ -3312,7 +2862,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::충북고등학교": {
     "neisCode": "8000074",
@@ -3327,7 +2877,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::한국바이오마이스터고등학교": {
     "neisCode": "8000287",
@@ -3342,7 +2892,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::단재초등학교": {
     "neisCode": "8011348",
@@ -3357,7 +2907,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::명지초등학교": {
     "neisCode": "8031024",
@@ -3372,7 +2922,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::운동초등학교": {
     "neisCode": "8011195",
@@ -3387,7 +2937,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::내수중학교": {
     "neisCode": "8011323",
@@ -3402,7 +2952,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::덕산중학교": {
     "neisCode": "8081005",
@@ -3417,7 +2967,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::제천동중학교": {
     "neisCode": "8031013",
@@ -3432,7 +2982,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::제천산업고등학교": {
     "neisCode": "8000210",
@@ -3447,7 +2997,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::복대중학교": {
     "neisCode": "8011013",
@@ -3462,7 +3012,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::창신초등학교": {
     "neisCode": "8011203",
@@ -3477,7 +3027,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::옥동초등학교": {
     "neisCode": "8081018",
@@ -3492,7 +3042,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::미원중학교": {
     "neisCode": "8011326",
@@ -3507,7 +3057,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::산남초등학교": {
     "neisCode": "8011182",
@@ -3522,7 +3072,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::단재고등학교": {
     "neisCode": "8000550",
@@ -3537,7 +3087,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::비봉초등학교": {
     "neisCode": "8011301",
@@ -3552,7 +3102,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::금천초등학교": {
     "neisCode": "8011168",
@@ -3567,7 +3117,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::운호고등학교": {
     "neisCode": "8000091",
@@ -3582,7 +3132,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::오창고등학교": {
     "neisCode": "8000050",
@@ -3597,7 +3147,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::증평초등학교": {
     "neisCode": "8092033",
@@ -3612,7 +3162,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::영동고등학교": {
     "neisCode": "8000048",
@@ -3627,7 +3177,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::매괴고등학교": {
     "neisCode": "8000183",
@@ -3642,7 +3192,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::산남중학교": {
     "neisCode": "8011015",
@@ -3657,7 +3207,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::충주북여자중학교": {
     "neisCode": "8021038",
@@ -3672,7 +3222,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::청주혜화학교": {
     "neisCode": "8000160",
@@ -3687,7 +3237,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::직지초등학교": {
     "neisCode": "8011128",
@@ -3702,7 +3252,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::청주성신학교": {
     "neisCode": "8000158",
@@ -3717,7 +3267,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::복대초등학교": {
     "neisCode": "8011175",
@@ -3732,7 +3282,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::형석고등학교": {
     "neisCode": "8000102",
@@ -3747,7 +3297,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::죽림초등학교": {
     "neisCode": "8011201",
@@ -3762,7 +3312,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::청주맹학교": {
     "neisCode": "8000157",
@@ -3777,7 +3327,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::청석고등학교": {
     "neisCode": "8000096",
@@ -3792,7 +3342,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::한국호텔관광고등학교": {
     "neisCode": "8000311",
@@ -3807,7 +3357,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::목행초등학교": {
     "neisCode": "8021058",
@@ -3822,7 +3372,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::대소초등학교": {
     "neisCode": "8101018",
@@ -3837,7 +3387,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::청풍중학교": {
     "neisCode": "8031016",
@@ -3852,7 +3402,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::산성초등학교": {
     "neisCode": "8011158",
@@ -3867,7 +3417,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::원평초등학교": {
     "neisCode": "8011198",
@@ -3882,7 +3432,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::주중초등학교": {
     "neisCode": "8011160",
@@ -3897,7 +3447,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::봉명고등학교": {
     "neisCode": "8000212",
@@ -3912,7 +3462,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::청주농업고등학교": {
     "neisCode": "8000125",
@@ -3927,7 +3477,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::청주중앙여자고등학교": {
     "neisCode": "8000072",
@@ -3942,7 +3492,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::심천초등학교": {
     "neisCode": "8071019",
@@ -3957,67 +3507,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "충북::청주혜원학교": {
-    "neisCode": "8000159",
-    "atptCode": "M10",
-    "schoolType": "특수학교",
-    "address": "충청북도 청주시 상당구 중고개로248번길 25",
-    "lat": 36.6265212746821,
-    "lng": 127.511371560934,
-    "classCount": 44,
-    "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 27,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "충북::비상초등학교": {
-    "neisCode": "8011307",
-    "atptCode": "M10",
-    "schoolType": "초등학교",
-    "address": "충청북도 청주시 청원구 내수읍 세교초정로 171",
-    "lat": 36.7111493748597,
-    "lng": 127.582081908204,
-    "classCount": 6,
-    "facilityScore": 5,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "충북::원봉중학교": {
-    "neisCode": "8011070",
-    "atptCode": "M10",
-    "schoolType": "중학교",
-    "address": "충청북도 청주시 상당구 중흥로 99",
-    "lat": 36.6140991073773,
-    "lng": 127.506223263655,
-    "classCount": 27,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "충북::영동산업과학고등학교": {
-    "neisCode": "8000211",
-    "atptCode": "M10",
-    "schoolType": "고등학교",
-    "address": "충청북도 영동군 영동읍 학산영동로 1213",
-    "lat": 36.1725454084478,
-    "lng": 127.771179874529,
-    "classCount": 9,
-    "facilityScore": 73,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::곤양고": {
     "neisCode": "9010037",
@@ -4032,7 +3522,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::창원토월고": {
     "neisCode": "9010319",
@@ -4047,7 +3537,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::통영여자고": {
     "neisCode": "9010075",
@@ -4062,7 +3552,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::동원고": {
     "neisCode": "9010463",
@@ -4077,7 +3567,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::풍납중학교": {
     "neisCode": "7130206",
@@ -4092,7 +3582,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::상신중학교": {
     "neisCode": "7031188",
@@ -4107,7 +3597,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울오류남초등학교": {
     "neisCode": "7041154",
@@ -4122,7 +3612,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::창원상남중": {
     "neisCode": "9022168",
@@ -4137,7 +3627,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::성동고등학교": {
     "neisCode": "7010089",
@@ -4152,7 +3642,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::지구촌학교": {
     "neisCode": "7041214",
@@ -4167,7 +3657,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "전북::익산궁동초등학교": {
     "neisCode": "8352108",
@@ -4182,7 +3672,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::창원남고": {
     "neisCode": "9010115",
@@ -4197,7 +3687,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::경복초등학교": {
     "neisCode": "7134077",
@@ -4212,7 +3702,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울경인초등학교": {
     "neisCode": "7081425",
@@ -4227,7 +3717,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::청연초등학교": {
     "neisCode": "7679516",
@@ -4242,7 +3732,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::포곡고등학교": {
     "neisCode": "7530881",
@@ -4257,7 +3747,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::천안신방중학교": {
     "neisCode": "8151034",
@@ -4272,7 +3762,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::온양여자고등학교": {
     "neisCode": "8140062",
@@ -4287,7 +3777,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::천안부영초등학교": {
     "neisCode": "8151087",
@@ -4302,7 +3792,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::포항이동중학교": {
     "neisCode": "8761246",
@@ -4317,7 +3807,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::한광고등학교": {
     "neisCode": "7010251",
@@ -4332,7 +3822,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::개포중학교": {
     "neisCode": "7091421",
@@ -4347,7 +3837,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::등촌고등학교": {
     "neisCode": "7010700",
@@ -4362,7 +3852,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::죽전고등학교": {
     "neisCode": "7530525",
@@ -4377,7 +3867,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::분당고등학교": {
     "neisCode": "7530075",
@@ -4392,7 +3882,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::천안백석중학교": {
     "neisCode": "8151033",
@@ -4407,7 +3897,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "부산::ou=부산온라인학교": {
     "neisCode": "       ",
@@ -4422,7 +3912,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울염리초등학교": {
     "neisCode": "7031154",
@@ -4437,7 +3927,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::아산테크노중학교": {
     "neisCode": "8181155",
@@ -4452,7 +3942,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::양북초등학교": {
     "neisCode": "8771094",
@@ -4467,7 +3957,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::점촌고등학교": {
     "neisCode": "8750127",
@@ -4482,7 +3972,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울대길초등학교": {
     "neisCode": "7041116",
@@ -4497,7 +3987,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울연가초등학교": {
     "neisCode": "7031148",
@@ -4512,7 +4002,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울개롱초등학교": {
     "neisCode": "7130109",
@@ -4527,7 +4017,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::세륜중학교": {
     "neisCode": "7130189",
@@ -4542,7 +4032,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::자운고등학교": {
     "neisCode": "7010703",
@@ -4557,7 +4047,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::문덕초등학교": {
     "neisCode": "8761127",
@@ -4572,7 +4062,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울왕북초등학교": {
     "neisCode": "7091409",
@@ -4587,7 +4077,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울서빙고초등학교": {
     "neisCode": "7061069",
@@ -4602,22 +4092,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울금북초등학교": {
-    "neisCode": "7134086",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 성동구 행당로1길 13",
-    "lat": 37.5574476886561,
-    "lng": 127.023369904581,
-    "classCount": 30,
-    "facilityScore": 82,
-    "transitScore": 100,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울녹천초등학교": {
     "neisCode": "7051117",
@@ -4632,7 +4107,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::운중중학교": {
     "neisCode": "7551158",
@@ -4647,7 +4122,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "대전::대전상원초등학교": {
     "neisCode": "7451263",
@@ -4662,7 +4137,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "전북::전주서곡초등학교": {
     "neisCode": "8332166",
@@ -4677,7 +4152,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::창원천광학교": {
     "neisCode": "9010397",
@@ -4692,7 +4167,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::사천여자중": {
     "neisCode": "9081037",
@@ -4707,7 +4182,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::밀양중": {
     "neisCode": "9101030",
@@ -4722,7 +4197,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::통영잠포학교": {
     "neisCode": "9010348",
@@ -4737,7 +4212,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::구로고등학교": {
     "neisCode": "7010068",
@@ -4752,7 +4227,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울개원초등학교": {
     "neisCode": "7091369",
@@ -4767,7 +4242,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::동대문중학교": {
     "neisCode": "7021126",
@@ -4782,7 +4257,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::구암고등학교": {
     "neisCode": "7011111",
@@ -4797,7 +4272,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울문창초등학교": {
     "neisCode": "7132093",
@@ -4812,7 +4287,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울홍릉초등학교": {
     "neisCode": "7021117",
@@ -4827,22 +4302,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울조원초등학교": {
-    "neisCode": "7132118",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 관악구 조원로 67",
-    "lat": 37.484127765974,
-    "lng": 126.909505620969,
-    "classCount": 19,
-    "facilityScore": 78,
-    "transitScore": 67,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::회룡중학교": {
     "neisCode": "7561016",
@@ -4857,7 +4317,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::동두천초등학교": {
     "neisCode": "7602031",
@@ -4872,7 +4332,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::동화고등학교": {
     "neisCode": "7530156",
@@ -4887,7 +4347,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::대화고등학교": {
     "neisCode": "7531042",
@@ -4902,7 +4362,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::운중초등학교": {
     "neisCode": "7551155",
@@ -4917,7 +4377,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::인지중학교": {
     "neisCode": "8191013",
@@ -4932,7 +4392,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::당진중학교": {
     "neisCode": "8291005",
@@ -4947,7 +4407,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "대전::대전반석고등학교": {
     "neisCode": "7430238",
@@ -4962,7 +4422,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::구미사곡초등학교": {
     "neisCode": "8801089",
@@ -4977,7 +4437,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::김해경원고": {
     "neisCode": "9010040",
@@ -4992,7 +4452,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::부림초": {
     "neisCode": "9121010",
@@ -5007,7 +4467,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::김해건설공업고": {
     "neisCode": "9010130",
@@ -5022,7 +4482,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울동구고등학교": {
     "neisCode": "7011539",
@@ -5037,7 +4497,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::잠실중학교": {
     "neisCode": "7130202",
@@ -5052,7 +4512,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울염동초등학교": {
     "neisCode": "7081467",
@@ -5067,7 +4527,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::목동고등학교": {
     "neisCode": "7010744",
@@ -5082,7 +4542,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울체육고등학교": {
     "neisCode": "7010086",
@@ -5097,7 +4557,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::성포중학교": {
     "neisCode": "7611018",
@@ -5112,7 +4572,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::서봉초등학교": {
     "neisCode": "7679534",
@@ -5127,7 +4587,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::청담고등학교": {
     "neisCode": "7530992",
@@ -5142,7 +4602,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::관문초등학교": {
     "neisCode": "7569011",
@@ -5157,7 +4617,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::조원고등학교": {
     "neisCode": "7530613",
@@ -5172,7 +4632,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::가림중학교": {
     "neisCode": "7591003",
@@ -5187,7 +4647,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::권선초등학교": {
     "neisCode": "7541071",
@@ -5202,7 +4662,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::광교호수중학교": {
     "neisCode": "7541405",
@@ -5217,7 +4677,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::의왕정음학교": {
     "neisCode": "7531396",
@@ -5232,7 +4692,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::교하고등학교": {
     "neisCode": "7530774",
@@ -5247,7 +4707,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::소현초등학교": {
     "neisCode": "7751093",
@@ -5262,7 +4722,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::신일초등학교": {
     "neisCode": "7751045",
@@ -5277,7 +4737,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::안산원곡초등학교": {
     "neisCode": "7611063",
@@ -5292,7 +4752,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::안양덕현초등학교": {
     "neisCode": "7569035",
@@ -5307,7 +4767,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::옥길중학교": {
     "neisCode": "7581258",
@@ -5322,7 +4782,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::배곧한울초등학교": {
     "neisCode": "7781148",
@@ -5337,7 +4797,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::오산고현초등학교": {
     "neisCode": "7679083",
@@ -5352,7 +4812,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::유구중학교": {
     "neisCode": "8161011",
@@ -5367,7 +4827,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::천안신당고등학교": {
     "neisCode": "8140236",
@@ -5382,7 +4842,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::성연중학교": {
     "neisCode": "8191012",
@@ -5397,7 +4857,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::예산중학교": {
     "neisCode": "8271010",
@@ -5412,7 +4872,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "대전::대전봉산초등학교": {
     "neisCode": "7451090",
@@ -5427,7 +4887,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "울산::성동초등학교": {
     "neisCode": "7501089",
@@ -5442,7 +4902,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::포항제철고등학교": {
     "neisCode": "8750210",
@@ -5457,7 +4917,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::두호고등학교": {
     "neisCode": "8750518",
@@ -5472,7 +4932,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::성동초등학교": {
     "neisCode": "8831059",
@@ -5487,7 +4947,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::대교초등학교": {
     "neisCode": "8941043",
@@ -5502,7 +4962,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::영주중학교": {
     "neisCode": "8811058",
@@ -5517,7 +4977,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::경북휴먼테크고등학교": {
     "neisCode": "8750776",
@@ -5532,7 +4992,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::오태초등학교": {
     "neisCode": "8801116",
@@ -5547,7 +5007,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "전북::군산중학교": {
     "neisCode": "8342137",
@@ -5562,22 +5022,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울전동초등학교": {
-    "neisCode": "7021109",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 동대문구 전농로16길 61",
-    "lat": 37.5790832853249,
-    "lng": 127.060805297019,
-    "classCount": 25,
-    "facilityScore": 82,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울공진초등학교": {
     "neisCode": "7081427",
@@ -5592,7 +5037,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "대전::대전용산고등학교": {
     "neisCode": "7430239",
@@ -5607,7 +5052,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::상주초등학교": {
     "neisCode": "8831058",
@@ -5622,7 +5067,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::영천중앙초등학교": {
     "neisCode": "8821042",
@@ -5637,7 +5082,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::죽천초": {
     "neisCode": "8761149",
@@ -5652,7 +5097,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::공항고등학교": {
     "neisCode": "7010064",
@@ -5667,7 +5112,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::광동중학교": {
     "neisCode": "7652013",
@@ -5682,7 +5127,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::양서초등학교": {
     "neisCode": "8761258",
@@ -5697,7 +5142,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 16,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "전북::유일여자고등학교": {
     "neisCode": "8321095",
@@ -5712,7 +5157,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::안산부곡초등학교": {
     "neisCode": "7611060",
@@ -5727,7 +5172,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::옥정중학교": {
     "neisCode": "7602133",
@@ -5742,7 +5187,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::남후초등학교": {
     "neisCode": "8791050",
@@ -5757,7 +5202,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::경남혜림학교": {
     "neisCode": "9010200",
@@ -5772,7 +5217,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경기::고양국제고등학교": {
     "neisCode": "7530977",
@@ -5787,7 +5232,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::경기초등학교": {
     "neisCode": "7031110",
@@ -5802,7 +5247,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울백석초등학교": {
     "neisCode": "7081443",
@@ -5817,7 +5262,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::선화예술중학교": {
     "neisCode": "7134155",
@@ -5832,7 +5277,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "울산::울산중학교": {
     "neisCode": "7491166",
@@ -5847,7 +5292,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::이동초등학교": {
     "neisCode": "8761142",
@@ -5862,7 +5307,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::솔강중학교": {
     "neisCode": "8011390",
@@ -5877,7 +5322,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::내토초등학교": {
     "neisCode": "8031021",
@@ -5892,7 +5337,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::대금고등학교": {
     "neisCode": "8000431",
@@ -5907,7 +5352,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::증안초등학교": {
     "neisCode": "8011202",
@@ -5922,7 +5367,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::낭성초등학교": {
     "neisCode": "8011296",
@@ -5937,7 +5382,7 @@
     "classStudentRatio": 18,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충북::동주초등학교": {
     "neisCode": "8011171",
@@ -5952,52 +5397,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울신곡초등학교": {
-    "neisCode": "7081450",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강서구 등촌로13자길 42-14",
-    "lat": 37.5390962681125,
-    "lng": 126.856009341467,
-    "classCount": 24,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울숭례초등학교": {
-    "neisCode": "7121318",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 성북구 종암로5길 14",
-    "lat": 37.5945203773277,
-    "lng": 127.035296496549,
-    "classCount": 26,
-    "facilityScore": 77,
-    "transitScore": 67,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울혜화초등학교": {
-    "neisCode": "7061087",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 종로구 혜화로 32",
-    "lat": 37.5891727709231,
-    "lng": 126.999927989279,
-    "classCount": 19,
-    "facilityScore": 83,
-    "transitScore": 67,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 13,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::서울언남초등학교": {
     "neisCode": "7091404",
@@ -6012,7 +5412,7 @@
     "classStudentRatio": 22,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::김해임호고": {
     "neisCode": "9010462",
@@ -6027,22 +5427,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울신림초등학교": {
-    "neisCode": "7132106",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 관악구 문성로28길 31",
-    "lat": 37.4771198534832,
-    "lng": 126.926876735629,
-    "classCount": 20,
-    "facilityScore": 77,
-    "transitScore": 100,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::길안초등학교": {
     "neisCode": "8791047",
@@ -6057,7 +5442,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "충남::연무고등학교": {
     "neisCode": "8140098",
@@ -6072,22 +5457,7 @@
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울신정초등학교": {
-    "neisCode": "7081457",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 강서구 곰달래로31가길 27",
-    "lat": 37.5330515497114,
-    "lng": 126.85257677345,
-    "classCount": 51,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경남::의신중학교": {
     "neisCode": "9022503",
@@ -6102,22 +5472,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "서울::서울상봉초등학교": {
-    "neisCode": "7021097",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 중랑구 동일로126가길 11",
-    "lat": 37.5979789522459,
-    "lng": 127.083171419175,
-    "classCount": 24,
-    "facilityScore": 85,
-    "transitScore": 100,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::가재울고등학교": {
     "neisCode": "7011169",
@@ -6132,7 +5487,7 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "서울::중계중학교": {
     "neisCode": "7051202",
@@ -6147,7 +5502,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "경북::인동중학교": {
     "neisCode": "8801153",
@@ -6162,7 +5517,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "인천::인천송림초등학교": {
     "neisCode": "7321032",
@@ -6177,22 +5532,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 13,
     "statsEstimated": true,
-    "updated": "2026-11-02"
-  },
-  "인천::인천중산중학교": {
-    "neisCode": "7321223",
-    "atptCode": "E10",
-    "schoolType": "중학교",
-    "address": "인천광역시 영종구 두미포로 189",
-    "lat": 37.4983286379824,
-    "lng": 126.570672657622,
-    "classCount": 30,
-    "facilityScore": 67,
-    "transitScore": 0,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "인천::인천예송중학교": {
     "neisCode": "7341285",
@@ -6207,7 +5547,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "인천::인천구월서초등학교": {
     "neisCode": "7341015",
@@ -6222,7 +5562,7 @@
     "classStudentRatio": 20,
     "teacherStudentRatio": 14,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "인천::석정여자고등학교": {
     "neisCode": "7310051",
@@ -6237,7 +5577,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "인천::인천은송중학교": {
     "neisCode": "7341315",
@@ -6252,7 +5592,7 @@
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "인천::동인천중학교": {
     "neisCode": "7341072",
@@ -6267,7 +5607,7 @@
     "classStudentRatio": 27,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
   },
   "인천::부원여자중학교": {
     "neisCode": "7331057",
@@ -6282,6 +5622,696 @@
     "classStudentRatio": 23,
     "teacherStudentRatio": 11,
     "statsEstimated": true,
-    "updated": "2026-11-02"
+    "updated": "2026-11-03"
+  },
+  "전북::전주평화중학교": {
+    "neisCode": "8332223",
+    "atptCode": "P10",
+    "schoolType": "중학교",
+    "address": "전북특별자치도 전주시 완산구 평화로 74",
+    "lat": 35.7833732159703,
+    "lng": 127.134015996687,
+    "classCount": 24,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울장평초등학교": {
+    "neisCode": "7021106",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 동대문구 답십리로 ",
+    "lat": 37.5728706947252,
+    "lng": 127.058958260045,
+    "classCount": 44,
+    "facilityScore": 83,
+    "transitScore": 33,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::창덕여자중학교": {
+    "neisCode": "7061116",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 중구 정동길 22",
+    "lat": 37.5664327974417,
+    "lng": 126.96921017611,
+    "classCount": 9,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울양전초등학교": {
+    "neisCode": "7091403",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강남구 개포로 513",
+    "lat": 37.4902478541395,
+    "lng": 127.069170862479,
+    "classCount": 13,
+    "facilityScore": 87,
+    "transitScore": 100,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 12,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경남::양산고": {
+    "neisCode": "9010058",
+    "atptCode": "S10",
+    "schoolType": "고등학교",
+    "address": "경상남도 양산시 호국학도병길 2",
+    "lat": 35.3486672549866,
+    "lng": 129.044490862753,
+    "classCount": 31,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경남::신명초": {
+    "neisCode": "9151019",
+    "atptCode": "S10",
+    "schoolType": "초등학교",
+    "address": "경상남도 양산시 신명로 108",
+    "lat": 35.3887531737988,
+    "lng": 129.14210057184,
+    "classCount": 15,
+    "facilityScore": 63,
+    "transitScore": 0,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울당곡초등학교": {
+    "neisCode": "7132090",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 관악구 보라매로2길 23",
+    "lat": 37.4901681154487,
+    "lng": 126.930369788237,
+    "classCount": 19,
+    "facilityScore": 78,
+    "transitScore": 100,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::도곡중학교": {
+    "neisCode": "7091428",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 강남구 언주로57길 31",
+    "lat": 37.4922937289635,
+    "lng": 127.044785558988,
+    "classCount": 24,
+    "facilityScore": 83,
+    "transitScore": 100,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울홍연초등학교": {
+    "neisCode": "7031167",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 서대문구 백련사길 55",
+    "lat": 37.582118713581,
+    "lng": 126.93066044978,
+    "classCount": 23,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::상갈초등학교": {
+    "neisCode": "7751086",
+    "atptCode": "J10",
+    "schoolType": "초등학교",
+    "address": "경기도 용인시 기흥구 금화로58번길 17",
+    "lat": 37.2642512867614,
+    "lng": 127.110997851078,
+    "classCount": 16,
+    "facilityScore": 78,
+    "transitScore": 33,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::평촌과학기술고등학교": {
+    "neisCode": "7531424",
+    "atptCode": "J10",
+    "schoolType": "고등학교",
+    "address": "경기도 안양시 동안구 갈산로 16",
+    "lat": 37.3736039804229,
+    "lng": 126.962614203251,
+    "classCount": 24,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::원흥초등학교": {
+    "neisCode": "7621372",
+    "atptCode": "J10",
+    "schoolType": "초등학교",
+    "address": "경기도 고양시 덕양구 원흥1로 26",
+    "lat": 37.6510763025816,
+    "lng": 126.868858208878,
+    "classCount": 21,
+    "facilityScore": 75,
+    "transitScore": 33,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "충남::아산남성초등학교": {
+    "neisCode": "8181061",
+    "atptCode": "N10",
+    "schoolType": "초등학교",
+    "address": "충청남도 아산시 신창면 남성길 152-64",
+    "lat": 36.787240595505,
+    "lng": 126.956627150662,
+    "classCount": 36,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::이화여자대학교사범대학부속이화금란고등학교": {
+    "neisCode": "7010547",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 서대문구 성산로 560",
+    "lat": 37.5663888550725,
+    "lng": 126.947355714248,
+    "classCount": 36,
+    "facilityScore": 77,
+    "transitScore": 33,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울학동초등학교": {
+    "neisCode": "7091418",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강남구 선릉로115길 42",
+    "lat": 37.512045952,
+    "lng": 127.039435597045,
+    "classCount": 19,
+    "facilityScore": 82,
+    "transitScore": 100,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 15,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::일산동고등학교": {
+    "neisCode": "7530115",
+    "atptCode": "J10",
+    "schoolType": "고등학교",
+    "address": "경기도 고양시 일산서구 탄현로 100",
+    "lat": 37.7007090420768,
+    "lng": 126.769130546462,
+    "classCount": 33,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::의왕푸른초등학교": {
+    "neisCode": "7642152",
+    "atptCode": "J10",
+    "schoolType": "초등학교",
+    "address": "경기도 의왕시 시청1로 7",
+    "lat": 37.3461934820004,
+    "lng": 126.969251126468,
+    "classCount": 18,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::충현초등학교": {
+    "neisCode": "7591031",
+    "atptCode": "J10",
+    "schoolType": "초등학교",
+    "address": "경기도 광명시 성채안로 16",
+    "lat": 37.4330889782108,
+    "lng": 126.886850471934,
+    "classCount": 21,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 12,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::화광중학교": {
+    "neisCode": "7652148",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 남양주시 화도읍 경춘로 2226",
+    "lat": 37.6527641277259,
+    "lng": 127.334952480318,
+    "classCount": 14,
+    "facilityScore": 62,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::평내고등학교": {
+    "neisCode": "7530771",
+    "atptCode": "J10",
+    "schoolType": "고등학교",
+    "address": "경기도 남양주시 평내로 57",
+    "lat": 37.6420545134398,
+    "lng": 127.234094421429,
+    "classCount": 30,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::화성나래학교": {
+    "neisCode": "7531253",
+    "atptCode": "J10",
+    "schoolType": "특수학교",
+    "address": "경기도 화성시 동탄대로10길 11",
+    "lat": 37.1762992211729,
+    "lng": 127.106293897802,
+    "classCount": 36,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::광주광남중학교": {
+    "neisCode": "7692047",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 광주시 벼루개길42번길 50",
+    "lat": 37.380492825479,
+    "lng": 127.23638475714,
+    "classCount": 39,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "충남::천안여자중학교": {
+    "neisCode": "8151022",
+    "atptCode": "N10",
+    "schoolType": "중학교",
+    "address": "충청남도 천안시 동남구 원거리11길 31",
+    "lat": 36.8025496380117,
+    "lng": 127.158191715845,
+    "classCount": 21,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "울산::약사고등학교": {
+    "neisCode": "7480189",
+    "atptCode": "H10",
+    "schoolType": "고등학교",
+    "address": "울산광역시 중구 종가로 560",
+    "lat": 35.5735453599089,
+    "lng": 129.335998411313,
+    "classCount": 24,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경북::금오고등학교": {
+    "neisCode": "8750447",
+    "atptCode": "R10",
+    "schoolType": "고등학교",
+    "address": "경상북도 구미시 박정희로25길 15",
+    "lat": 36.1089499379325,
+    "lng": 128.355631933369,
+    "classCount": 28,
+    "facilityScore": 75,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경북::동방초등학교": {
+    "neisCode": "8771077",
+    "atptCode": "R10",
+    "schoolType": "초등학교",
+    "address": "경상북도 경주시 산업로 3485-8",
+    "lat": 35.8036491819811,
+    "lng": 129.261861200289,
+    "classCount": 9,
+    "facilityScore": 22,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::덕은한강초등학교": {
+    "neisCode": "7621394",
+    "atptCode": "J10",
+    "schoolType": "초등학교",
+    "address": "경기도 고양시 덕양구 대덕산로 55",
+    "lat": 37.5815289260585,
+    "lng": 126.863806586683,
+    "classCount": 58,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::문현중학교": {
+    "neisCode": "7130177",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 송파구 충민로 99",
+    "lat": 37.4805587972062,
+    "lng": 127.128244061598,
+    "classCount": 19,
+    "facilityScore": 85,
+    "transitScore": 67,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경북::포항명도학교": {
+    "neisCode": "8750361",
+    "atptCode": "R10",
+    "schoolType": "특수학교",
+    "address": "경상북도 포항시 북구 소티재로 133",
+    "lat": 36.0627838013716,
+    "lng": 129.352026149358,
+    "classCount": 40,
+    "facilityScore": 13,
+    "transitScore": 0,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::용산중학교": {
+    "neisCode": "7061112",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 용산구 두텁바위로 74",
+    "lat": 37.5460125390171,
+    "lng": 126.9809128899,
+    "classCount": 12,
+    "facilityScore": 77,
+    "transitScore": 33,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울면목초등학교": {
+    "neisCode": "7021089",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 중랑구 면목로 434",
+    "lat": 37.5906774945638,
+    "lng": 127.087293348704,
+    "classCount": 25,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울누원초등학교": {
+    "neisCode": "7051118",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 도봉구 마들로 859-44",
+    "lat": 37.6872327127492,
+    "lng": 127.04926716395,
+    "classCount": 31,
+    "facilityScore": 78,
+    "transitScore": 100,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 15,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::시곡중학교": {
+    "neisCode": "7611019",
+    "atptCode": "J10",
+    "schoolType": "중학교",
+    "address": "경기도 안산시 상록구 감골로 123",
+    "lat": 37.2926203840922,
+    "lng": 126.855635935916,
+    "classCount": 31,
+    "facilityScore": 77,
+    "transitScore": 33,
+    "classStudentRatio": 27,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경북::의성초등학교": {
+    "neisCode": "8871041",
+    "atptCode": "R10",
+    "schoolType": "초등학교",
+    "address": "경상북도 의성군 의성읍 군청길 26",
+    "lat": 36.3515898882415,
+    "lng": 128.695190003181,
+    "classCount": 18,
+    "facilityScore": 67,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 15,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::국립국악중학교": {
+    "neisCode": "1371662",
+    "atptCode": "B10",
+    "schoolType": "각종학교(중)",
+    "address": "서울특별시 강남구 개포로22길 65",
+    "lat": 37.4762397420077,
+    "lng": 127.051213825746,
+    "classCount": 12,
+    "facilityScore": 82,
+    "transitScore": 0,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경북::모아초등학교": {
+    "neisCode": "8771080",
+    "atptCode": "R10",
+    "schoolType": "초등학교",
+    "address": "경상북도 경주시 천북면 산업로 4974-5",
+    "lat": 35.9205806399527,
+    "lng": 129.246672198318,
+    "classCount": 6,
+    "facilityScore": 17,
+    "transitScore": 0,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::해성여자고등학교": {
+    "neisCode": "7010818",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 동대문구 전농로20길 31",
+    "lat": 37.5818626927877,
+    "lng": 127.056968040984,
+    "classCount": 24,
+    "facilityScore": 78,
+    "transitScore": 100,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "경기::중앙기독초등학교": {
+    "neisCode": "7541133",
+    "atptCode": "J10",
+    "schoolType": "초등학교",
+    "address": "경기도 수원시 영통구 월드컵로 70",
+    "lat": 37.2753347661179,
+    "lng": 127.057690354171,
+    "classCount": 30,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 12,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "인천::인천석천초등학교": {
+    "neisCode": "7341038",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 남동구 남동대로 828",
+    "lat": 37.4566743691475,
+    "lng": 126.709113853081,
+    "classCount": 37,
+    "facilityScore": 82,
+    "transitScore": 100,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서운중학교": {
+    "neisCode": "7091432",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 서초구 서운로 115",
+    "lat": 37.4939485124964,
+    "lng": 127.024538241332,
+    "classCount": 36,
+    "facilityScore": 92,
+    "transitScore": 100,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::서울용암초등학교": {
+    "neisCode": "7061075",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 용산구 녹사평대로60길 39",
+    "lat": 37.5453279567645,
+    "lng": 126.989525750574,
+    "classCount": 7,
+    "facilityScore": 77,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "인천::인천비즈니스고등학교": {
+    "neisCode": "7310345",
+    "atptCode": "E10",
+    "schoolType": "고등학교",
+    "address": "인천광역시 미추홀구 장고개로 31",
+    "lat": 37.4721296898729,
+    "lng": 126.666920381973,
+    "classCount": 24,
+    "facilityScore": 78,
+    "transitScore": 33,
+    "classStudentRatio": 21,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "인천::인천주안북초등학교": {
+    "neisCode": "7321052",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 미추홀구 석정로375번길 14",
+    "lat": 37.4681606303739,
+    "lng": 126.678058190397,
+    "classCount": 19,
+    "facilityScore": 77,
+    "transitScore": 100,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 14,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "서울::대원국제중학교": {
+    "neisCode": "7134130",
+    "atptCode": "B10",
+    "schoolType": "중학교",
+    "address": "서울특별시 광진구 용마산로22길 26",
+    "lat": 37.5624502219725,
+    "lng": 127.089376716312,
+    "classCount": 15,
+    "facilityScore": 82,
+    "transitScore": 33,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "인천::인천서운초등학교": {
+    "neisCode": "7331196",
+    "atptCode": "E10",
+    "schoolType": "초등학교",
+    "address": "인천광역시 계양구 서운로 12",
+    "lat": 37.5269763854374,
+    "lng": 126.744721171502,
+    "classCount": 22,
+    "facilityScore": 85,
+    "transitScore": 0,
+    "classStudentRatio": 22,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
+  },
+  "인천::명신여자고등학교": {
+    "neisCode": "7310072",
+    "atptCode": "E10",
+    "schoolType": "고등학교",
+    "address": "인천광역시 부평구 원적로 260",
+    "lat": 37.5046044778204,
+    "lng": 126.693927821366,
+    "classCount": 21,
+    "facilityScore": 67,
+    "transitScore": 33,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-03"
   }
 }
