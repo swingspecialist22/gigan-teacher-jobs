@@ -5654,21 +5654,6 @@
     "statsEstimated": true,
     "updated": "2026-11-10"
   },
-  "서울::경기고등학교": {
-    "neisCode": "7010059",
-    "atptCode": "B10",
-    "schoolType": "고등학교",
-    "address": "서울특별시 강남구 영동대로 643",
-    "lat": 37.517564539911,
-    "lng": 127.056075505663,
-    "classCount": 39,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-10"
-  },
   "경기::신천고등학교": {
     "neisCode": "7530929",
     "atptCode": "J10",
@@ -5804,21 +5789,6 @@
     "statsEstimated": true,
     "updated": "2026-11-10"
   },
-  "인천::인천온라인학교": {
-    "neisCode": "7310620",
-    "atptCode": "E10",
-    "schoolType": "각종학교(고)",
-    "address": "인천광역시 부평구 굴포로 59",
-    "lat": 37.5121295516534,
-    "lng": 126.727790335906,
-    "classCount": 21,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-10"
-  },
   "서울::목운중학교": {
     "neisCode": "7081492",
     "atptCode": "B10",
@@ -5876,6 +5846,21 @@
     "transitScore": 67,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-10"
+  },
+  "서울::서울송정초등학교": {
+    "neisCode": "7081446",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강서구 공항대로3길 18",
+    "lat": 37.5622308905044,
+    "lng": 126.810281254376,
+    "classCount": 29,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-11-10"
   }
