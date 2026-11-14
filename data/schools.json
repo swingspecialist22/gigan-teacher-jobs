@@ -614,21 +614,6 @@
     "statsEstimated": true,
     "updated": "2026-11-14"
   },
-  "울산::학성여자고등학교": {
-    "neisCode": "7480030",
-    "atptCode": "H10",
-    "schoolType": "고등학교",
-    "address": "울산광역시 중구 화합로 466",
-    "lat": 35.5666323527702,
-    "lng": 129.334944631328,
-    "classCount": 17,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
   "경북::동지여자고등학교": {
     "neisCode": "8750568",
     "atptCode": "R10",
@@ -1859,21 +1844,6 @@
     "statsEstimated": true,
     "updated": "2026-11-14"
   },
-  "울산::삼신초등학교": {
-    "neisCode": "7501048",
-    "atptCode": "H10",
-    "schoolType": "초등학교",
-    "address": "울산광역시 남구 돋질로251번길 25",
-    "lat": 35.5458423892668,
-    "lng": 129.330749505933,
-    "classCount": 34,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 20,
-    "teacherStudentRatio": 16,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
   "경남::진해고": {
     "neisCode": "9010066",
     "atptCode": "S10",
@@ -1943,21 +1913,6 @@
     "lng": 126.98065085099,
     "classCount": 33,
     "facilityScore": 80,
-    "transitScore": 0,
-    "classStudentRatio": 21,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
-  "울산::온산고등학교": {
-    "neisCode": "7480205",
-    "atptCode": "H10",
-    "schoolType": "고등학교",
-    "address": "울산광역시 울주군 온산읍 명봉거남로 76",
-    "lat": 35.4390149028479,
-    "lng": 129.317936220991,
-    "classCount": 16,
-    "facilityScore": 77,
     "transitScore": 0,
     "classStudentRatio": 21,
     "teacherStudentRatio": 9,
@@ -2489,21 +2444,6 @@
     "statsEstimated": true,
     "updated": "2026-11-14"
   },
-  "울산::울산산업고등학교": {
-    "neisCode": "7480190",
-    "atptCode": "H10",
-    "schoolType": "고등학교",
-    "address": "울산광역시 울주군 삼남읍 반구대로 675",
-    "lat": 35.5533400362632,
-    "lng": 129.115435376813,
-    "classCount": 21,
-    "facilityScore": 73,
-    "transitScore": 0,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
   "경남::무지개초": {
     "neisCode": "9051140",
     "atptCode": "S10",
@@ -2785,21 +2725,6 @@
     "facilityScore": 80,
     "transitScore": 67,
     "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
-  "울산::덕신초등학교": {
-    "neisCode": "7501075",
-    "atptCode": "H10",
-    "schoolType": "초등학교",
-    "address": "울산광역시 울주군 온산읍 서영남1길 27",
-    "lat": 35.4366368985556,
-    "lng": 129.304837361718,
-    "classCount": 23,
-    "facilityScore": 77,
-    "transitScore": 0,
-    "classStudentRatio": 20,
     "teacherStudentRatio": 12,
     "statsEstimated": true,
     "updated": "2026-11-14"
@@ -3476,21 +3401,6 @@
     "transitScore": 33,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
-  "울산::청량초등학교": {
-    "neisCode": "7501100",
-    "atptCode": "H10",
-    "schoolType": "초등학교",
-    "address": "울산광역시 울주군 청량읍 덕정5길 14",
-    "lat": 35.4864032810162,
-    "lng": 129.298153185884,
-    "classCount": 28,
-    "facilityScore": 68,
-    "transitScore": 33,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 15,
     "statsEstimated": true,
     "updated": "2026-11-14"
   },
@@ -4736,6 +4646,36 @@
     "transitScore": 100,
     "classStudentRatio": 25,
     "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-14"
+  },
+  "대전::대전하기초등학교": {
+    "neisCode": "7451117",
+    "atptCode": "G10",
+    "schoolType": "초등학교",
+    "address": "대전광역시 유성구 송림로19번길 32",
+    "lat": 36.3886752570524,
+    "lng": 127.321724569356,
+    "classCount": 19,
+    "facilityScore": 77,
+    "transitScore": 67,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 16,
+    "statsEstimated": true,
+    "updated": "2026-11-14"
+  },
+  "대전::대전서원초등학교": {
+    "neisCode": "7451097",
+    "atptCode": "G10",
+    "schoolType": "초등학교",
+    "address": "대전광역시 서구 문정로 279",
+    "lat": 36.3596123682063,
+    "lng": 127.393988158558,
+    "classCount": 29,
+    "facilityScore": 80,
+    "transitScore": 0,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 15,
     "statsEstimated": true,
     "updated": "2026-11-14"
   }
