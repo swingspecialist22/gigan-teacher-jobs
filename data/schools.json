@@ -1874,21 +1874,6 @@
     "statsEstimated": true,
     "updated": "2026-11-14"
   },
-  "서울::연희중학교": {
-    "neisCode": "7031207",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 서대문구 증가로 170",
-    "lat": 37.5795872821657,
-    "lng": 126.918791837695,
-    "classCount": 30,
-    "facilityScore": 87,
-    "transitScore": 33,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
   "경기::옥빛초등학교": {
     "neisCode": "7602140",
     "atptCode": "J10",
@@ -4574,21 +4559,6 @@
     "statsEstimated": true,
     "updated": "2026-11-14"
   },
-  "충남::명천초등학교": {
-    "neisCode": "8171019",
-    "atptCode": "N10",
-    "schoolType": "초등학교",
-    "address": "충청남도 보령시 주공로 119",
-    "lat": 36.3388187886571,
-    "lng": 126.611334407146,
-    "classCount": 33,
-    "facilityScore": 78,
-    "transitScore": 0,
-    "classStudentRatio": 22,
-    "teacherStudentRatio": 12,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
   "충남::용남고등학교": {
     "neisCode": "8140063",
     "atptCode": "N10",
@@ -4724,21 +4694,6 @@
     "statsEstimated": true,
     "updated": "2026-11-14"
   },
-  "서울::화원중학교": {
-    "neisCode": "7081514",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 강서구 강서로17나길 86",
-    "lat": 37.5362143598148,
-    "lng": 126.84241336783,
-    "classCount": 21,
-    "facilityScore": 78,
-    "transitScore": 100,
-    "classStudentRatio": 25,
-    "teacherStudentRatio": 11,
-    "statsEstimated": true,
-    "updated": "2026-11-14"
-  },
   "서울::서울신동초등학교": {
     "neisCode": "7091399",
     "atptCode": "B10",
@@ -4841,6 +4796,51 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
+    "statsEstimated": true,
+    "updated": "2026-11-14"
+  },
+  "서울::서울신곡초등학교": {
+    "neisCode": "7081450",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강서구 등촌로13자길 42-14",
+    "lat": 37.5390962681125,
+    "lng": 126.856009341467,
+    "classCount": 24,
+    "facilityScore": 78,
+    "transitScore": 0,
+    "classStudentRatio": 20,
+    "teacherStudentRatio": 12,
+    "statsEstimated": true,
+    "updated": "2026-11-14"
+  },
+  "경북::포항제철중학교": {
+    "neisCode": "8761206",
+    "atptCode": "R10",
+    "schoolType": "중학교",
+    "address": "경상북도 포항시 남구 지곡로 150",
+    "lat": 36.0221095596339,
+    "lng": 129.326902113739,
+    "classCount": 60,
+    "facilityScore": 50,
+    "transitScore": 0,
+    "classStudentRatio": 25,
+    "teacherStudentRatio": 11,
+    "statsEstimated": true,
+    "updated": "2026-11-14"
+  },
+  "경북::옥곡초등학교": {
+    "neisCode": "8851073",
+    "atptCode": "R10",
+    "schoolType": "초등학교",
+    "address": "경상북도 경산시 경산로 54",
+    "lat": 35.8149471862771,
+    "lng": 128.732102997296,
+    "classCount": 34,
+    "facilityScore": 75,
+    "transitScore": 33,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 16,
     "statsEstimated": true,
     "updated": "2026-11-14"
   }
