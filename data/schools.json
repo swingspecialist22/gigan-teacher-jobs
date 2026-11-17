@@ -4094,21 +4094,6 @@
     "statsEstimated": true,
     "updated": "2026-11-17"
   },
-  "서울::서울원효초등학교": {
-    "neisCode": "7061076",
-    "atptCode": "B10",
-    "schoolType": "초등학교",
-    "address": "서울특별시 용산구 효창원로13길 38",
-    "lat": 37.5361783828896,
-    "lng": 126.951558882373,
-    "classCount": 23,
-    "facilityScore": 80,
-    "transitScore": 100,
-    "classStudentRatio": 18,
-    "teacherStudentRatio": 14,
-    "statsEstimated": true,
-    "updated": "2026-11-17"
-  },
   "서울::서울묵현초등학교": {
     "neisCode": "7021094",
     "atptCode": "B10",
@@ -4151,21 +4136,6 @@
     "transitScore": 0,
     "classStudentRatio": 25,
     "teacherStudentRatio": 9,
-    "statsEstimated": true,
-    "updated": "2026-11-17"
-  },
-  "서울::목운중학교": {
-    "neisCode": "7081492",
-    "atptCode": "B10",
-    "schoolType": "중학교",
-    "address": "서울특별시 양천구 목동동로 235",
-    "lat": 37.527009517428,
-    "lng": 126.873044206364,
-    "classCount": 45,
-    "facilityScore": 87,
-    "transitScore": 67,
-    "classStudentRatio": 23,
-    "teacherStudentRatio": 11,
     "statsEstimated": true,
     "updated": "2026-11-17"
   },
@@ -4256,6 +4226,36 @@
     "transitScore": 67,
     "classStudentRatio": 20,
     "teacherStudentRatio": 15,
+    "statsEstimated": true,
+    "updated": "2026-11-17"
+  },
+  "서울::서울미양초등학교": {
+    "neisCode": "7121304",
+    "atptCode": "B10",
+    "schoolType": "초등학교",
+    "address": "서울특별시 강북구 솔샘로 195",
+    "lat": 37.6215324222942,
+    "lng": 127.014133356491,
+    "classCount": 17,
+    "facilityScore": 80,
+    "transitScore": 100,
+    "classStudentRatio": 18,
+    "teacherStudentRatio": 13,
+    "statsEstimated": true,
+    "updated": "2026-11-17"
+  },
+  "서울::가재울고등학교": {
+    "neisCode": "7011169",
+    "atptCode": "B10",
+    "schoolType": "고등학교",
+    "address": "서울특별시 서대문구 수색로 100-35",
+    "lat": 37.5743637013203,
+    "lng": 126.909529666957,
+    "classCount": 22,
+    "facilityScore": 85,
+    "transitScore": 100,
+    "classStudentRatio": 23,
+    "teacherStudentRatio": 9,
     "statsEstimated": true,
     "updated": "2026-11-17"
   }
