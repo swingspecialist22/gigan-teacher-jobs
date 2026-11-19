@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-19T22:01:44.753Z",
-  "total": 427,
+  "updated_at": "2026-11-19T22:56:57.356Z",
+  "total": 426,
   "jobs": [
     {
       "id": "busan_1184057",
@@ -12,7 +12,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184057",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.796Z"
+      "crawled_at": "2026-11-19T22:54:39.851Z"
     },
     {
       "id": "busan_1184014",
@@ -24,7 +24,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184014",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.797Z"
+      "crawled_at": "2026-11-19T22:54:39.852Z"
     },
     {
       "id": "busan_1184003",
@@ -36,7 +36,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184003",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.359Z"
+      "crawled_at": "2026-11-19T22:54:40.521Z"
     },
     {
       "id": "busan_1183658",
@@ -48,7 +48,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183658",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.269Z"
+      "crawled_at": "2026-11-19T22:54:41.791Z"
     },
     {
       "id": "jeonbuk_1213700",
@@ -60,7 +60,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1213700",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.874Z"
+      "crawled_at": "2026-11-19T22:54:38.582Z"
     },
     {
       "id": "jeonbuk_1213584",
@@ -72,7 +72,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=2&searchOperation=AND&dataSid=1213584",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.523Z"
+      "crawled_at": "2026-11-19T22:54:39.234Z"
     },
     {
       "id": "jeonbuk_1213575",
@@ -84,7 +84,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=2&searchOperation=AND&dataSid=1213575",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.523Z"
+      "crawled_at": "2026-11-19T22:54:39.234Z"
     },
     {
       "id": "jeonbuk_1213150",
@@ -96,7 +96,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=2&searchOperation=AND&dataSid=1213150",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.524Z"
+      "crawled_at": "2026-11-19T22:54:39.235Z"
     },
     {
       "id": "jeonbuk_1213086",
@@ -108,7 +108,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=2&searchOperation=AND&dataSid=1213086",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.524Z"
+      "crawled_at": "2026-11-19T22:54:39.235Z"
     },
     {
       "id": "ulsan_job_2828",
@@ -120,7 +120,7 @@
       "deadline": "2026-11-19",
       "url": "https://use.go.kr/job/user/jobpost/BD_selectJobPost.do?q_jobPostSn=2828",
       "source": "use.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.171Z"
+      "crawled_at": "2026-11-19T22:54:40.724Z"
     },
     {
       "id": "gbe_kr_1665249",
@@ -132,7 +132,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665249",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1665020",
@@ -144,7 +144,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665020",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.879Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "gbe_kr_1664983",
@@ -156,7 +156,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664983",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.879Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "gbe_kr_1664973",
@@ -168,7 +168,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664973",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.880Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "gbe_kr_1664951",
@@ -180,7 +180,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664951",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.880Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "gbe_kr_1664946",
@@ -192,7 +192,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664946",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.880Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "gbe_kr_1664936",
@@ -204,7 +204,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664936",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.880Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "gbe_kr_1664838",
@@ -216,7 +216,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664838",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:38.008Z"
+      "crawled_at": "2026-11-19T22:54:49.479Z"
     },
     {
       "id": "gbe_kr_1664828",
@@ -228,7 +228,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664828",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:38.008Z"
+      "crawled_at": "2026-11-19T22:54:49.479Z"
     },
     {
       "id": "gbe_kr_1664804",
@@ -240,7 +240,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664804",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664757",
@@ -252,7 +252,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664757",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664752",
@@ -264,7 +264,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664752",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664748",
@@ -276,7 +276,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664748",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664747",
@@ -288,7 +288,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664747",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664672",
@@ -300,7 +300,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664672",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664306",
@@ -312,7 +312,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664306",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:43.571Z"
+      "crawled_at": "2026-11-19T22:54:53.671Z"
     },
     {
       "id": "gbe_kr_1664162",
@@ -324,7 +324,7 @@
       "deadline": "2026-11-19",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664162",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:45.567Z"
+      "crawled_at": "2026-11-19T22:54:55.086Z"
     },
     {
       "id": "busan_1184119",
@@ -336,7 +336,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184119",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.632Z"
+      "crawled_at": "2026-11-19T22:54:38.662Z"
     },
     {
       "id": "busan_1184099",
@@ -348,7 +348,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184099",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.230Z"
+      "crawled_at": "2026-11-19T22:54:39.263Z"
     },
     {
       "id": "busan_1184097",
@@ -360,7 +360,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184097",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.231Z"
+      "crawled_at": "2026-11-19T22:54:39.263Z"
     },
     {
       "id": "busan_1183892",
@@ -372,7 +372,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183892",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.062Z"
+      "crawled_at": "2026-11-19T22:54:40.957Z"
     },
     {
       "id": "busan_1183263",
@@ -384,7 +384,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183263",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.795Z"
+      "crawled_at": "2026-11-19T22:54:44.303Z"
     },
     {
       "id": "jeonbuk_1214517",
@@ -396,7 +396,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1214517",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.873Z"
+      "crawled_at": "2026-11-19T22:54:38.581Z"
     },
     {
       "id": "jeonbuk_1214131",
@@ -408,7 +408,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1214131",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.873Z"
+      "crawled_at": "2026-11-19T22:54:38.581Z"
     },
     {
       "id": "jeonbuk_1214127",
@@ -420,7 +420,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1214127",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.873Z"
+      "crawled_at": "2026-11-19T22:54:38.581Z"
     },
     {
       "id": "jeonbuk_1214029",
@@ -432,7 +432,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1214029",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.874Z"
+      "crawled_at": "2026-11-19T22:54:38.582Z"
     },
     {
       "id": "gyeongnam_1815643",
@@ -445,7 +445,7 @@
       "region": "합천",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815643",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.730Z"
+      "crawled_at": "2026-11-19T22:54:40.011Z"
     },
     {
       "id": "gyeongnam_1815485",
@@ -458,7 +458,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815485",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.891Z"
+      "crawled_at": "2026-11-19T22:54:41.467Z"
     },
     {
       "id": "gangwon_4639",
@@ -470,7 +470,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.064Z"
+      "crawled_at": "2026-11-19T22:54:40.434Z"
     },
     {
       "id": "gangwon_4634",
@@ -482,7 +482,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.463Z"
+      "crawled_at": "2026-11-19T22:54:41.547Z"
     },
     {
       "id": "gangwon_4633",
@@ -494,7 +494,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.463Z"
+      "crawled_at": "2026-11-19T22:54:41.547Z"
     },
     {
       "id": "seoul_114969",
@@ -502,11 +502,11 @@
       "school": "서울상곡초등학교",
       "subject": "담당업무",
       "level": "초등",
-      "title": "서울상곡초등학교 | 02-934-7470 | 등록일 : 2026-11-19 조회수 : 32 [시간강사]3학년 학급담임 과목(담당업무) 3학년 학급담임 채용인원 1 보수/임금 시급 모집정보 노원구 접수기간 2026.11.20 08:00 ~ 2026.11.20 22:00 채용기간 2026.11.23 ~ 2026.11.23 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울상곡초등학교 | 02-934-7470 | 등록일 : 2026-11-19 조회수 : 39 [시간강사]3학년 학급담임 과목(담당업무) 3학년 학급담임 채용인원 1 보수/임금 시급 모집정보 노원구 접수기간 2026.11.20 08:00 ~ 2026.11.20 22:00 채용기간 2026.11.23 ~ 2026.11.23 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114969",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.750Z"
+      "crawled_at": "2026-11-19T22:54:40.309Z"
     },
     {
       "id": "seoul_114936",
@@ -514,11 +514,11 @@
       "school": "서울대명초등학교",
       "subject": "담당업무",
       "level": "초등",
-      "title": "서울대명초등학교 | 02-426-4182 | 등록일 : 2026-11-19 조회수 : 57 6학년 담임수업 시간강사 구합니다. 과목(담당업무) 6학년 담임업무 채용인원 1 보수/임금 시급 시간당 25,000원 모집정보 강동구 접수기간 2026.11.19 11:32 ~ 2026.11.20 18:00 채용기간 2026.11.23 ~ 2026.11.24 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울대명초등학교 | 02-426-4182 | 등록일 : 2026-11-19 조회수 : 59 6학년 담임수업 시간강사 구합니다. 과목(담당업무) 6학년 담임업무 채용인원 1 보수/임금 시급 시간당 25,000원 모집정보 강동구 접수기간 2026.11.19 11:32 ~ 2026.11.20 18:00 채용기간 2026.11.23 ~ 2026.11.24 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114936",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.149Z"
+      "crawled_at": "2026-11-19T22:54:43.664Z"
     },
     {
       "id": "seoul_114871",
@@ -530,7 +530,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114871",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.618Z"
+      "crawled_at": "2026-11-19T22:54:48.050Z"
     },
     {
       "id": "seoul_114870",
@@ -538,11 +538,11 @@
       "school": "선덕중학교",
       "subject": "음악",
       "level": "중등",
-      "title": "선덕중학교 | 02-993-4112 | 등록일 : 2026-11-18 조회수 : 256 2026학년도 2학기 선덕중학교 시간강사(음악) 채용 공고 과목(담당업무) 음악 채용인원 1 보수/임금 시급 25,000원 모집정보 도봉구 접수기간 2026.11.18 13:30 ~ 2026.11.20 16:00 채용기간 2026.11.23 ~ 2026.11.27 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "선덕중학교 | 02-993-4112 | 등록일 : 2026-11-18 조회수 : 258 2026학년도 2학기 선덕중학교 시간강사(음악) 채용 공고 과목(담당업무) 음악 채용인원 1 보수/임금 시급 25,000원 모집정보 도봉구 접수기간 2026.11.18 13:30 ~ 2026.11.20 16:00 채용기간 2026.11.23 ~ 2026.11.27 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114870",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.619Z"
+      "crawled_at": "2026-11-19T22:54:48.050Z"
     },
     {
       "id": "seoul_114745",
@@ -554,7 +554,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114745",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.558Z"
+      "crawled_at": "2026-11-19T22:54:49.679Z"
     },
     {
       "id": "seoul_114821",
@@ -566,7 +566,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114821",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.869Z"
+      "crawled_at": "2026-11-19T22:54:51.368Z"
     },
     {
       "id": "seoul_114450",
@@ -574,11 +574,11 @@
       "school": "상현중학교",
       "subject": "담당업무",
       "level": "중등",
-      "title": "상현중학교 | 02-815-4620 | 등록일 : 2026-11-13 조회수 : 430 전문상담 시간강사 채용 공고 과목(담당업무) 전문상담 채용인원 1 보수/임금 일급 모집정보 동작구 접수기간 2026.11.13 09:00 ~ 2026.11.20 16:00 채용기간 2026.11.30 ~ 2026.12.11 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "상현중학교 | 02-815-4620 | 등록일 : 2026-11-13 조회수 : 431 전문상담 시간강사 채용 공고 과목(담당업무) 전문상담 채용인원 1 보수/임금 일급 모집정보 동작구 접수기간 2026.11.13 09:00 ~ 2026.11.20 16:00 채용기간 2026.11.30 ~ 2026.12.11 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114450",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.869Z"
+      "crawled_at": "2026-11-19T22:54:51.368Z"
     },
     {
       "id": "seoul_114813",
@@ -590,7 +590,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114813",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.869Z"
+      "crawled_at": "2026-11-19T22:54:51.368Z"
     },
     {
       "id": "seoul_114706",
@@ -598,11 +598,11 @@
       "school": "관악고등학교",
       "subject": "담당업무",
       "level": "고등",
-      "title": "관악고등학교 | 02-2633-5954 | 등록일 : 2026-11-16 조회수 : 93 관악고등학교 국어 기간제교원 채용 과목(담당업무) 국어 채용인원 1 보수/임금 모집정보 영등포구 접수기간 2026.11.18 08:30 ~ 2026.11.20 10:00 채용기간 2026.11.25 ~ 2026.12.24 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
+      "title": "관악고등학교 | 02-2633-5954 | 등록일 : 2026-11-16 조회수 : 94 관악고등학교 국어 기간제교원 채용 과목(담당업무) 국어 채용인원 1 보수/임금 모집정보 영등포구 접수기간 2026.11.18 08:30 ~ 2026.11.20 10:00 채용기간 2026.11.25 ~ 2026.12.24 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114706",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:44.040Z"
+      "crawled_at": "2026-11-19T22:54:55.500Z"
     },
     {
       "id": "seoul_114728",
@@ -614,7 +614,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114728",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:44.041Z"
+      "crawled_at": "2026-11-19T22:54:55.500Z"
     },
     {
       "id": "seoul_114521",
@@ -626,7 +626,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114521",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:49.905Z"
+      "crawled_at": "2026-11-19T22:55:00.311Z"
     },
     {
       "id": "seoul_114503",
@@ -638,7 +638,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114503",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:51.190Z"
+      "crawled_at": "2026-11-19T22:55:01.604Z"
     },
     {
       "id": "seoul_114444",
@@ -650,7 +650,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114444",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:51.191Z"
+      "crawled_at": "2026-11-19T22:55:01.606Z"
     },
     {
       "id": "seoul_114191",
@@ -662,7 +662,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114191",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:55.119Z"
+      "crawled_at": "2026-11-19T22:55:04.775Z"
     },
     {
       "id": "seoul_114129",
@@ -674,7 +674,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114129",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:55.119Z"
+      "crawled_at": "2026-11-19T22:55:04.775Z"
     },
     {
       "id": "seoul_114119",
@@ -686,7 +686,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114119",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:55.120Z"
+      "crawled_at": "2026-11-19T22:55:04.776Z"
     },
     {
       "id": "seoul_114018",
@@ -698,7 +698,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114018",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.078Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "seoul_113773",
@@ -710,7 +710,7 @@
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113773",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.078Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "seoul_113653",
@@ -718,11 +718,11 @@
       "school": "학력인정 청량정보고등학교",
       "subject": "수학",
       "level": "고등",
-      "title": "학력인정 청량정보고등학교 | 02-2212-4285 | 등록일 : 2026-11-05 조회수 : 630 청량정보고등학교 기간제(수학) 교사 채용 공고 과목(담당업무) 수학 채용인원 1 보수/임금 모집정보 동대문구 접수기간 2026.11.05 08:29 ~ 2026.11.20 16:00 채용기간 2026.12.01 ~ 2027.10.29 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
+      "title": "학력인정 청량정보고등학교 | 02-2212-4285 | 등록일 : 2026-11-05 조회수 : 631 청량정보고등학교 기간제(수학) 교사 채용 공고 과목(담당업무) 수학 채용인원 1 보수/임금 모집정보 동대문구 접수기간 2026.11.05 08:29 ~ 2026.11.20 16:00 채용기간 2026.12.01 ~ 2027.10.29 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113653",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:59.218Z"
+      "crawled_at": "2026-11-19T22:55:07.557Z"
     },
     {
       "id": "seoul_113392",
@@ -730,11 +730,11 @@
       "school": "서울특별시남부교육지원청",
       "subject": "담당업무",
       "level": "유치",
-      "title": "서울특별시남부교육지원청 | 02-2165-2154 | 등록일 : 2026-11-02 조회수 : 686 2026년 11월 교원 결원 대체 시간강사 인력풀 모집 과목(담당업무) 교원 결원 대체 시간강사 채용인원 00 보수/임금 시급 모집정보 영등포구 접수기간 2026.11.02 00:00 ~ 2026.11.20 23:59 채용기간 2026.11.02 ~ 2026.11.20 직무분야 계약제교원 > 시간강사 > 유치원강사 계약제교원 > 시간강사 > 특수강사(유,초,중등) 계약제교원 > 시간강사 > 초등강사 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "서울특별시남부교육지원청 | 02-2165-2154 | 등록일 : 2026-11-02 조회수 : 689 2026년 11월 교원 결원 대체 시간강사 인력풀 모집 과목(담당업무) 교원 결원 대체 시간강사 채용인원 00 보수/임금 시급 모집정보 영등포구 접수기간 2026.11.02 00:00 ~ 2026.11.20 23:59 채용기간 2026.11.02 ~ 2026.11.20 직무분야 계약제교원 > 시간강사 > 유치원강사 계약제교원 > 시간강사 > 특수강사(유,초,중등) 계약제교원 > 시간강사 > 초등강사 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-20",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113392",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.187Z"
+      "crawled_at": "2026-11-19T22:55:08.846Z"
     },
     {
       "id": "gyeonggi_66369",
@@ -746,7 +746,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66369",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.238Z"
+      "crawled_at": "2026-11-19T22:54:40.982Z"
     },
     {
       "id": "gyeonggi_66292",
@@ -758,7 +758,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66292",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.484Z"
+      "crawled_at": "2026-11-19T22:54:42.064Z"
     },
     {
       "id": "gyeonggi_66291",
@@ -770,7 +770,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66291",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.484Z"
+      "crawled_at": "2026-11-19T22:54:42.064Z"
     },
     {
       "id": "gyeonggi_66260",
@@ -782,7 +782,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66260",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.002Z"
+      "crawled_at": "2026-11-19T22:54:42.597Z"
     },
     {
       "id": "gyeonggi_66256",
@@ -794,7 +794,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66256",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.571Z"
+      "crawled_at": "2026-11-19T22:54:43.157Z"
     },
     {
       "id": "gyeonggi_66254",
@@ -806,7 +806,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66254",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.571Z"
+      "crawled_at": "2026-11-19T22:54:43.157Z"
     },
     {
       "id": "gyeonggi_66252",
@@ -818,7 +818,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66252",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.571Z"
+      "crawled_at": "2026-11-19T22:54:43.157Z"
     },
     {
       "id": "gyeonggi_66240",
@@ -830,7 +830,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66240",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.571Z"
+      "crawled_at": "2026-11-19T22:54:43.157Z"
     },
     {
       "id": "gyeonggi_66233",
@@ -842,7 +842,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66233",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.572Z"
+      "crawled_at": "2026-11-19T22:54:43.157Z"
     },
     {
       "id": "gyeonggi_66220",
@@ -854,7 +854,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66220",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.053Z"
+      "crawled_at": "2026-11-19T22:54:43.691Z"
     },
     {
       "id": "gyeonggi_66217",
@@ -866,7 +866,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66217",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.053Z"
+      "crawled_at": "2026-11-19T22:54:43.691Z"
     },
     {
       "id": "gyeonggi_66200",
@@ -878,7 +878,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66200",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.581Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "gyeonggi_66198",
@@ -890,7 +890,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66198",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.581Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "gyeonggi_66194",
@@ -902,7 +902,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66194",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.581Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "gyeonggi_66170",
@@ -914,7 +914,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66170",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.581Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "gyeonggi_66168",
@@ -926,7 +926,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66168",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.581Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "gyeonggi_66167",
@@ -938,7 +938,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66167",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.582Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "gyeonggi_66159",
@@ -950,7 +950,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66159",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.097Z"
+      "crawled_at": "2026-11-19T22:54:44.785Z"
     },
     {
       "id": "gyeonggi_66117",
@@ -962,7 +962,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66117",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.607Z"
+      "crawled_at": "2026-11-19T22:54:45.312Z"
     },
     {
       "id": "gyeonggi_66113",
@@ -974,7 +974,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66113",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.607Z"
+      "crawled_at": "2026-11-19T22:54:45.312Z"
     },
     {
       "id": "gyeonggi_66050",
@@ -986,7 +986,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66050",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.099Z"
+      "crawled_at": "2026-11-19T22:54:45.858Z"
     },
     {
       "id": "gyeonggi_65972",
@@ -998,7 +998,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65972",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.644Z"
+      "crawled_at": "2026-11-19T22:54:46.402Z"
     },
     {
       "id": "gyeonggi_65933",
@@ -1010,7 +1010,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65933",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.644Z"
+      "crawled_at": "2026-11-19T22:54:46.403Z"
     },
     {
       "id": "gyeonggi_65915",
@@ -1022,7 +1022,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65915",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.140Z"
+      "crawled_at": "2026-11-19T22:54:46.935Z"
     },
     {
       "id": "gyeonggi_65881",
@@ -1034,7 +1034,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65881",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.140Z"
+      "crawled_at": "2026-11-19T22:54:46.935Z"
     },
     {
       "id": "gyeonggi_65830",
@@ -1046,7 +1046,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65830",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.140Z"
+      "crawled_at": "2026-11-19T22:54:46.935Z"
     },
     {
       "id": "gyeonggi_65756",
@@ -1058,7 +1058,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65756",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.634Z"
+      "crawled_at": "2026-11-19T22:54:47.466Z"
     },
     {
       "id": "gyeonggi_65456",
@@ -1070,7 +1070,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65456",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.180Z"
+      "crawled_at": "2026-11-19T22:54:48.002Z"
     },
     {
       "id": "gyeonggi_64808",
@@ -1082,7 +1082,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=64808",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.663Z"
+      "crawled_at": "2026-11-19T22:54:48.594Z"
     },
     {
       "id": "gyeonggi_64777",
@@ -1094,7 +1094,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=64777",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.663Z"
+      "crawled_at": "2026-11-19T22:54:48.594Z"
     },
     {
       "id": "chungnam_12549",
@@ -1106,7 +1106,7 @@
       "deadline": "2026-11-20",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
     },
     {
       "id": "daejeon_3367450",
@@ -1118,7 +1118,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3367450&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.771Z"
+      "crawled_at": "2026-11-19T22:54:42.056Z"
     },
     {
       "id": "daejeon_3367394",
@@ -1130,7 +1130,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3367394&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.771Z"
+      "crawled_at": "2026-11-19T22:54:42.056Z"
     },
     {
       "id": "gbe_kr_1665248",
@@ -1142,7 +1142,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665248",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1665233",
@@ -1154,7 +1154,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665233",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1665101",
@@ -1166,7 +1166,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665101",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1664938",
@@ -1178,7 +1178,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664938",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.880Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "gbe_kr_1664862",
@@ -1190,7 +1190,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664862",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:38.008Z"
+      "crawled_at": "2026-11-19T22:54:49.479Z"
     },
     {
       "id": "gbe_kr_1664818",
@@ -1202,7 +1202,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664818",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:38.008Z"
+      "crawled_at": "2026-11-19T22:54:49.479Z"
     },
     {
       "id": "gbe_kr_1664814",
@@ -1214,7 +1214,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664814",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:38.008Z"
+      "crawled_at": "2026-11-19T22:54:49.479Z"
     },
     {
       "id": "gbe_kr_1664701",
@@ -1226,7 +1226,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664701",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664452",
@@ -1238,7 +1238,7 @@
       "deadline": "2026-11-20",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664452",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:43.571Z"
+      "crawled_at": "2026-11-19T22:54:53.671Z"
     },
     {
       "id": "gyeongnam_1815693",
@@ -1251,7 +1251,7 @@
       "region": "사천",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815693",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.338Z"
+      "crawled_at": "2026-11-19T22:54:38.566Z"
     },
     {
       "id": "gyeongnam_1815691",
@@ -1264,7 +1264,7 @@
       "region": "사천",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815691",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.728Z"
+      "crawled_at": "2026-11-19T22:54:39.288Z"
     },
     {
       "id": "seoul_114833",
@@ -1276,7 +1276,7 @@
       "deadline": "2026-11-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114833",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.558Z"
+      "crawled_at": "2026-11-19T22:54:49.678Z"
     },
     {
       "id": "seoul_114807",
@@ -1284,11 +1284,11 @@
       "school": "신상중학교",
       "subject": "담당업무",
       "level": "중등",
-      "title": "신상중학교 | 02-6949-4020 | 등록일 : 2026-11-17 조회수 : 135 신상중학교 역사과 기간제 교사 채용 과목(담당업무) 역사 채용인원 1 보수/임금 모집정보 노원구 접수기간 2026.11.17 16:04 ~ 2026.11.21 17:00 채용기간 2026.11.26 ~ 2027.01.08 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
+      "title": "신상중학교 | 02-6949-4020 | 등록일 : 2026-11-17 조회수 : 136 신상중학교 역사과 기간제 교사 채용 과목(담당업무) 역사 채용인원 1 보수/임금 모집정보 노원구 접수기간 2026.11.17 16:04 ~ 2026.11.21 17:00 채용기간 2026.11.26 ~ 2027.01.08 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
       "deadline": "2026-11-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114807",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.870Z"
+      "crawled_at": "2026-11-19T22:54:51.369Z"
     },
     {
       "id": "seoul_114786",
@@ -1300,7 +1300,7 @@
       "deadline": "2026-11-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114786",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.148Z"
+      "crawled_at": "2026-11-19T22:54:53.027Z"
     },
     {
       "id": "seoul_114756",
@@ -1308,11 +1308,11 @@
       "school": "자양중학교",
       "subject": "담당업무",
       "level": "중등",
-      "title": "자양중학교 | 02-6211-2329 | 등록일 : 2026-11-17 조회수 : 96 자양중학교 특수학급 강사 채용 공고 과목(담당업무) 특수교육 채용인원 1 보수/임금 주급 시간당 25000원 모집정보 광진구 접수기간 2026.11.17 08:57 ~ 2026.11.21 00:02 채용기간 2026.11.30 ~ 2026.12.04 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
+      "title": "자양중학교 | 02-6211-2329 | 등록일 : 2026-11-17 조회수 : 98 자양중학교 특수학급 강사 채용 공고 과목(담당업무) 특수교육 채용인원 1 보수/임금 주급 시간당 25000원 모집정보 광진구 접수기간 2026.11.17 08:57 ~ 2026.11.21 00:02 채용기간 2026.11.30 ~ 2026.12.04 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
       "deadline": "2026-11-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114756",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:44.040Z"
+      "crawled_at": "2026-11-19T22:54:55.499Z"
     },
     {
       "id": "seoul_114618",
@@ -1320,11 +1320,11 @@
       "school": "국립국악고등학교",
       "subject": "담당업무",
       "level": "고등",
-      "title": "국립국악고등학교 | 02-3497-0831 | 등록일 : 2026-11-16 조회수 : 251 2027학년도 국립국악고등학교 방과후학교 강사 모집 과목(담당업무) 가야금, 대금, 피리, 해금, 아쟁, 타악, 정가, 판소리, 이론, 작곡, 무용 채용인원 - 보수/임금 모집정보 강남구 접수기간 2026.11.17 00:00 ~ 2026.11.21 16:00 채용기간 2027.03.02 ~ 2027.12.23 직무분야 계약제교원 > 시간강사 > 기타강사",
+      "title": "국립국악고등학교 | 02-3497-0831 | 등록일 : 2026-11-16 조회수 : 254 2027학년도 국립국악고등학교 방과후학교 강사 모집 과목(담당업무) 가야금, 대금, 피리, 해금, 아쟁, 타악, 정가, 판소리, 이론, 작곡, 무용 채용인원 - 보수/임금 모집정보 강남구 접수기간 2026.11.17 00:00 ~ 2026.11.21 16:00 채용기간 2027.03.02 ~ 2027.12.23 직무분야 계약제교원 > 시간강사 > 기타강사",
       "deadline": "2026-11-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114618",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:48.076Z"
+      "crawled_at": "2026-11-19T22:54:58.679Z"
     },
     {
       "id": "seoul_113022",
@@ -1336,7 +1336,7 @@
       "deadline": "2026-11-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113022",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.078Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "gyeonggi_66282",
@@ -1348,7 +1348,7 @@
       "deadline": "2026-11-21",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66282",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.484Z"
+      "crawled_at": "2026-11-19T22:54:42.064Z"
     },
     {
       "id": "ulsan_job_2832",
@@ -1360,7 +1360,7 @@
       "deadline": "2026-11-21",
       "url": "https://use.go.kr/job/user/jobpost/BD_selectJobPost.do?q_jobPostSn=2832",
       "source": "use.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.170Z"
+      "crawled_at": "2026-11-19T22:54:40.724Z"
     },
     {
       "id": "ulsan_bbs_20261118122735108",
@@ -1372,19 +1372,7 @@
       "deadline": "2026-11-21",
       "url": "https://use.go.kr/job/user/bbs/BD_selectBbs.do?q_bbsSn=2249&q_bbsDocNo=20261118122735108",
       "source": "use.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.501Z"
-    },
-    {
-      "id": "ice_go.kr_3389057",
-      "sido": "인천",
-      "school": "미추홀학교(공립)",
-      "subject": "보건",
-      "level": "",
-      "title": "2026 미추홀학교 기간제 보건교사 채용 공고",
-      "deadline": "2026-11-21",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389057",
-      "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.751Z"
+      "crawled_at": "2026-11-19T22:54:41.124Z"
     },
     {
       "id": "gbe_kr_1665558",
@@ -1396,7 +1384,7 @@
       "deadline": "2026-11-21",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665558",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665502",
@@ -1408,7 +1396,7 @@
       "deadline": "2026-11-21",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665502",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665501",
@@ -1420,7 +1408,7 @@
       "deadline": "2026-11-21",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665501",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665485",
@@ -1432,7 +1420,7 @@
       "deadline": "2026-11-21",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665485",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665078",
@@ -1444,7 +1432,7 @@
       "deadline": "2026-11-21",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665078",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.879Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "jeonbuk_1213657",
@@ -1456,7 +1444,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1213657",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.874Z"
+      "crawled_at": "2026-11-19T22:54:38.582Z"
     },
     {
       "id": "gyeongnam_1815689",
@@ -1469,7 +1457,7 @@
       "region": "거창",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815689",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.728Z"
+      "crawled_at": "2026-11-19T22:54:39.292Z"
     },
     {
       "id": "gyeongnam_1815650",
@@ -1482,7 +1470,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815650",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.729Z"
+      "crawled_at": "2026-11-19T22:54:40.011Z"
     },
     {
       "id": "gyeongnam_1815645",
@@ -1495,7 +1483,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815645",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.730Z"
+      "crawled_at": "2026-11-19T22:54:40.011Z"
     },
     {
       "id": "gyeongnam_1815633",
@@ -1508,7 +1496,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815633",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.730Z"
+      "crawled_at": "2026-11-19T22:54:40.015Z"
     },
     {
       "id": "gyeongnam_1815573",
@@ -1521,7 +1509,7 @@
       "region": "진주",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815573",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.741Z"
+      "crawled_at": "2026-11-19T22:54:40.744Z"
     },
     {
       "id": "gyeongnam_1815495",
@@ -1534,7 +1522,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815495",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.891Z"
+      "crawled_at": "2026-11-19T22:54:41.467Z"
     },
     {
       "id": "seoul_114952",
@@ -1542,11 +1530,11 @@
       "school": "서울둔촌초등학교",
       "subject": "둔촌초",
       "level": "초등",
-      "title": "서울둔촌초등학교 | 02-3434-8900 | 등록일 : 2026-11-19 조회수 : 132 (둔촌초) 영어 시간강사님, 구합니다! 과목(담당업무) 6학년 영어교과 채용인원 1 보수/임금 시급 모집정보 강동구 접수기간 2026.11.19 14:46 ~ 2026.11.22 12:00 채용기간 2026.12.01 ~ 2026.12.10 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울둔촌초등학교 | 02-3434-8900 | 등록일 : 2026-11-19 조회수 : 135 (둔촌초) 영어 시간강사님, 구합니다! 과목(담당업무) 6학년 영어교과 채용인원 1 보수/임금 시급 모집정보 강동구 접수기간 2026.11.19 14:46 ~ 2026.11.22 12:00 채용기간 2026.12.01 ~ 2026.12.10 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114952",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.715Z"
+      "crawled_at": "2026-11-19T22:54:41.989Z"
     },
     {
       "id": "seoul_114944",
@@ -1554,11 +1542,11 @@
       "school": "대진여자고등학교",
       "subject": "수학,윤리",
       "level": "고등",
-      "title": "대진여자고등학교 | 02-2022-9201 | 등록일 : 2026-11-19 조회수 : 68 대진여고 시간강사(수학,윤리) 채용공고 과목(담당업무) 수학1명, 윤리1명. 채용인원 2 보수/임금 25,000원 모집정보 노원구 접수기간 2026.11.19 13:30 ~ 2026.11.22 17:00 채용기간 2026.12.03 ~ 2026.12.24 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "대진여자고등학교 | 02-2022-9201 | 등록일 : 2026-11-19 조회수 : 70 대진여고 시간강사(수학,윤리) 채용공고 과목(담당업무) 수학1명, 윤리1명. 채용인원 2 보수/임금 25,000원 모집정보 노원구 접수기간 2026.11.19 13:30 ~ 2026.11.22 17:00 채용기간 2026.12.03 ~ 2026.12.24 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114944",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.717Z"
+      "crawled_at": "2026-11-19T22:54:41.990Z"
     },
     {
       "id": "seoul_114885",
@@ -1566,11 +1554,11 @@
       "school": "서울압구정초등학교",
       "subject": "압구정초",
       "level": "초등",
-      "title": "서울압구정초등학교 | 02-3446-9646 | 등록일 : 2026-11-18 조회수 : 112 (압구정초)4학년 담임 기간제교사 채용 공고(2026. 11. 26. ~ 2027. 01. 08.) 과목(담당업무) 4학년 담임 채용인원 1 보수/임금 월급 모집정보 강남구 접수기간 2026.11.18 16:12 ~ 2026.11.22 23:59 채용기간 2026.11.26 ~ 2027.01.08 직무분야 계약제교원 > 기간제교원 > 초등교원",
+      "title": "서울압구정초등학교 | 02-3446-9646 | 등록일 : 2026-11-18 조회수 : 113 (압구정초)4학년 담임 기간제교사 채용 공고(2026. 11. 26. ~ 2027. 01. 08.) 과목(담당업무) 4학년 담임 채용인원 1 보수/임금 월급 모집정보 강남구 접수기간 2026.11.18 16:12 ~ 2026.11.22 23:59 채용기간 2026.11.26 ~ 2027.01.08 직무분야 계약제교원 > 기간제교원 > 초등교원",
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114885",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.045Z"
+      "crawled_at": "2026-11-19T22:54:46.526Z"
     },
     {
       "id": "seoul_114878",
@@ -1582,7 +1570,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114878",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.618Z"
+      "crawled_at": "2026-11-19T22:54:48.049Z"
     },
     {
       "id": "seoul_114860",
@@ -1594,7 +1582,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114860",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.557Z"
+      "crawled_at": "2026-11-19T22:54:49.678Z"
     },
     {
       "id": "seoul_114820",
@@ -1606,7 +1594,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114820",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.869Z"
+      "crawled_at": "2026-11-19T22:54:51.368Z"
     },
     {
       "id": "seoul_114793",
@@ -1618,7 +1606,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114793",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.869Z"
+      "crawled_at": "2026-11-19T22:54:51.368Z"
     },
     {
       "id": "seoul_114748",
@@ -1630,7 +1618,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114748",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.870Z"
+      "crawled_at": "2026-11-19T22:54:51.369Z"
     },
     {
       "id": "seoul_114798",
@@ -1642,7 +1630,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114798",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.147Z"
+      "crawled_at": "2026-11-19T22:54:53.026Z"
     },
     {
       "id": "seoul_114788",
@@ -1650,11 +1638,11 @@
       "school": "언남고등학교",
       "subject": "언남고",
       "level": "고등",
-      "title": "언남고등학교 | 02-6219-7410 | 등록일 : 2026-11-17 조회수 : 197 (언남고)기간제 채용 공고(영어) 과목(담당업무) 영어 채용인원 1 보수/임금 모집정보 서초구 접수기간 2026.11.17 13:06 ~ 2026.11.22 23:59 채용기간 2026.12.01 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
+      "title": "언남고등학교 | 02-6219-7410 | 등록일 : 2026-11-17 조회수 : 198 (언남고)기간제 채용 공고(영어) 과목(담당업무) 영어 채용인원 1 보수/임금 모집정보 서초구 접수기간 2026.11.17 13:06 ~ 2026.11.22 23:59 채용기간 2026.12.01 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고)",
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114788",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.147Z"
+      "crawled_at": "2026-11-19T22:54:53.027Z"
     },
     {
       "id": "seoul_114318",
@@ -1666,7 +1654,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114318",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.147Z"
+      "crawled_at": "2026-11-19T22:54:53.027Z"
     },
     {
       "id": "seoul_114761",
@@ -1678,7 +1666,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114761",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:44.040Z"
+      "crawled_at": "2026-11-19T22:54:55.499Z"
     },
     {
       "id": "seoul_114702",
@@ -1690,7 +1678,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114702",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.139Z"
+      "crawled_at": "2026-11-19T22:54:57.180Z"
     },
     {
       "id": "seoul_114698",
@@ -1702,7 +1690,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114698",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.140Z"
+      "crawled_at": "2026-11-19T22:54:57.181Z"
     },
     {
       "id": "seoul_114568",
@@ -1714,7 +1702,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114568",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.140Z"
+      "crawled_at": "2026-11-19T22:54:57.181Z"
     },
     {
       "id": "seoul_114686",
@@ -1722,11 +1710,11 @@
       "school": "지구촌학교",
       "subject": "역사",
       "level": "고등",
-      "title": "지구촌학교 | 02-6910-1034 | 등록일 : 2026-11-16 조회수 : 85 지구촌학교 시간강사 채용공고(역사) 과목(담당업무) 역사 채용인원 1 보수/임금 시급 25000원 모집정보 구로구 접수기간 2026.11.16 13:51 ~ 2026.11.22 16:00 채용기간 2026.11.23 ~ 2027.01.08 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "지구촌학교 | 02-6910-1034 | 등록일 : 2026-11-16 조회수 : 87 지구촌학교 시간강사 채용공고(역사) 과목(담당업무) 역사 채용인원 1 보수/임금 시급 25000원 모집정보 구로구 접수기간 2026.11.16 13:51 ~ 2026.11.22 16:00 채용기간 2026.11.23 ~ 2027.01.08 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114686",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.140Z"
+      "crawled_at": "2026-11-19T22:54:57.181Z"
     },
     {
       "id": "seoul_114621",
@@ -1738,7 +1726,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114621",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:48.076Z"
+      "crawled_at": "2026-11-19T22:54:58.678Z"
     },
     {
       "id": "seoul_114240",
@@ -1746,11 +1734,11 @@
       "school": "은평고등학교",
       "subject": "담당업무",
       "level": "고등",
-      "title": "은평고등학교 | 070-4861-0202 | 등록일 : 2026-11-12 조회수 : 295 2026년 은평고등학교 미술 기간제교원 채용 공고 과목(담당업무) 미술 채용인원 1 보수/임금 모집정보 은평구 접수기간 2026.11.12 10:10 ~ 2026.11.22 23:59 채용기간 2026.12.07 ~ 2027.01.06 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고) 계약제교원 > 기간제교원 > 기타기간제교원",
+      "title": "은평고등학교 | 070-4861-0202 | 등록일 : 2026-11-12 조회수 : 297 2026년 은평고등학교 미술 기간제교원 채용 공고 과목(담당업무) 미술 채용인원 1 보수/임금 모집정보 은평구 접수기간 2026.11.12 10:10 ~ 2026.11.22 23:59 채용기간 2026.12.07 ~ 2027.01.06 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고) 계약제교원 > 기간제교원 > 기타기간제교원",
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114240",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:53.028Z"
+      "crawled_at": "2026-11-19T22:55:03.134Z"
     },
     {
       "id": "seoul_113441",
@@ -1762,7 +1750,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113441",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.078Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "seoul_113148",
@@ -1774,7 +1762,7 @@
       "deadline": "2026-11-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113148",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.079Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "gyeonggi_66448",
@@ -1786,7 +1774,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66448",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.720Z"
+      "crawled_at": "2026-11-19T22:54:39.366Z"
     },
     {
       "id": "gyeonggi_66326",
@@ -1798,7 +1786,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66326",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.743Z"
+      "crawled_at": "2026-11-19T22:54:41.534Z"
     },
     {
       "id": "gyeonggi_66230",
@@ -1810,7 +1798,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66230",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.572Z"
+      "crawled_at": "2026-11-19T22:54:43.157Z"
     },
     {
       "id": "gyeonggi_61000",
@@ -1822,7 +1810,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=61000",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "ulsan_job_2831",
@@ -1834,7 +1822,7 @@
       "deadline": "2026-11-22",
       "url": "https://use.go.kr/job/user/jobpost/BD_selectJobPost.do?q_jobPostSn=2831",
       "source": "use.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.171Z"
+      "crawled_at": "2026-11-19T22:54:40.724Z"
     },
     {
       "id": "ulsan_job_2830",
@@ -1846,7 +1834,7 @@
       "deadline": "2026-11-22",
       "url": "https://use.go.kr/job/user/jobpost/BD_selectJobPost.do?q_jobPostSn=2830",
       "source": "use.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.171Z"
+      "crawled_at": "2026-11-19T22:54:40.724Z"
     },
     {
       "id": "gbe_kr_1665738",
@@ -1858,7 +1846,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665738",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665597",
@@ -1870,7 +1858,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665597",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665561",
@@ -1882,7 +1870,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665561",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665543",
@@ -1894,7 +1882,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665543",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665493",
@@ -1906,7 +1894,7 @@
       "deadline": "2026-11-22",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665493",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1664975",
@@ -1918,7 +1906,19 @@
       "deadline": "2026-11-22",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664975",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.879Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
+    },
+    {
+      "id": "busan_1184356",
+      "sido": "부산",
+      "school": "정경주",
+      "subject": "시간강사근무도 가능",
+      "level": "고등",
+      "title": "개포초 체육전담교사 기간제 교사 채용공고(시간강사근무도 가능) 새글",
+      "deadline": "2026-11-23",
+      "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184356",
+      "source": "pen.go.kr",
+      "crawled_at": "2026-11-19T22:54:38.101Z"
     },
     {
       "id": "busan_1184160",
@@ -1930,7 +1930,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184160",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.631Z"
+      "crawled_at": "2026-11-19T22:54:38.662Z"
     },
     {
       "id": "busan_1184115",
@@ -1942,7 +1942,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184115",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.633Z"
+      "crawled_at": "2026-11-19T22:54:39.262Z"
     },
     {
       "id": "busan_1184081",
@@ -1954,7 +1954,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184081",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.231Z"
+      "crawled_at": "2026-11-19T22:54:39.264Z"
     },
     {
       "id": "busan_1184000",
@@ -1966,7 +1966,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184000",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.360Z"
+      "crawled_at": "2026-11-19T22:54:40.521Z"
     },
     {
       "id": "busan_1183999",
@@ -1978,7 +1978,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183999",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.360Z"
+      "crawled_at": "2026-11-19T22:54:40.522Z"
     },
     {
       "id": "jeonbuk_1214579",
@@ -1990,7 +1990,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1214579",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.872Z"
+      "crawled_at": "2026-11-19T22:54:38.580Z"
     },
     {
       "id": "jeonbuk_1212162",
@@ -2002,7 +2002,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=2&searchOperation=AND&dataSid=1212162",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.524Z"
+      "crawled_at": "2026-11-19T22:54:39.235Z"
     },
     {
       "id": "gyeongnam_1815726",
@@ -2015,7 +2015,7 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815726",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.337Z"
+      "crawled_at": "2026-11-19T22:54:38.565Z"
     },
     {
       "id": "gyeongnam_1815724",
@@ -2028,7 +2028,7 @@
       "region": "양산",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815724",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.337Z"
+      "crawled_at": "2026-11-19T22:54:38.565Z"
     },
     {
       "id": "gyeongnam_1815681",
@@ -2041,7 +2041,7 @@
       "region": "거제",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815681",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.729Z"
+      "crawled_at": "2026-11-19T22:54:39.292Z"
     },
     {
       "id": "gyeongnam_1815626",
@@ -2054,7 +2054,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815626",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.740Z"
+      "crawled_at": "2026-11-19T22:54:40.743Z"
     },
     {
       "id": "gyeongnam_1815617",
@@ -2067,7 +2067,7 @@
       "region": "통영",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815617",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.740Z"
+      "crawled_at": "2026-11-19T22:54:40.743Z"
     },
     {
       "id": "gyeongnam_1815553",
@@ -2080,7 +2080,7 @@
       "region": "김해",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815553",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.891Z"
+      "crawled_at": "2026-11-19T22:54:41.467Z"
     },
     {
       "id": "gangwon_4644",
@@ -2092,7 +2092,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.063Z"
+      "crawled_at": "2026-11-19T22:54:40.434Z"
     },
     {
       "id": "gangwon_4636",
@@ -2104,7 +2104,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.463Z"
+      "crawled_at": "2026-11-19T22:54:41.547Z"
     },
     {
       "id": "seoul_114948",
@@ -2112,11 +2112,11 @@
       "school": "서울반포초등학교",
       "subject": "반포초",
       "level": "초등",
-      "title": "서울반포초등학교 | 010-9246-9281 | 등록일 : 2026-11-19 조회수 : 94 (반포초) 5,6학년 영어교과 시간강사 채용(11/23~12/3, 월화수목1명) 과목(담당업무) 영어교과(5,6학년) 월,화,수,목 총 8일 36시간 채용인원 1 보수/임금 시급 25000 모집정보 서초구 접수기간 2026.11.19 00:04 ~ 2026.11.23 01:27 채용기간 2026.11.23 ~ 2026.12.03 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울반포초등학교 | 010-9246-9281 | 등록일 : 2026-11-19 조회수 : 95 (반포초) 5,6학년 영어교과 시간강사 채용(11/23~12/3, 월화수목1명) 과목(담당업무) 영어교과(5,6학년) 월,화,수,목 총 8일 36시간 채용인원 1 보수/임금 시급 25000 모집정보 서초구 접수기간 2026.11.19 00:04 ~ 2026.11.23 01:27 채용기간 2026.11.23 ~ 2026.12.03 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114948",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.716Z"
+      "crawled_at": "2026-11-19T22:54:41.990Z"
     },
     {
       "id": "seoul_111672",
@@ -2124,11 +2124,11 @@
       "school": "서울숭례초등학교",
       "subject": "담당업무",
       "level": "초등",
-      "title": "서울숭례초등학교 | 010-2296-2388 | 등록일 : 2026-10-07 조회수 : 436 시간강사(숭례초, 교육지원팀 수업시수 경감 강사) 과목(담당업무) - 채용인원 1 보수/임금 모집정보 성북구 접수기간 2026.11.19 10:00 ~ 2026.11.23 00:00 채용기간 2026.11.23 ~ 2027.01.04 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울숭례초등학교 | 010-2296-2388 | 등록일 : 2026-10-07 조회수 : 438 시간강사(숭례초, 교육지원팀 수업시수 경감 강사) 과목(담당업무) - 채용인원 1 보수/임금 모집정보 성북구 접수기간 2026.11.19 10:00 ~ 2026.11.23 00:00 채용기간 2026.11.23 ~ 2027.01.04 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=111672",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.260Z"
+      "crawled_at": "2026-11-19T22:54:45.403Z"
     },
     {
       "id": "seoul_114888",
@@ -2136,11 +2136,11 @@
       "school": "서울특별시북부교육지원청",
       "subject": "담당업무",
       "level": "초등",
-      "title": "서울특별시북부교육지원청 | 02-3499-6949 | 등록일 : 2026-11-18 조회수 : 135 2026년도 11월 북부교육지원청 관내 서울창림초등학교 기간제교원 채용지원 채용계획 공고 과목(담당업무) 초등 특수학급 담임 채용인원 1 보수/임금 모집정보 도봉구 접수기간 2026.11.18 10:00 ~ 2026.11.23 09:30 채용기간 2026.11.26 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 특수교원(유,초,중등)",
+      "title": "서울특별시북부교육지원청 | 02-3499-6949 | 등록일 : 2026-11-18 조회수 : 138 2026년도 11월 북부교육지원청 관내 서울창림초등학교 기간제교원 채용지원 채용계획 공고 과목(담당업무) 초등 특수학급 담임 채용인원 1 보수/임금 모집정보 도봉구 접수기간 2026.11.18 10:00 ~ 2026.11.23 09:30 채용기간 2026.11.26 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 특수교원(유,초,중등)",
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114888",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.044Z"
+      "crawled_at": "2026-11-19T22:54:46.526Z"
     },
     {
       "id": "seoul_114841",
@@ -2148,11 +2148,11 @@
       "school": "서울강덕초등학교",
       "subject": "2학년 담임",
       "level": "초등",
-      "title": "서울강덕초등학교 | 02-426-0871 | 등록일 : 2026-11-18 조회수 : 148 [강덕초]2026학년도 기간제교사 채용 공고(2학년 담임) 과목(담당업무) 2학년 담임교사 및 교육복지 업무 채용인원 1 보수/임금 월급 모집정보 강동구 접수기간 2026.11.18 16:00 ~ 2026.11.23 12:00 채용기간 2026.11.30 ~ 2027.02.04 직무분야 계약제교원 > 기간제교원 > 초등교원",
+      "title": "서울강덕초등학교 | 02-426-0871 | 등록일 : 2026-11-18 조회수 : 150 [강덕초]2026학년도 기간제교사 채용 공고(2학년 담임) 과목(담당업무) 2학년 담임교사 및 교육복지 업무 채용인원 1 보수/임금 월급 모집정보 강동구 접수기간 2026.11.18 16:00 ~ 2026.11.23 12:00 채용기간 2026.11.30 ~ 2027.02.04 직무분야 계약제교원 > 기간제교원 > 초등교원",
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114841",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.045Z"
+      "crawled_at": "2026-11-19T22:54:46.526Z"
     },
     {
       "id": "seoul_114879",
@@ -2160,11 +2160,11 @@
       "school": "상명대학교사범대학부속여자중학교",
       "subject": "전문상담",
       "level": "중등",
-      "title": "상명대학교사범대학부속여자중학교 | 070-4346-4834 | 등록일 : 2026-11-18 조회수 : 168 2026학년도 상명대부속여중 기간제교사 2차 채용 공고(전문상담) 과목(담당업무) 전문상담 채용인원 1 보수/임금 모집정보 종로구 접수기간 2026.11.18 14:29 ~ 2026.11.23 15:00 채용기간 2026.11.26 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고) 계약제교원 > 기간제교원 > 전문상담교사",
+      "title": "상명대학교사범대학부속여자중학교 | 070-4346-4834 | 등록일 : 2026-11-18 조회수 : 169 2026학년도 상명대부속여중 기간제교사 2차 채용 공고(전문상담) 과목(담당업무) 전문상담 채용인원 1 보수/임금 모집정보 종로구 접수기간 2026.11.18 14:29 ~ 2026.11.23 15:00 채용기간 2026.11.26 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 중등교원(중,고) 계약제교원 > 기간제교원 > 전문상담교사",
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114879",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.618Z"
+      "crawled_at": "2026-11-19T22:54:48.049Z"
     },
     {
       "id": "seoul_114837",
@@ -2172,11 +2172,11 @@
       "school": "문현중학교",
       "subject": "농구",
       "level": "중등",
-      "title": "문현중학교 | 02-407-4096 | 등록일 : 2026-11-18 조회수 : 111 2026 문현중학교 교육과정 내 학교스포츠클럽(농구) 강사 채용 공고 과목(담당업무) 농구 스포츠클럽 채용인원 1 보수/임금 시급 30000 모집정보 송파구 접수기간 2026.11.18 12:35 ~ 2026.11.23 10:00 채용기간 2026.11.26 ~ 2026.11.26 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "문현중학교 | 02-407-4096 | 등록일 : 2026-11-18 조회수 : 112 2026 문현중학교 교육과정 내 학교스포츠클럽(농구) 강사 채용 공고 과목(담당업무) 농구 스포츠클럽 채용인원 1 보수/임금 시급 30000 모집정보 송파구 접수기간 2026.11.18 12:35 ~ 2026.11.23 10:00 채용기간 2026.11.26 ~ 2026.11.26 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114837",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.619Z"
+      "crawled_at": "2026-11-19T22:54:48.050Z"
     },
     {
       "id": "seoul_114812",
@@ -2188,7 +2188,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114812",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.869Z"
+      "crawled_at": "2026-11-19T22:54:51.369Z"
     },
     {
       "id": "seoul_114736",
@@ -2200,7 +2200,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114736",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:42.064Z"
+      "crawled_at": "2026-11-19T22:54:54.208Z"
     },
     {
       "id": "seoul_114775",
@@ -2212,7 +2212,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114775",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:42.064Z"
+      "crawled_at": "2026-11-19T22:54:54.209Z"
     },
     {
       "id": "seoul_114767",
@@ -2224,7 +2224,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114767",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:42.065Z"
+      "crawled_at": "2026-11-19T22:54:54.209Z"
     },
     {
       "id": "seoul_114692",
@@ -2236,7 +2236,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114692",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.140Z"
+      "crawled_at": "2026-11-19T22:54:57.181Z"
     },
     {
       "id": "seoul_114566",
@@ -2248,7 +2248,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114566",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.140Z"
+      "crawled_at": "2026-11-19T22:54:57.181Z"
     },
     {
       "id": "seoul_114173",
@@ -2260,7 +2260,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114173",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:55.119Z"
+      "crawled_at": "2026-11-19T22:55:04.776Z"
     },
     {
       "id": "seoul_113696",
@@ -2272,7 +2272,7 @@
       "deadline": "2026-11-23",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113696",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:59.218Z"
+      "crawled_at": "2026-11-19T22:55:07.557Z"
     },
     {
       "id": "gyeonggi_66445",
@@ -2284,7 +2284,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66445",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.234Z"
+      "crawled_at": "2026-11-19T22:54:39.900Z"
     },
     {
       "id": "gyeonggi_66420",
@@ -2296,7 +2296,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66420",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.234Z"
+      "crawled_at": "2026-11-19T22:54:39.901Z"
     },
     {
       "id": "gyeonggi_66408",
@@ -2308,7 +2308,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66408",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.725Z"
+      "crawled_at": "2026-11-19T22:54:40.442Z"
     },
     {
       "id": "gyeonggi_66388",
@@ -2320,7 +2320,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66388",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.725Z"
+      "crawled_at": "2026-11-19T22:54:40.443Z"
     },
     {
       "id": "gyeonggi_66386",
@@ -2332,7 +2332,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66386",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.725Z"
+      "crawled_at": "2026-11-19T22:54:40.443Z"
     },
     {
       "id": "gyeonggi_66379",
@@ -2344,7 +2344,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66379",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.238Z"
+      "crawled_at": "2026-11-19T22:54:40.982Z"
     },
     {
       "id": "gyeonggi_66358",
@@ -2356,7 +2356,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66358",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.239Z"
+      "crawled_at": "2026-11-19T22:54:40.982Z"
     },
     {
       "id": "gyeonggi_66311",
@@ -2368,7 +2368,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66311",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.483Z"
+      "crawled_at": "2026-11-19T22:54:42.064Z"
     },
     {
       "id": "gyeonggi_66285",
@@ -2380,7 +2380,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66285",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.484Z"
+      "crawled_at": "2026-11-19T22:54:42.064Z"
     },
     {
       "id": "gyeonggi_66223",
@@ -2392,7 +2392,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66223",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.053Z"
+      "crawled_at": "2026-11-19T22:54:43.691Z"
     },
     {
       "id": "gyeonggi_66164",
@@ -2404,7 +2404,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66164",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.582Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "gyeonggi_66119",
@@ -2416,7 +2416,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66119",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.606Z"
+      "crawled_at": "2026-11-19T22:54:45.312Z"
     },
     {
       "id": "gyeonggi_65902",
@@ -2428,7 +2428,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65902",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.140Z"
+      "crawled_at": "2026-11-19T22:54:46.935Z"
     },
     {
       "id": "gyeonggi_65654",
@@ -2440,7 +2440,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65654",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.635Z"
+      "crawled_at": "2026-11-19T22:54:47.466Z"
     },
     {
       "id": "chungnam_12559",
@@ -2452,7 +2452,7 @@
       "deadline": "2026-11-23",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
     },
     {
       "id": "chungnam_12558",
@@ -2464,7 +2464,7 @@
       "deadline": "2026-11-23",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
     },
     {
       "id": "chungnam_12557",
@@ -2476,7 +2476,7 @@
       "deadline": "2026-11-23",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
     },
     {
       "id": "chungnam_12555",
@@ -2488,7 +2488,7 @@
       "deadline": "2026-11-23",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
     },
     {
       "id": "chungnam_12552",
@@ -2500,7 +2500,7 @@
       "deadline": "2026-11-23",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
     },
     {
       "id": "chungnam_12551",
@@ -2512,7 +2512,7 @@
       "deadline": "2026-11-23",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
     },
     {
       "id": "daejeon_3367372",
@@ -2524,7 +2524,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3367372&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.771Z"
+      "crawled_at": "2026-11-19T22:54:42.056Z"
     },
     {
       "id": "gbe_kr_1665967",
@@ -2536,7 +2536,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665967",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.430Z"
+      "crawled_at": "2026-11-19T22:54:44.426Z"
     },
     {
       "id": "gbe_kr_1665919",
@@ -2548,7 +2548,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665919",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.430Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665679",
@@ -2560,7 +2560,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665679",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665580",
@@ -2572,7 +2572,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665580",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665552",
@@ -2584,7 +2584,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665552",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665413",
@@ -2596,7 +2596,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665413",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1665084",
@@ -2608,7 +2608,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665084",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1664808",
@@ -2620,7 +2620,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664808",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:39.771Z"
+      "crawled_at": "2026-11-19T22:54:50.895Z"
     },
     {
       "id": "gbe_kr_1664244",
@@ -2632,7 +2632,7 @@
       "deadline": "2026-11-23",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664244",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:45.567Z"
+      "crawled_at": "2026-11-19T22:54:55.086Z"
     },
     {
       "id": "busan_1184320",
@@ -2644,7 +2644,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184320",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.042Z"
+      "crawled_at": "2026-11-19T22:54:38.104Z"
     },
     {
       "id": "busan_1184248",
@@ -2656,7 +2656,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184248",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.050Z"
+      "crawled_at": "2026-11-19T22:54:38.108Z"
     },
     {
       "id": "busan_1184129",
@@ -2668,7 +2668,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184129",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.632Z"
+      "crawled_at": "2026-11-19T22:54:38.662Z"
     },
     {
       "id": "seoul_114972",
@@ -2676,11 +2676,11 @@
       "school": "서울광남초등학교",
       "subject": "서울광남초등학교",
       "level": "초등",
-      "title": "서울광남초등학교 | 02-455-3763 | 등록일 : 2026-11-19 조회수 : 46 (서울광남초등학교) 11/24(화) 5학년 담임 시간강사 과목(담당업무) 5학년 담임 채용인원 1 보수/임금 모집정보 광진구 접수기간 2026.11.19 15:29 ~ 2026.11.24 00:00 채용기간 2026.11.24 ~ 2026.11.24 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울광남초등학교 | 02-455-3763 | 등록일 : 2026-11-19 조회수 : 50 (서울광남초등학교) 11/24(화) 5학년 담임 시간강사 과목(담당업무) 5학년 담임 채용인원 1 보수/임금 모집정보 광진구 접수기간 2026.11.19 15:29 ~ 2026.11.24 00:00 채용기간 2026.11.24 ~ 2026.11.24 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114972",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.752Z"
+      "crawled_at": "2026-11-19T22:54:40.311Z"
     },
     {
       "id": "seoul_114947",
@@ -2688,11 +2688,11 @@
       "school": "서울특별시남부교육지원청",
       "subject": "담당업무",
       "level": "초등",
-      "title": "서울특별시남부교육지원청 | 02-2165-2154 | 등록일 : 2026-11-19 조회수 : 100 오정초 4학년 교과 시간강사 채용 과목(담당업무) 4학년 과학, 미술 채용인원 1 보수/임금 시급 모집정보 구로구 접수기간 2026.11.19 09:40 ~ 2026.11.24 23:59 채용기간 2026.11.25 ~ 2026.12.31 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울특별시남부교육지원청 | 02-2165-2154 | 등록일 : 2026-11-19 조회수 : 101 오정초 4학년 교과 시간강사 채용 과목(담당업무) 4학년 과학, 미술 채용인원 1 보수/임금 시급 모집정보 구로구 접수기간 2026.11.19 09:40 ~ 2026.11.24 23:59 채용기간 2026.11.25 ~ 2026.12.31 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114947",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.716Z"
+      "crawled_at": "2026-11-19T22:54:41.989Z"
     },
     {
       "id": "seoul_114937",
@@ -2700,11 +2700,11 @@
       "school": "서울북성초등학교",
       "subject": "담당업무",
       "level": "초등",
-      "title": "서울북성초등학교 | 02-6355-8419 | 등록일 : 2026-11-19 조회수 : 183 2026학년도 초등돌봄교실 프로그램 강사 채용 공고 과목(담당업무) 플라워아트 생활체육 프라모델 보드게임 채용인원 4 보수/임금 시급 40000 모집정보 서대문구 접수기간 2026.11.19 12:00 ~ 2026.11.24 03:00 채용기간 2027.01.11 ~ 2027.02.26 직무분야 계약제교원 > 시간강사 > 기타강사",
+      "title": "서울북성초등학교 | 02-6355-8419 | 등록일 : 2026-11-19 조회수 : 190 2026학년도 초등돌봄교실 프로그램 강사 채용 공고 과목(담당업무) 플라워아트 생활체육 프라모델 보드게임 채용인원 4 보수/임금 시급 40000 모집정보 서대문구 접수기간 2026.11.19 12:00 ~ 2026.11.24 03:00 채용기간 2027.01.11 ~ 2027.02.26 직무분야 계약제교원 > 시간강사 > 기타강사",
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114937",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.149Z"
+      "crawled_at": "2026-11-19T22:54:43.664Z"
     },
     {
       "id": "seoul_114876",
@@ -2716,7 +2716,7 @@
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114876",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.618Z"
+      "crawled_at": "2026-11-19T22:54:48.050Z"
     },
     {
       "id": "seoul_114802",
@@ -2724,11 +2724,11 @@
       "school": "영등포공업고등학교",
       "subject": "공통과학, 물리",
       "level": "고등",
-      "title": "영등포공업고등학교 | 02-2659-2981 | 등록일 : 2026-11-17 조회수 : 108 영등포공업고등학교 시간강사 채용 공고(공통과학, 물리) 과목(담당업무) 공통과학, 물리(시간강사) 채용인원 1 보수/임금 시급 시간당 25,000원 모집정보 강서구 접수기간 2026.11.17 14:26 ~ 2026.11.24 00:00 채용기간 2026.12.03 ~ 2027.01.06 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "영등포공업고등학교 | 02-2659-2981 | 등록일 : 2026-11-17 조회수 : 110 영등포공업고등학교 시간강사 채용 공고(공통과학, 물리) 과목(담당업무) 공통과학, 물리(시간강사) 채용인원 1 보수/임금 시급 시간당 25,000원 모집정보 강서구 접수기간 2026.11.17 14:26 ~ 2026.11.24 00:00 채용기간 2026.12.03 ~ 2027.01.06 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114802",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.146Z"
+      "crawled_at": "2026-11-19T22:54:53.026Z"
     },
     {
       "id": "seoul_114799",
@@ -2740,7 +2740,7 @@
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114799",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.147Z"
+      "crawled_at": "2026-11-19T22:54:53.026Z"
     },
     {
       "id": "seoul_113939",
@@ -2752,7 +2752,7 @@
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113939",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.079Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "seoul_112575",
@@ -2764,7 +2764,7 @@
       "deadline": "2026-11-24",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=112575",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.187Z"
+      "crawled_at": "2026-11-19T22:55:08.845Z"
     },
     {
       "id": "gyeonggi_66452",
@@ -2776,7 +2776,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66452",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.719Z"
+      "crawled_at": "2026-11-19T22:54:39.365Z"
     },
     {
       "id": "gyeonggi_66451",
@@ -2788,7 +2788,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66451",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.719Z"
+      "crawled_at": "2026-11-19T22:54:39.366Z"
     },
     {
       "id": "gyeonggi_66371",
@@ -2800,7 +2800,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66371",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.238Z"
+      "crawled_at": "2026-11-19T22:54:40.982Z"
     },
     {
       "id": "gyeonggi_66175",
@@ -2812,7 +2812,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66175",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.581Z"
+      "crawled_at": "2026-11-19T22:54:44.225Z"
     },
     {
       "id": "daejeon_3367488",
@@ -2824,7 +2824,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.dje.go.kr/boardCnts/view.do?boardID=54&boardSeq=3367488&lev=0&searchType=null&statusYN=W&page=1&s=dje&m=030202&opType=N",
       "source": "dje.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.771Z"
+      "crawled_at": "2026-11-19T22:54:42.056Z"
     },
     {
       "id": "gbe_kr_1665864",
@@ -2836,7 +2836,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665864",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665534",
@@ -2848,7 +2848,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665534",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665506",
@@ -2860,7 +2860,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665506",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665443",
@@ -2872,7 +2872,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665443",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:32.070Z"
+      "crawled_at": "2026-11-19T22:54:45.664Z"
     },
     {
       "id": "gbe_kr_1665296",
@@ -2884,7 +2884,7 @@
       "deadline": "2026-11-24",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665296",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "busan_1184088",
@@ -2896,7 +2896,7 @@
       "deadline": "2026-11-25",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184088",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.231Z"
+      "crawled_at": "2026-11-19T22:54:39.263Z"
     },
     {
       "id": "jeonbuk_1214046",
@@ -2908,7 +2908,7 @@
       "deadline": "2026-11-25",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=1&searchOperation=AND&dataSid=1214046",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:24.874Z"
+      "crawled_at": "2026-11-19T22:54:38.582Z"
     },
     {
       "id": "seoul_114805",
@@ -2916,11 +2916,11 @@
       "school": "구로중학교",
       "subject": "수학",
       "level": "중등",
-      "title": "구로중학교 | 02-890-4509 | 등록일 : 2026-11-17 조회수 : 120 구로중학교 시간강사(수학) 채용 공고 과목(담당업무) 수학 채용인원 1 보수/임금 시간당 25,000원 모집정보 구로구 접수기간 2026.11.18 09:00 ~ 2026.11.25 16:00 채용기간 2026.12.07 ~ 2026.12.30 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "구로중학교 | 02-890-4509 | 등록일 : 2026-11-17 조회수 : 121 구로중학교 시간강사(수학) 채용 공고 과목(담당업무) 수학 채용인원 1 보수/임금 시간당 25,000원 모집정보 구로구 접수기간 2026.11.18 09:00 ~ 2026.11.25 16:00 채용기간 2026.12.07 ~ 2026.12.30 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-11-25",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114805",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.146Z"
+      "crawled_at": "2026-11-19T22:54:53.026Z"
     },
     {
       "id": "seoul_114789",
@@ -2928,11 +2928,11 @@
       "school": "서울숭신초등학교",
       "subject": "초등",
       "level": "초등",
-      "title": "서울숭신초등학교 | 010-9254-4398 | 등록일 : 2026-11-17 조회수 : 88 (초등)특수학급 담임 시간강사 모집 과목(담당업무) 특수학급 담임 시간강사 채용인원 1 보수/임금 시급 25,000원 모집정보 성동구 접수기간 2026.11.17 13:18 ~ 2026.11.25 21:00 채용기간 2026.11.18 ~ 2026.11.27 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
+      "title": "서울숭신초등학교 | 010-9254-4398 | 등록일 : 2026-11-17 조회수 : 91 (초등)특수학급 담임 시간강사 모집 과목(담당업무) 특수학급 담임 시간강사 채용인원 1 보수/임금 시급 25,000원 모집정보 성동구 접수기간 2026.11.17 13:18 ~ 2026.11.25 21:00 채용기간 2026.11.18 ~ 2026.11.27 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
       "deadline": "2026-11-25",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114789",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.147Z"
+      "crawled_at": "2026-11-19T22:54:53.027Z"
     },
     {
       "id": "seoul_113434",
@@ -2944,7 +2944,7 @@
       "deadline": "2026-11-25",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113434",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.188Z"
+      "crawled_at": "2026-11-19T22:55:08.846Z"
     },
     {
       "id": "gyeonggi_66459",
@@ -2956,7 +2956,7 @@
       "deadline": "2026-11-25",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66459",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.718Z"
+      "crawled_at": "2026-11-19T22:54:39.365Z"
     },
     {
       "id": "gyeonggi_66435",
@@ -2968,7 +2968,7 @@
       "deadline": "2026-11-25",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66435",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.234Z"
+      "crawled_at": "2026-11-19T22:54:39.901Z"
     },
     {
       "id": "chungnam_12553",
@@ -2980,7 +2980,19 @@
       "deadline": "2026-11-25",
       "url": "http://www.cne.go.kr/apply/list.do?s=cne&m=032101",
       "source": "cne.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.408Z"
+      "crawled_at": "2026-11-19T22:54:46.920Z"
+    },
+    {
+      "id": "ice_go.kr_3389112",
+      "sido": "인천",
+      "school": "인천봉수초등학교(공립)",
+      "subject": "시간강사",
+      "level": "초등",
+      "title": "봉수초 계약제교원(시간강사) 채용 공고(5학년 담임교사)",
+      "deadline": "2026-11-25",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389112",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-11-19T22:54:42.938Z"
     },
     {
       "id": "gbe_kr_1664507",
@@ -2992,7 +3004,7 @@
       "deadline": "2026-11-25",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664507",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:41.350Z"
+      "crawled_at": "2026-11-19T22:54:52.253Z"
     },
     {
       "id": "busan_1184339",
@@ -3004,7 +3016,7 @@
       "deadline": "2026-11-26",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184339",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.039Z"
+      "crawled_at": "2026-11-19T22:54:38.102Z"
     },
     {
       "id": "seoul_113890",
@@ -3016,19 +3028,7 @@
       "deadline": "2026-11-26",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113890",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:59.218Z"
-    },
-    {
-      "id": "ice_go.kr_3389085",
-      "sido": "인천",
-      "school": "인천봉수초등학교(공립)",
-      "subject": "시간강사",
-      "level": "초등",
-      "title": "봉수초 계약제교원(시간강사) 채용 공고(1학년, 3학년 담임교사)",
-      "deadline": "2026-11-26",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389085",
-      "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.248Z"
+      "crawled_at": "2026-11-19T22:55:07.557Z"
     },
     {
       "id": "gbe_kr_1665772",
@@ -3040,7 +3040,7 @@
       "deadline": "2026-11-26",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665772",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "jeonbuk_1210823",
@@ -3052,7 +3052,7 @@
       "deadline": "2026-11-27",
       "url": "https://www.jbe.go.kr/board/view.jbe?boardId=BBS_0000130&menuCd=DOM_000001601002000000&paging=ok&startPage=3&searchOperation=AND&dataSid=1210823",
       "source": "jbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.203Z"
+      "crawled_at": "2026-11-19T22:54:39.893Z"
     },
     {
       "id": "gangwon_4612",
@@ -3064,7 +3064,7 @@
       "deadline": "2026-11-27",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.089Z"
+      "crawled_at": "2026-11-19T22:54:43.576Z"
     },
     {
       "id": "gangwon_4611",
@@ -3076,7 +3076,7 @@
       "deadline": "2026-11-27",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.089Z"
+      "crawled_at": "2026-11-19T22:54:43.576Z"
     },
     {
       "id": "gangwon_4610",
@@ -3088,7 +3088,7 @@
       "deadline": "2026-11-27",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.089Z"
+      "crawled_at": "2026-11-19T22:54:43.576Z"
     },
     {
       "id": "seoul_114851",
@@ -3096,11 +3096,11 @@
       "school": "서울하늘숲초등학교",
       "subject": "하늘숲초",
       "level": "초등",
-      "title": "서울하늘숲초등학교 | 010-6213-2095 | 등록일 : 2026-11-19 조회수 : 68 | 즉시지원 1 (하늘숲초) 6학년 과학 교과 - 시간 강사 모집 과목(담당업무) 6학년 과학 교과 담당 채용인원 1 보수/임금 시급 25,000원 모집정보 구로구 접수기간 2026.11.19 14:56 ~ 2026.11.27 00:00 채용기간 2026.12.15 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 초등교원",
+      "title": "서울하늘숲초등학교 | 010-6213-2095 | 등록일 : 2026-11-19 조회수 : 69 | 즉시지원 1 (하늘숲초) 6학년 과학 교과 - 시간 강사 모집 과목(담당업무) 6학년 과학 교과 담당 채용인원 1 보수/임금 시급 25,000원 모집정보 구로구 접수기간 2026.11.19 14:56 ~ 2026.11.27 00:00 채용기간 2026.12.15 ~ 2026.12.31 직무분야 계약제교원 > 기간제교원 > 초등교원",
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114851",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.753Z"
+      "crawled_at": "2026-11-19T22:54:41.989Z"
     },
     {
       "id": "seoul_113979",
@@ -3112,7 +3112,7 @@
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113979",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.618Z"
+      "crawled_at": "2026-11-19T22:54:48.049Z"
     },
     {
       "id": "seoul_114459",
@@ -3120,11 +3120,11 @@
       "school": "명지초등학교",
       "subject": "담당업무",
       "level": "초등",
-      "title": "명지초등학교 | 02-372-2872 | 등록일 : 2026-11-13 조회수 : 648 명지초등학교 겨울영어캠프 강사 채용 공고 과목(담당업무) 겨울영어캠프 강사 채용인원 3 보수/임금 모집정보 서대문구 접수기간 2026.11.13 08:57 ~ 2026.11.27 12:00 채용기간 2027.01.04 ~ 2027.01.15 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "명지초등학교 | 02-372-2872 | 등록일 : 2026-11-13 조회수 : 649 명지초등학교 겨울영어캠프 강사 채용 공고 과목(담당업무) 겨울영어캠프 강사 채용인원 3 보수/임금 모집정보 서대문구 접수기간 2026.11.13 08:57 ~ 2026.11.27 12:00 채용기간 2027.01.04 ~ 2027.01.15 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114459",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:42.064Z"
+      "crawled_at": "2026-11-19T22:54:54.208Z"
     },
     {
       "id": "seoul_113040",
@@ -3132,11 +3132,11 @@
       "school": "이화여자고등학교",
       "subject": "학교법인 이화학원",
       "level": "고등",
-      "title": "이화여자고등학교 | 02-755-7700 | 등록일 : 2026-10-29 조회수 : 1080 (학교법인 이화학원) 이화여자고등학교 2027학년도 신규교사(영어, 체육) 선정경쟁시험 시행 계획 공고 과목(담당업무) 영어, 체육 채용인원 2 보수/임금 월급 모집정보 중구 접수기간 2026.11.23 09:00 ~ 2026.11.27 16:00 채용기간 2027.03.01 ~ 2999.12.31 직무분야 정규교원 > 보통교과 > 영어과제2외국어과한문과 정규교원 > 보통교과 > 체육과음악과미술과",
+      "title": "이화여자고등학교 | 02-755-7700 | 등록일 : 2026-10-29 조회수 : 1082 (학교법인 이화학원) 이화여자고등학교 2027학년도 신규교사(영어, 체육) 선정경쟁시험 시행 계획 공고 과목(담당업무) 영어, 체육 채용인원 2 보수/임금 월급 모집정보 중구 접수기간 2026.11.23 09:00 ~ 2026.11.27 16:00 채용기간 2027.03.01 ~ 2999.12.31 직무분야 정규교원 > 보통교과 > 영어과제2외국어과한문과 정규교원 > 보통교과 > 체육과음악과미술과",
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113040",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:44.041Z"
+      "crawled_at": "2026-11-19T22:54:55.500Z"
     },
     {
       "id": "seoul_103671",
@@ -3144,11 +3144,11 @@
       "school": "한신초등학교",
       "subject": "미술 - 응용",
       "level": "초등",
-      "title": "한신초등학교 | 02-901-7514 | 등록일 : 2026-06-29 조회수 : 613 한신초등학교 예술교육(미술 - 응용) 강사 모집 공고 과목(담당업무) 미술 - 응용(공예 제외) 채용인원 1 보수/임금 월급 150 모집정보 도봉구 접수기간 2026.11.18 00:00 ~ 2026.11.27 12:00 채용기간 2027.03.02 ~ 2028.02.29 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "한신초등학교 | 02-901-7514 | 등록일 : 2026-06-29 조회수 : 615 한신초등학교 예술교육(미술 - 응용) 강사 모집 공고 과목(담당업무) 미술 - 응용(공예 제외) 채용인원 1 보수/임금 월급 150 모집정보 도봉구 접수기간 2026.11.18 00:00 ~ 2026.11.27 12:00 채용기간 2027.03.02 ~ 2028.02.29 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=103671",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:48.076Z"
+      "crawled_at": "2026-11-19T22:54:58.678Z"
     },
     {
       "id": "seoul_114560",
@@ -3156,11 +3156,11 @@
       "school": "덕원예술고등학교",
       "subject": "담당업무",
       "level": "고등",
-      "title": "덕원예술고등학교 | 02-2660-7952 | 등록일 : 2026-11-16 조회수 : 290 2027학년도 덕원예고 미술부 실기강사 신규채용 공고문 과목(담당업무) 실기강사 채용인원 00 보수/임금 모집정보 강서구 접수기간 2026.11.16 09:00 ~ 2026.11.27 18:00 채용기간 2027.03.02 ~ 2028.02.29 직무분야 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 기간제교원 > 중등교원(중,고)",
+      "title": "덕원예술고등학교 | 02-2660-7952 | 등록일 : 2026-11-16 조회수 : 292 2027학년도 덕원예고 미술부 실기강사 신규채용 공고문 과목(담당업무) 실기강사 채용인원 00 보수/임금 모집정보 강서구 접수기간 2026.11.16 09:00 ~ 2026.11.27 18:00 채용기간 2027.03.02 ~ 2028.02.29 직무분야 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 기간제교원 > 중등교원(중,고)",
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114560",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:49.904Z"
+      "crawled_at": "2026-11-19T22:55:00.310Z"
     },
     {
       "id": "seoul_114381",
@@ -3168,11 +3168,11 @@
       "school": "서울홍릉초등학교",
       "subject": "홍릉초",
       "level": "초등",
-      "title": "서울홍릉초등학교 | 010-3227-9316 | 등록일 : 2026-11-12 조회수 : 172 (홍릉초)특수학급 시간강사 채용공고 과목(담당업무) 특수학급(국어,수학) 채용인원 1 보수/임금 시급 25000 모집정보 동대문구 접수기간 2026.11.12 15:23 ~ 2026.11.27 00:00 채용기간 2026.12.10 ~ 2026.12.10 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
+      "title": "서울홍릉초등학교 | 010-3227-9316 | 등록일 : 2026-11-12 조회수 : 173 (홍릉초)특수학급 시간강사 채용공고 과목(담당업무) 특수학급(국어,수학) 채용인원 1 보수/임금 시급 25000 모집정보 동대문구 접수기간 2026.11.12 15:23 ~ 2026.11.27 00:00 채용기간 2026.12.10 ~ 2026.12.10 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114381",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:53.028Z"
+      "crawled_at": "2026-11-19T22:55:03.134Z"
     },
     {
       "id": "seoul_114295",
@@ -3184,7 +3184,7 @@
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114295",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:53.028Z"
+      "crawled_at": "2026-11-19T22:55:03.134Z"
     },
     {
       "id": "seoul_113944",
@@ -3196,7 +3196,7 @@
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113944",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.078Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "seoul_113445",
@@ -3208,7 +3208,7 @@
       "deadline": "2026-11-27",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113445",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.188Z"
+      "crawled_at": "2026-11-19T22:55:08.846Z"
     },
     {
       "id": "gyeonggi_66058",
@@ -3220,7 +3220,7 @@
       "deadline": "2026-11-27",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66058",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.099Z"
+      "crawled_at": "2026-11-19T22:54:45.858Z"
     },
     {
       "id": "busan_1183640",
@@ -3232,7 +3232,7 @@
       "deadline": "2026-11-29",
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183640",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.270Z"
+      "crawled_at": "2026-11-19T22:54:41.791Z"
     },
     {
       "id": "gyeonggi_65332",
@@ -3244,7 +3244,7 @@
       "deadline": "2026-11-29",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65332",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.663Z"
+      "crawled_at": "2026-11-19T22:54:48.594Z"
     },
     {
       "id": "gyeonggi_52909",
@@ -3256,7 +3256,7 @@
       "deadline": "2026-11-29",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=52909",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "seoul_114946",
@@ -3264,11 +3264,11 @@
       "school": "서울신양초등학교",
       "subject": "금",
       "level": "초등",
-      "title": "서울신양초등학교 | 010-2696-0070 | 등록일 : 2026-11-19 조회수 : 54 11. 20.(금) 신양초 1학년 시간강사님 모십니다. 과목(담당업무) 1학년 채용인원 1 보수/임금 시급 25,000원 모집정보 광진구 접수기간 2026.11.19 13:36 ~ 2026.11.30 15:00 채용기간 2026.11.20 ~ 2026.11.20 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울신양초등학교 | 010-2696-0070 | 등록일 : 2026-11-19 조회수 : 56 11. 20.(금) 신양초 1학년 시간강사님 모십니다. 과목(담당업무) 1학년 채용인원 1 보수/임금 시급 25,000원 모집정보 광진구 접수기간 2026.11.19 13:36 ~ 2026.11.30 15:00 채용기간 2026.11.20 ~ 2026.11.20 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-11-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114946",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.716Z"
+      "crawled_at": "2026-11-19T22:54:41.990Z"
     },
     {
       "id": "seoul_114886",
@@ -3276,11 +3276,11 @@
       "school": "서울남현유치원",
       "subject": "남현유",
       "level": "유치",
-      "title": "서울남현유치원 | 02-585-2031 | 등록일 : 2026-11-18 조회수 : 111 (남현유)유치원 수업지원사업 「순회시간강사」 채용공고 과목(담당업무) 서울남현유치원 및 권역별 유치원 교사 결원시 보결수업지원 채용인원 1 보수/임금 모집정보 관악구 접수기간 2026.11.18 16:22 ~ 2026.11.30 12:00 채용기간 2026.11.09 ~ 2027.02.18 직무분야 계약제교원 > 시간강사 > 유치원강사",
+      "title": "서울남현유치원 | 02-585-2031 | 등록일 : 2026-11-18 조회수 : 113 (남현유)유치원 수업지원사업 「순회시간강사」 채용공고 과목(담당업무) 서울남현유치원 및 권역별 유치원 교사 결원시 보결수업지원 채용인원 1 보수/임금 모집정보 관악구 접수기간 2026.11.18 16:22 ~ 2026.11.30 12:00 채용기간 2026.11.09 ~ 2027.02.18 직무분야 계약제교원 > 시간강사 > 유치원강사",
       "deadline": "2026-11-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114886",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.044Z"
+      "crawled_at": "2026-11-19T22:54:46.526Z"
     },
     {
       "id": "seoul_114866",
@@ -3288,11 +3288,11 @@
       "school": "서울마포초등학교",
       "subject": "담당업무",
       "level": "초등",
-      "title": "서울마포초등학교 | 02-712-0852 | 등록일 : 2026-11-18 조회수 : 179 2026년 학년말 특수교사 수업 부담 경감 협력강사 채용 공고문 과목(담당업무) (특수) 수업경감 협력강사, 특수교사 채용인원 1 보수/임금 시급 25000 모집정보 마포구 접수기간 2026.11.18 12:07 ~ 2026.11.30 00:00 채용기간 2026.11.26 ~ 2026.12.31 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등) 계약제교원 > 기간제교원 > 특수교원(유,초,중등)",
+      "title": "서울마포초등학교 | 02-712-0852 | 등록일 : 2026-11-18 조회수 : 182 2026년 학년말 특수교사 수업 부담 경감 협력강사 채용 공고문 과목(담당업무) (특수) 수업경감 협력강사, 특수교사 채용인원 1 보수/임금 시급 25000 모집정보 마포구 접수기간 2026.11.18 12:07 ~ 2026.11.30 00:00 채용기간 2026.11.26 ~ 2026.12.31 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등) 계약제교원 > 기간제교원 > 특수교원(유,초,중등)",
       "deadline": "2026-11-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114866",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.619Z"
+      "crawled_at": "2026-11-19T22:54:48.050Z"
     },
     {
       "id": "seoul_113173",
@@ -3304,7 +3304,7 @@
       "deadline": "2026-11-30",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113173",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.188Z"
+      "crawled_at": "2026-11-19T22:55:08.847Z"
     },
     {
       "id": "gyeonggi_66357",
@@ -3316,7 +3316,7 @@
       "deadline": "2026-11-30",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66357",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.239Z"
+      "crawled_at": "2026-11-19T22:54:40.982Z"
     },
     {
       "id": "gyeonggi_64107",
@@ -3328,7 +3328,7 @@
       "deadline": "2026-11-30",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=64107",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.663Z"
+      "crawled_at": "2026-11-19T22:54:48.594Z"
     },
     {
       "id": "gbe_kr_1664927",
@@ -3340,7 +3340,7 @@
       "deadline": "2026-11-30",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664927",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:38.008Z"
+      "crawled_at": "2026-11-19T22:54:49.479Z"
     },
     {
       "id": "seoul_114758",
@@ -3352,7 +3352,7 @@
       "deadline": "2026-12-01",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114758",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.618Z"
+      "crawled_at": "2026-11-19T22:54:48.050Z"
     },
     {
       "id": "seoul_114539",
@@ -3360,11 +3360,11 @@
       "school": "덕원예술고등학교",
       "subject": "시간강사, 방과후교육강사",
       "level": "고등",
-      "title": "덕원예술고등학교 | 02-2660-7931 | 등록일 : 2026-11-13 조회수 : 269 2027학년도 덕원예술고등학교 무용부 실기 지도 강사[계약제교원(시간강사, 방과후교육강사)] 채용 공고 과목(담당업무) 무용(한국무용 실기, 발레 실기, 발레 반주, 현대무용 실기, 필라테스) 채용인원 - 보수/임금 모집정보 강서구 접수기간 2026.11.25 09:00 ~ 2026.12.01 16:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "덕원예술고등학교 | 02-2660-7931 | 등록일 : 2026-11-13 조회수 : 270 2027학년도 덕원예술고등학교 무용부 실기 지도 강사[계약제교원(시간강사, 방과후교육강사)] 채용 공고 과목(담당업무) 무용(한국무용 실기, 발레 실기, 발레 반주, 현대무용 실기, 필라테스) 채용인원 - 보수/임금 모집정보 강서구 접수기간 2026.11.25 09:00 ~ 2026.12.01 16:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-12-01",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114539",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:44.040Z"
+      "crawled_at": "2026-11-19T22:54:55.500Z"
     },
     {
       "id": "seoul_113918",
@@ -3372,11 +3372,11 @@
       "school": "보성중학교",
       "subject": "역사",
       "level": "중등",
-      "title": "보성중학교 | 02-2152-2501 | 등록일 : 2026-11-09 조회수 : 231 보성중학교 시간강사 채용 공고 (역사) 과목(담당업무) 역사 채용인원 1 보수/임금 25000 모집정보 송파구 접수기간 2026.11.09 09:21 ~ 2026.12.01 23:59 채용기간 2026.11.23 ~ 2027.02.28 직무분야 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 시간강사 > 중등강사(중,고)",
+      "title": "보성중학교 | 02-2152-2501 | 등록일 : 2026-11-09 조회수 : 232 보성중학교 시간강사 채용 공고 (역사) 과목(담당업무) 역사 채용인원 1 보수/임금 25000 모집정보 송파구 접수기간 2026.11.09 09:21 ~ 2026.12.01 23:59 채용기간 2026.11.23 ~ 2027.02.28 직무분야 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 시간강사 > 중등강사(중,고) 계약제교원 > 시간강사 > 중등강사(중,고)",
       "deadline": "2026-12-01",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113918",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.079Z"
+      "crawled_at": "2026-11-19T22:55:06.419Z"
     },
     {
       "id": "gangwon_4635",
@@ -3388,7 +3388,7 @@
       "deadline": "2026-12-02",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.463Z"
+      "crawled_at": "2026-11-19T22:54:41.547Z"
     },
     {
       "id": "gyeonggi_66149",
@@ -3400,7 +3400,7 @@
       "deadline": "2026-12-02",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66149",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.097Z"
+      "crawled_at": "2026-11-19T22:54:44.785Z"
     },
     {
       "id": "seoul_114955",
@@ -3408,11 +3408,11 @@
       "school": "서울광남초등학교",
       "subject": "서울광남초등학교",
       "level": "초등",
-      "title": "서울광남초등학교 | 02-455-3763 | 등록일 : 2026-11-19 조회수 : 77 (서울광남초등학교) 12/3(목)~12/4(금) 1학년 담임 시간강사 과목(담당업무) 1학년 담임 채용인원 1 보수/임금 모집정보 광진구 접수기간 2026.11.19 15:31 ~ 2026.12.03 00:00 채용기간 2026.12.03 ~ 2026.12.04 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울광남초등학교 | 02-455-3763 | 등록일 : 2026-11-19 조회수 : 79 (서울광남초등학교) 12/3(목)~12/4(금) 1학년 담임 시간강사 과목(담당업무) 1학년 담임 채용인원 1 보수/임금 모집정보 광진구 접수기간 2026.11.19 15:31 ~ 2026.12.03 00:00 채용기간 2026.12.03 ~ 2026.12.04 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-12-03",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114955",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.752Z"
+      "crawled_at": "2026-11-19T22:54:40.311Z"
     },
     {
       "id": "gangwon_4637",
@@ -3424,7 +3424,7 @@
       "deadline": "2026-12-04",
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.064Z"
+      "crawled_at": "2026-11-19T22:54:40.434Z"
     },
     {
       "id": "seoul_114811",
@@ -3436,7 +3436,7 @@
       "deadline": "2026-12-04",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114811",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.870Z"
+      "crawled_at": "2026-11-19T22:54:51.369Z"
     },
     {
       "id": "seoul_110901",
@@ -3444,11 +3444,11 @@
       "school": "해성여자고등학교",
       "subject": "특수",
       "level": "고등",
-      "title": "해성여자고등학교 | 02-2244-5318 | 등록일 : 2026-09-23 조회수 : 705 2026학년도 해성여자고등학교 강사(특수) 채용 공고 과목(담당업무) 특수 채용인원 1 보수/임금 모집정보 동대문구 접수기간 2026.09.28 09:00 ~ 2026.12.04 16:00 채용기간 2026.10.06 ~ 2027.02.03 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
+      "title": "해성여자고등학교 | 02-2244-5318 | 등록일 : 2026-09-23 조회수 : 708 2026학년도 해성여자고등학교 강사(특수) 채용 공고 과목(담당업무) 특수 채용인원 1 보수/임금 모집정보 동대문구 접수기간 2026.09.28 09:00 ~ 2026.12.04 16:00 채용기간 2026.10.06 ~ 2027.02.03 직무분야 계약제교원 > 시간강사 > 특수강사(유,초,중등)",
       "deadline": "2026-12-04",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=110901",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.140Z"
+      "crawled_at": "2026-11-19T22:54:57.181Z"
     },
     {
       "id": "seoul_114090",
@@ -3460,7 +3460,7 @@
       "deadline": "2026-12-04",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114090",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.078Z"
+      "crawled_at": "2026-11-19T22:55:06.418Z"
     },
     {
       "id": "seoul_113549",
@@ -3472,7 +3472,7 @@
       "deadline": "2026-12-04",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113549",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.187Z"
+      "crawled_at": "2026-11-19T22:55:08.845Z"
     },
     {
       "id": "seoul_113453",
@@ -3484,7 +3484,7 @@
       "deadline": "2026-12-04",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113453",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.188Z"
+      "crawled_at": "2026-11-19T22:55:08.846Z"
     },
     {
       "id": "seoul_113427",
@@ -3496,7 +3496,7 @@
       "deadline": "2026-12-04",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113427",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T22:00:01.188Z"
+      "crawled_at": "2026-11-19T22:55:08.846Z"
     },
     {
       "id": "gbe_kr_1664935",
@@ -3508,7 +3508,7 @@
       "deadline": "2026-12-04",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664935",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:38.008Z"
+      "crawled_at": "2026-11-19T22:54:49.478Z"
     },
     {
       "id": "seoul_114949",
@@ -3516,11 +3516,11 @@
       "school": "서울여자대학교부속유치원",
       "subject": "담당업무",
       "level": "유치",
-      "title": "서울여자대학교부속유치원 | 02-970-5353 | 등록일 : 2026-11-19 조회수 : 80 2027학년도 서울여자대학교부속유치원 정교사 채용 공고 과목(담당업무) 교육과정반 담임 교사 채용인원 0 보수/임금 첨부문서 참고 모집정보 노원구 접수기간 2026.11.23 09:10 ~ 2026.12.06 00:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 정규교원 > 기타교과 > 유치원",
+      "title": "서울여자대학교부속유치원 | 02-970-5353 | 등록일 : 2026-11-19 조회수 : 81 2027학년도 서울여자대학교부속유치원 정교사 채용 공고 과목(담당업무) 교육과정반 담임 교사 채용인원 0 보수/임금 첨부문서 참고 모집정보 노원구 접수기간 2026.11.23 09:10 ~ 2026.12.06 00:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 정규교원 > 기타교과 > 유치원",
       "deadline": "2026-12-06",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114949",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:28.716Z"
+      "crawled_at": "2026-11-19T22:54:41.990Z"
     },
     {
       "id": "gyeonggi_65790",
@@ -3532,7 +3532,7 @@
       "deadline": "2026-12-07",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65790",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.140Z"
+      "crawled_at": "2026-11-19T22:54:46.936Z"
     },
     {
       "id": "gyeonggi_66118",
@@ -3544,7 +3544,7 @@
       "deadline": "2026-12-08",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66118",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.607Z"
+      "crawled_at": "2026-11-19T22:54:45.312Z"
     },
     {
       "id": "seoul_114064",
@@ -3556,7 +3556,19 @@
       "deadline": "2026-12-10",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114064",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:53.029Z"
+      "crawled_at": "2026-11-19T22:55:03.137Z"
+    },
+    {
+      "id": "ice_go.kr_3389130",
+      "sido": "인천",
+      "school": "서운중학교(공립)",
+      "subject": "과학",
+      "level": "중등",
+      "title": "2026학년도 과학 시간강사 채용 공고",
+      "deadline": "2026-12-11",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389130",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-11-19T22:54:42.938Z"
     },
     {
       "id": "gbe_kr_1665080",
@@ -3568,7 +3580,7 @@
       "deadline": "2026-12-11",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665080",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:35.879Z"
+      "crawled_at": "2026-11-19T22:54:48.130Z"
     },
     {
       "id": "seoul_114900",
@@ -3576,11 +3588,11 @@
       "school": "서울여자대학교부속유치원",
       "subject": "담당업무",
       "level": "유치",
-      "title": "서울여자대학교부속유치원 | 02-970-5353 | 등록일 : 2026-11-19 조회수 : 121 2027학년도 서울여자대학교부속유치원 기간제 교사 채용 공고 과목(담당업무) 교육과정반 부교사 + 방과후과정반 담임 교사 채용인원 0 보수/임금 첨부문서 참고 모집정보 노원구 접수기간 2026.12.01 08:45 ~ 2026.12.13 00:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 계약제교원 > 기간제교원 > 유치원교원 계약제교원 > 기간제교원 > 기타기간제교원",
+      "title": "서울여자대학교부속유치원 | 02-970-5353 | 등록일 : 2026-11-19 조회수 : 123 2027학년도 서울여자대학교부속유치원 기간제 교사 채용 공고 과목(담당업무) 교육과정반 부교사 + 방과후과정반 담임 교사 채용인원 0 보수/임금 첨부문서 참고 모집정보 노원구 접수기간 2026.12.01 08:45 ~ 2026.12.13 00:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 계약제교원 > 기간제교원 > 유치원교원 계약제교원 > 기간제교원 > 기타기간제교원",
       "deadline": "2026-12-13",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114900",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.043Z"
+      "crawled_at": "2026-11-19T22:54:46.525Z"
     },
     {
       "id": "seoul_114899",
@@ -3588,11 +3600,11 @@
       "school": "서울여자대학교부속유치원",
       "subject": "담당업무",
       "level": "유치",
-      "title": "서울여자대학교부속유치원 | 02-970-5353 | 등록일 : 2026-11-19 조회수 : 54 2027학년도 서울여자대학교부속유치원 기간제 교사 채용 공고 과목(담당업무) 교육과정반 부교사 + 방과후과정반 담임 교사 채용인원 0 보수/임금 첨부문서 참고 모집정보 노원구 접수기간 2026.12.01 08:45 ~ 2026.12.13 00:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 계약제교원 > 기간제교원 > 유치원교원 계약제교원 > 기간제교원 > 기타기간제교원",
+      "title": "서울여자대학교부속유치원 | 02-970-5353 | 등록일 : 2026-11-19 조회수 : 56 2027학년도 서울여자대학교부속유치원 기간제 교사 채용 공고 과목(담당업무) 교육과정반 부교사 + 방과후과정반 담임 교사 채용인원 0 보수/임금 첨부문서 참고 모집정보 노원구 접수기간 2026.12.01 08:45 ~ 2026.12.13 00:00 채용기간 2027.03.01 ~ 2028.02.29 직무분야 계약제교원 > 기간제교원 > 유치원교원 계약제교원 > 기간제교원 > 기타기간제교원",
       "deadline": "2026-12-13",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114899",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.043Z"
+      "crawled_at": "2026-11-19T22:54:46.526Z"
     },
     {
       "id": "seoul_114486",
@@ -3604,7 +3616,7 @@
       "deadline": "2026-12-13",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114486",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:51.190Z"
+      "crawled_at": "2026-11-19T22:55:01.605Z"
     },
     {
       "id": "seoul_114436",
@@ -3616,7 +3628,7 @@
       "deadline": "2026-12-17",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114436",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:51.191Z"
+      "crawled_at": "2026-11-19T22:55:01.606Z"
     },
     {
       "id": "seoul_114453",
@@ -3628,7 +3640,7 @@
       "deadline": "2026-12-18",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114453",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.618Z"
+      "crawled_at": "2026-11-19T22:54:48.049Z"
     },
     {
       "id": "ice_go.kr_3389154",
@@ -3640,7 +3652,7 @@
       "deadline": "2026-12-18",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389154",
       "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.487Z"
+      "crawled_at": "2026-11-19T22:54:41.482Z"
     },
     {
       "id": "gyeonggi_61161",
@@ -3652,7 +3664,7 @@
       "deadline": "2026-12-19",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=61161",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "seoul_114630",
@@ -3664,7 +3676,7 @@
       "deadline": "2026-12-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114630",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:48.076Z"
+      "crawled_at": "2026-11-19T22:54:58.678Z"
     },
     {
       "id": "seoul_113934",
@@ -3676,7 +3688,7 @@
       "deadline": "2026-12-21",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113934",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:55.120Z"
+      "crawled_at": "2026-11-19T22:55:04.776Z"
     },
     {
       "id": "seoul_114561",
@@ -3688,7 +3700,7 @@
       "deadline": "2026-12-22",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114561",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:49.904Z"
+      "crawled_at": "2026-11-19T22:55:00.310Z"
     },
     {
       "id": "gyeonggi_63096",
@@ -3700,7 +3712,7 @@
       "deadline": "2026-12-26",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=63096",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "seoul_114523",
@@ -3708,35 +3720,23 @@
       "school": "서울삼일초등학교",
       "subject": "삼일초",
       "level": "초등",
-      "title": "서울삼일초등학교 | 02-3477-9473 | 등록일 : 2026-11-13 조회수 : 194 (삼일초) 특수 학급 시간강사를 모십니다. 과목(담당업무) 특수학급(1~4학년) 채용인원 1 보수/임금 시급 25000원 모집정보 동작구 접수기간 2026.11.13 15:37 ~ 2026.12.28 00:00 채용기간 2026.11.19 ~ 2026.12.04 직무분야 계약제교원 > 시간강사 > 초등강사",
+      "title": "서울삼일초등학교 | 02-3477-9473 | 등록일 : 2026-11-13 조회수 : 195 (삼일초) 특수 학급 시간강사를 모십니다. 과목(담당업무) 특수학급(1~4학년) 채용인원 1 보수/임금 시급 25000원 모집정보 동작구 접수기간 2026.11.13 15:37 ~ 2026.12.28 00:00 채용기간 2026.11.19 ~ 2026.12.04 직무분야 계약제교원 > 시간강사 > 초등강사",
       "deadline": "2026-12-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114523",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:49.905Z"
+      "crawled_at": "2026-11-19T22:55:00.311Z"
     },
     {
-      "id": "ice_go.kr_3389067",
+      "id": "ice_go.kr_3389146",
       "sido": "인천",
-      "school": "인천서현유치원(공립)",
-      "subject": "수학",
-      "level": "유치",
-      "title": "유치원 특수학급 기간제 교사 채용 계획(2026.11.30.~2026.12.30.)",
+      "school": "인천은송초등학교병설유치원(공립)",
+      "subject": "시간제",
+      "level": "초등",
+      "title": "2026학년도 인천은송초등학교병설유치원 방과후과정 대체강사(시간제) 채용공고",
       "deadline": "2026-12-30",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389067",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389146",
       "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.751Z"
-    },
-    {
-      "id": "ice_go.kr_3389056",
-      "sido": "인천",
-      "school": "인천아라중학교(공립)",
-      "subject": "체육",
-      "level": "중등",
-      "title": "2026학년도 인천아라중학교 기간제교사 (체육)",
-      "deadline": "2026-12-30",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389056",
-      "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.751Z"
+      "crawled_at": "2026-11-19T22:54:42.938Z"
     },
     {
       "id": "gyeongnam_1815433",
@@ -3749,7 +3749,7 @@
       "region": "창원",
       "url": "https://www.gne.go.kr/works/user/recruitment/BD_recruitmentDetail.do?regSn=1815433",
       "source": "gne.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.891Z"
+      "crawled_at": "2026-11-19T22:54:41.467Z"
     },
     {
       "id": "seoul_81567",
@@ -3761,7 +3761,7 @@
       "deadline": "2026-12-31",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=81567",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.558Z"
+      "crawled_at": "2026-11-19T22:54:49.679Z"
     },
     {
       "id": "gyeonggi_60218",
@@ -3773,7 +3773,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=60218",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "gyeonggi_34967",
@@ -3785,19 +3785,7 @@
       "deadline": "2026-12-31",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=34967",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.577Z"
-    },
-    {
-      "id": "ice_go.kr_3389077",
-      "sido": "인천",
-      "school": "인천만석초등학교(공립)",
-      "subject": "",
-      "level": "초등",
-      "title": "2026년 인천만석초등학교 협력강사 추가채용 공고문",
-      "deadline": "2026-12-31",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389077",
-      "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.248Z"
+      "crawled_at": "2026-11-19T22:54:49.525Z"
     },
     {
       "id": "gyeonggi_66064",
@@ -3809,7 +3797,7 @@
       "deadline": "2027-01-04",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=66064",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.098Z"
+      "crawled_at": "2026-11-19T22:54:45.857Z"
     },
     {
       "id": "ice_go.kr_3389183",
@@ -3821,19 +3809,19 @@
       "deadline": "2027-01-05",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389183",
       "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.487Z"
+      "crawled_at": "2026-11-19T22:54:41.481Z"
     },
     {
-      "id": "ice_go.kr_3389063",
+      "id": "ice_go.kr_3389109",
       "sido": "인천",
-      "school": "교동초등학교(공립)",
-      "subject": "제빵",
+      "school": "불은초등학교(공립)",
+      "subject": "과학, 영어",
       "level": "초등",
-      "title": "2026학년도 초등 방과후·돌봄 개인위탁 겨울방학 외부강사 재공고(제빵)",
-      "deadline": "2027-01-06",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389063",
+      "title": "2026 계약제 교원(과학, 영어) 채용 공고-불은초등학교",
+      "deadline": "2027-01-05",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389109",
       "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.751Z"
+      "crawled_at": "2026-11-19T22:54:42.939Z"
     },
     {
       "id": "gyeonggi_60827",
@@ -3845,19 +3833,7 @@
       "deadline": "2027-01-07",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=60827",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
-    },
-    {
-      "id": "ice_go.kr_3389046",
-      "sido": "인천",
-      "school": "인천학산초등학교(공립)",
-      "subject": "2학년 담임",
-      "level": "초등",
-      "title": "11.24.자 학산초 기간제교사 채용 공고(2학년 담임)",
-      "deadline": "2027-01-07",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389046",
-      "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.751Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "seoul_110734",
@@ -3869,7 +3845,7 @@
       "deadline": "2027-01-08",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=110734",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:46.140Z"
+      "crawled_at": "2026-11-19T22:54:57.181Z"
     },
     {
       "id": "gyeonggi_65669",
@@ -3881,7 +3857,19 @@
       "deadline": "2027-02-05",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=65669",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.635Z"
+      "crawled_at": "2026-11-19T22:54:47.466Z"
+    },
+    {
+      "id": "ice_go.kr_3389136",
+      "sido": "인천",
+      "school": "인천장도초등학교(공립)",
+      "subject": "수학",
+      "level": "초등",
+      "title": "2026학년도 초등돌봄교실 겨울방학 특강강사(수학) 채용 공고",
+      "deadline": "2027-02-23",
+      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389136",
+      "source": "ice.go.kr",
+      "crawled_at": "2026-11-19T22:54:42.938Z"
     },
     {
       "id": "seoul_113951",
@@ -3893,7 +3881,7 @@
       "deadline": "2027-02-26",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113951",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:55.120Z"
+      "crawled_at": "2026-11-19T22:55:04.776Z"
     },
     {
       "id": "seoul_114016",
@@ -3905,7 +3893,7 @@
       "deadline": "2027-02-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=114016",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:57.078Z"
+      "crawled_at": "2026-11-19T22:55:06.418Z"
     },
     {
       "id": "gyeonggi_62949",
@@ -3917,7 +3905,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=62949",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "gyeonggi_56394",
@@ -3929,7 +3917,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=56394",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "ice_go.kr_3389188",
@@ -3941,7 +3929,7 @@
       "deadline": "2027-02-28",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389188",
       "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.487Z"
+      "crawled_at": "2026-11-19T22:54:41.481Z"
     },
     {
       "id": "ice_go.kr_3389165",
@@ -3953,19 +3941,7 @@
       "deadline": "2027-03-01",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389165",
       "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.488Z"
-    },
-    {
-      "id": "ice_go.kr_3389091",
-      "sido": "인천",
-      "school": "대기중",
-      "subject": "",
-      "level": "고등",
-      "title": "2027학년도 초등돌봄교실 특기적성강사 채용공고",
-      "deadline": "2027-03-02",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389091",
-      "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.248Z"
+      "crawled_at": "2026-11-19T22:54:41.482Z"
     },
     {
       "id": "seoul_113986",
@@ -3973,11 +3949,11 @@
       "school": "마포대진유치원",
       "subject": "대진유",
       "level": "유치",
-      "title": "마포대진유치원 | 02-334-3533 | 등록일 : 2026-11-09 조회수 : 332 | 즉시지원 0 (대진유) 영양교사 모집합니다. 과목(담당업무) 영양 및 급식 관련 업무 채용인원 1 보수/임금 월급 모집정보 마포구 접수기간 2026.11.09 14:56 ~ 2027.03.28 00:00 채용기간 2027.02.05 ~ 2999.12.31 직무분야 정규교원 > 기타교과 > 영양",
+      "title": "마포대진유치원 | 02-334-3533 | 등록일 : 2026-11-09 조회수 : 333 | 즉시지원 0 (대진유) 영양교사 모집합니다. 과목(담당업무) 영양 및 급식 관련 업무 채용인원 1 보수/임금 월급 모집정보 마포구 접수기간 2026.11.09 14:56 ~ 2027.03.28 00:00 채용기간 2027.02.05 ~ 2999.12.31 직무분야 정규교원 > 기타교과 > 영양",
       "deadline": "2027-03-28",
       "url": "https://work.sen.go.kr/work/search/recInfo/BD_selectRecDetail.do?q_rcrtSn=113986",
       "source": "work.sen.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.143Z"
+      "crawled_at": "2026-11-19T22:54:43.664Z"
     },
     {
       "id": "gyeonggi_63377",
@@ -3989,7 +3965,7 @@
       "deadline": "2027-11-08",
       "url": "https://www.goe.go.kr/recruit/ad/func/pb/hnfpPbancInfoView.do?pbancSn=63377",
       "source": "goe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.180Z"
+      "crawled_at": "2026-11-19T22:54:49.128Z"
     },
     {
       "id": "ice_go.kr_3389164",
@@ -4001,19 +3977,7 @@
       "deadline": "2028-02-24",
       "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389164",
       "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.488Z"
-    },
-    {
-      "id": "ice_go.kr_3389108",
-      "sido": "인천",
-      "school": "인천초은초등학교(공립)",
-      "subject": "",
-      "level": "초등",
-      "title": "2027학년도 인천초은초 돌봄교실 특기적성 프로그램 강사 채용 공고",
-      "deadline": "2028-02-24",
-      "url": "https://www.ice.go.kr/ice/na/ntt/selectNttInfo.do?mi=10997&bbsId=1981&nttSn=3389108",
-      "source": "ice.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.243Z"
+      "crawled_at": "2026-11-19T22:54:41.482Z"
     },
     {
       "id": "busan_1184223",
@@ -4025,7 +3989,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184223",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.630Z"
+      "crawled_at": "2026-11-19T22:54:38.661Z"
     },
     {
       "id": "busan_1184185",
@@ -4037,7 +4001,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184185",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:25.631Z"
+      "crawled_at": "2026-11-19T22:54:38.661Z"
     },
     {
       "id": "busan_1184093",
@@ -4049,7 +4013,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1184093",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:26.231Z"
+      "crawled_at": "2026-11-19T22:54:39.263Z"
     },
     {
       "id": "busan_1183709",
@@ -4061,7 +4025,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183709",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.269Z"
+      "crawled_at": "2026-11-19T22:54:41.790Z"
     },
     {
       "id": "busan_1183442",
@@ -4073,7 +4037,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183442",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.001Z"
+      "crawled_at": "2026-11-19T22:54:43.084Z"
     },
     {
       "id": "busan_1183304",
@@ -4085,7 +4049,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183304",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.200Z"
+      "crawled_at": "2026-11-19T22:54:43.877Z"
     },
     {
       "id": "busan_1183051",
@@ -4097,7 +4061,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183051",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.924Z"
+      "crawled_at": "2026-11-19T22:54:45.549Z"
     },
     {
       "id": "busan_1183026",
@@ -4109,7 +4073,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183026",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.512Z"
+      "crawled_at": "2026-11-19T22:54:45.998Z"
     },
     {
       "id": "busan_1183017",
@@ -4121,7 +4085,7 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183017",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.086Z"
+      "crawled_at": "2026-11-19T22:54:45.998Z"
     },
     {
       "id": "busan_1183016",
@@ -4133,7 +4097,31 @@
       "deadline": null,
       "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1183016",
       "source": "pen.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.087Z"
+      "crawled_at": "2026-11-19T22:54:45.998Z"
+    },
+    {
+      "id": "busan_1182978",
+      "sido": "부산",
+      "school": "윤은진",
+      "subject": "",
+      "level": "고등",
+      "title": "2027.3.1.자 부산진여자상업고등학교 초빙교사 초빙 공고",
+      "deadline": null,
+      "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1182978",
+      "source": "pen.go.kr",
+      "crawled_at": "2026-11-19T22:54:46.822Z"
+    },
+    {
+      "id": "busan_1182977",
+      "sido": "부산",
+      "school": "김윤수",
+      "subject": "",
+      "level": "중등",
+      "title": "2027. 3. 1.자 모전중학교 초빙교사 공고",
+      "deadline": null,
+      "url": "https://www.pen.go.kr/main/na/ntt/selectNttInfo.do?mi=30367&bbsId=2364&nttSn=1182977",
+      "source": "pen.go.kr",
+      "crawled_at": "2026-11-19T22:54:46.822Z"
     },
     {
       "id": "gangwon_4641",
@@ -4145,7 +4133,7 @@
       "deadline": null,
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:27.064Z"
+      "crawled_at": "2026-11-19T22:54:40.434Z"
     },
     {
       "id": "gangwon_4614",
@@ -4157,7 +4145,7 @@
       "deadline": null,
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.089Z"
+      "crawled_at": "2026-11-19T22:54:43.576Z"
     },
     {
       "id": "gangwon_4592",
@@ -4169,7 +4157,7 @@
       "deadline": null,
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.723Z"
+      "crawled_at": "2026-11-19T22:54:45.594Z"
     },
     {
       "id": "gangwon_4588",
@@ -4181,7 +4169,7 @@
       "deadline": null,
       "url": "https://www.gwe.go.kr/main/bbs/list.do?key=bTIzMDcyMTA1ODU2MzM%3D",
       "source": "gwe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.723Z"
+      "crawled_at": "2026-11-19T22:54:45.594Z"
     },
     {
       "id": "gbe_kr_1665701",
@@ -4193,7 +4181,7 @@
       "deadline": "",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665701",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:30.431Z"
+      "crawled_at": "2026-11-19T22:54:44.427Z"
     },
     {
       "id": "gbe_kr_1665426",
@@ -4205,7 +4193,7 @@
       "deadline": "",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665426",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1665338",
@@ -4217,7 +4205,7 @@
       "deadline": "",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665338",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1665087",
@@ -4229,7 +4217,7 @@
       "deadline": "",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1665087",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:34.087Z"
+      "crawled_at": "2026-11-19T22:54:46.880Z"
     },
     {
       "id": "gbe_kr_1664428",
@@ -4241,7 +4229,7 @@
       "deadline": "",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664428",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:43.571Z"
+      "crawled_at": "2026-11-19T22:54:53.671Z"
     },
     {
       "id": "gbe_kr_1664170",
@@ -4253,7 +4241,7 @@
       "deadline": "",
       "url": "https://www.gbe.kr/main/na/ntt/selectNttInfo.do?mi=3626&bbsId=1887&nttSn=1664170",
       "source": "gbe.kr",
-      "crawled_at": "2026-11-19T21:59:45.567Z"
+      "crawled_at": "2026-11-19T22:54:55.086Z"
     },
     {
       "id": "cbe_go.kr_1582586",
@@ -4265,7 +4253,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582586",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.749Z"
+      "crawled_at": "2026-11-19T22:54:44.433Z"
     },
     {
       "id": "cbe_go.kr_1582580",
@@ -4277,7 +4265,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582580",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.750Z"
+      "crawled_at": "2026-11-19T22:54:44.433Z"
     },
     {
       "id": "cbe_go.kr_1582527",
@@ -4289,7 +4277,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582527",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.750Z"
+      "crawled_at": "2026-11-19T22:54:44.433Z"
     },
     {
       "id": "cbe_go.kr_1582511",
@@ -4301,7 +4289,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582511",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:29.750Z"
+      "crawled_at": "2026-11-19T22:54:44.434Z"
     },
     {
       "id": "cbe_go.kr_1582455",
@@ -4313,7 +4301,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582455",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.680Z"
+      "crawled_at": "2026-11-19T22:54:45.355Z"
     },
     {
       "id": "cbe_go.kr_1582427",
@@ -4325,7 +4313,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582427",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.680Z"
+      "crawled_at": "2026-11-19T22:54:45.355Z"
     },
     {
       "id": "cbe_go.kr_1582442",
@@ -4337,7 +4325,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582442",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.681Z"
+      "crawled_at": "2026-11-19T22:54:45.355Z"
     },
     {
       "id": "cbe_go.kr_1582412",
@@ -4349,7 +4337,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582412",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:30.681Z"
+      "crawled_at": "2026-11-19T22:54:45.355Z"
     },
     {
       "id": "cbe_go.kr_1582400",
@@ -4361,7 +4349,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582400",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.592Z"
+      "crawled_at": "2026-11-19T22:54:46.269Z"
     },
     {
       "id": "cbe_go.kr_1582390",
@@ -4373,7 +4361,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582390",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.592Z"
+      "crawled_at": "2026-11-19T22:54:46.269Z"
     },
     {
       "id": "cbe_go.kr_1582336",
@@ -4385,7 +4373,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582336",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:31.593Z"
+      "crawled_at": "2026-11-19T22:54:46.269Z"
     },
     {
       "id": "cbe_go.kr_1582322",
@@ -4397,7 +4385,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582322",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.519Z"
+      "crawled_at": "2026-11-19T22:54:47.190Z"
     },
     {
       "id": "cbe_go.kr_1582256",
@@ -4409,7 +4397,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582256",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:32.519Z"
+      "crawled_at": "2026-11-19T22:54:47.190Z"
     },
     {
       "id": "cbe_go.kr_1582232",
@@ -4421,7 +4409,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582232",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.328Z"
+      "crawled_at": "2026-11-19T22:54:48.098Z"
     },
     {
       "id": "cbe_go.kr_1582211",
@@ -4433,7 +4421,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582211",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.328Z"
+      "crawled_at": "2026-11-19T22:54:48.098Z"
     },
     {
       "id": "cbe_go.kr_1582187",
@@ -4445,7 +4433,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582187",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:33.328Z"
+      "crawled_at": "2026-11-19T22:54:48.098Z"
     },
     {
       "id": "cbe_go.kr_1582151",
@@ -4457,7 +4445,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582151",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.099Z"
+      "crawled_at": "2026-11-19T22:54:48.844Z"
     },
     {
       "id": "cbe_go.kr_1582133",
@@ -4469,7 +4457,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582133",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.099Z"
+      "crawled_at": "2026-11-19T22:54:48.844Z"
     },
     {
       "id": "cbe_go.kr_1582144",
@@ -4481,7 +4469,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582144",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.099Z"
+      "crawled_at": "2026-11-19T22:54:48.844Z"
     },
     {
       "id": "cbe_go.kr_1582139",
@@ -4493,7 +4481,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582139",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.100Z"
+      "crawled_at": "2026-11-19T22:54:48.844Z"
     },
     {
       "id": "cbe_go.kr_1582105",
@@ -4505,7 +4493,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582105",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.860Z"
+      "crawled_at": "2026-11-19T22:54:49.590Z"
     },
     {
       "id": "cbe_go.kr_1582100",
@@ -4517,7 +4505,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582100",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.861Z"
+      "crawled_at": "2026-11-19T22:54:49.590Z"
     },
     {
       "id": "cbe_go.kr_1582082",
@@ -4529,7 +4517,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582082",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.861Z"
+      "crawled_at": "2026-11-19T22:54:49.590Z"
     },
     {
       "id": "cbe_go.kr_1582013",
@@ -4541,7 +4529,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582013",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:34.861Z"
+      "crawled_at": "2026-11-19T22:54:49.590Z"
     },
     {
       "id": "cbe_go.kr_1582056",
@@ -4553,7 +4541,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582056",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.625Z"
+      "crawled_at": "2026-11-19T22:54:50.341Z"
     },
     {
       "id": "cbe_go.kr_1582035",
@@ -4565,7 +4553,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1582035",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.625Z"
+      "crawled_at": "2026-11-19T22:54:50.341Z"
     },
     {
       "id": "cbe_go.kr_1581995",
@@ -4577,7 +4565,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581995",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.625Z"
+      "crawled_at": "2026-11-19T22:54:50.341Z"
     },
     {
       "id": "cbe_go.kr_1581956",
@@ -4589,7 +4577,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581956",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:35.625Z"
+      "crawled_at": "2026-11-19T22:54:50.341Z"
     },
     {
       "id": "cbe_go.kr_1581895",
@@ -4601,7 +4589,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581895",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.387Z"
+      "crawled_at": "2026-11-19T22:54:51.093Z"
     },
     {
       "id": "cbe_go.kr_1581875",
@@ -4613,7 +4601,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581875",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.387Z"
+      "crawled_at": "2026-11-19T22:54:51.093Z"
     },
     {
       "id": "cbe_go.kr_1581874",
@@ -4625,7 +4613,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581874",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.388Z"
+      "crawled_at": "2026-11-19T22:54:51.093Z"
     },
     {
       "id": "cbe_go.kr_1581887",
@@ -4637,7 +4625,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581887",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:36.388Z"
+      "crawled_at": "2026-11-19T22:54:51.093Z"
     },
     {
       "id": "cbe_go.kr_1581879",
@@ -4649,7 +4637,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581879",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.869Z"
     },
     {
       "id": "cbe_go.kr_1581846",
@@ -4661,7 +4649,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581846",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.869Z"
     },
     {
       "id": "cbe_go.kr_1581843",
@@ -4673,7 +4661,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581843",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.869Z"
     },
     {
       "id": "cbe_go.kr_1581859",
@@ -4685,7 +4673,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581859",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.869Z"
     },
     {
       "id": "cbe_go.kr_1581812",
@@ -4697,7 +4685,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581812",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.869Z"
     },
     {
       "id": "cbe_go.kr_1581832",
@@ -4709,7 +4697,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581832",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.870Z"
     },
     {
       "id": "cbe_go.kr_1581831",
@@ -4721,7 +4709,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581831",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.870Z"
     },
     {
       "id": "cbe_go.kr_1581808",
@@ -4733,7 +4721,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581808",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.156Z"
+      "crawled_at": "2026-11-19T22:54:51.870Z"
     },
     {
       "id": "cbe_go.kr_1581805",
@@ -4745,7 +4733,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581805",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.921Z"
+      "crawled_at": "2026-11-19T22:54:52.613Z"
     },
     {
       "id": "cbe_go.kr_1581783",
@@ -4757,7 +4745,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581783",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.921Z"
+      "crawled_at": "2026-11-19T22:54:52.613Z"
     },
     {
       "id": "cbe_go.kr_1581782",
@@ -4769,7 +4757,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581782",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:37.922Z"
+      "crawled_at": "2026-11-19T22:54:52.613Z"
     },
     {
       "id": "cbe_go.kr_1581748",
@@ -4781,7 +4769,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581748",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.696Z"
+      "crawled_at": "2026-11-19T22:54:53.361Z"
     },
     {
       "id": "cbe_go.kr_1581716",
@@ -4793,7 +4781,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581716",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.696Z"
+      "crawled_at": "2026-11-19T22:54:53.361Z"
     },
     {
       "id": "cbe_go.kr_1581723",
@@ -4805,7 +4793,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581723",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.696Z"
+      "crawled_at": "2026-11-19T22:54:53.361Z"
     },
     {
       "id": "cbe_go.kr_1581700",
@@ -4817,7 +4805,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581700",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.696Z"
+      "crawled_at": "2026-11-19T22:54:53.361Z"
     },
     {
       "id": "cbe_go.kr_1581672",
@@ -4829,7 +4817,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581672",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.697Z"
+      "crawled_at": "2026-11-19T22:54:53.362Z"
     },
     {
       "id": "cbe_go.kr_1581678",
@@ -4841,7 +4829,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581678",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:38.697Z"
+      "crawled_at": "2026-11-19T22:54:53.362Z"
     },
     {
       "id": "cbe_go.kr_1581659",
@@ -4853,7 +4841,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581659",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.472Z"
+      "crawled_at": "2026-11-19T22:54:54.124Z"
     },
     {
       "id": "cbe_go.kr_1581637",
@@ -4865,7 +4853,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581637",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.472Z"
+      "crawled_at": "2026-11-19T22:54:54.124Z"
     },
     {
       "id": "cbe_go.kr_1581635",
@@ -4877,7 +4865,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581635",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.473Z"
+      "crawled_at": "2026-11-19T22:54:54.124Z"
     },
     {
       "id": "cbe_go.kr_1581611",
@@ -4889,7 +4877,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581611",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.473Z"
+      "crawled_at": "2026-11-19T22:54:54.124Z"
     },
     {
       "id": "cbe_go.kr_1581609",
@@ -4901,7 +4889,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581609",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.473Z"
+      "crawled_at": "2026-11-19T22:54:54.124Z"
     },
     {
       "id": "cbe_go.kr_1581625",
@@ -4913,7 +4901,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581625",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.473Z"
+      "crawled_at": "2026-11-19T22:54:54.124Z"
     },
     {
       "id": "cbe_go.kr_1581572",
@@ -4925,7 +4913,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581572",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:39.473Z"
+      "crawled_at": "2026-11-19T22:54:54.124Z"
     },
     {
       "id": "cbe_go.kr_1581562",
@@ -4937,7 +4925,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581562",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581561",
@@ -4949,7 +4937,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581561",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581560",
@@ -4961,7 +4949,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581560",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581559",
@@ -4973,7 +4961,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581559",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581521",
@@ -4985,7 +4973,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581521",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581476",
@@ -4997,7 +4985,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581476",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581509",
@@ -5009,7 +4997,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581509",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581505",
@@ -5021,7 +5009,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581505",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.228Z"
+      "crawled_at": "2026-11-19T22:54:54.886Z"
     },
     {
       "id": "cbe_go.kr_1581469",
@@ -5033,7 +5021,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581469",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.984Z"
+      "crawled_at": "2026-11-19T22:54:55.644Z"
     },
     {
       "id": "cbe_go.kr_1581464",
@@ -5045,7 +5033,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581464",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.984Z"
+      "crawled_at": "2026-11-19T22:54:55.645Z"
     },
     {
       "id": "cbe_go.kr_1581480",
@@ -5057,7 +5045,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581480",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.984Z"
+      "crawled_at": "2026-11-19T22:54:55.645Z"
     },
     {
       "id": "cbe_go.kr_1581479",
@@ -5069,7 +5057,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581479",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.984Z"
+      "crawled_at": "2026-11-19T22:54:55.645Z"
     },
     {
       "id": "cbe_go.kr_1581456",
@@ -5081,7 +5069,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581456",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.984Z"
+      "crawled_at": "2026-11-19T22:54:55.645Z"
     },
     {
       "id": "cbe_go.kr_1581455",
@@ -5093,7 +5081,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581455",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.984Z"
+      "crawled_at": "2026-11-19T22:54:55.645Z"
     },
     {
       "id": "cbe_go.kr_1581453",
@@ -5105,7 +5093,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581453",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.984Z"
+      "crawled_at": "2026-11-19T22:54:55.645Z"
     },
     {
       "id": "cbe_go.kr_1581432",
@@ -5117,7 +5105,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581432",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:40.985Z"
+      "crawled_at": "2026-11-19T22:54:55.645Z"
     },
     {
       "id": "cbe_go.kr_1581441",
@@ -5129,7 +5117,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581441",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:41.761Z"
+      "crawled_at": "2026-11-19T22:54:56.395Z"
     },
     {
       "id": "cbe_go.kr_1581430",
@@ -5141,7 +5129,7 @@
       "deadline": "",
       "url": "https://www.cbe.go.kr/mpool/na/ntt/selectNttInfo.do?mi=12127&bbsId=1091&nttSn=1581430",
       "source": "cbe.go.kr",
-      "crawled_at": "2026-11-19T21:59:41.761Z"
+      "crawled_at": "2026-11-19T22:54:56.396Z"
     }
   ]
 }
